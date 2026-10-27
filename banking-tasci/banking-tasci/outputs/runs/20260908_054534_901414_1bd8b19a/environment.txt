@@ -1,0 +1,15 @@
+# banking-tasci run environment (no credentials, no raw sensitive values)
+generated_at: 2026-09-08T05:45:43.081500
+python_version: 3.13.9
+python_implementation: CPython
+platform: Linux-7.0.0-29-generic-x86_64-with-glibc2.43
+machine: x86_64
+torch_version: not installed
+packages:
+  numpy: 2.3.5
+  pandas: 2.3.3
+  scikit-learn: 1.7.2
+  pyyaml: 6.0.3
+seed: 42
+source_data_checksums:
+  (none provided)

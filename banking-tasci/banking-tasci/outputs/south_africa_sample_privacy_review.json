@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-09-05",
+  "scope": "200-record annotation sample only (data/annotations/south_african_unannotated.jsonl)",
+  "method": "Regex pattern scan on anonymised text; counts only reported; no personal values exposed",
+  "results": {
+    "remaining_email_addresses": 0,
+    "remaining_urls": 0,
+    "remaining_raw_at_mentions": 0,
+    "remaining_phone_numbers": 0,
+    "remaining_account_numbers_9plus_digits": 0,
+    "remaining_tweet_id_like_numbers_15plus_digits": 0,
+    "raw_username_column_present": false,
+    "raw_tweet_id_column_present": false
+  },
+  "anonymisation_tokens_confirmed": {
+    "[USER]": "all @username mentions replaced",
+    "[URL]": "all URLs replaced",
+    "[EMAIL]": "applied; 0 found in sample",
+    "[PHONE]": "applied; 0 found in sample",
+    "[ACCOUNT_OR_REFERENCE]": "applied; 0 found in sample",
+    "amounts": "preserved (replace_amounts=false as approved)"
+  },
+  "dropped_columns_confirmed": {
+    "Username": true,
+    "Tweet_Id": true
+  },
+  "record_ids_present": "16-char hex hashes derived from sha256(source + ':' + tweet_id) — no raw identifiers",
+  "privacy_verdict": "PASS — no detectable personal identifiers remain in the 200-record sample",
+  "records_requiring_human_review": [],
+  "notes": [
+    "Anonymisation was applied during the preparation stage to all 2.25M records.",
+    "The 200-record sample inherits the fully anonymised text.",
+    "Transaction amounts are preserved by approved design (replace_amounts=false).",
+    "No [USER] token failures were detected — all @mentions were successfully anonymised.",
+    "Corpus-wide anonymisation counts: 3,971,875 mentions, 682,609 URLs, 32,180 account/reference, 17,533 phone, 6,275 email."
+  ]
+}

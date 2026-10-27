@@ -1,0 +1,55 @@
+{
+  "audit_date": "2026-09-25",
+  "scope": "Read-only provenance audit of the stored international pilot annotation files.",
+  "method": "SHA-256 and JSONL field counts; canonical hashes were computed after removing annotator-only metadata.",
+  "files": {
+    "data/annotations/pilot_unannotated.jsonl": {
+      "bytes": 415055,
+      "sha256": "00c75e76d9232bb6b85f076c83123e40f14d8c56d50c5173e5f114df0108608f",
+      "records": 600,
+      "annotation_status": {"completed": 600},
+      "nonempty_aspects": 426,
+      "null_intent": 150,
+      "completed_status": 600,
+      "canonical_content_sha256_without_annotator_metadata": "c02aff53eb47d236adf069e709045c689ed51e58c55f9cf885abadc014c00e8c"
+    },
+    "data/annotations/pilot_annotator_a.jsonl": {
+      "bytes": 415055,
+      "sha256": "00c75e76d9232bb6b85f076c83123e40f14d8c56d50c5173e5f114df0108608f",
+      "records": 600,
+      "annotation_status": {"completed": 600},
+      "nonempty_aspects": 426,
+      "null_intent": 150,
+      "completed_status": 600,
+      "canonical_content_sha256_without_annotator_metadata": "c02aff53eb47d236adf069e709045c689ed51e58c55f9cf885abadc014c00e8c"
+    },
+    "data/annotations/pilot_annotator_b.jsonl": {
+      "bytes": 415055,
+      "sha256": "0f820a703daf35bd19c42e15be9ab31aa040e46696aa9d3b6f0bbdd841d5440f",
+      "records": 600,
+      "annotation_status": {"completed": 600},
+      "nonempty_aspects": 426,
+      "null_intent": 150,
+      "completed_status": 600,
+      "canonical_content_sha256_without_annotator_metadata": "c02aff53eb47d236adf069e709045c689ed51e58c55f9cf885abadc014c00e8c"
+    },
+    "data/annotations/pilot_adjudicated.jsonl": {
+      "bytes": 444259,
+      "sha256": "4707b512dad138e0504bed2aca84b9eedd62f84d223443938dbbffcc5283594b",
+      "records": 600,
+      "annotation_status": {"completed": 600},
+      "nonempty_aspects": 426,
+      "null_intent": 0,
+      "completed_status": 600,
+      "canonical_content_sha256_without_annotator_metadata": "304e7babc01a314db035b5a0e70c5d28fe58e048545e0a271c2167e00e6ac284"
+    }
+  },
+  "relationships": {
+    "pilot_unannotated_byte_identical_to_pilot_annotator_a": true,
+    "pilot_unannotated_byte_identical_to_pilot_annotator_b": false,
+    "pilot_annotator_a_byte_identical_to_pilot_annotator_b": false,
+    "three_input_and_annotator_files_share_canonical_content_hash": true,
+    "pilot_unannotated_is_pristine_unannotated_input": false,
+    "interpretation": "The filename pilot_unannotated.jsonl is stale or the file was overwritten. The authoritative original gold remains pilot_adjudicated.jsonl; this audit does not restore or modify any file."
+  }
+}

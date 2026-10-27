@@ -1,0 +1,26 @@
+2026-09-05 19:19:54,887 | INFO | resample_south_africa_v2 | === South African annotation sample v2 ===
+2026-09-05 19:19:54,888 | INFO | resample_south_africa_v2 | VERSION 1 PROTECTED (unchanged): data/annotations/south_african_unannotated.jsonl
+2026-09-05 19:19:54,888 | INFO | resample_south_africa_v2 | VERSION 1 PROTECTED (unchanged): outputs/south_africa_sample_quality_review.jsonl
+2026-09-05 19:19:54,888 | INFO | resample_south_africa_v2 | VERSION 1 PROTECTED (unchanged): outputs/south_africa_annotation_sample_report.json
+2026-09-05 19:19:54,888 | INFO | resample_south_africa_v2 | VERSION 1 PROTECTED (unchanged): outputs/south_africa_data_report.json
+2026-09-05 19:19:54,889 | INFO | resample_south_africa_v2 | VERSION 1 PROTECTED (unchanged): data/interim/south_africa_prepared.parquet
+2026-09-05 19:19:54,889 | INFO | resample_south_africa_v2 | Reading parquet (required columns only)...
+2026-09-05 19:19:58,074 | INFO | resample_south_africa_v2 | Loaded 2250776 rows
+2026-09-05 19:19:58,075 | INFO | resample_south_africa_v2 | Applying evidence-based candidate filter (vectorised keyword matching)...
+2026-09-05 19:20:00,816 | INFO | resample_south_africa_v2 | Building keyword masks...
+2026-09-05 19:21:29,571 | INFO | resample_south_africa_v2 | Evaluating candidate rules...
+2026-09-05 19:21:38,269 | INFO | resample_south_africa_v2 | Candidates: 100768, Zero-aspect: 1842771
+2026-09-05 19:22:06,078 | INFO | resample_south_africa_v2 | Assigning strata to 100768 candidates...
+2026-09-05 19:22:07,839 | INFO | resample_south_africa_v2 | Filter counts: {'candidate': 100768, 'zero_aspect': 1842771, 'promo_excluded': 11245, 'too_short': 2413, 'unrelated_bank': 592}
+2026-09-05 19:22:07,839 | INFO | resample_south_africa_v2 | Rule breakdown: {'C': 38185, 'A': 33360, 'B': 18428, 'D': 6380, 'E': 2880, 'F': 1535}
+2026-09-05 19:22:13,767 | INFO | resample_south_africa_v2 | Reservoir: 250 feedback candidates built
+2026-09-05 19:22:13,949 | INFO | resample_south_africa_v2 | Reservoir: 250 feedback, 1842771 zero-aspect
+2026-09-05 19:22:13,950 | INFO | resample_south_africa_v2 | Near-dup detection on 250-record reservoir...
+2026-09-05 19:22:16,531 | INFO | resample_south_africa_v2 | Near-dup: 0 groups, 0 flagged
+2026-09-05 19:22:18,462 | INFO | resample_south_africa_v2 | Sample: 170 feedback + 30 zero-aspect = 200 total
+2026-09-05 19:22:18,937 | INFO | resample_south_africa_v2 | Final sample: 200 records
+2026-09-05 19:22:18,957 | INFO | resample_south_africa_v2 | Annotation output: data/annotations/south_african_unannotated_v2.jsonl (200 records)
+2026-09-05 19:22:19,021 | INFO | resample_south_africa_v2 | Quality review written: outputs/south_africa_sample_quality_review_v2.jsonl — classes: {'suitable_customer_feedback': 137, 'unrelated_or_unclear': 31, 'potential_zero_aspect': 28, 'news_or_general_discussion': 1, 'too_short_or_low_information': 3}
+2026-09-05 19:22:19,022 | INFO | resample_south_africa_v2 | Suitable: 137, zero-aspect: 28, total include: 165 / 200
+2026-09-05 19:22:19,029 | INFO | resample_south_africa_v2 | Sample report: outputs/south_africa_annotation_sample_report_v2.json
+2026-09-05 19:22:19,030 | INFO | resample_south_africa_v2 | Filter comparison: outputs/south_africa_filter_comparison_v1_v2.json

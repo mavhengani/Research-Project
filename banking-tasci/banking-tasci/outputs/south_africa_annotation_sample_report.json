@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-09-05T16:03:17Z",
+  "sample_size": 200,
+  "requested_size": 200,
+  "seed": 42,
+  "source_distribution": {
+    "south_african_bank_tweets": 200
+  },
+  "bank_distribution": {
+    "absa": 37,
+    "capitec": 46,
+    "standard_bank": 36,
+    "fnb": 60,
+    "nedbank": 21
+  },
+  "date_distribution": {
+    "2018": 30,
+    "2019": 38,
+    "2020": 33,
+    "2021": 48,
+    "2022": 51
+  },
+  "text_length_distribution": {
+    "min": 26.0,
+    "max": 318.0,
+    "mean": 124.78,
+    "q1": 62.75,
+    "median": 104.0,
+    "q3": 174.0
+  },
+  "candidate_strata_counts": {
+    "transactions_candidate": 29,
+    "cards_candidate": 18,
+    "fraud_security_candidate": 14,
+    "branch_service_candidate": 16,
+    "customer_support_candidate": 15,
+    "suggestion_candidate": 12,
+    "digital_banking_candidate": 23,
+    "warning_candidate": 10,
+    "fees_candidate": 20,
+    "accounts_candidate": 19,
+    "churn_candidate": 11,
+    "positive_feedback_candidate": 5
+  },
+  "context_availability": {
+    "context_available_true": 0,
+    "context_available_false": 200,
+    "note": "All SA records are context-unavailable; no thread graph in source"
+  },
+  "near_duplicate_coverage": {
+    "records_with_near_dup_flag": 0,
+    "unique_near_dup_groups_in_sample": 0,
+    "note": "Near-dup flagged records are included for annotation diversity; annotators see no flag"
+  },
+  "sampling_limitations": [
+    "No context-available records: SA tweet corpus has no thread graph",
+    "No South African records previously in pilot \u2014 this is the first SA annotation batch",
+    "Candidate strata are keyword heuristics only \u2014 not gold labels",
+    "suggestion, warning, churn_signal strata rely on keyword matching which may miss indirect signals",
+    "Bank cap of 60 per bank applied to prevent single-bank dominance",
+    "Records from possible_official_account=True are excluded from sample"
+  ],
+  "label_leakage_prevention": {
+    "candidate_strata_removed_from_annotation_view": true,
+    "filter_reason_removed_from_annotation_view": true,
+    "engagement_removed_from_annotation_view": true,
+    "existing_sentiment_fields": "none \u2014 no sentiment columns in source parquet files"
+  }
+}

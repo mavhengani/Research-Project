@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-09-05T16:02:45Z",
+  "source": "south_african_bank_tweets",
+  "region": "south_africa",
+  "selected_date_range": {
+    "start": "2018-01-01",
+    "end": "2022-12-31"
+  },
+  "files_summary": {
+    "total_considered": 12,
+    "included": 10,
+    "skipped_outside_date_range_or_empty": 2,
+    "included_files": [
+      "tweets_from_2018-01-01_to_2019-01-01.parquet",
+      "tweets_from_2019-01-01_to_2020-01-01.parquet",
+      "tweets_from_2020-01-01_to_2021-01-01.parquet",
+      "tweets_from_2021-01-01_to_2022-01-01.parquet",
+      "tweets_from_2022-01-01_to_2023-01-01.parquet",
+      "updated_search_terms_tweets_from_2018-01-01_to_2019-01-01.parquet",
+      "updated_search_terms_tweets_from_2019-01-01_to_2020-01-01.parquet",
+      "updated_search_terms_tweets_from_2020-01-01_to_2021-01-01.parquet",
+      "updated_search_terms_tweets_from_2021-01-01_to_2022-01-01.parquet",
+      "updated_search_terms_tweets_from_2022-01-01_to_2023-01-01.parquet"
+    ],
+    "skipped_files": [
+      "tweets_from_2017-01-01_to_2018-01-01.parquet",
+      "updated_search_terms_tweets_from_2017-01-01_to_2018-01-01.parquet"
+    ]
+  },
+  "row_counts": {
+    "total_read": 3745847,
+    "outside_date_range": 427095,
+    "empty_or_short_excluded": 5390,
+    "pure_retweets_excluded": 3,
+    "tweet_id_duplicates_removed": 106251,
+    "exact_text_duplicates_removed": 473995,
+    "confirmed_official_accounts_excluded": 482337,
+    "possible_official_accounts_flagged": 10830,
+    "rows_after_all_filters": 2250776,
+    "customer_feedback_candidates": 2250844,
+    "likely_promotional_records": 128869
+  },
+  "near_duplicate_detection": {
+    "applied_to": "customer_feedback_candidates_only",
+    "action": "flag",
+    "groups_detected": 165,
+    "records_flagged": 535
+  },
+  "by_bank": {
+    "fnb": 678076,
+    "absa": 507418,
+    "nedbank": 401420,
+    "capitec": 415828,
+    "standard_bank": 437699
+  },
+  "by_year": {
+    "2018": 388663,
+    "2019": 387589,
+    "2020": 446687,
+    "2021": 554748,
+    "2022": 662754
+  },
+  "date_parsing": {
+    "success": 2440441,
+    "failed": 0
+  },
+  "anonymisation_counts": {
+    "email": 6275,
+    "url": 682609,
+    "mention": 3971875,
+    "account_or_reference": 32180,
+    "phone": 17533,
+    "amount": 0
+  },
+  "context_coverage": {
+    "context_available_true": 0,
+    "context_available_false": 2250776,
+    "note": "All records use [NO_CONTEXT]; no thread graph available"
+  },
+  "sentiment_fields": {
+    "note": "No sentiment, polarity, or label fields exist in source parquet files.",
+    "weak_label_fields_found": []
+  },
+  "privacy_and_licence": {
+    "username_column_dropped": true,
+    "tweet_id_not_stored": true,
+    "amounts_preserved": true,
+    "replace_amounts_config": false,
+    "licence_status": "Kaggle dataset licence requires independent confirmation before publication",
+    "github_repo_licence": "MIT (software/code only \u2014 does not cover tweet content redistribution)",
+    "twitter_content_note": "Twitter/X content redistribution governed by Twitter/X Terms of Service \u2014 assess separately"
+  },
+  "study_scope_note": "Date range 2018-2022 selected for relevance to contemporary digital banking. Records outside this range are excluded from the annotation sample but remain in the raw archive. This is a study-scope decision, not a cleaning error."
+}

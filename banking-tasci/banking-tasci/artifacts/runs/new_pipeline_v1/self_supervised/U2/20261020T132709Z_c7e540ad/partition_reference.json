@@ -1,0 +1,19 @@
+{
+  "status": "VALIDATE_ONLY_PASS",
+  "representation": "U2",
+  "objective": "span_mlm_sbo",
+  "corpus_checksum": "5ea719ec528510ddd8566410a1b533ff294093c2ce87538f472dae789cf9e3ea",
+  "records": 110615,
+  "gold_overlap": 0,
+  "partition_checksum": "a02c9052aef6f33777844a13765ab3654e3c6e022ad974410e5c485d775ec7d8",
+  "train_id_checksum": "85bf4bd9b80d4c58cd610c54fb944045dbbb74cd2a54e795e825776544976da5",
+  "monitor_id_checksum": "df65febec5f1746b83338400aacb00e94d95fb417576878b28d6389d33f5e2b1",
+  "strategy_configuration_checksum": "e266eb22c749d254ab4628d7c8a432cfc2b666eba97a8b4025a49e700e211d55",
+  "output_root": "artifacts/runs/new_pipeline_v1/self_supervised/U2",
+  "training_started": false,
+  "fairness": {
+    "status": "FAIRNESS_VALIDATION_PASS",
+    "matched_fields": 16,
+    "separate_output_roots": true
+  }
+}

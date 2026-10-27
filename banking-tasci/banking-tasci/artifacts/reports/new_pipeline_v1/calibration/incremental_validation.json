@@ -1,0 +1,12 @@
+{
+  "pipeline_version": "new_pipeline_v1",
+  "submitted_count": 50,
+  "valid_count": 50,
+  "invalid_count": 0,
+  "completed_gold_required": false,
+  "submitted_id_set_checksum": "cc4b64141f6559bd007f5d3df8ff1ab68db0aa85bc0fe9d443ca2033050facb0",
+  "errors_by_code": {},
+  "affected_record_ids": {},
+  "issues": [],
+  "result": "PASS"
+}

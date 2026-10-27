@@ -1,0 +1,11 @@
+2026-10-12 22:24:54,731 | INFO | prepare_data | Reading tweets from /Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/raw/sampledbanktweet.csv
+2026-10-12 22:24:54,741 | INFO | prepare_data | Reading reviews from /Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/raw/bank_reviews3.csv
+2026-10-12 22:24:54,745 | INFO | banking_tasci.data.schema | /Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/raw/sampledbanktweet.csv: 10000 rows validated
+2026-10-12 22:24:54,745 | INFO | banking_tasci.data.schema | /Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/raw/bank_reviews3.csv: 1000 rows validated
+2026-10-12 22:24:54,745 | INFO | prepare_data | Running ingestion pipeline
+2026-10-12 22:24:54,745 | INFO | banking_tasci.data.schema | international_bank_tweets: 10000 rows validated
+2026-10-12 22:25:24,316 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=152 near_dup_groups=125 near_dup_flagged=398
+2026-10-12 22:25:24,444 | INFO | banking_tasci.data.schema | bank_reviews: 1000 rows validated
+2026-10-12 22:25:30,189 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=1 near_dup_groups=15 near_dup_flagged=45
+2026-10-12 22:25:30,338 | INFO | prepare_data | Wrote canonical output to /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-13/test_raw_source_csvs_unmodifie0/prepared.csv (10847 rows)
+2026-10-12 22:25:30,338 | INFO | prepare_data | Wrote data quality report to /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-13/test_raw_source_csvs_unmodifie0/report.json

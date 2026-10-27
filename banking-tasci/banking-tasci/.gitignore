@@ -7,7 +7,6 @@ __pycache__/
 venv/
 .pytest_cache/
 .hypothesis/
-outputs/
 .cache/
 .idea/
 .tools/
@@ -19,16 +18,3 @@ __MACOSX/
 *.pem
 *.key
 *.p12
-*.ckpt
-*.safetensors
-artifacts/
-data/annotations/*
-!data/annotations/.gitkeep
-
-# Data directories: keep placeholders, ignore generated/raw content
-data/raw/*
-!data/raw/.gitkeep
-data/interim/*
-!data/interim/.gitkeep
-data/processed/*
-!data/processed/.gitkeep

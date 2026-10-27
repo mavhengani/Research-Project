@@ -1,0 +1,320 @@
+{
+  "created_at": "2026-10-27T18:21:54.625232+00:00",
+  "policy": "Retain completed smoke run reports, checkpoint-50, resume-55, strict corpus, frozen artifacts, source data, model cache and Python environments. Remove only earlier checkpoint-25 copies from completed smoke runs, verified transferred local tar archives, and regenerable test caches.",
+  "records": [
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/completion_receipt.json",
+      "sha256": "9eb9178c6d1bf1370a6475d0061c7d58f5ae4c3d16cb16dc5001a6e4ad6dbe39",
+      "size_bytes": 72,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/reload_verification.json",
+      "sha256": "fae613c3f40d7de55b9966769c81d1b97ec84940742ab8a62a6d5c392407054e",
+      "size_bytes": 104,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/resume_verification.json",
+      "sha256": "2bd867901e0bc8377429f9814350694c00ba98f05508e6506df13cca25b2438f",
+      "size_bytes": 180,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-50/config.json",
+      "sha256": "538e8f0c0c632be2b2144558bddcb194b5824410467482b02a1be95731f57d54",
+      "size_bytes": 840,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-50/generation_config.json",
+      "sha256": "7593426c613b01f4a624ca05f971c49f0364ac1b1a365ad602aa456069bbfb82",
+      "size_bytes": 90,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-50/model.safetensors",
+      "sha256": "adf56026e4b9bb7ab16b345ada6f119710f54253a57138cfd3baf2b2b40eaf79",
+      "size_bytes": 438080896,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-50/special_tokens_map.json",
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "size_bytes": 125,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-50/tokenizer.json",
+      "sha256": "79ea220416a57ca8acdf069d71875d5d2ddadef66021aeb6c120a7c546c04344",
+      "size_bytes": 711494,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-50/tokenizer_config.json",
+      "sha256": "1f92c93d2e31974acffab86d48e80a9357acb18c68346c5472ef1d12c72d5d77",
+      "size_bytes": 1221,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-50/trainer_state.pt",
+      "sha256": "8843e1357d3fdfbc56af4224f08223eb82823a0657bdc13235bea1d34b21f6bf",
+      "size_bytes": 876279938,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-50/vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "size_bytes": 231508,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/resume-55/config.json",
+      "sha256": "2e3f339eb1568e9b6963464c3c4072850ef68b42ba6cc7b8f0dac943ff284730",
+      "size_bytes": 824,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/resume-55/generation_config.json",
+      "sha256": "7593426c613b01f4a624ca05f971c49f0364ac1b1a365ad602aa456069bbfb82",
+      "size_bytes": 90,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/resume-55/model.safetensors",
+      "sha256": "33bc0698d39d3f2a99f0bb8bf1262a2390fe89320aba893ef2949debeac6bd46",
+      "size_bytes": 438080896,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/resume-55/special_tokens_map.json",
+      "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+      "size_bytes": 695,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/resume-55/tokenizer.json",
+      "sha256": "79ea220416a57ca8acdf069d71875d5d2ddadef66021aeb6c120a7c546c04344",
+      "size_bytes": 711494,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/resume-55/tokenizer_config.json",
+      "sha256": "5ef10b641efbad21ab13f144d0ec898f7943c7ac5e2c25963e1d4cdcbe5f5219",
+      "size_bytes": 1329,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/resume-55/trainer_state.pt",
+      "sha256": "f57db5d38eec9cc612b860da7b0031ca298b99ef257134795520cd02dad7daa2",
+      "size_bytes": 876279938,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/resume-55/vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "size_bytes": 231508,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-25/config.json",
+      "sha256": "538e8f0c0c632be2b2144558bddcb194b5824410467482b02a1be95731f57d54",
+      "size_bytes": 840,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-25/generation_config.json",
+      "sha256": "7593426c613b01f4a624ca05f971c49f0364ac1b1a365ad602aa456069bbfb82",
+      "size_bytes": 90,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-25/model.safetensors",
+      "sha256": "7557a5fe4ae8de4f8a2c0b24666f106b6bd3d720718a2d9923c55176fec5a738",
+      "size_bytes": 438080896,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-25/special_tokens_map.json",
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "size_bytes": 125,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-25/tokenizer.json",
+      "sha256": "79ea220416a57ca8acdf069d71875d5d2ddadef66021aeb6c120a7c546c04344",
+      "size_bytes": 711494,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-25/tokenizer_config.json",
+      "sha256": "1f92c93d2e31974acffab86d48e80a9357acb18c68346c5472ef1d12c72d5d77",
+      "size_bytes": 1221,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-25/trainer_state.pt",
+      "sha256": "67fb351777ee22f01cdf70511d8bb5113cabe8d24d59f5fa21badb8d375a0498",
+      "size_bytes": 876279938,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/mlm/smoke/cpu_bert_base_uncased_seed42/checkpoint-25/vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "size_bytes": 231508,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/completion_receipt.json",
+      "sha256": "15a2445e96d08cd1582d76e4f5b2cd78892a1cd161548735831f85af79dd51f5",
+      "size_bytes": 106,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/reload_verification.json",
+      "sha256": "4fba4a7f57b92daeefffac49ab459799201b154789ac79d1b06cf5f81e8a4a00",
+      "size_bytes": 114,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/resume_verification.json",
+      "sha256": "26355b262a28a969a768994c9b5b34e7d72f590082cc61211fc84ddc845eeeb7",
+      "size_bytes": 98,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/checkpoint-50/checkpoint_metadata.json",
+      "sha256": "c96211ccba013e9b0135f1cd8366fb3a595d4b99db68cad9ee2d0c09481a6b40",
+      "size_bytes": 1182,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/checkpoint-50/model_state.pt",
+      "sha256": "1cb787da1cbbf6060e544ac5c4a5c0354cf9f587b4366ee87cb9002241297c49",
+      "size_bytes": 438140182,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/checkpoint-50/optimizer_state.pt",
+      "sha256": "4a188cd308f9e24114789a73d2e4fc46d91aed54993ad690b7240e764aa71eba",
+      "size_bytes": 876281094,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/resume-55/checkpoint_metadata.json",
+      "sha256": "7ef9bf0a27c46918510052464a54379ef6ec07173516fe205013b4641bd98367",
+      "size_bytes": 1180,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/resume-55/model_state.pt",
+      "sha256": "5591abb428453385d67563ee262d50d5038754bc4b4f96b1e83000e66caf7481",
+      "size_bytes": 438140182,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/checkpoint-25/checkpoint_metadata.json",
+      "sha256": "bd33d8cd1a3bc1fc0507a7e52c30f9444cb71707231498620cf01fa773b657d1",
+      "size_bytes": 1182,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/checkpoint-25/model_state.pt",
+      "sha256": "a5cfeebad92f66cd2e45f788811617eb4a864e3df7db1347ca54a12f3107000a",
+      "size_bytes": 438140182,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U1/20261020T132540Z_2e02526a/checkpoint-25/optimizer_state.pt",
+      "sha256": "d128c08a601f605ddad10b96f71c3b6a5b983ae51c02df56e121974d15586498",
+      "size_bytes": 876281094,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/completion_receipt.json",
+      "sha256": "1f0b5afc56d15c845f77c513cf617174df64ccff2ded71b8d9261787baab38d3",
+      "size_bytes": 106,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/reload_verification.json",
+      "sha256": "16b1c1540f0e8c608ba6f758669f8af4f72d961d6d4f6972a24cc20a7be59be0",
+      "size_bytes": 114,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/resume_verification.json",
+      "sha256": "26355b262a28a969a768994c9b5b34e7d72f590082cc61211fc84ddc845eeeb7",
+      "size_bytes": 98,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/checkpoint-50/checkpoint_metadata.json",
+      "sha256": "822ead43c8d406bfab737bdc739cfda2ff44f9e32757062fcb8b4b3a729510a5",
+      "size_bytes": 1708,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/checkpoint-50/model_state.pt",
+      "sha256": "da5d587eb1870cbb037160dbddc5813c8aa728c8d199289bc4155225896b4815",
+      "size_bytes": 539145956,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/checkpoint-50/optimizer_state.pt",
+      "sha256": "db053c73a66f523124f0cb4032032e9c19f3731b80a9e8684de83fe8f028c2c5",
+      "size_bytes": 1078293828,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/resume-55/checkpoint_metadata.json",
+      "sha256": "5043ecf3ff3e5eb7bdb7a81afa609caf4a816600abf146d4e4bee1e55bb3272e",
+      "size_bytes": 1706,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/resume-55/model_state.pt",
+      "sha256": "7f16e9192c60bcaef490a42cc812141072d08b875b5eb5779d388b205cd86362",
+      "size_bytes": 539145956,
+      "action": "retain"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/checkpoint-25/checkpoint_metadata.json",
+      "sha256": "4d381b9d1d743694b9f20cf9373ecc822b1af8d1fc3ee18441b4023ba823e249",
+      "size_bytes": 1708,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/checkpoint-25/model_state.pt",
+      "sha256": "c2bef2ed58541ee0bcc62432cb2a5d930ef53c876f301bbc995839316e2a4e11",
+      "size_bytes": 539145956,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "artifacts/runs/new_pipeline_v1/self_supervised/U2/20261020T132709Z_c7e540ad/checkpoint-25/optimizer_state.pt",
+      "sha256": "abeb6d6c59fa20d8f5ee34b41f9544cd520f76defd03885f03e9da422ad1dbe1",
+      "size_bytes": 1078293828,
+      "action": "remove_earlier_completed_smoke_checkpoint"
+    },
+    {
+      "path": "outputs/cluster_staging/pilot_assets_20261020.tar",
+      "sha256": "a6abe93f89036aa65fd3758d1e67ba2cd3224dc11ab4d34defed74140dc1aa34",
+      "size_bytes": 469350400,
+      "action": "remove_verified_transferred_archive"
+    },
+    {
+      "path": "outputs/cluster_staging/pilot_code_20261020.tar",
+      "sha256": "c6c6c3d7659770d662c07b2a4c285cf2572e6d2b21ce23597ec78262197504dd",
+      "size_bytes": 2355712,
+      "action": "remove_verified_transferred_archive"
+    },
+    {
+      "path": "data/interim/south_africa_prepared.csv",
+      "sha256": "1d7272a1c7dd674fece56edee178e443ff268c63140f0aa0cb956316cafae202",
+      "size_bytes": 658513451,
+      "action": "remove_unreferenced_duplicate_intermediate_csv",
+      "evidence": "CSV has 2,250,776 records and the same 23 columns as the retained, provenance-verified Parquet source; no repository references to the CSV path."
+    }
+  ],
+  "planned_reclaim_bytes": 5377389625
+}

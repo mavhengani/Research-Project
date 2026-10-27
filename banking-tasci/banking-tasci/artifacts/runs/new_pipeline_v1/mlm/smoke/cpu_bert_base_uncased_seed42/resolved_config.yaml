@@ -1,0 +1,46 @@
+pipeline_version: new_pipeline_v1
+data:
+  corpus_path: data/processed/new_pipeline_v1/strict_unlabelled.jsonl
+  corpus_manifest: artifacts/manifests/new_pipeline_v1/strict_unlabelled/strict_unlabelled_manifest.json
+  expected_records: 110615
+  text_field: text
+  id_field: record_id
+  max_length: 128
+  require_zero_gold_overlap: true
+model:
+  base_model: bert-base-uncased
+  task: masked_language_modeling
+masking:
+  probability: 0.15
+training:
+  seed: 42
+  output_root: artifacts/runs/new_pipeline_v1/mlm
+  overwrite_output_dir: false
+  resume_from_checkpoint: null
+  evaluation_strategy: steps
+  save_strategy: steps
+  logging_strategy: steps
+  report_to: none
+  modes:
+    validate-only:
+      training: false
+    smoke:
+      max_records: 3000
+      max_steps: 50
+      train_batch_size: 8
+      eval_batch_size: 8
+      learning_rate: 5.0e-05
+      save_steps: 25
+      evaluation_steps: 25
+      logging_steps: 5
+    pilot:
+      epochs: 1
+      corpus: full
+    full:
+      requires_separate_authorization: true
+governance:
+  frozen_gold_manifest: artifacts/frozen/new_pipeline_v1/candidate_2/revision_2/gold_sample_manifest.json
+  frozen_gold_ids: artifacts/frozen/new_pipeline_v1/candidate_2/revision_2/gold_record_ids.jsonl
+  strict_corpus_sha256: 5ea719ec528510ddd8566410a1b533ff294093c2ce87538f472dae789cf9e3ea
+  exclude_all_gold_records: true
+  git_commit: UNKNOWN_NO_COMMIT

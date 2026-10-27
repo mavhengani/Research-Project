@@ -1,0 +1,213 @@
+{
+  "joint_record_count": 196,
+  "intent_kappa": 0.873609543769144,
+  "category_kappa": 0.990431385057013,
+  "sentiment_kappa": 0.8750325436084353,
+  "exact_span_agreement": 0.8010204081632653,
+  "token_level_prf": {
+    "precision": 0.9508771929824561,
+    "recall": 0.8482003129890454,
+    "f1": 0.8966087675765095
+  },
+  "disagreement_counts_by_type": {
+    "intent": 20,
+    "span": 39,
+    "sentiment": 24,
+    "category": 3
+  },
+  "most_disagreement_records": [
+    {
+      "record_id": "41967cdad0f3f982",
+      "disagreement_count": 4
+    },
+    {
+      "record_id": "7219638649a4c436",
+      "disagreement_count": 4
+    },
+    {
+      "record_id": "a7d59cc8db5727e0",
+      "disagreement_count": 4
+    },
+    {
+      "record_id": "bdd1289abf7f5df3",
+      "disagreement_count": 4
+    },
+    {
+      "record_id": "06ab7c45a63db522",
+      "disagreement_count": 3
+    },
+    {
+      "record_id": "1c23631757a66965",
+      "disagreement_count": 3
+    },
+    {
+      "record_id": "2a8a332ea3a2f075",
+      "disagreement_count": 3
+    },
+    {
+      "record_id": "5ea75b9b45c04a1a",
+      "disagreement_count": 3
+    },
+    {
+      "record_id": "803c5e94b9975af9",
+      "disagreement_count": 3
+    },
+    {
+      "record_id": "b6bac249d3ce189b",
+      "disagreement_count": 3
+    },
+    {
+      "record_id": "04426278cadde9e4",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "1d39822cf2172854",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "222e418e7f978e53",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "4b2eb9e518dbee71",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "56f791c18ade9e56",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "a85f2bd077968948",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "bcd737e8d450a385",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "bdfa6b75fec7a640",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "ca3c6033a81660af",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "cece1315a13f4e39",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "e0a5a0050f55e988",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "e14fb15d4b102a9b",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "ead052a920d68e0e",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "eea4d3ef886bde64",
+      "disagreement_count": 2
+    },
+    {
+      "record_id": "03ff0e3d0f8e47df",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "046ec411b0111d1f",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "1e69757c48fd1c8b",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "286bb498fc5dc57e",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "2da5589807f634ec",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "36f53543823d994a",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "3950ce3e775def8f",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "3cc3f2d6623b16ee",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "43d10bc7727ba230",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "50195413d7783f28",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "533ceacdac5ce6a4",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "5cf6e15d740855b0",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "6bd426791b2bbe58",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "70080b7b06efa191",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "917517947bfbb8e9",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "938bf3c3d073e180",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "994cae788c1ddf9e",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "a83c44b16569d088",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "a84648a32fc46812",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "a8a733e1f5b71988",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "acad691f8b6c7307",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "ae25e2ac667022d2",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "c67eb603e8ac95ff",
+      "disagreement_count": 1
+    },
+    {
+      "record_id": "ce492ec3aa908fd2",
+      "disagreement_count": 1
+    }
+  ],
+  "kappa_backend": "sklearn"
+}

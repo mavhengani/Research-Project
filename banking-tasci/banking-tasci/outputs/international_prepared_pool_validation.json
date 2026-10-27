@@ -1,0 +1,41 @@
+{
+  "prepared": {
+    "bytes": 2940229,
+    "columns": [
+      "record_id",
+      "source",
+      "region",
+      "bank",
+      "rating",
+      "title",
+      "text",
+      "previous_text",
+      "context_available",
+      "thread_id",
+      "created_at",
+      "split"
+    ],
+    "exists": true,
+    "id_value_counts": {
+      "record_id": 10847
+    },
+    "label_counts": {},
+    "null_counts": {
+      "bank": 9848,
+      "created_at": 9848,
+      "rating": 9848,
+      "split": 10847,
+      "thread_id": 10847,
+      "title": 9848
+    },
+    "path": "data/interim/prepared.csv",
+    "privacy_named_value_counts": {},
+    "rows": 10847,
+    "sha256": "2a3435adcb5e5e8ffba44246dc529ecab4b9b24855f46849cf8d0fb3fe4252fd"
+  },
+  "required_count": 10847,
+  "stop_conditions": [
+    "proposal missing or required terms absent",
+    "candidate parquet unavailable"
+  ]
+}

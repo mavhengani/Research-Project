@@ -1,0 +1,8 @@
+2026-08-26 12:53:22,999 | INFO | banking_tasci.data.schema | international_bank_tweets: 3 rows validated
+2026-08-26 12:53:23,002 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=1
+2026-08-26 12:53:23,006 | INFO | banking_tasci.data.schema | bank_reviews: 3 rows validated
+2026-08-26 12:53:23,009 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-26 12:53:23,017 | INFO | banking_tasci.data.schema | international_bank_tweets: 3 rows validated
+2026-08-26 12:53:23,020 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=1
+2026-08-26 12:53:23,023 | INFO | banking_tasci.data.schema | bank_reviews: 3 rows validated
+2026-08-26 12:53:23,027 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0

@@ -1,0 +1,11 @@
+{
+  "slurm_job_id": "50823",
+  "partition": "stampede",
+  "state": "COMPLETED",
+  "exit_code": "0:0",
+  "elapsed": "00:00:22",
+  "start_time": "2026-09-08T05:45:31",
+  "end_time": "2026-09-08T05:45:53",
+  "node": "mscluster22",
+  "readiness": "READY"
+}

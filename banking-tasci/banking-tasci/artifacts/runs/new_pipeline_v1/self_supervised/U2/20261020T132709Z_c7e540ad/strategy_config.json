@@ -1,0 +1,12 @@
+{
+  "probability": 0.15,
+  "mask_replace_probability": 0.8,
+  "random_replace_probability": 0.1,
+  "mean_length": 3,
+  "minimum_length": 1,
+  "maximum_length": 10,
+  "sbo_lambda": 0.5,
+  "distribution": "uniform",
+  "representation_id": "U2",
+  "objective_type": "span_mlm_sbo"
+}

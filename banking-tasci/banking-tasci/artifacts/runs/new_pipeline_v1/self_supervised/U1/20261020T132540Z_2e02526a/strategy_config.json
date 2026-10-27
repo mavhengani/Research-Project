@@ -1,0 +1,7 @@
+{
+  "probability": 0.15,
+  "mask_replace_probability": 0.8,
+  "random_replace_probability": 0.1,
+  "representation_id": "U1",
+  "objective_type": "token_mlm"
+}

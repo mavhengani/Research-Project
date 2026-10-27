@@ -1,0 +1,11 @@
+{
+  "intent": {
+    "churn_signal": 5,
+    "complaint": 0,
+    "compliment": 1,
+    "general_feedback": 6,
+    "request_for_assistance": 2,
+    "suggestion": 3,
+    "warning": 4
+  }
+}

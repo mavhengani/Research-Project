@@ -1,0 +1,126 @@
+2026-08-26 12:35:14,570 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.503059 | val_macro_f1=0.000000
+2026-08-26 12:35:14,570 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.000000 at epoch 1 (checkpointed)
+2026-08-26 12:35:14,575 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.179782 | val_macro_f1=0.000000
+2026-08-26 12:35:14,576 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.899835 | val_macro_f1=0.563636
+2026-08-26 12:35:14,576 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.563636 at epoch 3 (checkpointed)
+2026-08-26 12:35:14,577 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=0.670761 | val_macro_f1=1.000000
+2026-08-26 12:35:14,577 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 4 (checkpointed)
+2026-08-26 12:35:14,578 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.487962 | val_macro_f1=1.000000
+2026-08-26 12:35:14,586 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.344765 | val_macro_f1=1.000000
+2026-08-26 12:35:14,586 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=0.239304 | val_macro_f1=1.000000
+2026-08-26 12:35:14,587 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=0.166058 | val_macro_f1=1.000000
+2026-08-26 12:35:14,587 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=0.116448 | val_macro_f1=1.000000
+2026-08-26 12:35:14,588 | INFO | banking_tasci.training.loop | epoch 10 | train_loss=0.082918 | val_macro_f1=1.000000
+2026-08-26 12:35:14,588 | INFO | banking_tasci.training.loop | epoch 11 | train_loss=0.060085 | val_macro_f1=1.000000
+2026-08-26 12:35:14,589 | INFO | banking_tasci.training.loop | epoch 12 | train_loss=0.044366 | val_macro_f1=1.000000
+2026-08-26 12:35:14,589 | INFO | banking_tasci.training.loop | epoch 13 | train_loss=0.033405 | val_macro_f1=1.000000
+2026-08-26 12:35:14,590 | INFO | banking_tasci.training.loop | epoch 14 | train_loss=0.025652 | val_macro_f1=1.000000
+2026-08-26 12:35:14,590 | INFO | banking_tasci.training.loop | epoch 15 | train_loss=0.020084 | val_macro_f1=1.000000
+2026-08-26 12:35:14,591 | INFO | banking_tasci.training.loop | epoch 16 | train_loss=0.016020 | val_macro_f1=1.000000
+2026-08-26 12:35:14,591 | INFO | banking_tasci.training.loop | epoch 17 | train_loss=0.013008 | val_macro_f1=1.000000
+2026-08-26 12:35:14,592 | INFO | banking_tasci.training.loop | epoch 18 | train_loss=0.010739 | val_macro_f1=1.000000
+2026-08-26 12:35:14,592 | INFO | banking_tasci.training.loop | epoch 19 | train_loss=0.009005 | val_macro_f1=1.000000
+2026-08-26 12:35:14,593 | INFO | banking_tasci.training.loop | epoch 20 | train_loss=0.007660 | val_macro_f1=1.000000
+2026-08-26 12:35:14,593 | INFO | banking_tasci.training.loop | epoch 21 | train_loss=0.006603 | val_macro_f1=1.000000
+2026-08-26 12:35:14,594 | INFO | banking_tasci.training.loop | epoch 22 | train_loss=0.005762 | val_macro_f1=1.000000
+2026-08-26 12:35:14,594 | INFO | banking_tasci.training.loop | epoch 23 | train_loss=0.005084 | val_macro_f1=1.000000
+2026-08-26 12:35:14,595 | INFO | banking_tasci.training.loop | epoch 24 | train_loss=0.004533 | val_macro_f1=1.000000
+2026-08-26 12:35:14,595 | INFO | banking_tasci.training.loop | epoch 25 | train_loss=0.004080 | val_macro_f1=1.000000
+2026-08-26 12:35:14,596 | INFO | banking_tasci.training.loop | epoch 26 | train_loss=0.003703 | val_macro_f1=1.000000
+2026-08-26 12:35:14,596 | INFO | banking_tasci.training.loop | epoch 27 | train_loss=0.003389 | val_macro_f1=1.000000
+2026-08-26 12:35:14,597 | INFO | banking_tasci.training.loop | epoch 28 | train_loss=0.003123 | val_macro_f1=1.000000
+2026-08-26 12:35:14,597 | INFO | banking_tasci.training.loop | epoch 29 | train_loss=0.002897 | val_macro_f1=1.000000
+2026-08-26 12:35:14,598 | INFO | banking_tasci.training.loop | epoch 30 | train_loss=0.002704 | val_macro_f1=1.000000
+2026-08-26 12:35:14,598 | INFO | banking_tasci.training.loop | epoch 31 | train_loss=0.002538 | val_macro_f1=1.000000
+2026-08-26 12:35:14,598 | INFO | banking_tasci.training.loop | epoch 32 | train_loss=0.002394 | val_macro_f1=1.000000
+2026-08-26 12:35:14,599 | INFO | banking_tasci.training.loop | epoch 33 | train_loss=0.002269 | val_macro_f1=1.000000
+2026-08-26 12:35:14,600 | INFO | banking_tasci.training.loop | epoch 34 | train_loss=0.002160 | val_macro_f1=1.000000
+2026-08-26 12:35:14,600 | INFO | banking_tasci.training.loop | epoch 35 | train_loss=0.002064 | val_macro_f1=1.000000
+2026-08-26 12:35:14,600 | INFO | banking_tasci.training.loop | epoch 36 | train_loss=0.001979 | val_macro_f1=1.000000
+2026-08-26 12:35:14,601 | INFO | banking_tasci.training.loop | epoch 37 | train_loss=0.001904 | val_macro_f1=1.000000
+2026-08-26 12:35:14,601 | INFO | banking_tasci.training.loop | epoch 38 | train_loss=0.001837 | val_macro_f1=1.000000
+2026-08-26 12:35:14,602 | INFO | banking_tasci.training.loop | epoch 39 | train_loss=0.001777 | val_macro_f1=1.000000
+2026-08-26 12:35:14,602 | INFO | banking_tasci.training.loop | epoch 40 | train_loss=0.001724 | val_macro_f1=1.000000
+2026-08-26 12:35:14,607 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.503059 | val_macro_f1=0.000000
+2026-08-26 12:35:14,607 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.000000 at epoch 1 (checkpointed)
+2026-08-26 12:35:14,607 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.179782 | val_macro_f1=0.000000
+2026-08-26 12:35:14,608 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.900901 | val_macro_f1=0.333333
+2026-08-26 12:35:14,608 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.333333 at epoch 3 (checkpointed)
+2026-08-26 12:35:14,608 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=0.674339 | val_macro_f1=1.000000
+2026-08-26 12:35:14,608 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 4 (checkpointed)
+2026-08-26 12:35:14,609 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.496851 | val_macro_f1=1.000000
+2026-08-26 12:35:14,609 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.360588 | val_macro_f1=1.000000
+2026-08-26 12:35:14,610 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=0.259651 | val_macro_f1=1.000000
+2026-08-26 12:35:14,610 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=0.187515 | val_macro_f1=1.000000
+2026-08-26 12:35:14,610 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=0.137011 | val_macro_f1=1.000000
+2026-08-26 12:35:14,611 | INFO | banking_tasci.training.loop | epoch 10 | train_loss=0.101805 | val_macro_f1=1.000000
+2026-08-26 12:35:14,611 | INFO | banking_tasci.training.loop | epoch 11 | train_loss=0.077090 | val_macro_f1=1.000000
+2026-08-26 12:35:14,612 | INFO | banking_tasci.training.loop | epoch 12 | train_loss=0.059507 | val_macro_f1=1.000000
+2026-08-26 12:35:14,612 | INFO | banking_tasci.training.loop | epoch 13 | train_loss=0.046796 | val_macro_f1=1.000000
+2026-08-26 12:35:14,612 | INFO | banking_tasci.training.loop | epoch 14 | train_loss=0.037452 | val_macro_f1=1.000000
+2026-08-26 12:35:14,613 | INFO | banking_tasci.training.loop | epoch 15 | train_loss=0.030471 | val_macro_f1=1.000000
+2026-08-26 12:35:14,613 | INFO | banking_tasci.training.loop | epoch 16 | train_loss=0.025175 | val_macro_f1=1.000000
+2026-08-26 12:35:14,614 | INFO | banking_tasci.training.loop | epoch 17 | train_loss=0.021099 | val_macro_f1=1.000000
+2026-08-26 12:35:14,614 | INFO | banking_tasci.training.loop | epoch 18 | train_loss=0.017919 | val_macro_f1=1.000000
+2026-08-26 12:35:14,614 | INFO | banking_tasci.training.loop | epoch 19 | train_loss=0.015407 | val_macro_f1=1.000000
+2026-08-26 12:35:14,615 | INFO | banking_tasci.training.loop | epoch 20 | train_loss=0.013399 | val_macro_f1=1.000000
+2026-08-26 12:35:14,615 | INFO | banking_tasci.training.loop | epoch 21 | train_loss=0.011778 | val_macro_f1=1.000000
+2026-08-26 12:35:14,616 | INFO | banking_tasci.training.loop | epoch 22 | train_loss=0.010455 | val_macro_f1=1.000000
+2026-08-26 12:35:14,616 | INFO | banking_tasci.training.loop | epoch 23 | train_loss=0.009366 | val_macro_f1=1.000000
+2026-08-26 12:35:14,616 | INFO | banking_tasci.training.loop | epoch 24 | train_loss=0.008461 | val_macro_f1=1.000000
+2026-08-26 12:35:14,617 | INFO | banking_tasci.training.loop | epoch 25 | train_loss=0.007703 | val_macro_f1=1.000000
+2026-08-26 12:35:14,617 | INFO | banking_tasci.training.loop | epoch 26 | train_loss=0.007064 | val_macro_f1=1.000000
+2026-08-26 12:35:14,618 | INFO | banking_tasci.training.loop | epoch 27 | train_loss=0.006521 | val_macro_f1=1.000000
+2026-08-26 12:35:14,618 | INFO | banking_tasci.training.loop | epoch 28 | train_loss=0.006057 | val_macro_f1=1.000000
+2026-08-26 12:35:14,618 | INFO | banking_tasci.training.loop | epoch 29 | train_loss=0.005658 | val_macro_f1=1.000000
+2026-08-26 12:35:14,619 | INFO | banking_tasci.training.loop | epoch 30 | train_loss=0.005313 | val_macro_f1=1.000000
+2026-08-26 12:35:14,622 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.503059 | val_macro_f1=0.000000
+2026-08-26 12:35:14,622 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.000000 at epoch 1 (checkpointed)
+2026-08-26 12:35:14,623 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.179782 | val_macro_f1=0.000000
+2026-08-26 12:35:14,623 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.900901 | val_macro_f1=0.500000
+2026-08-26 12:35:14,623 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.500000 at epoch 3 (checkpointed)
+2026-08-26 12:35:14,624 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=0.674339 | val_macro_f1=0.500000
+2026-08-26 12:35:14,624 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.496851 | val_macro_f1=0.500000
+2026-08-26 12:35:14,625 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.360588 | val_macro_f1=0.500000
+2026-08-26 12:35:14,625 | INFO | banking_tasci.training.loop | Early stopping at epoch 6 after 3 epoch(s) without improvement (patience=3)
+2026-08-26 12:35:14,628 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.503059 | val_macro_f1=0.000000
+2026-08-26 12:35:14,628 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.000000 at epoch 1 (checkpointed)
+2026-08-26 12:35:14,628 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.179782 | val_macro_f1=0.000000
+2026-08-26 12:35:14,629 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.900901 | val_macro_f1=0.333333
+2026-08-26 12:35:14,629 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.333333 at epoch 3 (checkpointed)
+2026-08-26 12:35:14,629 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=0.674339 | val_macro_f1=1.000000
+2026-08-26 12:35:14,629 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 4 (checkpointed)
+2026-08-26 12:35:14,630 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.496851 | val_macro_f1=1.000000
+2026-08-26 12:35:14,630 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.360588 | val_macro_f1=1.000000
+2026-08-26 12:35:14,631 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=0.259651 | val_macro_f1=1.000000
+2026-08-26 12:35:14,631 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=0.187515 | val_macro_f1=1.000000
+2026-08-26 12:35:14,631 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=0.137011 | val_macro_f1=1.000000
+2026-08-26 12:35:14,632 | INFO | banking_tasci.training.loop | epoch 10 | train_loss=0.101805 | val_macro_f1=1.000000
+2026-08-26 12:35:14,632 | INFO | banking_tasci.training.loop | epoch 11 | train_loss=0.077090 | val_macro_f1=1.000000
+2026-08-26 12:35:14,632 | INFO | banking_tasci.training.loop | epoch 12 | train_loss=0.059507 | val_macro_f1=1.000000
+2026-08-26 12:35:14,633 | INFO | banking_tasci.training.loop | epoch 13 | train_loss=0.046796 | val_macro_f1=1.000000
+2026-08-26 12:35:14,633 | INFO | banking_tasci.training.loop | epoch 14 | train_loss=0.037452 | val_macro_f1=1.000000
+2026-08-26 12:35:14,634 | INFO | banking_tasci.training.loop | epoch 15 | train_loss=0.030471 | val_macro_f1=1.000000
+2026-08-26 12:35:14,634 | INFO | banking_tasci.training.loop | epoch 16 | train_loss=0.025175 | val_macro_f1=1.000000
+2026-08-26 12:35:14,634 | INFO | banking_tasci.training.loop | epoch 17 | train_loss=0.021099 | val_macro_f1=1.000000
+2026-08-26 12:35:14,635 | INFO | banking_tasci.training.loop | epoch 18 | train_loss=0.017919 | val_macro_f1=1.000000
+2026-08-26 12:35:14,635 | INFO | banking_tasci.training.loop | epoch 19 | train_loss=0.015407 | val_macro_f1=1.000000
+2026-08-26 12:35:14,636 | INFO | banking_tasci.training.loop | epoch 20 | train_loss=0.013399 | val_macro_f1=1.000000
+2026-08-26 12:35:14,636 | INFO | banking_tasci.training.loop | Warm start: loaded model weights from resume_state_dict (optimiser/epoch reset)
+2026-08-26 12:35:14,637 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=0.496851 | val_macro_f1=1.000000
+2026-08-26 12:35:14,637 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 1 (checkpointed)
+2026-08-26 12:35:14,645 | INFO | banking_tasci.training.loop | Full resume: continuing from epoch 6 (best_val_macro_f1=0.500000, epochs_without_improvement=1)
+2026-08-26 12:35:14,646 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.988475 | val_macro_f1=0.333333
+2026-08-26 12:35:14,646 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=0.721933 | val_macro_f1=0.333333
+2026-08-26 12:35:14,646 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=0.505717 | val_macro_f1=1.000000
+2026-08-26 12:35:14,647 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 8 (checkpointed)
+2026-08-26 12:35:14,649 | INFO | banking_tasci.training.loop | Full resume: continuing from epoch 6 (best_val_macro_f1=0.500000, epochs_without_improvement=1)
+2026-08-26 12:35:14,652 | INFO | banking_tasci.training.loop | Warm start: restored model weights only; optimiser and epoch state reset
+2026-08-26 12:35:14,653 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=0.540709 | val_macro_f1=1.000000
+2026-08-26 12:35:14,653 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 1 (checkpointed)
+2026-08-26 12:35:14,654 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=0.388715 | val_macro_f1=1.000000
+2026-08-26 12:35:14,654 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.270465 | val_macro_f1=1.000000
+2026-08-26 12:35:14,658 | INFO | banking_tasci.training.loop | Warm start: restored model weights only; optimiser and epoch state reset
+2026-08-26 12:35:14,659 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=0.394031 | val_macro_f1=1.000000
+2026-08-26 12:35:14,659 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 1 (checkpointed)
+2026-08-26 12:35:14,662 | INFO | validate_annotations | Validated 4 records from /tmp/pytest-of-fxvdev/pytest-5/test_report_structure_with_mix0/annotations.jsonl: 2 valid, 2 invalid; report written to /tmp/pytest-of-fxvdev/pytest-5/test_report_structure_with_mix0/report.json

@@ -1,0 +1,8 @@
+Preparing svm/intent baseline from configs/baselines/svm_intent_combined_v2.yaml
+2026-09-08 05:45:34,777 | WARNING | banking_tasci.train_baselines | Torch seeding failed; continuing with Python/NumPy seeding for SVM.
+2026-09-08 05:45:34,902 | INFO | banking_tasci.train_baselines | Run directory: outputs/runs/20260908_054534_901414_1bd8b19a
+2026-09-08 05:45:43,640 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'best_checkpoint.pt' in 'outputs/runs/20260908_054534_901414_1bd8b19a': no best_state_dict provided
+2026-09-08 05:45:43,641 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'training_log.txt' in 'outputs/runs/20260908_054534_901414_1bd8b19a': no training_log provided
+2026-09-08 05:45:43,646 | INFO | banking_tasci.training.reproducibility | wrote run artifacts to 'outputs/runs/20260908_054534_901414_1bd8b19a': 9/11 succeeded
+2026-09-08 05:45:43,646 | INFO | banking_tasci.train_baselines | SVM intent baseline complete; artifacts in outputs/runs/20260908_054534_901414_1bd8b19a
+2026-09-08 05:45:44,904 | INFO | banking_tasci.train_baselines | 

@@ -1,0 +1,42 @@
+2026-09-05 17:55:14,873 | INFO | prepare_south_africa_data | === South African data preparation starting ===
+2026-09-05 17:55:14,873 | INFO | prepare_south_africa_data | Input dir: data/raw/archive
+2026-09-05 17:55:14,873 | INFO | prepare_south_africa_data | Output: data/interim/south_africa_prepared.parquet
+2026-09-05 17:55:14,873 | INFO | prepare_south_africa_data | Date range: 2018-01-01 to 2022-12-31
+2026-09-05 17:55:14,873 | INFO | prepare_south_africa_data | Sample size: 200, seed: 42
+2026-09-05 17:55:14,879 | INFO | prepare_south_africa_data | Config loaded from /home/fxvdev/Documents/reseach/banking-tasci/banking-tasci/configs/base.yaml
+2026-09-05 17:55:14,879 | INFO | prepare_south_africa_data | replace_amounts: False
+2026-09-05 17:55:14,880 | INFO | prepare_south_africa_data | Parquet files selected for date range: 12
+2026-09-05 17:55:14,881 | INFO | prepare_south_africa_data | Total selected parquet size: 359 MB
+2026-09-05 17:55:14,881 | INFO | prepare_south_africa_data | Processing incrementally (one file at a time) — peak memory ~1.1 GB
+2026-09-05 17:55:14,881 | INFO | prepare_south_africa_data | Processing: tweets_from_2017-01-01_to_2018-01-01.parquet
+2026-09-05 17:55:15,279 | INFO | prepare_south_africa_data | Processing: tweets_from_2018-01-01_to_2019-01-01.parquet
+2026-09-05 17:55:58,073 | INFO | prepare_south_africa_data | Processing: tweets_from_2019-01-01_to_2020-01-01.parquet
+2026-09-05 17:56:38,638 | INFO | prepare_south_africa_data | Processing: tweets_from_2020-01-01_to_2021-01-01.parquet
+2026-09-05 17:57:26,612 | INFO | prepare_south_africa_data | Processing: tweets_from_2021-01-01_to_2022-01-01.parquet
+2026-09-05 17:58:23,345 | INFO | prepare_south_africa_data | Processing: tweets_from_2022-01-01_to_2023-01-01.parquet
+2026-09-05 17:59:30,800 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2017-01-01_to_2018-01-01.parquet
+2026-09-05 17:59:30,962 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2018-01-01_to_2019-01-01.parquet
+2026-09-05 17:59:40,435 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2019-01-01_to_2020-01-01.parquet
+2026-09-05 17:59:53,529 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2020-01-01_to_2021-01-01.parquet
+2026-09-05 18:00:09,968 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2021-01-01_to_2022-01-01.parquet
+2026-09-05 18:00:41,181 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2022-01-01_to_2023-01-01.parquet
+2026-09-05 18:01:13,947 | INFO | prepare_south_africa_data | Concatenating 10 file chunks...
+2026-09-05 18:01:14,418 | INFO | prepare_south_africa_data | Combined dataset: 2440441 rows
+2026-09-05 18:01:19,059 | INFO | prepare_south_africa_data | Cross-file exact text deduplication removed 189665 rows; 2250776 remaining
+2026-09-05 18:01:19,060 | INFO | prepare_south_africa_data | Running near-duplicate detection on customer-feedback candidates...
+2026-09-05 18:02:25,319 | INFO | prepare_south_africa_data | Near-dup: 165 groups, 535 flagged
+2026-09-05 18:02:29,877 | INFO | prepare_south_africa_data | Canonical output written: data/interim/south_africa_prepared.parquet (2250776 rows)
+2026-09-05 18:02:45,720 | INFO | prepare_south_africa_data | CSV copy written: data/interim/south_africa_prepared.csv (628 MB)
+2026-09-05 18:02:45,722 | INFO | prepare_south_africa_data | Data quality report written: outputs/south_africa_data_report.json
+2026-09-05 18:02:45,722 | INFO | prepare_south_africa_data | Selecting annotation sample (n=200, seed=42)...
+2026-09-05 18:03:16,994 | INFO | prepare_south_africa_data | Annotation sample: 200 records selected
+2026-09-05 18:03:17,013 | INFO | prepare_south_africa_data | Unannotated annotation sample written: data/annotations/south_african_unannotated.jsonl (200 records)
+2026-09-05 18:03:17,033 | INFO | prepare_south_africa_data | Sample report written: outputs/south_africa_annotation_sample_report.json
+2026-09-05 18:03:17,038 | INFO | prepare_south_africa_data | Source provenance updated: outputs/south_africa_source_provenance.json
+2026-09-05 18:03:17,039 | INFO | prepare_south_africa_data | === Preparation complete ===
+2026-09-05 18:03:17,039 | INFO | prepare_south_africa_data | Total rows produced: 2250776
+2026-09-05 18:03:17,039 | INFO | prepare_south_africa_data | Customer-feedback candidates: 2250844
+2026-09-05 18:03:17,040 | INFO | prepare_south_africa_data | Annotation sample: 200 records
+2026-09-05 18:03:17,040 | INFO | prepare_south_africa_data | Near-dup groups in full dataset: 165
+2026-09-05 18:03:17,041 | INFO | prepare_south_africa_data | Output: data/interim/south_africa_prepared.parquet
+2026-09-05 18:03:17,041 | INFO | prepare_south_africa_data | Annotation: data/annotations/south_african_unannotated.jsonl

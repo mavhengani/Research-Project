@@ -1,0 +1,15 @@
+{
+  "joint_record_count": 196,
+  "intent_kappa": 1.0,
+  "category_kappa": 1.0,
+  "sentiment_kappa": 1.0,
+  "exact_span_agreement": 1.0,
+  "token_level_prf": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "disagreement_counts_by_type": {},
+  "most_disagreement_records": [],
+  "kappa_backend": "sklearn"
+}

@@ -1,0 +1,22 @@
+{
+  "audit_date": "2026-09-25",
+  "project_path": "/Users/rotondwa_janti/Documents/Research Project/banking-tasci/banking-tasci",
+  "authoritative_report_requested": "25septreport 1.md",
+  "authoritative_report_found": false,
+  "available_report": "25septreport.md",
+  "git": {
+    "show_toplevel": "/Users/rotondwa_janti/Documents/Research Project",
+    "is_inside_work_tree": true,
+    "project_has_own_git_root": false,
+    "branch": "main",
+    "visible_commit_history": false,
+    "status_summary": "The project directory is represented as an untracked parent-worktree entry; no project-local modified/deleted files were identified by the prior audit.",
+    "untracked_workspace_entries_preserved": true
+  },
+  "completed_svm_runs": {
+    "outputs/runs/20260908_054534_901414_1bd8b19a/git_commit.txt": "unknown (not a git repository)",
+    "outputs/runs/20260908_054546_120350_0d9ac5db/git_commit.txt": "unknown (not a git repository)",
+    "valid_commit_identifiers": false
+  },
+  "interpretation": "The project is nested inside a parent Git worktree or copied into it. No repository initialization, commit, push, deletion, or untracked-file cleanup was performed."
+}

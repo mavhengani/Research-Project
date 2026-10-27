@@ -1,0 +1,11 @@
+{
+  "candidates": {
+    "default": 0.6474400365157832
+  },
+  "n_train": 1178,
+  "n_val": 251,
+  "num_classes": 3,
+  "selected_candidate": "default",
+  "selection_metric": "val_macro_f1",
+  "val_macro_f1": 0.6474400365157832
+}

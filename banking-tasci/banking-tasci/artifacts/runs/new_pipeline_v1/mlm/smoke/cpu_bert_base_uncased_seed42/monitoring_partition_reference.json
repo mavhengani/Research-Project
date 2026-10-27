@@ -1,0 +1,14 @@
+{
+  "pipeline_version": "new_pipeline_v1",
+  "timestamp": "2026-10-20T12:29:53.529844Z",
+  "git_marker": "UNKNOWN_NO_COMMIT",
+  "strict_corpus_checksum": "5ea719ec528510ddd8566410a1b533ff294093c2ce87538f472dae789cf9e3ea",
+  "seed": 42,
+  "algorithm": "sha256(seed:record_id), lowest rounded 1 percent assigned to monitor",
+  "train_count": 109509,
+  "monitor_count": 1106,
+  "train_id_set_checksum": "85bf4bd9b80d4c58cd610c54fb944045dbbb74cd2a54e795e825776544976da5",
+  "monitor_id_set_checksum": "df65febec5f1746b83338400aacb00e94d95fb417576878b28d6389d33f5e2b1",
+  "overlap_count": 0,
+  "frozen_gold_overlap_count": 0
+}

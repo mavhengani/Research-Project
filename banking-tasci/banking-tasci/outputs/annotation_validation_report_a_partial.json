@@ -1,0 +1,37 @@
+{
+  "valid_count": 3,
+  "invalid_count": 3,
+  "errors_by_type": {
+    "overlapping_spans": 2,
+    "duplicate_span": 1
+  },
+  "affected_record_ids": {
+    "overlapping_spans": [
+      "8d1cfe5ff98d71cc",
+      "285c291a8132b62d"
+    ],
+    "duplicate_span": [
+      "d2a5b30411a4402c"
+    ]
+  },
+  "label_distributions": {
+    "aspect_category": {
+      "transactions": 7,
+      "digital_banking": 2,
+      "general_service": 1,
+      "customer_support": 1
+    },
+    "sentiment": {
+      "negative": 8,
+      "neutral": 2,
+      "positive": 1
+    },
+    "intent": {
+      "complaint": 2,
+      "general_feedback": 1
+    }
+  },
+  "aspect_count": 11,
+  "zero_aspect_count": 0,
+  "ambiguous_intent_count": 0
+}

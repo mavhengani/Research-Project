@@ -1,0 +1,21 @@
+{
+  "approved_membership_checksum": "c59300ee14ef733e864f10a442e879a7c0fb83932c7ccbf425e3961e2eebc1da",
+  "approved_membership_path": "artifacts/frozen/new_pipeline_v1/candidate_2/revision_2/approved_batch_membership.jsonl",
+  "approved_package_path": "data/annotations/new_pipeline_v1_candidate_2/annotation_records.jsonl",
+  "approved_package_sha256": "4399dfb086fb883c7bff5584a9fed67451247cb7729187a580b24bac3e140f46",
+  "approved_source_path": "data/annotations/new_pipeline_v1_candidate_2/batches/final_001.jsonl",
+  "approved_source_sha256": "b17fd13474412f7df2ce9cfea8f8de1a2c2e871e8c1713e1cfd0adf5ca13f0e8",
+  "batch_manifest_checksum": "2a557eee8c702306e54a6ff196035e58fb79cab568d50cfae9c093eafea65ef5",
+  "batch_manifest_path": "artifacts/manifests/new_pipeline_v1/candidate_2/annotation_batch_manifest.json",
+  "candidate_number": 2,
+  "display_name": "Annotation Batch 11",
+  "freeze_manifest_checksum": "9f1ea416430979040a613daae132859b7021157fb3a4ca5f26cb943e1cfd005e",
+  "frozen_ids_checksum": "fdee989ff1a5935b5404488b215ebda60da86cf0da2f9d81bb1f684d055cea4f",
+  "initial_backup_checksum": "b17fd13474412f7df2ce9cfea8f8de1a2c2e871e8c1713e1cfd0adf5ca13f0e8",
+  "initial_backup_path": "backups/final_001_initial_20261027T181257Z.jsonl",
+  "pipeline_version": "new_pipeline_v1",
+  "record_count": 50,
+  "source_checksum": "b17fd13474412f7df2ce9cfea8f8de1a2c2e871e8c1713e1cfd0adf5ca13f0e8",
+  "technical_batch_id": "final_001",
+  "workflow_role": "standard_manual_annotation_batch"
+}

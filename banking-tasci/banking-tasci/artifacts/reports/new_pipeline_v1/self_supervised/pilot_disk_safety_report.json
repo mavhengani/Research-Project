@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "measured_at": "2026-10-20",
+  "current_free_bytes": 47205945344,
+  "current_free_gib": 43.96396255493164,
+  "existing_storage_kib": {
+    "smoke_artifacts": 6692040,
+    "base_model_cache": 430832,
+    "virtual_environment": 855132
+  },
+  "per_checkpoint_bytes": {
+    "U1": 1314422458,
+    "U2": 1617441492
+  },
+  "retained_checkpoints_each": 2,
+  "reports_logs_allowance_bytes": 536870912,
+  "required_new_storage_bytes": 6400598812,
+  "required_new_storage_gib": 5.961022164672613,
+  "temporary_write_headroom_bytes": 1617441492,
+  "temporary_write_headroom_gib": 1.506359774619341,
+  "minimum_reserve_bytes": 10737418240,
+  "minimum_reserve_gib": 10,
+  "total_gate_bytes": 18755458544,
+  "total_gate_gib": 17.467381939291954,
+  "post_gate_margin_bytes": 28450486800,
+  "post_gate_margin_gib": 26.496580615639687,
+  "formula_passed": true,
+  "notes": [
+    "Both pilots fit sequentially with two retained checkpoints each under the measured-size proxy.",
+    "No smoke, governance, or valid checkpoint deletion is required.",
+    "This storage PASS does not satisfy the independent power, awake-state, uninterrupted-window, or cluster-authentication gates."
+  ]
+}

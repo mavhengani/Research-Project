@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-09-05T17:32:27Z",
+  "source_sample": "data/annotations/south_african_unannotated_v2.jsonl",
+  "source_sample_size": 200,
+  "excluded_count": 4,
+  "excluded_records": [
+    {
+      "record_id": "00928e359abca8da",
+      "reason": "news_or_general_discussion"
+    },
+    {
+      "record_id": "eaa9f960b5ac40b5",
+      "reason": "too_short_or_low_information"
+    },
+    {
+      "record_id": "20ac4cd2ff9ab6a7",
+      "reason": "too_short_or_low_information"
+    },
+    {
+      "record_id": "1a5b1e35ccf125e8",
+      "reason": "too_short_or_low_information"
+    }
+  ],
+  "exclusion_criteria": [
+    "too_short_or_low_information",
+    "news_or_general_discussion"
+  ],
+  "final_annotation_count": 196,
+  "bank_distribution": {
+    "nedbank": 38,
+    "standard_bank": 36,
+    "absa": 32,
+    "capitec": 48,
+    "fnb": 42
+  },
+  "context_distribution": {
+    "context_available_true": 0,
+    "context_available_false": 196
+  },
+  "no_gold_labels_confirmed": true,
+  "no_annotation_hints_confirmed": true,
+  "fields_excluded_from_output": [
+    "candidate_strata",
+    "sample_role",
+    "rule_matched",
+    "matched_strata",
+    "audit_relevance_class",
+    "filter_reason",
+    "is_promotional",
+    "annotator_id",
+    "Username",
+    "Tweet_Id",
+    "sentiment",
+    "polarity"
+  ],
+  "annotation_schema": {
+    "all_aspects_empty": true,
+    "all_intent_null": true,
+    "all_annotation_status": "not_started",
+    "all_previous_text": "[NO_CONTEXT]",
+    "all_context_available": false,
+    "all_region": "south_africa"
+  },
+  "note": "Records classified as unrelated_or_unclear and potential_zero_aspect are retained. Human annotators make the final determination on whether any explicit aspect exists. Potential zero-aspect records are valid training examples for the aspect extractor negative class.",
+  "year_distribution": {
+    "2018": 33,
+    "2019": 25,
+    "2020": 46,
+    "2021": 37,
+    "2022": 55
+  }
+}

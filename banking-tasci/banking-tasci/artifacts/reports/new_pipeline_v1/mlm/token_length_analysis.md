@@ -1,0 +1,21 @@
+# MLM token-length analysis
+
+- pipeline_version: new_pipeline_v1
+- model: bert-base-uncased
+- snapshot: 86b5e0934494bd15c9632b12f734a8a67f723594
+- record_count: 110615
+- min: 5
+- median: 43
+- mean: 44.89392035438232
+- p75: 60.0
+- p90: 69.0
+- p95: 73.0
+- p99: 83.0
+- max: 443
+- above_128: 58
+- above_128_pct: 0.052434118338380874
+- above_256: 5
+- above_256_pct: 0.004520182615377661
+- above_512: 0
+- above_512_pct: 0.0
+- recommendation: 128

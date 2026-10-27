@@ -1,0 +1,7 @@
+Preparing svm/sentiment baseline from configs/baselines/svm_sentiment_combined_v2.yaml
+2026-09-08 05:45:46,005 | WARNING | banking_tasci.train_baselines | Torch seeding failed; continuing with Python/NumPy seeding for SVM.
+2026-09-08 05:45:46,121 | INFO | banking_tasci.train_baselines | Run directory: outputs/runs/20260908_054546_120350_0d9ac5db
+2026-09-08 05:45:53,256 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'best_checkpoint.pt' in 'outputs/runs/20260908_054546_120350_0d9ac5db': no best_state_dict provided
+2026-09-08 05:45:53,257 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'training_log.txt' in 'outputs/runs/20260908_054546_120350_0d9ac5db': no training_log provided
+2026-09-08 05:45:53,264 | INFO | banking_tasci.training.reproducibility | wrote run artifacts to 'outputs/runs/20260908_054546_120350_0d9ac5db': 9/11 succeeded
+2026-09-08 05:45:53,264 | INFO | banking_tasci.train_baselines | SVM sentiment baseline complete; artifacts in outputs/runs/20260908_054546_120350_0d9ac5db

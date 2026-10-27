@@ -1,0 +1,163 @@
+2026-08-26 12:59:12,361 | INFO | banking_tasci.train_baselines | Preparing svm/intent baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/svm_intent.yaml
+2026-08-26 12:59:12,362 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:59:12,371 | INFO | banking_tasci.train_baselines | Preparing svm/sentiment baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/svm_sentiment.yaml
+2026-08-26 12:59:12,372 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:59:12,382 | INFO | banking_tasci.train_baselines | Preparing bilstm/intent baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bilstm_intent.yaml
+2026-08-26 12:59:12,383 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:59:12,403 | INFO | banking_tasci.train_baselines | Preparing bilstm/sentiment baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bilstm_sentiment.yaml
+2026-08-26 12:59:12,405 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:59:12,422 | INFO | banking_tasci.train_baselines | Preparing bert/aspect baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bert_aspect.yaml
+2026-08-26 12:59:12,423 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:59:12,435 | INFO | banking_tasci.train_baselines | Preparing bert/intent baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bert_intent.yaml
+2026-08-26 12:59:12,436 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:59:12,443 | INFO | banking_tasci.train_baselines | Preparing bert/sentiment baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bert_sentiment.yaml
+2026-08-26 12:59:12,443 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:59:12,452 | INFO | banking_tasci.train_baselines | Preparing svm/intent baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/svm_intent.yaml
+2026-08-26 12:59:12,456 | INFO | banking_tasci.train_baselines | Run directory: /tmp/pytest-of-fxvdev/pytest-12/test_cli_svm_intent_end_to_end0/runs/20260826_125912_456588_5dbb482c
+2026-08-26 12:59:12,500 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'best_checkpoint.pt' in '/tmp/pytest-of-fxvdev/pytest-12/test_cli_svm_intent_end_to_end0/runs/20260826_125912_456588_5dbb482c': no best_state_dict provided
+2026-08-26 12:59:12,501 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'training_log.txt' in '/tmp/pytest-of-fxvdev/pytest-12/test_cli_svm_intent_end_to_end0/runs/20260826_125912_456588_5dbb482c': no training_log provided
+2026-08-26 12:59:12,503 | INFO | banking_tasci.training.reproducibility | wrote run artifacts to '/tmp/pytest-of-fxvdev/pytest-12/test_cli_svm_intent_end_to_end0/runs/20260826_125912_456588_5dbb482c': 9/11 succeeded
+2026-08-26 12:59:12,504 | INFO | banking_tasci.train_baselines | SVM intent baseline complete; artifacts in /tmp/pytest-of-fxvdev/pytest-12/test_cli_svm_intent_end_to_end0/runs/20260826_125912_456588_5dbb482c
+2026-08-26 12:59:12,517 | INFO | banking_tasci.train_baselines | Preparing bilstm/intent baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bilstm_intent.yaml
+2026-08-26 12:59:12,521 | INFO | banking_tasci.train_baselines | Run directory: /tmp/pytest-of-fxvdev/pytest-12/test_cli_bilstm_intent_end_to_0/runs/20260826_125912_521684_71a10fc4
+2026-08-26 12:59:12,570 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.986552 | val_macro_f1=0.142857
+2026-08-26 12:59:12,574 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.142857 at epoch 1 (checkpointed)
+2026-08-26 12:59:12,610 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.877006 | val_macro_f1=0.095238
+2026-08-26 12:59:12,628 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=1.797509 | val_macro_f1=0.095238
+2026-08-26 12:59:12,645 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=1.714292 | val_macro_f1=0.285714
+2026-08-26 12:59:12,647 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.285714 at epoch 4 (checkpointed)
+2026-08-26 12:59:12,666 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=1.615606 | val_macro_f1=0.285714
+2026-08-26 12:59:12,688 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=1.540299 | val_macro_f1=0.285714
+2026-08-26 12:59:12,710 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=1.460874 | val_macro_f1=0.285714
+2026-08-26 12:59:12,727 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=1.382484 | val_macro_f1=0.285714
+2026-08-26 12:59:12,750 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=1.276161 | val_macro_f1=0.285714
+2026-08-26 12:59:12,751 | INFO | banking_tasci.training.loop | Early stopping at epoch 9 after 5 epoch(s) without improvement (patience=5)
+2026-08-26 12:59:12,792 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'training_log.txt' in '/tmp/pytest-of-fxvdev/pytest-12/test_cli_bilstm_intent_end_to_0/runs/20260826_125912_521684_71a10fc4': no training_log provided
+2026-08-26 12:59:12,794 | INFO | banking_tasci.training.reproducibility | wrote run artifacts to '/tmp/pytest-of-fxvdev/pytest-12/test_cli_bilstm_intent_end_to_0/runs/20260826_125912_521684_71a10fc4': 10/11 succeeded
+2026-08-26 12:59:12,794 | INFO | banking_tasci.train_baselines | BiLSTM intent baseline complete; artifacts in /tmp/pytest-of-fxvdev/pytest-12/test_cli_bilstm_intent_end_to_0/runs/20260826_125912_521684_71a10fc4
+2026-08-26 12:59:12,837 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.503059 | val_macro_f1=0.000000
+2026-08-26 12:59:12,839 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.000000 at epoch 1 (checkpointed)
+2026-08-26 12:59:12,842 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.179782 | val_macro_f1=0.000000
+2026-08-26 12:59:12,845 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.899835 | val_macro_f1=0.563636
+2026-08-26 12:59:12,848 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.563636 at epoch 3 (checkpointed)
+2026-08-26 12:59:12,855 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=0.670761 | val_macro_f1=1.000000
+2026-08-26 12:59:12,857 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 4 (checkpointed)
+2026-08-26 12:59:12,861 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.487962 | val_macro_f1=1.000000
+2026-08-26 12:59:12,865 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.344765 | val_macro_f1=1.000000
+2026-08-26 12:59:12,867 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=0.239304 | val_macro_f1=1.000000
+2026-08-26 12:59:12,871 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=0.166058 | val_macro_f1=1.000000
+2026-08-26 12:59:12,873 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=0.116448 | val_macro_f1=1.000000
+2026-08-26 12:59:12,878 | INFO | banking_tasci.training.loop | epoch 10 | train_loss=0.082918 | val_macro_f1=1.000000
+2026-08-26 12:59:12,883 | INFO | banking_tasci.training.loop | epoch 11 | train_loss=0.060085 | val_macro_f1=1.000000
+2026-08-26 12:59:12,886 | INFO | banking_tasci.training.loop | epoch 12 | train_loss=0.044366 | val_macro_f1=1.000000
+2026-08-26 12:59:12,889 | INFO | banking_tasci.training.loop | epoch 13 | train_loss=0.033405 | val_macro_f1=1.000000
+2026-08-26 12:59:12,892 | INFO | banking_tasci.training.loop | epoch 14 | train_loss=0.025652 | val_macro_f1=1.000000
+2026-08-26 12:59:12,897 | INFO | banking_tasci.training.loop | epoch 15 | train_loss=0.020084 | val_macro_f1=1.000000
+2026-08-26 12:59:12,901 | INFO | banking_tasci.training.loop | epoch 16 | train_loss=0.016020 | val_macro_f1=1.000000
+2026-08-26 12:59:12,908 | INFO | banking_tasci.training.loop | epoch 17 | train_loss=0.013008 | val_macro_f1=1.000000
+2026-08-26 12:59:12,915 | INFO | banking_tasci.training.loop | epoch 18 | train_loss=0.010739 | val_macro_f1=1.000000
+2026-08-26 12:59:12,927 | INFO | banking_tasci.training.loop | epoch 19 | train_loss=0.009005 | val_macro_f1=1.000000
+2026-08-26 12:59:12,937 | INFO | banking_tasci.training.loop | epoch 20 | train_loss=0.007660 | val_macro_f1=1.000000
+2026-08-26 12:59:12,942 | INFO | banking_tasci.training.loop | epoch 21 | train_loss=0.006603 | val_macro_f1=1.000000
+2026-08-26 12:59:12,948 | INFO | banking_tasci.training.loop | epoch 22 | train_loss=0.005762 | val_macro_f1=1.000000
+2026-08-26 12:59:12,956 | INFO | banking_tasci.training.loop | epoch 23 | train_loss=0.005084 | val_macro_f1=1.000000
+2026-08-26 12:59:12,958 | INFO | banking_tasci.training.loop | epoch 24 | train_loss=0.004533 | val_macro_f1=1.000000
+2026-08-26 12:59:12,962 | INFO | banking_tasci.training.loop | epoch 25 | train_loss=0.004080 | val_macro_f1=1.000000
+2026-08-26 12:59:12,964 | INFO | banking_tasci.training.loop | epoch 26 | train_loss=0.003703 | val_macro_f1=1.000000
+2026-08-26 12:59:12,966 | INFO | banking_tasci.training.loop | epoch 27 | train_loss=0.003389 | val_macro_f1=1.000000
+2026-08-26 12:59:12,967 | INFO | banking_tasci.training.loop | epoch 28 | train_loss=0.003123 | val_macro_f1=1.000000
+2026-08-26 12:59:12,968 | INFO | banking_tasci.training.loop | epoch 29 | train_loss=0.002897 | val_macro_f1=1.000000
+2026-08-26 12:59:12,969 | INFO | banking_tasci.training.loop | epoch 30 | train_loss=0.002704 | val_macro_f1=1.000000
+2026-08-26 12:59:12,970 | INFO | banking_tasci.training.loop | epoch 31 | train_loss=0.002538 | val_macro_f1=1.000000
+2026-08-26 12:59:12,972 | INFO | banking_tasci.training.loop | epoch 32 | train_loss=0.002394 | val_macro_f1=1.000000
+2026-08-26 12:59:12,973 | INFO | banking_tasci.training.loop | epoch 33 | train_loss=0.002269 | val_macro_f1=1.000000
+2026-08-26 12:59:12,974 | INFO | banking_tasci.training.loop | epoch 34 | train_loss=0.002160 | val_macro_f1=1.000000
+2026-08-26 12:59:12,976 | INFO | banking_tasci.training.loop | epoch 35 | train_loss=0.002064 | val_macro_f1=1.000000
+2026-08-26 12:59:12,978 | INFO | banking_tasci.training.loop | epoch 36 | train_loss=0.001979 | val_macro_f1=1.000000
+2026-08-26 12:59:12,979 | INFO | banking_tasci.training.loop | epoch 37 | train_loss=0.001904 | val_macro_f1=1.000000
+2026-08-26 12:59:12,981 | INFO | banking_tasci.training.loop | epoch 38 | train_loss=0.001837 | val_macro_f1=1.000000
+2026-08-26 12:59:12,984 | INFO | banking_tasci.training.loop | epoch 39 | train_loss=0.001777 | val_macro_f1=1.000000
+2026-08-26 12:59:12,984 | INFO | banking_tasci.training.loop | epoch 40 | train_loss=0.001724 | val_macro_f1=1.000000
+2026-08-26 12:59:12,990 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.503059 | val_macro_f1=0.000000
+2026-08-26 12:59:12,992 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.000000 at epoch 1 (checkpointed)
+2026-08-26 12:59:12,997 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.179782 | val_macro_f1=0.000000
+2026-08-26 12:59:12,999 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.900901 | val_macro_f1=0.333333
+2026-08-26 12:59:13,000 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.333333 at epoch 3 (checkpointed)
+2026-08-26 12:59:13,003 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=0.674339 | val_macro_f1=1.000000
+2026-08-26 12:59:13,005 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 4 (checkpointed)
+2026-08-26 12:59:13,007 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.496851 | val_macro_f1=1.000000
+2026-08-26 12:59:13,008 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.360588 | val_macro_f1=1.000000
+2026-08-26 12:59:13,010 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=0.259651 | val_macro_f1=1.000000
+2026-08-26 12:59:13,011 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=0.187515 | val_macro_f1=1.000000
+2026-08-26 12:59:13,012 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=0.137011 | val_macro_f1=1.000000
+2026-08-26 12:59:13,013 | INFO | banking_tasci.training.loop | epoch 10 | train_loss=0.101805 | val_macro_f1=1.000000
+2026-08-26 12:59:13,014 | INFO | banking_tasci.training.loop | epoch 11 | train_loss=0.077090 | val_macro_f1=1.000000
+2026-08-26 12:59:13,015 | INFO | banking_tasci.training.loop | epoch 12 | train_loss=0.059507 | val_macro_f1=1.000000
+2026-08-26 12:59:13,017 | INFO | banking_tasci.training.loop | epoch 13 | train_loss=0.046796 | val_macro_f1=1.000000
+2026-08-26 12:59:13,019 | INFO | banking_tasci.training.loop | epoch 14 | train_loss=0.037452 | val_macro_f1=1.000000
+2026-08-26 12:59:13,020 | INFO | banking_tasci.training.loop | epoch 15 | train_loss=0.030471 | val_macro_f1=1.000000
+2026-08-26 12:59:13,021 | INFO | banking_tasci.training.loop | epoch 16 | train_loss=0.025175 | val_macro_f1=1.000000
+2026-08-26 12:59:13,023 | INFO | banking_tasci.training.loop | epoch 17 | train_loss=0.021099 | val_macro_f1=1.000000
+2026-08-26 12:59:13,026 | INFO | banking_tasci.training.loop | epoch 18 | train_loss=0.017919 | val_macro_f1=1.000000
+2026-08-26 12:59:13,030 | INFO | banking_tasci.training.loop | epoch 19 | train_loss=0.015407 | val_macro_f1=1.000000
+2026-08-26 12:59:13,034 | INFO | banking_tasci.training.loop | epoch 20 | train_loss=0.013399 | val_macro_f1=1.000000
+2026-08-26 12:59:13,037 | INFO | banking_tasci.training.loop | epoch 21 | train_loss=0.011778 | val_macro_f1=1.000000
+2026-08-26 12:59:13,040 | INFO | banking_tasci.training.loop | epoch 22 | train_loss=0.010455 | val_macro_f1=1.000000
+2026-08-26 12:59:13,042 | INFO | banking_tasci.training.loop | epoch 23 | train_loss=0.009366 | val_macro_f1=1.000000
+2026-08-26 12:59:13,044 | INFO | banking_tasci.training.loop | epoch 24 | train_loss=0.008461 | val_macro_f1=1.000000
+2026-08-26 12:59:13,045 | INFO | banking_tasci.training.loop | epoch 25 | train_loss=0.007703 | val_macro_f1=1.000000
+2026-08-26 12:59:13,047 | INFO | banking_tasci.training.loop | epoch 26 | train_loss=0.007064 | val_macro_f1=1.000000
+2026-08-26 12:59:13,049 | INFO | banking_tasci.training.loop | epoch 27 | train_loss=0.006521 | val_macro_f1=1.000000
+2026-08-26 12:59:13,052 | INFO | banking_tasci.training.loop | epoch 28 | train_loss=0.006057 | val_macro_f1=1.000000
+2026-08-26 12:59:13,063 | INFO | banking_tasci.training.loop | epoch 29 | train_loss=0.005658 | val_macro_f1=1.000000
+2026-08-26 12:59:13,065 | INFO | banking_tasci.training.loop | epoch 30 | train_loss=0.005313 | val_macro_f1=1.000000
+2026-08-26 12:59:13,074 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.503059 | val_macro_f1=0.000000
+2026-08-26 12:59:13,075 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.000000 at epoch 1 (checkpointed)
+2026-08-26 12:59:13,077 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.179782 | val_macro_f1=0.000000
+2026-08-26 12:59:13,082 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.900901 | val_macro_f1=0.500000
+2026-08-26 12:59:13,083 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.500000 at epoch 3 (checkpointed)
+2026-08-26 12:59:13,087 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=0.674339 | val_macro_f1=0.500000
+2026-08-26 12:59:13,089 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.496851 | val_macro_f1=0.500000
+2026-08-26 12:59:13,091 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.360588 | val_macro_f1=0.500000
+2026-08-26 12:59:13,091 | INFO | banking_tasci.training.loop | Early stopping at epoch 6 after 3 epoch(s) without improvement (patience=3)
+2026-08-26 12:59:13,097 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.503059 | val_macro_f1=0.000000
+2026-08-26 12:59:13,098 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.000000 at epoch 1 (checkpointed)
+2026-08-26 12:59:13,100 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.179782 | val_macro_f1=0.000000
+2026-08-26 12:59:13,101 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.900901 | val_macro_f1=0.333333
+2026-08-26 12:59:13,101 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.333333 at epoch 3 (checkpointed)
+2026-08-26 12:59:13,102 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=0.674339 | val_macro_f1=1.000000
+2026-08-26 12:59:13,103 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 4 (checkpointed)
+2026-08-26 12:59:13,104 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.496851 | val_macro_f1=1.000000
+2026-08-26 12:59:13,105 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.360588 | val_macro_f1=1.000000
+2026-08-26 12:59:13,106 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=0.259651 | val_macro_f1=1.000000
+2026-08-26 12:59:13,107 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=0.187515 | val_macro_f1=1.000000
+2026-08-26 12:59:13,109 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=0.137011 | val_macro_f1=1.000000
+2026-08-26 12:59:13,111 | INFO | banking_tasci.training.loop | epoch 10 | train_loss=0.101805 | val_macro_f1=1.000000
+2026-08-26 12:59:13,112 | INFO | banking_tasci.training.loop | epoch 11 | train_loss=0.077090 | val_macro_f1=1.000000
+2026-08-26 12:59:13,113 | INFO | banking_tasci.training.loop | epoch 12 | train_loss=0.059507 | val_macro_f1=1.000000
+2026-08-26 12:59:13,114 | INFO | banking_tasci.training.loop | epoch 13 | train_loss=0.046796 | val_macro_f1=1.000000
+2026-08-26 12:59:13,115 | INFO | banking_tasci.training.loop | epoch 14 | train_loss=0.037452 | val_macro_f1=1.000000
+2026-08-26 12:59:13,116 | INFO | banking_tasci.training.loop | epoch 15 | train_loss=0.030471 | val_macro_f1=1.000000
+2026-08-26 12:59:13,117 | INFO | banking_tasci.training.loop | epoch 16 | train_loss=0.025175 | val_macro_f1=1.000000
+2026-08-26 12:59:13,119 | INFO | banking_tasci.training.loop | epoch 17 | train_loss=0.021099 | val_macro_f1=1.000000
+2026-08-26 12:59:13,120 | INFO | banking_tasci.training.loop | epoch 18 | train_loss=0.017919 | val_macro_f1=1.000000
+2026-08-26 12:59:13,121 | INFO | banking_tasci.training.loop | epoch 19 | train_loss=0.015407 | val_macro_f1=1.000000
+2026-08-26 12:59:13,122 | INFO | banking_tasci.training.loop | epoch 20 | train_loss=0.013399 | val_macro_f1=1.000000
+2026-08-26 12:59:13,124 | INFO | banking_tasci.training.loop | Warm start: loaded model weights from resume_state_dict (optimiser/epoch reset)
+2026-08-26 12:59:13,125 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=0.496851 | val_macro_f1=1.000000
+2026-08-26 12:59:13,126 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 1 (checkpointed)
+2026-08-26 12:59:13,144 | INFO | banking_tasci.training.loop | Full resume: continuing from epoch 6 (best_val_macro_f1=0.500000, epochs_without_improvement=1)
+2026-08-26 12:59:13,146 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.988475 | val_macro_f1=0.333333
+2026-08-26 12:59:13,148 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=0.721933 | val_macro_f1=0.333333
+2026-08-26 12:59:13,149 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=0.505717 | val_macro_f1=1.000000
+2026-08-26 12:59:13,150 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 8 (checkpointed)
+2026-08-26 12:59:13,158 | INFO | banking_tasci.training.loop | Full resume: continuing from epoch 6 (best_val_macro_f1=0.500000, epochs_without_improvement=1)
+2026-08-26 12:59:13,164 | INFO | banking_tasci.training.loop | Warm start: restored model weights only; optimiser and epoch state reset
+2026-08-26 12:59:13,167 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=0.540709 | val_macro_f1=1.000000
+2026-08-26 12:59:13,167 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 1 (checkpointed)
+2026-08-26 12:59:13,169 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=0.388715 | val_macro_f1=1.000000
+2026-08-26 12:59:13,170 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.270465 | val_macro_f1=1.000000
+2026-08-26 12:59:13,179 | INFO | banking_tasci.training.loop | Warm start: restored model weights only; optimiser and epoch state reset
+2026-08-26 12:59:13,182 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=0.394031 | val_macro_f1=1.000000
+2026-08-26 12:59:13,183 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 1 (checkpointed)
+2026-08-26 12:59:13,192 | INFO | validate_annotations | Validated 4 records from /tmp/pytest-of-fxvdev/pytest-12/test_report_structure_with_mix0/annotations.jsonl: 2 valid, 2 invalid; report written to /tmp/pytest-of-fxvdev/pytest-12/test_report_structure_with_mix0/report.json

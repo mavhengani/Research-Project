@@ -1,0 +1,10 @@
+{
+  "creation_command": "scripts/build_gold_sample_plan.py --write --write-annotation-package",
+  "git_commit": "UNKNOWN_NO_COMMIT",
+  "input_sample_plan_checksum": "6d16d48d8997753c6c02b632e6e6e8dcb8dd6facccbf6eae403803b7ebdbb9f3",
+  "label_hidden": true,
+  "output_checksum": "600772affabf512734ac2c8b076b72e0b7f049b684fd7bb9c4e535ba78b4231e",
+  "output_record_count": 1000,
+  "pipeline_version": "new_pipeline_v1",
+  "schema_version": "new_pipeline_schema_v1"
+}

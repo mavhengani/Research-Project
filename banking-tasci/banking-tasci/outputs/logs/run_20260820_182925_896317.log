@@ -1,0 +1,11 @@
+2026-08-20 18:29:25,896 | INFO | prepare_data | Reading tweets from /tmp/pytest-of-fxvdev/pytest-26/test_output_written_exits_zero0/tweets.csv
+2026-08-20 18:29:25,898 | INFO | prepare_data | Reading reviews from /tmp/pytest-of-fxvdev/pytest-26/test_output_written_exits_zero0/reviews.csv
+2026-08-20 18:29:25,899 | INFO | banking_tasci.data.schema | /tmp/pytest-of-fxvdev/pytest-26/test_output_written_exits_zero0/tweets.csv: 2 rows validated
+2026-08-20 18:29:25,899 | INFO | banking_tasci.data.schema | /tmp/pytest-of-fxvdev/pytest-26/test_output_written_exits_zero0/reviews.csv: 1 rows validated
+2026-08-20 18:29:25,899 | INFO | prepare_data | Running ingestion pipeline
+2026-08-20 18:29:25,899 | INFO | banking_tasci.data.schema | international_bank_tweets: 2 rows validated
+2026-08-20 18:29:25,901 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 18:29:25,905 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 18:29:25,907 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 18:29:25,914 | INFO | prepare_data | Wrote canonical output to /tmp/pytest-of-fxvdev/pytest-26/test_output_written_exits_zero0/out.csv (3 rows)
+2026-08-20 18:29:25,915 | ERROR | prepare_data | Failed to write data quality report to /tmp/pytest-of-fxvdev/pytest-26/test_output_written_exits_zero0/blocking_file/report.json: [Errno 17] File exists: '/tmp/pytest-of-fxvdev/pytest-26/test_output_written_exits_zero0/blocking_file'

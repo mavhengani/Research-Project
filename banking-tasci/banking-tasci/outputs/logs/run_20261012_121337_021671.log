@@ -1,0 +1,16 @@
+2026-10-12 12:13:37,021 | INFO | banking_tasci.train_baselines | Preparing bilstm/intent baseline from /home/fxvdev/Documents/reseach/Research Project/Research Project/banking-tasci/banking-tasci/configs/baselines/bilstm_intent.yaml
+2026-10-12 12:13:38,395 | INFO | banking_tasci.train_baselines | Run directory: /tmp/pytest-of-fxvdev/pytest-1/test_cli_bilstm_intent_end_to_0/runs/20261012_121338_395875_bdea50af
+2026-10-12 12:13:39,848 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.986552 | val_macro_f1=0.142857
+2026-10-12 12:13:39,851 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.142857 at epoch 1 (checkpointed)
+2026-10-12 12:13:39,896 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.877006 | val_macro_f1=0.095238
+2026-10-12 12:13:39,993 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=1.797509 | val_macro_f1=0.095238
+2026-10-12 12:13:40,032 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=1.714292 | val_macro_f1=0.285714
+2026-10-12 12:13:40,040 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.285714 at epoch 4 (checkpointed)
+2026-10-12 12:13:40,074 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=1.615606 | val_macro_f1=0.285714
+2026-10-12 12:13:40,092 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=1.540299 | val_macro_f1=0.285714
+2026-10-12 12:13:40,119 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=1.460874 | val_macro_f1=0.285714
+2026-10-12 12:13:40,154 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=1.382484 | val_macro_f1=0.285714
+2026-10-12 12:13:40,180 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=1.276161 | val_macro_f1=0.285714
+2026-10-12 12:13:40,180 | INFO | banking_tasci.training.loop | Early stopping at epoch 9 after 5 epoch(s) without improvement (patience=5)
+2026-10-12 12:13:40,237 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'best_checkpoint.pt' in '/tmp/pytest-of-fxvdev/pytest-1/test_cli_bilstm_intent_end_to_0/runs/20261012_121338_395875_bdea50af': no best_state_dict provided
+2026-10-12 12:13:40,237 | INFO | banking_tasci.training.reproducibility | wrote run artifacts to '/tmp/pytest-of-fxvdev/pytest-1/test_cli_bilstm_intent_end_to_0/runs/20261012_121338_395875_bdea50af': 10/11 succeeded

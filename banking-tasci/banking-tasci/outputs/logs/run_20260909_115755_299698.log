@@ -1,0 +1,37 @@
+2026-09-09 11:57:55,300 | INFO | banking_tasci.train_baselines | Preparing svm/intent baseline from /Users/rotondwa_janti/Documents/Research Project/banking-tasci/banking-tasci/configs/baselines/svm_intent.yaml
+2026-09-09 11:57:55,301 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-09-09 11:57:55,305 | INFO | banking_tasci.train_baselines | Preparing svm/sentiment baseline from /Users/rotondwa_janti/Documents/Research Project/banking-tasci/banking-tasci/configs/baselines/svm_sentiment.yaml
+2026-09-09 11:57:55,309 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-09-09 11:57:55,314 | INFO | banking_tasci.train_baselines | Preparing bilstm/intent baseline from /Users/rotondwa_janti/Documents/Research Project/banking-tasci/banking-tasci/configs/baselines/bilstm_intent.yaml
+2026-09-09 11:57:55,314 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-09-09 11:57:55,319 | INFO | banking_tasci.train_baselines | Preparing bilstm/sentiment baseline from /Users/rotondwa_janti/Documents/Research Project/banking-tasci/banking-tasci/configs/baselines/bilstm_sentiment.yaml
+2026-09-09 11:57:55,320 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-09-09 11:57:55,324 | INFO | banking_tasci.train_baselines | Preparing bert/aspect baseline from /Users/rotondwa_janti/Documents/Research Project/banking-tasci/banking-tasci/configs/baselines/bert_aspect.yaml
+2026-09-09 11:57:55,325 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-09-09 11:57:55,329 | INFO | banking_tasci.train_baselines | Preparing bert/intent baseline from /Users/rotondwa_janti/Documents/Research Project/banking-tasci/banking-tasci/configs/baselines/bert_intent.yaml
+2026-09-09 11:57:55,329 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-09-09 11:57:55,333 | INFO | banking_tasci.train_baselines | Preparing bert/sentiment baseline from /Users/rotondwa_janti/Documents/Research Project/banking-tasci/banking-tasci/configs/baselines/bert_sentiment.yaml
+2026-09-09 11:57:55,334 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-09-09 11:57:57,147 | INFO | banking_tasci.train_baselines | Preparing svm/intent baseline from /Users/rotondwa_janti/Documents/Research Project/banking-tasci/banking-tasci/configs/baselines/svm_intent.yaml
+2026-09-09 11:57:58,342 | INFO | banking_tasci.train_baselines | Run directory: /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-3/test_cli_svm_intent_end_to_end0/runs/20260909_115758_342047_aba78054
+2026-09-09 11:57:58,750 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'best_checkpoint.pt' in '/private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-3/test_cli_svm_intent_end_to_end0/runs/20260909_115758_342047_aba78054': no best_state_dict provided
+2026-09-09 11:57:58,752 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'training_log.txt' in '/private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-3/test_cli_svm_intent_end_to_end0/runs/20260909_115758_342047_aba78054': no training_log provided
+2026-09-09 11:57:58,753 | INFO | banking_tasci.training.reproducibility | wrote run artifacts to '/private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-3/test_cli_svm_intent_end_to_end0/runs/20260909_115758_342047_aba78054': 9/11 succeeded
+2026-09-09 11:57:58,754 | INFO | banking_tasci.train_baselines | SVM intent baseline complete; artifacts in /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-3/test_cli_svm_intent_end_to_end0/runs/20260909_115758_342047_aba78054
+2026-09-09 11:57:58,761 | INFO | banking_tasci.train_baselines | Preparing bilstm/intent baseline from /Users/rotondwa_janti/Documents/Research Project/banking-tasci/banking-tasci/configs/baselines/bilstm_intent.yaml
+2026-09-09 11:57:58,765 | INFO | banking_tasci.train_baselines | Run directory: /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-3/test_cli_bilstm_intent_end_to_0/runs/20260909_115758_764977_ff4475c6
+2026-09-09 11:58:00,548 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.986552 | val_macro_f1=0.142857
+2026-09-09 11:58:00,550 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.142857 at epoch 1 (checkpointed)
+2026-09-09 11:58:00,557 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.877006 | val_macro_f1=0.095238
+2026-09-09 11:58:00,563 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=1.797509 | val_macro_f1=0.095238
+2026-09-09 11:58:00,570 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=1.714292 | val_macro_f1=0.285714
+2026-09-09 11:58:00,571 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.285714 at epoch 4 (checkpointed)
+2026-09-09 11:58:00,578 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=1.615606 | val_macro_f1=0.285714
+2026-09-09 11:58:00,583 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=1.540299 | val_macro_f1=0.285714
+2026-09-09 11:58:00,590 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=1.460874 | val_macro_f1=0.285714
+2026-09-09 11:58:00,595 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=1.382484 | val_macro_f1=0.285714
+2026-09-09 11:58:00,601 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=1.276161 | val_macro_f1=0.285714
+2026-09-09 11:58:00,602 | INFO | banking_tasci.training.loop | Early stopping at epoch 9 after 5 epoch(s) without improvement (patience=5)
+2026-09-09 11:58:00,657 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'training_log.txt' in '/private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-3/test_cli_bilstm_intent_end_to_0/runs/20260909_115758_764977_ff4475c6': no training_log provided
+2026-09-09 11:58:00,659 | INFO | banking_tasci.training.reproducibility | wrote run artifacts to '/private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-3/test_cli_bilstm_intent_end_to_0/runs/20260909_115758_764977_ff4475c6': 10/11 succeeded
+2026-09-09 11:58:00,660 | INFO | banking_tasci.train_baselines | BiLSTM intent baseline complete; artifacts in /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-3/test_cli_bilstm_intent_end_to_0/runs/20260909_115758_764977_ff4475c6

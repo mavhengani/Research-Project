@@ -1,0 +1,2 @@
+2026-08-24 11:40:11,367 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-24 11:40:11,373 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0

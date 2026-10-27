@@ -1,0 +1,1 @@
+2026-09-05 15:40:13,182 | INFO | validate_annotations | Validated 600 records from data/annotations/pilot_adjudicated.jsonl: 600 valid, 0 invalid; report written to outputs/annotated_gold_validation.json

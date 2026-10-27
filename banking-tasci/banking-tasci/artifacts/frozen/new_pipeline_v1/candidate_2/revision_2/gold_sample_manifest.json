@@ -1,0 +1,74 @@
+{
+  "annotation_manifest_checksum": "5d3a34dacfe6597757b5926db5fdf952407fa83e8f6a2ab65ef85d6af2c5a4b4",
+  "annotation_records_checksum": "4399dfb086fb883c7bff5584a9fed67451247cb7729187a580b24bac3e140f46",
+  "approval": {
+    "approval_id": "62bd53b39e222e0cb9fe9a9b",
+    "artifact_checksum": "e87e939be67c6f829ab9aaa37ae914d44cfb9059f06e3b352267a9d591ee0c89",
+    "artifact_path": "artifacts/approvals/new_pipeline_v1/candidate_2/annotation_package_approval.json"
+  },
+  "approval_checksum": "e87e939be67c6f829ab9aaa37ae914d44cfb9059f06e3b352267a9d591ee0c89",
+  "approved_batch_manifest": {
+    "checksum": "2a557eee8c702306e54a6ff196035e58fb79cab568d50cfae9c093eafea65ef5",
+    "membership_checksum": "c59300ee14ef733e864f10a442e879a7c0fb83932c7ccbf425e3961e2eebc1da",
+    "membership_file": "approved_batch_membership.jsonl",
+    "path": "artifacts/manifests/new_pipeline_v1/candidate_2/annotation_batch_manifest.json"
+  },
+  "batch_manifest_checksum": "2a557eee8c702306e54a6ff196035e58fb79cab568d50cfae9c093eafea65ef5",
+  "candidate1_preserved": true,
+  "candidate_number": 2,
+  "command": "scripts/freeze_gold_sample.py",
+  "expected_counts": {
+    "combined_relevant": 111615,
+    "gold": 1000,
+    "strict_unlabelled": 110615
+  },
+  "freeze_id": "4af4cac23401aa7f6c144997",
+  "frozen_at": "2026-10-14T21:02:32Z",
+  "frozen_by": "Rotondwa Mavhengani",
+  "git_commit": "UNKNOWN_NO_COMMIT",
+  "gold_id_checksum": "fdee989ff1a5935b5404488b215ebda60da86cf0da2f9d81bb1f684d055cea4f",
+  "gold_id_file": "gold_record_ids.jsonl",
+  "immutable_status": "FROZEN",
+  "notes": [
+    "Identity and provenance only; no annotation labels are included."
+  ],
+  "pipeline_version": "new_pipeline_v1",
+  "record_count": 1000,
+  "region_distribution": {
+    "international": 500,
+    "south_africa": 500
+  },
+  "review_report_checksum": "0e16c5e986bb5c72124b7dc24020bc6933f0365d11243bb57b0e43b830bee837",
+  "revision_number": 2,
+  "sample_plan_checksum": "ff8f88e0fe2741a6b9c4da0cb6ef3ade94deb87bee8f4a7d706daf21d82b8c2d",
+  "source_distribution": {
+    "international_review": 250,
+    "international_tweet": 250,
+    "south_africa_tweet": 500
+  },
+  "supersedes_freeze": {
+    "freeze_id": "efd9f8e132bf50f4d97a777c",
+    "frozen_at": "2026-10-14T21:02:32Z",
+    "gold_id_checksum": "fdee989ff1a5935b5404488b215ebda60da86cf0da2f9d81bb1f684d055cea4f",
+    "path": "artifacts/frozen/new_pipeline_v1/candidate_2"
+  },
+  "supersession_reason": "Governance-complete revision: approval ID, approved batch membership, and verified source-manifest references.",
+  "unique_record_count": 1000,
+  "verified_source_manifests": {
+    "combined_relevant": {
+      "file_checksum": "53d6fc8a1aaa2aeb9993f3083157bc8cc2043638c1ef3765e58b6e4f379e9baf",
+      "path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/combined_relevant_manifest.json",
+      "source_checksum": ""
+    },
+    "international": {
+      "file_checksum": "3dd86653306d8fecea80bfc940861b4b76f59333de03f27281190154a233c252",
+      "path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/international_source_manifest.json",
+      "source_checksum": "2a3435adcb5e5e8ffba44246dc529ecab4b9b24855f46849cf8d0fb3fe4252fd"
+    },
+    "south_africa": {
+      "file_checksum": "e8cfd1b4978c207a300999d1ef7190df8b4cd2e4d92af69727873a72a2f39cff",
+      "path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/south_africa_candidates_v2_source_manifest.json",
+      "source_checksum": "15fca4f1ccb950b6cbbfa3390549ccb5cca8b7dc7e078a017e170a4104a6231a"
+    }
+  }
+}

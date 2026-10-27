@@ -1,0 +1,41 @@
+{
+  "audit_date": "2026-09-25",
+  "source": "Read-only comparison of stored international pilot JSONL files",
+  "pilot_unannotated": {
+    "records": 600,
+    "bytes": 415055,
+    "sha256": "00c75e76d9232bb6b85f076c83123e40f14d8c56d50c5173e5f114df0108608f",
+    "annotation_status": {"completed": 600},
+    "nonempty_aspects": 426,
+    "null_intent": 150,
+    "canonical_content_sha256": "c02aff53eb47d236adf069e709045c689ed51e58c55f9cf885abadc014c00e8c"
+  },
+  "pilot_annotator_a": {
+    "records": 600,
+    "bytes": 415055,
+    "sha256": "00c75e76d9232bb6b85f076c83123e40f14d8c56d50c5173e5f114df0108608f",
+    "annotation_status": {"completed": 600},
+    "nonempty_aspects": 426,
+    "null_intent": 150,
+    "canonical_content_sha256": "c02aff53eb47d236adf069e709045c689ed51e58c55f9cf885abadc014c00e8c"
+  },
+  "pilot_annotator_b": {
+    "records": 600,
+    "bytes": 415055,
+    "sha256": "0f820a703daf35bd19c42e15be9ab31aa040e46696aa9d3b6f0bbdd841d5440f",
+    "annotation_status": {"completed": 600},
+    "nonempty_aspects": 426,
+    "null_intent": 150,
+    "canonical_content_sha256": "c02aff53eb47d236adf069e709045c689ed51e58c55f9cf885abadc014c00e8c"
+  },
+  "pilot_adjudicated": {
+    "records": 600,
+    "bytes": 444259,
+    "sha256": "4707b512dad138e0504bed2aca84b9eedd62f84d223443938dbbffcc5283594b",
+    "annotation_status": {"completed": 600},
+    "nonempty_aspects": 426,
+    "null_intent": 0,
+    "canonical_content_sha256": "304e7babc01a314db035b5a0e70c5d28fe58e048545e0a271c2167e00e6ac284"
+  },
+  "finding": "pilot_unannotated.jsonl is not pristine; it is byte-identical to pilot_annotator_a.jsonl and shares canonical annotation content with pilot_annotator_b.jsonl. No file was restored or modified."
+}

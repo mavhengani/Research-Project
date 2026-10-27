@@ -1,0 +1,59 @@
+{
+  "status": "PILOT_ESTIMATE_LIMITED_BY_SMOKE_INSTRUMENTATION",
+  "generated_date": "2026-10-20",
+  "planned_updates": 3423,
+  "monitor_evaluations": 7,
+  "checkpoint_writes": 7,
+  "smoke_evidence": {
+    "eligible_pool_records": 3000,
+    "examples_actually_processed": 440,
+    "unique_examples_actually_processed": 440,
+    "dynamic_masking_events_batches": 55,
+    "optimizer_steps": 55,
+    "micro_batch_size": 8,
+    "processed_tokens": null,
+    "model_load_seconds": null,
+    "data_preparation_seconds": null,
+    "warmup_seconds": null,
+    "post_warmup_median_step_seconds": null,
+    "post_warmup_mean_step_seconds": null,
+    "evaluation_seconds": null,
+    "checkpoint_write_seconds": null,
+    "reload_seconds": null,
+    "resume_seconds": null,
+    "instrumentation_note": "Smoke logs record total wall time and loss per step, but no timestamped phase, step, token, evaluation, checkpoint, reload, or resume durations. Checkpoint processed_tokens is last-batch-only; resume metadata is zero. These fields cannot be reconstructed reliably."
+  },
+  "U1": {
+    "observed_total_wall_seconds": 69.605,
+    "average_smoke_step_seconds_including_unseparated_overheads": 1.2655454545454545,
+    "estimated_training_seconds": 17327.848363636364,
+    "estimated_monitor_seconds_proxy": 1231.375727272727,
+    "baseline_seconds_before_unmeasured_checkpoint_reload_overheads": 18559.22409090909,
+    "allowance_20_percent_seconds": 22271.068909090907,
+    "allowance_50_percent_seconds": 27838.836136363636,
+    "observed_examples_per_second_total_wall": 6.321384957977156,
+    "tokens_per_second": null,
+    "planning_hours": {
+      "baseline": 5.155340025252525,
+      "20_percent": 6.1864080303030295,
+      "50_percent": 7.733010037878787
+    }
+  },
+  "U2": {
+    "observed_total_wall_seconds": 75.433,
+    "average_smoke_step_seconds_including_unseparated_overheads": 1.371509090909091,
+    "estimated_training_seconds": 18778.702472727273,
+    "estimated_monitor_seconds_proxy": 1334.4783454545457,
+    "baseline_seconds_before_unmeasured_checkpoint_reload_overheads": 20113.18081818182,
+    "allowance_20_percent_seconds": 24135.81698181818,
+    "allowance_50_percent_seconds": 30169.77122727273,
+    "observed_examples_per_second_total_wall": 5.8329908660665755,
+    "tokens_per_second": null,
+    "planning_hours": {
+      "baseline": 5.586994671717172,
+      "20_percent": 6.704393606060606,
+      "50_percent": 8.380492007575759
+    }
+  },
+  "interpretation": "Planning proxy only. It multiplies the observed total smoke average by four microbatches per pilot update and adds seven monitor passes. It does not claim a measured steady-state rate; checkpoint and reload time remain covered only by the planning allowances."
+}

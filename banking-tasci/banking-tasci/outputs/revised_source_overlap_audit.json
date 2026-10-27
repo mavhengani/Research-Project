@@ -1,0 +1,180 @@
+{
+  "files": [
+    {
+      "bytes": 1741,
+      "exists": true,
+      "path": "data/processed/test_manifest.csv",
+      "sha256": "1df3c37eca3c8c92ccdd60c903256ff2cc6228f263f70ef1ffed786b0b3689bf"
+    },
+    {
+      "bytes": 8104,
+      "exists": true,
+      "path": "data/processed/train_manifest.csv",
+      "sha256": "dff6b28dc4185a60cb6bd445e876cb3309be8001b34632ae932b6a23a171a91c"
+    },
+    {
+      "bytes": 1766,
+      "exists": true,
+      "path": "data/processed/validation_manifest.csv",
+      "sha256": "612e8ecee4b5b8290fc4d53c61b497f5a62905c0ce25e415b2b1bfecc7a2f621"
+    },
+    {
+      "bytes": 515,
+      "exists": true,
+      "path": "data/processed/south_african/test_manifest.csv",
+      "sha256": "5e868799fbee02ac0f48d55fb3b3a8469006dc9473761e0537d78b0875fb45cd"
+    },
+    {
+      "bytes": 2495,
+      "exists": true,
+      "path": "data/processed/south_african/train_manifest.csv",
+      "sha256": "5beea63d876634073bef9385f7c6eef1c8df60cd59464198d1a5f645a9220f16"
+    },
+    {
+      "bytes": 551,
+      "exists": true,
+      "path": "data/processed/south_african/validation_manifest.csv",
+      "sha256": "f00ac2aea1ad49a7e9cf4409441dd9df86ee2a60658c8c0f74673985e66661a0"
+    },
+    {
+      "bytes": 2248,
+      "exists": true,
+      "path": "data/processed/combined_v2/test_manifest.csv",
+      "sha256": "1677cdd493ba6ccecc77092c9244bb6b6b2fae2b82ccb2d2821ff95b19b0fc5f"
+    },
+    {
+      "bytes": 10575,
+      "exists": true,
+      "path": "data/processed/combined_v2/train_manifest.csv",
+      "sha256": "3b18a2c630082fae6afef1f44d93eb28f7ac84c97fffcf7995e462a9e6cc9837"
+    },
+    {
+      "bytes": 2316,
+      "exists": true,
+      "path": "data/processed/combined_v2/validation_manifest.csv",
+      "sha256": "ab98dd6ccbcc30c68813e134078a212abff68b3eab7480f73e866eb9afbf1ba5"
+    },
+    {
+      "bytes": 533,
+      "exists": true,
+      "path": "data/processed/south_african_v2/test_manifest.csv",
+      "sha256": "e8ca6d75168dca041667dcc447175d7abc2300fa0547b65a5935889654c21278"
+    },
+    {
+      "bytes": 2459,
+      "exists": true,
+      "path": "data/processed/south_african_v2/train_manifest.csv",
+      "sha256": "e36919d4af8e413e7cb1055a536a1b2f1338e2948fd7c648531b5b4172a0b7b2"
+    },
+    {
+      "bytes": 569,
+      "exists": true,
+      "path": "data/processed/south_african_v2/validation_manifest.csv",
+      "sha256": "44a1c63dc9ca96302fcd506a641ff50d5a764454c40f57cb6fc89dca6acc294a"
+    },
+    {
+      "bytes": 3108,
+      "exists": true,
+      "path": "outputs/gold_quality_summary.json",
+      "sha256": "e6274906df7fbfa93e9adac91c2dcdfc0db9ccebe122916332342a605da31c0f"
+    },
+    {
+      "bytes": 779,
+      "exists": true,
+      "path": "outputs/combined_gold_validation_v2.json",
+      "sha256": "c918772aa62203f63fc5bb1252ac0d846d6a39421575fc9865c70e21a8c6f916"
+    },
+    {
+      "bytes": 767,
+      "exists": true,
+      "path": "outputs/south_african_gold_v2_revalidation.json",
+      "sha256": "8ea24086ca9a1190c34206d4690e8900c4c71f47368503d67f498f60a4ae1425"
+    },
+    {
+      "bytes": 767,
+      "exists": true,
+      "path": "outputs/south_african_gold_validation.json",
+      "sha256": "588d9dc67a3d1d14f7ec9cb7ac89e213cf95d40a79bdf74e55ad46fc9dbedbc7"
+    },
+    {
+      "bytes": 12547,
+      "exists": true,
+      "path": "outputs/gold_label_distribution.json",
+      "sha256": "805769c4e26c1208919e3b16ed299d16fd99d0e7ba6d26523104affdfcb0cdc8"
+    },
+    {
+      "bytes": 767,
+      "exists": true,
+      "path": "outputs/south_african_genuine_gold_validation.json",
+      "sha256": "8ea24086ca9a1190c34206d4690e8900c4c71f47368503d67f498f60a4ae1425"
+    },
+    {
+      "bytes": 767,
+      "exists": true,
+      "path": "outputs/south_african_gold_validation_v2.json",
+      "sha256": "8ea24086ca9a1190c34206d4690e8900c4c71f47368503d67f498f60a4ae1425"
+    },
+    {
+      "bytes": 779,
+      "exists": true,
+      "path": "outputs/combined_gold_revalidation_v2.json",
+      "sha256": "6c5d3710b49a6e0e1fb1c34cfbde113ab0e0ea4cd41802c680780a1dca7c3c47"
+    },
+    {
+      "bytes": 5286,
+      "exists": true,
+      "path": "outputs/combined_gold_distribution_v2.json",
+      "sha256": "1c4cf6a18add408e95caf0182492827aef68f922a98c34555f2a09dd02e971d8"
+    },
+    {
+      "bytes": 663,
+      "exists": true,
+      "path": "outputs/annotated_gold_validation.json",
+      "sha256": "10ba4719f64d6721cb4e732bd904c7c1f3524b73e97a2a57a18fb2f1dcd2c79f"
+    },
+    {
+      "bytes": 43604,
+      "exists": true,
+      "path": "outputs/combined_gold_provenance.json",
+      "sha256": "c0353de87c85d7fc3c6912af7b629d245f911f14b4f6889e4b1003ab64c7b7e7"
+    },
+    {
+      "bytes": 2248,
+      "exists": true,
+      "path": "outputs/runs/20260908_054534_901414_1bd8b19a/test_manifest.csv",
+      "sha256": "1677cdd493ba6ccecc77092c9244bb6b6b2fae2b82ccb2d2821ff95b19b0fc5f"
+    },
+    {
+      "bytes": 10575,
+      "exists": true,
+      "path": "outputs/runs/20260908_054534_901414_1bd8b19a/train_manifest.csv",
+      "sha256": "3b18a2c630082fae6afef1f44d93eb28f7ac84c97fffcf7995e462a9e6cc9837"
+    },
+    {
+      "bytes": 2316,
+      "exists": true,
+      "path": "outputs/runs/20260908_054534_901414_1bd8b19a/validation_manifest.csv",
+      "sha256": "ab98dd6ccbcc30c68813e134078a212abff68b3eab7480f73e866eb9afbf1ba5"
+    },
+    {
+      "bytes": 2248,
+      "exists": true,
+      "path": "outputs/runs/20260908_054546_120350_0d9ac5db/test_manifest.csv",
+      "sha256": "1677cdd493ba6ccecc77092c9244bb6b6b2fae2b82ccb2d2821ff95b19b0fc5f"
+    },
+    {
+      "bytes": 10575,
+      "exists": true,
+      "path": "outputs/runs/20260908_054546_120350_0d9ac5db/train_manifest.csv",
+      "sha256": "3b18a2c630082fae6afef1f44d93eb28f7ac84c97fffcf7995e462a9e6cc9837"
+    },
+    {
+      "bytes": 2316,
+      "exists": true,
+      "path": "outputs/runs/20260908_054546_120350_0d9ac5db/validation_manifest.csv",
+      "sha256": "ab98dd6ccbcc30c68813e134078a212abff68b3eab7480f73e866eb9afbf1ba5"
+    }
+  ],
+  "reason": "no unambiguous common ID extraction performed; no identifiers emitted",
+  "status": "not_calculated"
+}

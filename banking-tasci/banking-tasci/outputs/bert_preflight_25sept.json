@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-25",
+  "scope": "Local-only BERT preflight; no package installation, download, training, or evaluation.",
+  "status": "BERT BLOCKED BY MISSING DEPENDENCY",
+  "transformers": {
+    "version": null,
+    "import_returncode": 1,
+    "error": "ModuleNotFoundError: No module named 'transformers'"
+  },
+  "torch": {
+    "version": "2.14.0",
+    "cuda_available": false,
+    "cuda_device_count": 0
+  },
+  "configs": {
+    "bert_aspect.yaml": {"task": "aspect", "max_seq_length": 128, "pretrained_path": "models/pretrained/bert-base-uncased", "pretrained_path_exists": false},
+    "bert_intent.yaml": {"task": "intent", "max_seq_length": 128, "pretrained_path": "models/pretrained/bert-base-uncased", "pretrained_path_exists": false},
+    "bert_sentiment.yaml": {"task": "sentiment", "max_seq_length": 128, "pretrained_path": "models/pretrained/bert-base-uncased", "pretrained_path_exists": false}
+  },
+  "project_helpers": {
+    "bert_baseline_module_imported": true,
+    "BertBaselineConfig": true,
+    "build_model": true,
+    "load_tokenizer": true,
+    "BIO_LABEL_MAP": {"O": 0, "B-ASP": 1, "I-ASP": 2},
+    "offline_loading_configured": true,
+    "sentiment_aspect_markers_configured": true
+  },
+  "notes": [
+    "This preflight did not call from_pretrained, download a model, or run training.",
+    "The missing dependency is the first blocking condition; the local checkpoint is also absent and CUDA is unavailable in this environment.",
+    "Approved asset plan: provide transformers and tokenizers from the cluster offline environment, verify the local model/tokenizer directory with SHA-256 checksums, confirm the cluster PyTorch/CUDA combination, and run a one-epoch offline smoke test with local_files_only=true.",
+    "No compatible transformers/tokenizers version is claimed until the approved cluster environment can be inspected."
+  ]
+}

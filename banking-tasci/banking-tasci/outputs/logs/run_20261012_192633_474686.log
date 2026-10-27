@@ -1,0 +1,11 @@
+2026-10-12 19:26:33,475 | INFO | prepare_data | Reading tweets from /tmp/pytest-of-fxvdev/pytest-8/test_output_and_report_both_wr0/tweets.csv
+2026-10-12 19:26:33,476 | INFO | prepare_data | Reading reviews from /tmp/pytest-of-fxvdev/pytest-8/test_output_and_report_both_wr0/reviews.csv
+2026-10-12 19:26:33,478 | INFO | banking_tasci.data.schema | /tmp/pytest-of-fxvdev/pytest-8/test_output_and_report_both_wr0/tweets.csv: 2 rows validated
+2026-10-12 19:26:33,478 | INFO | banking_tasci.data.schema | /tmp/pytest-of-fxvdev/pytest-8/test_output_and_report_both_wr0/reviews.csv: 1 rows validated
+2026-10-12 19:26:33,478 | INFO | prepare_data | Running ingestion pipeline
+2026-10-12 19:26:33,478 | INFO | banking_tasci.data.schema | international_bank_tweets: 2 rows validated
+2026-10-12 19:26:33,483 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0 near_dup_groups=0 near_dup_flagged=0
+2026-10-12 19:26:33,484 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-10-12 19:26:33,487 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0 near_dup_groups=0 near_dup_flagged=0
+2026-10-12 19:26:33,494 | INFO | prepare_data | Wrote canonical output to /tmp/pytest-of-fxvdev/pytest-8/test_output_and_report_both_wr0/out.csv (3 rows)
+2026-10-12 19:26:33,494 | INFO | prepare_data | Wrote data quality report to /tmp/pytest-of-fxvdev/pytest-8/test_output_and_report_both_wr0/report.json

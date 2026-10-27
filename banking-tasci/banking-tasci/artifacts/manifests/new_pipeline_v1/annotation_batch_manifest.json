@@ -1,0 +1,189 @@
+{
+  "batch_ids": [
+    "calibration_001",
+    "main_001",
+    "main_002",
+    "main_003",
+    "main_004",
+    "main_005",
+    "main_006",
+    "main_007",
+    "main_008",
+    "main_009",
+    "final_001"
+  ],
+  "batch_sizes": {
+    "calibration_001": 50,
+    "final_001": 50,
+    "main_001": 100,
+    "main_002": 100,
+    "main_003": 100,
+    "main_004": 100,
+    "main_005": 100,
+    "main_006": 100,
+    "main_007": 100,
+    "main_008": 100,
+    "main_009": 100
+  },
+  "batch_types": {
+    "calibration_001": "calibration",
+    "final_001": "final",
+    "main_001": "main",
+    "main_002": "main",
+    "main_003": "main",
+    "main_004": "main",
+    "main_005": "main",
+    "main_006": "main",
+    "main_007": "main",
+    "main_008": "main",
+    "main_009": "main"
+  },
+  "batching_algorithm": "union-find connected components over duplicate_group/leakage_group/review_id/thread_id/conversation_id; calibration batch selected via deterministic round-robin diversity sampling across (source, context_available, length_band, bank) strata (seed-based PCG64 shuffles within strata); remaining groups placed into main/final batches via deterministic first-fit-decreasing.",
+  "checksums": {
+    "calibration_001": "fff325c3cd6b46ee5f7eb8beb3af8644ad6207f0ea5e4715800a83957ca02b0d",
+    "final_001": "008ab41c2477cae6ba84fe91a9995dca0cb0745ca3962ec4a47813fcb68d00e8",
+    "main_001": "61b7843bb921da181caa80f3207edd6103bfd2afa0a881f4e61892c59436954a",
+    "main_002": "2f669016d2a0d62c5c6818ced515e9d63408130100bbdc6229a58ac7e49b00c1",
+    "main_003": "a0aafee5c27b552cdb03720e88117060eccae84ba96f4737b9f7e33796db72a8",
+    "main_004": "59c239178ede422a425f4ba6c4eed0ff99b479d9bb4c41fb19442527892f4b67",
+    "main_005": "7ce87b4ea05353f317fd2499b2fc9a3a01084519cf98a837af546c00718f07e7",
+    "main_006": "8f72fee86253e7085b11f08d67602fa96b3778a8f5af8e4bf62d66a5f7adf614",
+    "main_007": "b92915718d44b612bd50a2ba89b45a1b0930043547488c754df5dd61750caeab",
+    "main_008": "add496b800359e3fd05235298fb6538a3a6633b418644635d37430a9c96b137b",
+    "main_009": "023d9514f55942b2b2cfaa6a9b9c0b770f5899a88d21dbf7027814e452f1aff6"
+  },
+  "context_distributions": {
+    "calibration_001": {
+      "False": 50
+    },
+    "final_001": {
+      "False": 50
+    },
+    "main_001": {
+      "False": 100
+    },
+    "main_002": {
+      "False": 100
+    },
+    "main_003": {
+      "False": 100
+    },
+    "main_004": {
+      "False": 100
+    },
+    "main_005": {
+      "False": 100
+    },
+    "main_006": {
+      "False": 100
+    },
+    "main_007": {
+      "False": 100
+    },
+    "main_008": {
+      "False": 100
+    },
+    "main_009": {
+      "False": 100
+    }
+  },
+  "creation_command": "scripts/build_annotation_batches.py --write",
+  "expected_total_records": 1000,
+  "generated_at": "2026-10-12T20:13:08Z",
+  "git_commit": "UNKNOWN_NO_COMMIT",
+  "output_paths": {
+    "calibration_001": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/calibration_001.jsonl",
+    "final_001": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/final_001.jsonl",
+    "main_001": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_001.jsonl",
+    "main_002": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_002.jsonl",
+    "main_003": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_003.jsonl",
+    "main_004": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_004.jsonl",
+    "main_005": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_005.jsonl",
+    "main_006": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_006.jsonl",
+    "main_007": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_007.jsonl",
+    "main_008": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_008.jsonl",
+    "main_009": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_009.jsonl"
+  },
+  "pipeline_version": "new_pipeline_v1",
+  "region_distributions": {
+    "calibration_001": {
+      "international": 35,
+      "south_africa": 15
+    },
+    "final_001": {
+      "south_africa": 50
+    },
+    "main_001": {
+      "international": 100
+    },
+    "main_002": {
+      "international": 100
+    },
+    "main_003": {
+      "international": 100
+    },
+    "main_004": {
+      "international": 100
+    },
+    "main_005": {
+      "international": 65,
+      "south_africa": 35
+    },
+    "main_006": {
+      "south_africa": 100
+    },
+    "main_007": {
+      "south_africa": 100
+    },
+    "main_008": {
+      "south_africa": 100
+    },
+    "main_009": {
+      "south_africa": 100
+    }
+  },
+  "seed": 42,
+  "source_distributions": {
+    "calibration_001": {
+      "international_review": 30,
+      "international_tweet": 5,
+      "south_africa_tweet": 15
+    },
+    "final_001": {
+      "south_africa_tweet": 50
+    },
+    "main_001": {
+      "international_review": 100
+    },
+    "main_002": {
+      "international_review": 100
+    },
+    "main_003": {
+      "international_review": 20,
+      "international_tweet": 80
+    },
+    "main_004": {
+      "international_tweet": 100
+    },
+    "main_005": {
+      "international_tweet": 65,
+      "south_africa_tweet": 35
+    },
+    "main_006": {
+      "south_africa_tweet": 100
+    },
+    "main_007": {
+      "south_africa_tweet": 100
+    },
+    "main_008": {
+      "south_africa_tweet": 100
+    },
+    "main_009": {
+      "south_africa_tweet": 100
+    }
+  },
+  "total_annotation_groups": 1000,
+  "total_batches": 11,
+  "total_records": 1000,
+  "unresolved_balancing_warnings": []
+}

@@ -1,0 +1,1 @@
+2026-09-06 18:16:08,877 | INFO | calculate_agreement | Computed agreement over 196 jointly-annotated records (intent_kappa=0.873609543769144, category_kappa=0.990431385057013, sentiment_kappa=0.8750325436084353); report -> outputs/south_african_independent_agreement.json, 48 disagreement records -> outputs/south_african_independent_disagreements.jsonl

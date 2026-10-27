@@ -1,0 +1,11 @@
+2026-08-21 21:41:16,877 | INFO | prepare_data | Reading tweets from /home/fxvdev/Documents/reseach/banking-tasci/data/raw/sampledbanktweet.csv
+2026-08-21 21:41:16,895 | INFO | prepare_data | Reading reviews from /home/fxvdev/Documents/reseach/banking-tasci/data/raw/bank_reviews3.csv
+2026-08-21 21:41:16,902 | INFO | banking_tasci.data.schema | /home/fxvdev/Documents/reseach/banking-tasci/data/raw/sampledbanktweet.csv: 10000 rows validated
+2026-08-21 21:41:16,902 | INFO | banking_tasci.data.schema | /home/fxvdev/Documents/reseach/banking-tasci/data/raw/bank_reviews3.csv: 1000 rows validated
+2026-08-21 21:41:16,902 | INFO | prepare_data | Running ingestion pipeline
+2026-08-21 21:41:16,902 | INFO | banking_tasci.data.schema | international_bank_tweets: 10000 rows validated
+2026-08-21 21:41:16,950 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=152
+2026-08-21 21:41:17,294 | INFO | banking_tasci.data.schema | bank_reviews: 1000 rows validated
+2026-08-21 21:41:17,305 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=1
+2026-08-21 21:41:17,763 | INFO | prepare_data | Wrote canonical output to /tmp/pytest-of-fxvdev/pytest-8/test_raw_source_csvs_unmodifie0/prepared.csv (10847 rows)
+2026-08-21 21:41:17,763 | INFO | prepare_data | Wrote data quality report to /tmp/pytest-of-fxvdev/pytest-8/test_raw_source_csvs_unmodifie0/report.json

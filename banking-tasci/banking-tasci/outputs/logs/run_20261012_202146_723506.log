@@ -1,0 +1,4 @@
+2026-10-12 20:21:46,723 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-10-12 20:21:46,726 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0 near_dup_groups=0 near_dup_flagged=0
+2026-10-12 20:21:46,729 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-10-12 20:21:46,731 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0 near_dup_groups=0 near_dup_flagged=0

@@ -1,0 +1,124 @@
+{
+  "prepared": {
+    "bytes": 2940229,
+    "columns": [
+      "record_id",
+      "source",
+      "region",
+      "bank",
+      "rating",
+      "title",
+      "text",
+      "previous_text",
+      "context_available",
+      "thread_id",
+      "created_at",
+      "split"
+    ],
+    "exists": true,
+    "id_value_counts": {
+      "record_id": 10847
+    },
+    "label_counts": {},
+    "null_counts": {
+      "bank": 9848,
+      "created_at": 9848,
+      "rating": 9848,
+      "split": 10847,
+      "thread_id": 10847,
+      "title": 9848
+    },
+    "path": "data/interim/prepared.csv",
+    "privacy_named_value_counts": {},
+    "rows": 10847,
+    "sha256": "2a3435adcb5e5e8ffba44246dc529ecab4b9b24855f46849cf8d0fb3fe4252fd"
+  },
+  "proposal": {
+    "bytes": 0,
+    "exists": false,
+    "metadata_commands": [],
+    "path": "docs/research_proposal_current.tex",
+    "required_terms": {
+      "10,847": false,
+      "100,768": false,
+      "South African": false,
+      "international": false,
+      "v2": false
+    },
+    "sha256": null
+  },
+  "resampler": {
+    "bytes": 43435,
+    "count_literals": [],
+    "exists": true,
+    "functions": [
+      "_re_any",
+      "audit_classify",
+      "build_arg_parser",
+      "build_reservoir",
+      "run_nd_on_reservoir",
+      "select_sample_v2",
+      "to_annotation_records_v2",
+      "write_quality_review",
+      "main"
+    ],
+    "imports": [
+      "__future__ import annotations",
+      "argparse",
+      "json",
+      "logging",
+      "random",
+      "re",
+      "sys",
+      "collections import Counter, defaultdict",
+      "datetime import datetime, timezone",
+      "pathlib import Path",
+      "pandas as pd",
+      "pyarrow.parquet as pq",
+      "banking_tasci.data.sa_candidate_filter import (",
+      "banking_tasci.data.clean import NearDupConfig, detect_near_duplicates",
+      "banking_tasci.logging_utils import get_logger"
+    ],
+    "path": "scripts/resample_south_africa_v2.py",
+    "path_literals": [
+      "data/interim/south_africa_prepared.parquet",
+      "pyarrow.parquet",
+      "data/interim/south_africa_prepared.parquet",
+      "data/interim/south_africa_prepared.parquet"
+    ],
+    "sha256": "cffc7e5cc1ac67da55daf58ce9f773e0eaab78a29b61ee17835cdef6dc30cfac"
+  },
+  "south_africa_prepared": {
+    "bytes": 202119548,
+    "columns": [
+      "record_id",
+      "source",
+      "region",
+      "bank",
+      "rating",
+      "title",
+      "text",
+      "previous_text",
+      "context_available",
+      "thread_id",
+      "created_at",
+      "created_at_raw",
+      "split",
+      "near_dup_group_id",
+      "near_dup_flag",
+      "customer_feedback_candidate",
+      "candidate_strata",
+      "likely_promotional",
+      "possible_official_account",
+      "filter_reason",
+      "engagement_reply_count",
+      "engagement_retweet_count",
+      "engagement_like_count"
+    ],
+    "exists": true,
+    "path": "data/interim/south_africa_prepared.parquet",
+    "rows": 2250776,
+    "schema": "record_id: string\nsource: string\nregion: string\nbank: string\nrating: null\ntitle: string\ntext: string\nprevious_text: string\ncontext_available: bool\nthread_id: null\ncreated_at: string\ncreated_at_raw: null\nsplit: null\nnear_dup_group_id: string\nnear_dup_flag: bool\ncustomer_feedback_candidate: bool\ncandidate_strata: string\nlikely_promotional: bool\npossible_official_account: bool\nfilter_reason: string\nengagement_reply_count: int64\nengagement_retweet_count: int64\nengagement_like_count: int64\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2959",
+    "sha256": "f780da1241fef4b2b7f21aba295dc4236131071248e3bcd302fc22f31a6f06f7"
+  }
+}

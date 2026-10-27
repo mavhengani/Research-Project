@@ -1,0 +1,115 @@
+{
+  "labels_configured": {
+    "intent": [
+      "complaint",
+      "compliment",
+      "request_for_assistance",
+      "suggestion",
+      "warning",
+      "churn_signal",
+      "general_feedback"
+    ],
+    "aspect_category": [
+      "customer_support",
+      "digital_banking",
+      "transactions",
+      "cards",
+      "accounts",
+      "fees",
+      "fraud_security",
+      "branch_service",
+      "general_service"
+    ],
+    "aspect_sentiment": [
+      "positive",
+      "negative",
+      "neutral"
+    ]
+  },
+  "counts_by_split": {
+    "train": {
+      "intent": {
+        "complaint": 158,
+        "compliment": 39,
+        "request_for_assistance": 114,
+        "suggestion": 5,
+        "warning": 6,
+        "churn_signal": 13,
+        "general_feedback": 221
+      },
+      "aspect_category": {
+        "customer_support": 242,
+        "digital_banking": 90,
+        "transactions": 276,
+        "cards": 117,
+        "accounts": 203,
+        "fees": 15,
+        "fraud_security": 21,
+        "branch_service": 66,
+        "general_service": 148
+      },
+      "aspect_sentiment": {
+        "positive": 140,
+        "negative": 475,
+        "neutral": 563
+      }
+    },
+    "validation": {
+      "intent": {
+        "complaint": 34,
+        "compliment": 9,
+        "request_for_assistance": 25,
+        "suggestion": 1,
+        "warning": 2,
+        "churn_signal": 3,
+        "general_feedback": 48
+      },
+      "aspect_category": {
+        "customer_support": 60,
+        "digital_banking": 12,
+        "transactions": 61,
+        "cards": 24,
+        "accounts": 44,
+        "fees": 3,
+        "fraud_security": 3,
+        "branch_service": 13,
+        "general_service": 31
+      },
+      "aspect_sentiment": {
+        "positive": 20,
+        "negative": 115,
+        "neutral": 116
+      }
+    },
+    "test": {
+      "intent": {
+        "complaint": 34,
+        "compliment": 8,
+        "request_for_assistance": 24,
+        "suggestion": 1,
+        "warning": 1,
+        "churn_signal": 3,
+        "general_feedback": 47
+      },
+      "aspect_category": {
+        "customer_support": 50,
+        "digital_banking": 20,
+        "transactions": 61,
+        "cards": 26,
+        "accounts": 41,
+        "fees": 2,
+        "fraud_security": 4,
+        "branch_service": 11,
+        "general_service": 23
+      },
+      "aspect_sentiment": {
+        "positive": 34,
+        "negative": 97,
+        "neutral": 107
+      }
+    }
+  },
+  "zero_count_labels": [],
+  "zero_count_label_count": 0,
+  "research_ready": true
+}

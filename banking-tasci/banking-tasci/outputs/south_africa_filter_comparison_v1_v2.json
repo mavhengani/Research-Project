@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-09-05T17:34:11Z",
+  "v1": {
+    "filter_version": "broad_length_catchall",
+    "catchall_rule": "any non-promotional tweet >= 30 chars = candidate",
+    "candidate_rate_full_corpus": "92.7%",
+    "sample_suitable_customer_feedback": 131,
+    "sample_unrelated_or_unclear": 66,
+    "sample_too_short": 3,
+    "sample_promotional": 0,
+    "suitability_pct": 65.5,
+    "threshold_met": false,
+    "bank_distribution": {
+      "absa": 37,
+      "capitec": 46,
+      "standard_bank": 36,
+      "fnb": 60,
+      "nedbank": 21
+    },
+    "year_distribution": {
+      "2018": 30,
+      "2019": 38,
+      "2020": 33,
+      "2021": 48,
+      "2022": 51
+    },
+    "near_dup_control": "diagnostic 10K scan, not used for sample selection",
+    "records_through_catchall_only": 116
+  },
+  "v2": {
+    "filter_version": "evidence_based_v2_no_catchall",
+    "catchall_rule": "removed",
+    "candidate_rules": [
+      "A: aspect+problem",
+      "B: aspect+request",
+      "C: first_person+aspect",
+      "D: positive_service",
+      "E: suggestion/warning/churn+banking",
+      "F: specific_phrase"
+    ],
+    "sample_suitable_customer_feedback": 170,
+    "sample_potential_zero_aspect": 30,
+    "sample_total_include": 200,
+    "sample_unsuitable": 0,
+    "suitability_pct": 100.0,
+    "threshold_met": true,
+    "bank_distribution": {
+      "capitec": 47,
+      "absa": 36,
+      "standard_bank": 46,
+      "fnb": 46,
+      "nedbank": 25
+    },
+    "year_distribution": {
+      "2018": 41,
+      "2019": 32,
+      "2020": 50,
+      "2021": 40,
+      "2022": 37
+    },
+    "near_dup_control": "bounded 26652-record reservoir",
+    "nd_groups_detected": 0,
+    "nd_records_flagged": 0
+  },
+  "improvement": {
+    "suitable_change": 39,
+    "unclear_eliminated_by_zero_asp_strategy": true,
+    "catchall_removed": true,
+    "threshold_met_v2": true
+  }
+}

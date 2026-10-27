@@ -1,0 +1,572 @@
+{
+  "total_records": 600,
+  "total_aspects": 1253,
+  "zero_aspect_records": 174,
+  "annotator_files_identical": true,
+  "n_differences_between_annotators": 0,
+  "corrected_general_feedback_count": 150,
+  "corrected_general_feedback_ids": [
+    "8d1cfe5ff98d71cc",
+    "d2a5b30411a4402c",
+    "410c6eebe45f7f86",
+    "15e386bb0300d148",
+    "01e85d6c7d208cd7",
+    "c70db7a357d8023e",
+    "fb5e8a4a2895ec3d",
+    "23ac202899cbc951",
+    "ea77cbb507d8cce9",
+    "323767d229d1807a",
+    "99d00bf1ee478f19",
+    "f63f92baccbad08c",
+    "89eb3c66594dd18e",
+    "efbcedd4cb33b164",
+    "fb7085d9263db0a9",
+    "66e002a1a58ccc38",
+    "4fe40216664f2d20",
+    "1284124934504784",
+    "a028a2d84e75e3b4",
+    "313b850aca32e244",
+    "ec47a01fae3b9a2e",
+    "d75bca096aa6f2fd",
+    "ed4b179cc72c271b",
+    "a1b86886fc5698dd",
+    "b4310c1d32f850a4",
+    "e177a866dff3dc7c",
+    "b2596e555099372a",
+    "f8ef2d85932b52d7",
+    "a57862b7f8ec6991",
+    "e7a672e29eed26cc",
+    "df6aedf936ecc1d0",
+    "a87cfbb124804bb3",
+    "0c0ca61f84bc066b",
+    "7dbd4440c11553ee",
+    "b62c4098013d7cb3",
+    "fb0140af6523a2d9",
+    "3fc376337b8bf57f",
+    "440ec33117123a7d",
+    "2830898f08f5023c",
+    "57c03908ce7c01b6",
+    "2181d125f24ad4ec",
+    "06e8303d7b40e983",
+    "c318bd0c1a456798",
+    "4aefb70b357f858e",
+    "6192ef28640bca73",
+    "4a5925b3cb2452dc",
+    "2f9f5ed45ee68e4f",
+    "ec04eca31aa16040",
+    "69434d373b44f05c",
+    "490c2bc88c6515d9",
+    "12111a5f8f0652bb",
+    "d661149e04b81c1c",
+    "ac9993257c038d2c",
+    "5dd097398261998f",
+    "c2c3654334423fd2",
+    "3a87cdcc8a074cf8",
+    "1d20112ba124bbe8",
+    "9293d2517c60405d",
+    "81f3a9d6c6164528",
+    "990ebf7f7f1766ab",
+    "68625660f93f90ba",
+    "c8f1947c84d79d58",
+    "58b9cfb9e4c55daf",
+    "8ea63e7105801f3d",
+    "6f476fee96e55147",
+    "d86c5eb332ef812d",
+    "fae2814141648fd3",
+    "48e92b1223212301",
+    "6c2f86430130fcc0",
+    "04ec4c3560712457",
+    "ac7a5591f9729ef2",
+    "793842db4d0cb0c7",
+    "8ce160b0677db48b",
+    "6ed86df737c392f0",
+    "088808419deb9083",
+    "9233dce71d8489e4",
+    "d3958f2dd15254e8",
+    "766bc4f08aaea8d1",
+    "03c4a6d969713aa6",
+    "1b0847076f19263d",
+    "376376a77bf06146",
+    "ca85eb3e17b26198",
+    "9cc776fe8ee10c3b",
+    "03c06414ab8719ee",
+    "b3aeee4f7fd150f3",
+    "b22364ee473d5634",
+    "879f47ff9f3e9936",
+    "efb3edf37f851d40",
+    "e616d64282646e62",
+    "aa77aa2a7bbeaaf3",
+    "7536467fc7074de5",
+    "264254801702e6f1",
+    "f5ded8a4f6e733bc",
+    "14addbad1292f1dc",
+    "7aefa839585f50e4",
+    "4f28a860b615f32b",
+    "1105ba9c55ed0b60",
+    "1551e4b4e7dc46e9",
+    "0a029cfdeb27d16f",
+    "f6a1096afa1e5a40",
+    "6e76ecebf10d07ab",
+    "e0ea993c62c23cd2",
+    "5930d1df323956d4",
+    "84cfa35ea9f1d3a7",
+    "494c595a931beba5",
+    "52e755e9853d0327",
+    "67b1c7da89f14ee7",
+    "507b37ca6ab41f3e",
+    "7282e410eaf29bf4",
+    "470c50bec7270c6d",
+    "83282526c5a818ac",
+    "945ca8094545c0c9",
+    "53de61fd3147b6bb",
+    "aab9f15e9951d0e5",
+    "486f62fa701666e7",
+    "9b5577da50894ef9",
+    "802c3c653bbd79c4",
+    "64c8fb7c20be783b",
+    "d1be5cefeea94472",
+    "e74da14bd98b70fc",
+    "75e2f5c5ba2ba47f",
+    "9154778ea6e431e4",
+    "516e0363acd826e2",
+    "19ea7ef96e5c6b8e",
+    "4f89897d45df8479",
+    "aa3b608e84143486",
+    "ef80b867443e9355",
+    "cc87a5587b8fe7d6",
+    "3f459b25fc5d4f56",
+    "bd23f2cfe4e127ca",
+    "dc016c6fbb354f7d",
+    "8f7bc92ff30fe089",
+    "00477e202d6bfe44",
+    "c7316f1ed08a4f07",
+    "e912e759382407f7",
+    "c9664f0f6acea8ca",
+    "5aa689e8d038f416",
+    "60762c3121585f08",
+    "e515d366d88e4cac",
+    "f6959acd00d480c5",
+    "ffb51598c24b09f1",
+    "bc01a4eeff00a47e",
+    "2828d784c413dae4",
+    "c664e4924c63af1e",
+    "64e7658739aa2632::s8",
+    "64e7658739aa2632::s25",
+    "64e7658739aa2632::s44",
+    "64e7658739aa2632::s45",
+    "64e7658739aa2632::s91",
+    "64e7658739aa2632::s150"
+  ],
+  "splits": {
+    "train": 420,
+    "validation": 91,
+    "test": 89
+  },
+  "intent": {
+    "full": {
+      "complaint": 174,
+      "compliment": 36,
+      "request_for_assistance": 117,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 273
+    },
+    "train": {
+      "complaint": 122,
+      "compliment": 25,
+      "request_for_assistance": 82,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 191
+    },
+    "validation": {
+      "complaint": 26,
+      "compliment": 6,
+      "request_for_assistance": 18,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 41
+    },
+    "test": {
+      "complaint": 26,
+      "compliment": 5,
+      "request_for_assistance": 17,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 41
+    },
+    "international": {
+      "complaint": 174,
+      "compliment": 36,
+      "request_for_assistance": 117,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 273
+    },
+    "south_african": {
+      "complaint": 0,
+      "compliment": 0,
+      "request_for_assistance": 0,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 0
+    },
+    "context_available": {
+      "complaint": 49,
+      "compliment": 25,
+      "request_for_assistance": 18,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 60
+    },
+    "no_context": {
+      "complaint": 125,
+      "compliment": 11,
+      "request_for_assistance": 99,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 213
+    },
+    "tweets": {
+      "complaint": 119,
+      "compliment": 5,
+      "request_for_assistance": 98,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 185
+    },
+    "reviews": {
+      "complaint": 55,
+      "compliment": 31,
+      "request_for_assistance": 19,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 88
+    }
+  },
+  "aspect_category": {
+    "full": {
+      "customer_support": 292,
+      "digital_banking": 75,
+      "transactions": 319,
+      "cards": 123,
+      "accounts": 217,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 55,
+      "general_service": 172
+    },
+    "train": {
+      "customer_support": 199,
+      "digital_banking": 49,
+      "transactions": 234,
+      "cards": 93,
+      "accounts": 148,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 38,
+      "general_service": 123
+    },
+    "validation": {
+      "customer_support": 46,
+      "digital_banking": 10,
+      "transactions": 50,
+      "cards": 15,
+      "accounts": 40,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 7,
+      "general_service": 27
+    },
+    "test": {
+      "customer_support": 47,
+      "digital_banking": 16,
+      "transactions": 35,
+      "cards": 15,
+      "accounts": 29,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 10,
+      "general_service": 22
+    },
+    "international": {
+      "customer_support": 292,
+      "digital_banking": 75,
+      "transactions": 319,
+      "cards": 123,
+      "accounts": 217,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 55,
+      "general_service": 172
+    },
+    "south_african": {
+      "customer_support": 0,
+      "digital_banking": 0,
+      "transactions": 0,
+      "cards": 0,
+      "accounts": 0,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 0,
+      "general_service": 0
+    },
+    "context_available": {
+      "customer_support": 17,
+      "digital_banking": 29,
+      "transactions": 13,
+      "cards": 34,
+      "accounts": 59,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 24,
+      "general_service": 25
+    },
+    "no_context": {
+      "customer_support": 275,
+      "digital_banking": 46,
+      "transactions": 306,
+      "cards": 89,
+      "accounts": 158,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 31,
+      "general_service": 147
+    },
+    "tweets": {
+      "customer_support": 269,
+      "digital_banking": 41,
+      "transactions": 293,
+      "cards": 83,
+      "accounts": 113,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 28,
+      "general_service": 120
+    },
+    "reviews": {
+      "customer_support": 23,
+      "digital_banking": 34,
+      "transactions": 26,
+      "cards": 40,
+      "accounts": 104,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 27,
+      "general_service": 52
+    }
+  },
+  "sentiment": {
+    "full": {
+      "negative": 506,
+      "neutral": 581,
+      "positive": 166
+    },
+    "train": {
+      "negative": 349,
+      "neutral": 410,
+      "positive": 125
+    },
+    "validation": {
+      "negative": 83,
+      "neutral": 96,
+      "positive": 16
+    },
+    "test": {
+      "negative": 74,
+      "neutral": 75,
+      "positive": 25
+    },
+    "international": {
+      "negative": 506,
+      "neutral": 581,
+      "positive": 166
+    },
+    "south_african": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 0
+    },
+    "context_available": {
+      "negative": 61,
+      "neutral": 72,
+      "positive": 68
+    },
+    "no_context": {
+      "negative": 445,
+      "neutral": 509,
+      "positive": 98
+    },
+    "tweets": {
+      "negative": 430,
+      "neutral": 448,
+      "positive": 69
+    },
+    "reviews": {
+      "negative": 76,
+      "neutral": 133,
+      "positive": 97
+    }
+  },
+  "region": {
+    "international": 600
+  },
+  "source": {
+    "international_bank_tweets": 407,
+    "bank_reviews": 193
+  },
+  "context": {
+    "context_available_true": 152,
+    "context_available_false": 448
+  },
+  "sentiment_per_category": {
+    "customer_support": {
+      "negative": 85,
+      "neutral": 174,
+      "positive": 33
+    },
+    "digital_banking": {
+      "negative": 27,
+      "neutral": 27,
+      "positive": 21
+    },
+    "transactions": {
+      "negative": 192,
+      "neutral": 93,
+      "positive": 34
+    },
+    "cards": {
+      "negative": 57,
+      "neutral": 51,
+      "positive": 15
+    },
+    "accounts": {
+      "negative": 81,
+      "neutral": 109,
+      "positive": 27
+    },
+    "fees": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 0
+    },
+    "fraud_security": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 0
+    },
+    "branch_service": {
+      "negative": 12,
+      "neutral": 26,
+      "positive": 17
+    },
+    "general_service": {
+      "negative": 52,
+      "neutral": 101,
+      "positive": 19
+    }
+  },
+  "all_neutral_records_count": 138,
+  "uniform_sentiment_multi_aspect_count": 167,
+  "ctx_inconsistent_count": 0,
+  "noctx_inconsistent_count": 0,
+  "keyword_scan": {
+    "suggestion_keyword_matches": 1,
+    "warning_keyword_matches": 0,
+    "churn_keyword_matches": 4,
+    "fee_keyword_matches": 56,
+    "fraud_keyword_matches": 15
+  },
+  "intent_support_classification": {
+    "complaint": {
+      "count": 122,
+      "support": "SUFFICIENT"
+    },
+    "compliment": {
+      "count": 25,
+      "support": "SUFFICIENT"
+    },
+    "request_for_assistance": {
+      "count": 82,
+      "support": "SUFFICIENT"
+    },
+    "suggestion": {
+      "count": 0,
+      "support": "ZERO_SUPPORT"
+    },
+    "warning": {
+      "count": 0,
+      "support": "ZERO_SUPPORT"
+    },
+    "churn_signal": {
+      "count": 0,
+      "support": "ZERO_SUPPORT"
+    },
+    "general_feedback": {
+      "count": 191,
+      "support": "SUFFICIENT"
+    }
+  },
+  "category_support_classification": {
+    "customer_support": {
+      "count": 199,
+      "support": "SUFFICIENT"
+    },
+    "digital_banking": {
+      "count": 49,
+      "support": "SUFFICIENT"
+    },
+    "transactions": {
+      "count": 234,
+      "support": "SUFFICIENT"
+    },
+    "cards": {
+      "count": 93,
+      "support": "SUFFICIENT"
+    },
+    "accounts": {
+      "count": 148,
+      "support": "SUFFICIENT"
+    },
+    "fees": {
+      "count": 0,
+      "support": "ZERO_SUPPORT"
+    },
+    "fraud_security": {
+      "count": 0,
+      "support": "ZERO_SUPPORT"
+    },
+    "branch_service": {
+      "count": 38,
+      "support": "SUFFICIENT"
+    },
+    "general_service": {
+      "count": 123,
+      "support": "SUFFICIENT"
+    }
+  },
+  "sentiment_support_classification": {
+    "negative": {
+      "count": 349,
+      "support": "SUFFICIENT"
+    },
+    "neutral": {
+      "count": 410,
+      "support": "SUFFICIENT"
+    },
+    "positive": {
+      "count": 125,
+      "support": "SUFFICIENT"
+    }
+  }
+}

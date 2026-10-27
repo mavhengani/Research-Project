@@ -1,0 +1,34 @@
+{
+  "dataset_name": "Tweets of Popular South African Banks",
+  "project_author": "Nicholas Blomerus",
+  "github_repository": "https://github.com/nblomerus/South-African-Bank-Sentiment-Analysis",
+  "kaggle_dataset": "https://www.kaggle.com/datasets/nicholasblomerus/twitter-analysis-of-popular-south-african-banks",
+  "collection_period": "2006-01-01 to 2023-01-01",
+  "collection_mechanism": "sntwitter (snscrape)",
+  "banks": [
+    "FNB",
+    "Absa",
+    "Nedbank",
+    "Capitec",
+    "Standard Bank"
+  ],
+  "github_repo_licence": "MIT (applies to software/code in the repository)",
+  "kaggle_dataset_licence": "Kaggle dataset licence requires independent confirmation before publication",
+  "twitter_content_note": "Twitter/X content redistribution is governed by the Twitter/X Terms of Service and Developer Agreement. The MIT licence on the collection code does not resolve tweet-content reuse obligations. This must be assessed independently before publication.",
+  "study_date_range_used": {
+    "start": "2018-01-01",
+    "end": "2022-12-31",
+    "rationale": "2018\u20132022 selected for contemporary digital banking relevance, stronger coverage of mobile/online banking, and manageable scope. This is a study-scope decision, not a data-quality filtering decision."
+  },
+  "source_identifier_in_canonical": "south_african_bank_tweets",
+  "region_in_canonical": "south_africa",
+  "region_provenance_basis": "All five tracked institutions (FNB, Absa, Nedbank, Capitec, Standard Bank) are South African retail banks. The dataset was constructed to collect SA banking Twitter content. Bank column contains only SA bank identifiers. Region is not inferred from bank names alone \u2014 it is confirmed by the dataset's scope.",
+  "raw_text_column": "Tweet",
+  "raw_text_rationale": "The Tweet column contains raw collected tweet text as returned by the Twitter API. No pre-cleaned text column exists. The Tweet field is the authoritative source text.",
+  "columns_dropped": [
+    "Username (author handle \u2014 personal identifier)",
+    "__index_level_0__ (pandas artifact)"
+  ],
+  "tweet_id_handling": "Hashed into record_id (sha256); raw Tweet_Id not stored in canonical output",
+  "preparation_date": "2026-09-05T16:03:17Z"
+}

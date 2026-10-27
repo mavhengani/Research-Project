@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "sample_size": 600,
+  "counts_by_source": {
+    "international_bank_tweets": 407,
+    "bank_reviews": 193
+  },
+  "counts_by_region": {
+    "international": 600
+  },
+  "context_available_true_count": 152,
+  "context_available_false_count": 448,
+  "text_length_distribution": {
+    "min": 1.0,
+    "max": 961.0,
+    "mean": 138.53,
+    "q1": 80.0,
+    "median": 140.0,
+    "q3": 183.0
+  },
+  "rating_distribution": {
+    "5.0": 95,
+    "4.0": 53,
+    "4.5": 8,
+    "3.0": 19,
+    "1.5": 6,
+    "2.5": 1,
+    "2.0": 5,
+    "1.0": 2,
+    "3.5": 4
+  },
+  "multi_sentence_review_count": 12
+}

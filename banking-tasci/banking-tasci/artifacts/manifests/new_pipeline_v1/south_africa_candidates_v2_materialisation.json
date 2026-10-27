@@ -1,0 +1,64 @@
+{
+  "columns_excluded_as_candidate_metadata": [
+    "candidate_strata",
+    "filter_reason",
+    "customer_feedback_candidate"
+  ],
+  "columns_written": [
+    "record_id",
+    "source",
+    "region",
+    "bank",
+    "text",
+    "previous_text",
+    "context_available",
+    "created_at",
+    "near_dup_group_id",
+    "near_dup_flag",
+    "thread_id",
+    "rating",
+    "title"
+  ],
+  "duplicate_record_count": 0,
+  "expected_rule_counts": {
+    "A": 33360,
+    "B": 18428,
+    "C": 38185,
+    "D": 6380,
+    "E": 2880,
+    "F": 1535
+  },
+  "generated_at": "2026-10-12T18:54:31Z",
+  "generation_command": "python scripts/materialize_south_africa_candidates_v2.py ",
+  "git_commit": "UNKNOWN_NO_COMMIT",
+  "ids_present_in_parent": true,
+  "notes": [
+    "Selection delegated to banking_tasci.data.sa_candidates_v2.select_v2_candidates - the single canonical v2 implementation.",
+    "sa_candidate_filter.classify_candidate was NOT used: that module has duplicate definitions (live variant at line 757) and disagrees with the authoritative vectorised selection on ~1.9% of rows, so it would not reproduce 100,768.",
+    "Candidate-rule columns (candidate_strata, filter_reason) are excluded from the output per Requirements 6.5; the attributed rule is recorded in this report for audit only.",
+    "All verification ran BEFORE writing; no truncation, sampling, padding, or re-filtering was applied to reach the expected count."
+  ],
+  "output_logical_checksum": "2763ccfb8738f8a8126bac48f3dd30277efa79c45a79d5539ee8aae36f433567",
+  "output_path": "/home/fxvdev/Documents/reseach/Research Project/Research Project/banking-tasci/banking-tasci/data/processed/new_pipeline_v1/south_africa_candidates_v2.parquet",
+  "output_row_count": 100768,
+  "output_sha256": "15fca4f1ccb950b6cbbfa3390549ccb5cca8b7dc7e078a017e170a4104a6231a",
+  "parent_unique_ids": 2250776,
+  "pipeline_version": "new_pipeline_v1",
+  "privacy_status": "anonymised_upstream_no_raw_identifier_columns",
+  "rule_counts": {
+    "A": 33360,
+    "B": 18428,
+    "C": 38185,
+    "D": 6380,
+    "E": 2880,
+    "F": 1535
+  },
+  "rule_counts_match_expected": true,
+  "rule_counts_sum": 100768,
+  "selection_version": "sa_candidates_v2",
+  "source_path": "/home/fxvdev/Documents/reseach/Research Project/Research Project/banking-tasci/banking-tasci/data/interim/south_africa_prepared.parquet",
+  "source_row_count": 2250776,
+  "source_sha256": "f780da1241fef4b2b7f21aba295dc4236131071248e3bcd302fc22f31a6f06f7",
+  "strict_subset_verified": true,
+  "unique_record_count": 100768
+}

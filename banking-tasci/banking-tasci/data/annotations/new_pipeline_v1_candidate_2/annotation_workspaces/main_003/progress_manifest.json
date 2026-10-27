@@ -1,0 +1,47 @@
+{
+  "annotation_guide_version": "uniform-guide-v1-2026-10-27",
+  "approved_membership_checksum": "c59300ee14ef733e864f10a442e879a7c0fb83932c7ccbf425e3961e2eebc1da",
+  "audit_events": [
+    {
+      "actor": "Rotondwa Mavhengani",
+      "approved_membership_checksum": "c59300ee14ef733e864f10a442e879a7c0fb83932c7ccbf425e3961e2eebc1da",
+      "display_name": "Annotation Batch 4",
+      "event": "annotation_batch_workspace_opened",
+      "reason": "Open uniform manual annotation workspace for approved Candidate 2 batch",
+      "source_checksum": "09ad9f77aafc210af19a720b0e5756e4f3fe542fd68d4a57a259f59fd3b6e041",
+      "technical_batch_id": "main_003",
+      "timestamp": "2026-10-27T18:12:53Z"
+    }
+  ],
+  "backup_registry": [
+    {
+      "created_at": "2026-10-27T18:12:53Z",
+      "created_by": "Rotondwa Mavhengani",
+      "path": "backups/main_003_initial_20261027T181253Z.jsonl",
+      "sha256": "09ad9f77aafc210af19a720b0e5756e4f3fe542fd68d4a57a259f59fd3b6e041"
+    }
+  ],
+  "batch_status": "in_progress",
+  "candidate_number": 2,
+  "completed_count": 0,
+  "completed_record_count": 0,
+  "created_at": "2026-10-27T18:12:53Z",
+  "current_status": "in_progress",
+  "display_name": "Annotation Batch 4",
+  "failed_validation_count": 0,
+  "guide_version": "uniform-guide-v1-2026-10-27",
+  "last_updated_at": "2026-10-27T18:12:53Z",
+  "last_updated_by": "Rotondwa Mavhengani",
+  "main_batches_unlocked": true,
+  "opened_at": "2026-10-27T18:12:53Z",
+  "pipeline_version": "new_pipeline_v1",
+  "record_count": 100,
+  "remaining_count": 100,
+  "remaining_record_count": 100,
+  "source_checksum": "09ad9f77aafc210af19a720b0e5756e4f3fe542fd68d4a57a259f59fd3b6e041",
+  "technical_batch_id": "main_003",
+  "validated_count": 0,
+  "workflow_role": "standard_manual_annotation_batch",
+  "working_checksum": "09ad9f77aafc210af19a720b0e5756e4f3fe542fd68d4a57a259f59fd3b6e041",
+  "workspace_version": 1
+}

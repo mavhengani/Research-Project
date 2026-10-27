@@ -1,0 +1,11 @@
+2026-08-20 18:08:55,797 | INFO | __main__ | Reading tweets from data/raw/sampledbanktweet.csv
+2026-08-20 18:08:55,826 | INFO | __main__ | Reading reviews from data/raw/bank_reviews3.csv
+2026-08-20 18:08:55,837 | INFO | banking_tasci.data.schema | data/raw/sampledbanktweet.csv: 10000 rows validated
+2026-08-20 18:08:55,838 | INFO | banking_tasci.data.schema | data/raw/bank_reviews3.csv: 1000 rows validated
+2026-08-20 18:08:55,838 | INFO | __main__ | Running ingestion pipeline
+2026-08-20 18:08:55,839 | INFO | banking_tasci.data.schema | international_bank_tweets: 10000 rows validated
+2026-08-20 18:08:55,924 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=152
+2026-08-20 18:08:56,403 | INFO | banking_tasci.data.schema | bank_reviews: 1000 rows validated
+2026-08-20 18:08:56,422 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=1
+2026-08-20 18:08:57,158 | INFO | __main__ | Wrote canonical output to /tmp/prepared_test.csv (10847 rows)
+2026-08-20 18:08:57,160 | INFO | __main__ | Wrote data quality report to /tmp/report_test.json

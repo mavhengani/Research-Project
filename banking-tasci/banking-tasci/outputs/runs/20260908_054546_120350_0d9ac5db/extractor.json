@@ -1,0 +1,4 @@
+{
+  "extractor_id": "sentiment_marked_aspect_text",
+  "description": "text with [ASP] and [/ASP] markers around the target aspect"
+}

@@ -1,0 +1,104 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "sizes": {
+    "train": 556,
+    "validation": 122,
+    "test": 118
+  },
+  "by_source": {
+    "train": {
+      "international_bank_tweets": 282,
+      "bank_reviews": 138,
+      "south_african_bank_tweets": 136
+    },
+    "validation": {
+      "international_bank_tweets": 64,
+      "bank_reviews": 27,
+      "south_african_bank_tweets": 31
+    },
+    "test": {
+      "international_bank_tweets": 61,
+      "bank_reviews": 28,
+      "south_african_bank_tweets": 29
+    }
+  },
+  "by_region": {
+    "train": {
+      "international": 420,
+      "south_africa": 136
+    },
+    "validation": {
+      "international": 91,
+      "south_africa": 31
+    },
+    "test": {
+      "international": 89,
+      "south_africa": 29
+    }
+  },
+  "by_intent": {
+    "train": {
+      "general_feedback": 221,
+      "complaint": 158,
+      "request_for_assistance": 114,
+      "compliment": 39,
+      "churn_signal": 13,
+      "suggestion": 5,
+      "warning": 6
+    },
+    "validation": {
+      "request_for_assistance": 25,
+      "general_feedback": 48,
+      "compliment": 9,
+      "complaint": 34,
+      "churn_signal": 3,
+      "warning": 2,
+      "suggestion": 1
+    },
+    "test": {
+      "general_feedback": 47,
+      "complaint": 34,
+      "request_for_assistance": 24,
+      "compliment": 8,
+      "churn_signal": 3,
+      "suggestion": 1,
+      "warning": 1
+    }
+  },
+  "by_sentiment": {
+    "train": {
+      "neutral": 563,
+      "negative": 475,
+      "positive": 140
+    },
+    "validation": {
+      "negative": 115,
+      "neutral": 116,
+      "positive": 20
+    },
+    "test": {
+      "neutral": 107,
+      "negative": 97,
+      "positive": 34
+    }
+  },
+  "by_context_availability": {
+    "train": {
+      "False": 449,
+      "True": 107
+    },
+    "validation": {
+      "False": 101,
+      "True": 21
+    },
+    "test": {
+      "False": 94,
+      "True": 24
+    }
+  }
+}

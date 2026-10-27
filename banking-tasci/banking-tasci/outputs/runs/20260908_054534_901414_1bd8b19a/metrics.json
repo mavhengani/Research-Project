@@ -1,0 +1,139 @@
+{
+  "selection": {
+    "candidates": {
+      "default": 0.46120587042246025
+    },
+    "n_train": 556,
+    "n_val": 122,
+    "num_classes": 7,
+    "selected_candidate": "default",
+    "selection_metric": "val_macro_f1",
+    "val_macro_f1": 0.46120587042246025
+  },
+  "test": {
+    "accuracy": 0.6440677966101694,
+    "confusion_matrix": [
+      [
+        19,
+        2,
+        5,
+        0,
+        0,
+        1,
+        7
+      ],
+      [
+        2,
+        4,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        5,
+        0,
+        16,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        3,
+        3,
+        6,
+        0,
+        0,
+        0,
+        35
+      ]
+    ],
+    "labels": [
+      "complaint",
+      "compliment",
+      "request_for_assistance",
+      "suggestion",
+      "warning",
+      "churn_signal",
+      "general_feedback"
+    ],
+    "macro_f1": 0.4283948603991515,
+    "macro_precision": 0.4135173019867598,
+    "macro_recall": 0.4481196734012754,
+    "n": 118,
+    "per_class": {
+      "churn_signal": {
+        "f1": 0.5714285714285715,
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "support": 3
+      },
+      "complaint": {
+        "f1": 0.5846153846153845,
+        "precision": 0.6129032258064516,
+        "recall": 0.5588235294117647,
+        "support": 34
+      },
+      "compliment": {
+        "f1": 0.47058823529411764,
+        "precision": 0.4444444444444444,
+        "recall": 0.5,
+        "support": 8
+      },
+      "general_feedback": {
+        "f1": 0.7446808510638298,
+        "precision": 0.7446808510638298,
+        "recall": 0.7446808510638298,
+        "support": 47
+      },
+      "request_for_assistance": {
+        "f1": 0.627450980392157,
+        "precision": 0.5925925925925926,
+        "recall": 0.6666666666666666,
+        "support": 24
+      },
+      "suggestion": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1
+      },
+      "warning": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1
+      }
+    },
+    "weighted_f1": 0.6391079508726567
+  }
+}

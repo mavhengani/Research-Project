@@ -1,0 +1,14 @@
+{
+  "valid_count": 600,
+  "invalid_count": 0,
+  "errors_by_type": {},
+  "affected_record_ids": {},
+  "label_distributions": {
+    "aspect_category": {},
+    "sentiment": {},
+    "intent": {}
+  },
+  "aspect_count": 0,
+  "zero_aspect_count": 600,
+  "ambiguous_intent_count": 0
+}

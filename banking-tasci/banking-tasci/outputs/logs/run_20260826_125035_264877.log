@@ -1,0 +1,2 @@
+2026-08-26 12:50:35,265 | INFO | banking_tasci.train_baselines | Preparing svm/intent baseline from configs/baselines/svm_intent.yaml
+2026-08-26 12:50:35,265 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.

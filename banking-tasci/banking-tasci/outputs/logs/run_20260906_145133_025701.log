@@ -1,0 +1,1 @@
+2026-09-06 14:51:33,076 | INFO | validate_annotations | Validated 796 records from data/annotations/combined_adjudicated_v2.jsonl: 796 valid, 0 invalid; report written to outputs/combined_gold_validation_v2.json

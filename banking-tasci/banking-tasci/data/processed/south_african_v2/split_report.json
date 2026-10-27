@@ -1,0 +1,92 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "sizes": {
+    "train": 136,
+    "validation": 31,
+    "test": 29
+  },
+  "by_source": {
+    "train": {
+      "south_african_bank_tweets": 136
+    },
+    "validation": {
+      "south_african_bank_tweets": 31
+    },
+    "test": {
+      "south_african_bank_tweets": 29
+    }
+  },
+  "by_region": {
+    "train": {
+      "south_africa": 136
+    },
+    "validation": {
+      "south_africa": 31
+    },
+    "test": {
+      "south_africa": 29
+    }
+  },
+  "by_intent": {
+    "train": {
+      "compliment": 14,
+      "general_feedback": 30,
+      "complaint": 36,
+      "request_for_assistance": 32,
+      "churn_signal": 13,
+      "suggestion": 5,
+      "warning": 6
+    },
+    "validation": {
+      "complaint": 8,
+      "churn_signal": 3,
+      "general_feedback": 7,
+      "request_for_assistance": 7,
+      "warning": 2,
+      "compliment": 3,
+      "suggestion": 1
+    },
+    "test": {
+      "churn_signal": 3,
+      "request_for_assistance": 7,
+      "general_feedback": 6,
+      "warning": 1,
+      "complaint": 8,
+      "suggestion": 1,
+      "compliment": 3
+    }
+  },
+  "by_sentiment": {
+    "train": {
+      "positive": 19,
+      "neutral": 146,
+      "negative": 134
+    },
+    "validation": {
+      "negative": 24,
+      "neutral": 38,
+      "positive": 2
+    },
+    "test": {
+      "neutral": 21,
+      "positive": 7,
+      "negative": 23
+    }
+  },
+  "by_context_availability": {
+    "train": {
+      "False": 136
+    },
+    "validation": {
+      "False": 31
+    },
+    "test": {
+      "False": 29
+    }
+  }
+}

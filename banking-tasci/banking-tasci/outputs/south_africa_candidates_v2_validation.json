@@ -1,0 +1,18 @@
+{
+  "candidate": {
+    "bytes": 0,
+    "exists": false,
+    "path": "data/interim/south_africa_candidates_v2.parquet",
+    "sha256": null
+  },
+  "reconstruction": {
+    "attempted": false,
+    "created": false,
+    "reason": "unique resampling callable not identified"
+  },
+  "schema": {},
+  "stop_conditions": [
+    "proposal missing or required terms absent",
+    "candidate parquet unavailable"
+  ]
+}

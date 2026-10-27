@@ -1,0 +1,13 @@
+{
+  "approval_status": "NOT_APPROVED",
+  "candidate1_annotation_checksum": "600772affabf512734ac2c8b076b72e0b7f049b684fd7bb9c4e535ba78b4231e",
+  "candidate_number": 2,
+  "freeze_status": "NOT_FROZEN",
+  "git_commit": "UNKNOWN_NO_COMMIT",
+  "input_sample_plan_checksum": "ff8f88e0fe2741a6b9c4da0cb6ef3ade94deb87bee8f4a7d706daf21d82b8c2d",
+  "label_hidden": true,
+  "output_checksum": "4399dfb086fb883c7bff5584a9fed67451247cb7729187a580b24bac3e140f46",
+  "output_record_count": 1000,
+  "pipeline_version": "new_pipeline_v1",
+  "schema_version": "new_pipeline_schema_v1"
+}

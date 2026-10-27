@@ -1,0 +1,76 @@
+{
+  "ready": true,
+  "checks": [
+    {
+      "name": "adjudicated_file_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "not_the_unannotated_pilot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "split_manifests_exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "valid_annotation_status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "valid_aspect_spans_exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aspect_sentiment_labels_exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "intent_labels_exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_record_in_multiple_splits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "leakage_groups_not_crossing_splits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_unannotated_record_in_splits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_classes_in_train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "validation_and_test_labels_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "test_not_used_for_selection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_records_schema_valid",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}
+READY: adjudicated gold + leakage-safe splits verified.

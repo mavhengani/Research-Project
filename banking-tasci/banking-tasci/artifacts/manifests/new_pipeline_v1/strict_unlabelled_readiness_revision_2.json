@@ -1,0 +1,166 @@
+{
+  "arithmetic_checks": {
+    "all_consistent": true,
+    "combined": {
+      "consistent": true,
+      "gold_total": 1000,
+      "relevant": 111615,
+      "strict_unlabelled": 110615
+    },
+    "cross_check": {
+      "consistent": true,
+      "strict_unlabelled": 110615,
+      "sum_of_source_unlabelled": 110615
+    },
+    "international": {
+      "consistent": true,
+      "gold": 500,
+      "prepared": 10847,
+      "unlabelled": 10347
+    },
+    "international_gold_split": {
+      "consistent": true,
+      "reviews": 250,
+      "tweets": 250
+    },
+    "south_africa": {
+      "candidates": 100768,
+      "consistent": true,
+      "gold": 500,
+      "unlabelled": 100268
+    }
+  },
+  "blockers": [],
+  "corpus_built": false,
+  "expected_counts": {
+    "combined_relevant": 111615,
+    "gold_total": 1000,
+    "international_gold": 500,
+    "international_prepared": 10847,
+    "international_review_gold": 250,
+    "international_tweet_gold": 250,
+    "international_unlabelled": 10347,
+    "south_africa_candidates": 100768,
+    "south_africa_gold": 500,
+    "south_africa_unlabelled": 100268,
+    "strict_unlabelled": 110615
+  },
+  "field_policy": {
+    "approved_text_fields": [
+      "text"
+    ],
+    "context_fields_if_approved": [
+      "previous_text",
+      "context_available"
+    ],
+    "excluded_fields_by_reason": {
+      "annotation_metadata": [
+        "annotation_notes",
+        "annotation_status",
+        "annotation_version",
+        "annotator_id",
+        "notes",
+        "intent_ambiguous",
+        "alternative_intent"
+      ],
+      "candidate_and_sampling_rules": [
+        "customer_feedback_candidate",
+        "candidate_strata",
+        "filter_reason",
+        "likely_promotional",
+        "possible_official_account",
+        "sample_role",
+        "rule_matched",
+        "matched_strata",
+        "is_zero_aspect"
+      ],
+      "partition_labels": [
+        "split",
+        "partition",
+        "fold"
+      ],
+      "predictive_shortcuts": [
+        "source",
+        "bank",
+        "region",
+        "rating"
+      ],
+      "task_labels": [
+        "target",
+        "target_start",
+        "target_end",
+        "target_type",
+        "entity",
+        "attribute",
+        "category",
+        "opinion_phrase",
+        "opinion_start",
+        "opinion_end",
+        "sentiment",
+        "intent",
+        "primary_intent",
+        "public_warning",
+        "opinions",
+        "aspects"
+      ]
+    },
+    "identifier_fields_retained_for_traceability": [
+      "record_id"
+    ],
+    "note": "Retained provenance lives in the manifest, never in model-visible text. Source, bank, region, and rating are excluded as predictive shortcuts (Requirements 16, 26)."
+  },
+  "generated_at": "2026-10-14T21:10:17Z",
+  "git_commit": "UNKNOWN_NO_COMMIT",
+  "gold_exclusion_requirements": [
+    "a frozen South African gold-ID set of exactly 500 identifiers",
+    "a frozen international tweet gold-ID set of exactly 250 identifiers",
+    "a frozen international review gold-ID set of exactly 250 identifiers",
+    "a combined gold manifest totalling exactly 1,000 unique identifiers",
+    "every gold identifier must exist in its corresponding source corpus",
+    "zero overlap between the strict unlabelled corpus and the gold ID set",
+    "exclusion performed by stable identifier, never by position or sampling"
+  ],
+  "gold_id_manifests": {
+    "combined_gold": {
+      "exists": true,
+      "international_reviews": 250,
+      "international_tweets": 250,
+      "path": "artifacts/frozen/new_pipeline_v1/candidate_2/revision_2/gold_sample_manifest.json",
+      "problems": [],
+      "south_africa": 500,
+      "total_ids": 1000,
+      "usable": true
+    },
+    "supplied": true
+  },
+  "mode": "PREPARATION",
+  "notes": [
+    "PREPARATION mode never builds a corpus and never claims one exists.",
+    "The strict corpus target is 110,615 records, but it cannot be produced until the 1,000 gold identifiers are frozen. Removing 1,000 arbitrary records to hit the number is prohibited (Requirements Migration Principle 6)."
+  ],
+  "pipeline_version": "new_pipeline_v1",
+  "readiness": "READY_FOR_FINAL",
+  "source_manifest_checks": {
+    "combined": {
+      "present": true,
+      "row_count": 111615,
+      "sha256": null,
+      "status": "VERIFIED",
+      "verified": true
+    },
+    "international": {
+      "present": true,
+      "row_count": 10847,
+      "sha256": "2a3435adcb5e5e8ffba44246dc529ecab4b9b24855f46849cf8d0fb3fe4252fd",
+      "status": "VERIFIED",
+      "verified": true
+    },
+    "south_africa": {
+      "present": true,
+      "row_count": 100768,
+      "sha256": "15fca4f1ccb950b6cbbfa3390549ccb5cca8b7dc7e078a017e170a4104a6231a",
+      "status": "VERIFIED",
+      "verified": true
+    }
+  }
+}

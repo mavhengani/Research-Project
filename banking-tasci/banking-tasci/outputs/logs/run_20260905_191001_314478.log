@@ -1,0 +1,10 @@
+2026-09-05 19:10:01,314 | INFO | resample_south_africa_v2 | === South African annotation sample v2 ===
+2026-09-05 19:10:01,315 | INFO | resample_south_africa_v2 | VERSION 1 PROTECTED (unchanged): data/annotations/south_african_unannotated.jsonl
+2026-09-05 19:10:01,315 | INFO | resample_south_africa_v2 | VERSION 1 PROTECTED (unchanged): outputs/south_africa_sample_quality_review.jsonl
+2026-09-05 19:10:01,315 | INFO | resample_south_africa_v2 | VERSION 1 PROTECTED (unchanged): outputs/south_africa_annotation_sample_report.json
+2026-09-05 19:10:01,315 | INFO | resample_south_africa_v2 | VERSION 1 PROTECTED (unchanged): outputs/south_africa_data_report.json
+2026-09-05 19:10:01,315 | INFO | resample_south_africa_v2 | VERSION 1 PROTECTED (unchanged): data/interim/south_africa_prepared.parquet
+2026-09-05 19:10:01,315 | INFO | resample_south_africa_v2 | Reading parquet (required columns only)...
+2026-09-05 19:10:04,018 | INFO | resample_south_africa_v2 | Loaded 2250776 rows
+2026-09-05 19:10:04,019 | INFO | resample_south_africa_v2 | Applying evidence-based candidate filter (vectorised)...
+2026-09-05 19:10:04,330 | INFO | resample_south_africa_v2 | Running vectorised string matching on 2250776 rows...

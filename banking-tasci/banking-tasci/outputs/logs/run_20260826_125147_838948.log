@@ -1,0 +1,37 @@
+2026-08-26 12:51:47,839 | INFO | banking_tasci.train_baselines | Preparing svm/intent baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/svm_intent.yaml
+2026-08-26 12:51:47,839 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:51:47,846 | INFO | banking_tasci.train_baselines | Preparing svm/sentiment baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/svm_sentiment.yaml
+2026-08-26 12:51:47,850 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:51:47,860 | INFO | banking_tasci.train_baselines | Preparing bilstm/intent baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bilstm_intent.yaml
+2026-08-26 12:51:47,860 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:51:47,873 | INFO | banking_tasci.train_baselines | Preparing bilstm/sentiment baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bilstm_sentiment.yaml
+2026-08-26 12:51:47,874 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:51:47,905 | INFO | banking_tasci.train_baselines | Preparing bert/aspect baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bert_aspect.yaml
+2026-08-26 12:51:47,908 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:51:47,933 | INFO | banking_tasci.train_baselines | Preparing bert/intent baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bert_intent.yaml
+2026-08-26 12:51:47,935 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:51:47,959 | INFO | banking_tasci.train_baselines | Preparing bert/sentiment baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bert_sentiment.yaml
+2026-08-26 12:51:47,962 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.
+2026-08-26 12:51:49,438 | INFO | banking_tasci.train_baselines | Preparing svm/intent baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/svm_intent.yaml
+2026-08-26 12:51:51,803 | INFO | banking_tasci.train_baselines | Run directory: /tmp/pytest-of-fxvdev/pytest-9/test_cli_svm_intent_end_to_end0/runs/20260826_125151_803594_8bb15b41
+2026-08-26 12:51:52,132 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'best_checkpoint.pt' in '/tmp/pytest-of-fxvdev/pytest-9/test_cli_svm_intent_end_to_end0/runs/20260826_125151_803594_8bb15b41': no best_state_dict provided
+2026-08-26 12:51:52,143 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'training_log.txt' in '/tmp/pytest-of-fxvdev/pytest-9/test_cli_svm_intent_end_to_end0/runs/20260826_125151_803594_8bb15b41': no training_log provided
+2026-08-26 12:51:52,144 | INFO | banking_tasci.training.reproducibility | wrote run artifacts to '/tmp/pytest-of-fxvdev/pytest-9/test_cli_svm_intent_end_to_end0/runs/20260826_125151_803594_8bb15b41': 9/11 succeeded
+2026-08-26 12:51:52,145 | INFO | banking_tasci.train_baselines | SVM intent baseline complete; artifacts in /tmp/pytest-of-fxvdev/pytest-9/test_cli_svm_intent_end_to_end0/runs/20260826_125151_803594_8bb15b41
+2026-08-26 12:51:52,195 | INFO | banking_tasci.train_baselines | Preparing bilstm/intent baseline from /home/fxvdev/Documents/reseach/banking-tasci/configs/baselines/bilstm_intent.yaml
+2026-08-26 12:51:52,219 | INFO | banking_tasci.train_baselines | Run directory: /tmp/pytest-of-fxvdev/pytest-9/test_cli_bilstm_intent_end_to_0/runs/20260826_125152_219255_62046732
+2026-08-26 12:51:55,123 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=1.986552 | val_macro_f1=0.142857
+2026-08-26 12:51:55,126 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.142857 at epoch 1 (checkpointed)
+2026-08-26 12:51:55,198 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=1.877006 | val_macro_f1=0.095238
+2026-08-26 12:51:55,215 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=1.797509 | val_macro_f1=0.095238
+2026-08-26 12:51:55,244 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=1.714292 | val_macro_f1=0.285714
+2026-08-26 12:51:55,246 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.285714 at epoch 4 (checkpointed)
+2026-08-26 12:51:55,262 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=1.615606 | val_macro_f1=0.285714
+2026-08-26 12:51:55,277 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=1.540299 | val_macro_f1=0.285714
+2026-08-26 12:51:55,294 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=1.460874 | val_macro_f1=0.285714
+2026-08-26 12:51:55,312 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=1.382484 | val_macro_f1=0.285714
+2026-08-26 12:51:55,327 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=1.276161 | val_macro_f1=0.285714
+2026-08-26 12:51:55,328 | INFO | banking_tasci.training.loop | Early stopping at epoch 9 after 5 epoch(s) without improvement (patience=5)
+2026-08-26 12:51:55,352 | WARNING | banking_tasci.training.reproducibility | failed to write run artifact 'training_log.txt' in '/tmp/pytest-of-fxvdev/pytest-9/test_cli_bilstm_intent_end_to_0/runs/20260826_125152_219255_62046732': no training_log provided
+2026-08-26 12:51:55,354 | INFO | banking_tasci.training.reproducibility | wrote run artifacts to '/tmp/pytest-of-fxvdev/pytest-9/test_cli_bilstm_intent_end_to_0/runs/20260826_125152_219255_62046732': 10/11 succeeded
+2026-08-26 12:51:55,355 | INFO | banking_tasci.train_baselines | BiLSTM intent baseline complete; artifacts in /tmp/pytest-of-fxvdev/pytest-9/test_cli_bilstm_intent_end_to_0/runs/20260826_125152_219255_62046732

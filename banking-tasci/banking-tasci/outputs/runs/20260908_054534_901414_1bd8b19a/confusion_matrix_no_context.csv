@@ -1,0 +1,8 @@
+gold\pred,complaint,compliment,request_for_assistance,suggestion,warning,churn_signal,general_feedback
+complaint,13,1,4,0,0,1,5
+compliment,2,4,0,0,0,0,0
+request_for_assistance,5,0,14,0,0,1,2
+suggestion,1,0,0,0,0,0,0
+warning,1,0,0,0,0,0,0
+churn_signal,0,0,0,0,0,2,1
+general_feedback,3,1,6,0,0,0,27

@@ -1,0 +1,89 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "sizes": {
+    "train": 420,
+    "validation": 91,
+    "test": 89
+  },
+  "by_source": {
+    "train": {
+      "bank_reviews": 133,
+      "international_bank_tweets": 287
+    },
+    "validation": {
+      "international_bank_tweets": 62,
+      "bank_reviews": 29
+    },
+    "test": {
+      "international_bank_tweets": 58,
+      "bank_reviews": 31
+    }
+  },
+  "by_region": {
+    "train": {
+      "international": 420
+    },
+    "validation": {
+      "international": 91
+    },
+    "test": {
+      "international": 89
+    }
+  },
+  "by_intent": {
+    "train": {
+      "general_feedback": 191,
+      "complaint": 122,
+      "request_for_assistance": 82,
+      "compliment": 25
+    },
+    "validation": {
+      "general_feedback": 41,
+      "complaint": 26,
+      "request_for_assistance": 18,
+      "compliment": 6
+    },
+    "test": {
+      "general_feedback": 41,
+      "request_for_assistance": 17,
+      "complaint": 26,
+      "compliment": 5
+    }
+  },
+  "by_sentiment": {
+    "train": {
+      "neutral": 410,
+      "negative": 349,
+      "positive": 125
+    },
+    "validation": {
+      "neutral": 96,
+      "negative": 83,
+      "positive": 16
+    },
+    "test": {
+      "positive": 25,
+      "neutral": 75,
+      "negative": 74
+    }
+  },
+  "by_context_availability": {
+    "train": {
+      "False": 317,
+      "True": 103
+    },
+    "validation": {
+      "False": 68,
+      "True": 23
+    },
+    "test": {
+      "False": 63,
+      "True": 26
+    }
+  }
+}

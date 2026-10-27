@@ -1,0 +1,1 @@
+2026-09-05 15:35:33,611 | INFO | validate_annotations | Validated 600 records from data/annotations/pilot_annotator_b.jsonl: 450 valid, 150 invalid; report written to outputs/annotator_b_validation.json

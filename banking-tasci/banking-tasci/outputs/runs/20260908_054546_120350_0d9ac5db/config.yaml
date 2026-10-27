@@ -1,0 +1,10 @@
+C: 1.0
+calibrate: false
+class_weight: balanced
+min_df: 1
+model: svm
+ngram_range:
+- 1
+- 2
+sublinear_tf: true
+task: sentiment

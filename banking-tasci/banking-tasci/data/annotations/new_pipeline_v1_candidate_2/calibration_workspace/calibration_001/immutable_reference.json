@@ -1,0 +1,23 @@
+{
+  "approved_source_path": "data/annotations/new_pipeline_v1_candidate_2/batches/calibration_001.jsonl",
+  "approved_source_sha256": "7665366000c4b95b6c57fac91a2bd786098f16848001bf59a5c2c5a0b8700e66",
+  "backup_path": "data/annotations/new_pipeline_v1_candidate_2/calibration_workspace/calibration_001/backups/calibration_001_initial_20261020T140346Z.jsonl",
+  "backup_sha256": "7665366000c4b95b6c57fac91a2bd786098f16848001bf59a5c2c5a0b8700e66",
+  "immutable_fields": [
+    "record_id",
+    "source_record_id",
+    "source",
+    "region",
+    "bank",
+    "review_id",
+    "thread_id",
+    "conversation_id",
+    "publish_year",
+    "text",
+    "previous_text",
+    "context_available",
+    "duplicate_group",
+    "leakage_group"
+  ],
+  "record_count": 50
+}

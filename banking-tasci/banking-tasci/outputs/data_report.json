@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-08-20T16:28:53Z",
+  "overall": {
+    "rows_before": 11000,
+    "rows_after": 10847,
+    "empty_removed": 0,
+    "exact_duplicate_removed": 153
+  },
+  "per_source": {
+    "international_bank_tweets": {
+      "rows_before": 10000,
+      "rows_after": 9848,
+      "empty_removed": 0,
+      "exact_duplicate_removed": 152
+    },
+    "bank_reviews": {
+      "rows_before": 1000,
+      "rows_after": 999,
+      "empty_removed": 0,
+      "exact_duplicate_removed": 1
+    }
+  },
+  "anonymisation_audit": {
+    "email": 0,
+    "url": 0,
+    "mention": 0,
+    "account_or_reference": 0,
+    "phone": 0,
+    "amount": 0
+  }
+}

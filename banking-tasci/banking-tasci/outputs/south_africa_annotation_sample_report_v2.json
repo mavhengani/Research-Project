@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-05T17:34:11Z",
+  "version": "v2",
+  "sample_size": 200,
+  "requested_size": 200,
+  "seed": 42,
+  "filter_version": "evidence_based_v2_no_catchall",
+  "reservoir_size": 26652,
+  "near_dup_detection": {
+    "applied_to": "bounded_reservoir_250_records",
+    "groups_detected": 0,
+    "records_flagged": 0,
+    "note": "Near-dup control was applied to the bounded annotation-candidate reservoir rather than the complete South African corpus."
+  },
+  "composition": {
+    "total": 200,
+    "feedback": 170,
+    "potential_zero_aspect": 30,
+    "bank_counts": {
+      "capitec": 47,
+      "fnb": 46,
+      "standard_bank": 46,
+      "nedbank": 25,
+      "absa": 36
+    }
+  },
+  "bank_distribution": {
+    "capitec": 47,
+    "absa": 36,
+    "standard_bank": 46,
+    "fnb": 46,
+    "nedbank": 25
+  },
+  "year_distribution": {
+    "2018": 41,
+    "2019": 32,
+    "2020": 50,
+    "2021": 40,
+    "2022": 37
+  },
+  "text_length_distribution": {
+    "min": 37.0,
+    "max": 297.0,
+    "mean": 189.405,
+    "q1": 135.5,
+    "median": 199.5,
+    "q3": 245.0
+  },
+  "candidate_strata_counts": {
+    "transactions_candidate": 37,
+    "fraud_security_candidate": 25,
+    "branch_service_candidate": 33,
+    "customer_support_candidate": 34,
+    "churn_candidate": 12,
+    "positive_feedback_candidate": 24,
+    "accounts_candidate": 27,
+    "digital_banking_candidate": 24,
+    "fees_candidate": 35,
+    "cards_candidate": 31,
+    "warning_candidate": 13,
+    "suggestion_candidate": 11
+  },
+  "audit_relevance_classes": {
+    "suitable_customer_feedback": 170,
+    "potential_zero_aspect": 30
+  },
+  "suitability": {
+    "suitable_customer_feedback": 170,
+    "potential_zero_aspect": 30,
+    "total_include": 200,
+    "unsuitable": 0,
+    "suitability_pct": 100.0,
+    "threshold_met": true
+  },
+  "context_availability": {
+    "context_available_true": 0,
+    "context_available_false": 200,
+    "note": "All SA records use [NO_CONTEXT]; no thread graph in source"
+  },
+  "label_leakage_prevention": {
+    "candidate_strata_removed_from_annotation_view": true,
+    "sample_role_removed_from_annotation_view": true,
+    "existing_sentiment_fields": "none in source"
+  },
+  "filter_rule_usage": {
+    "A": 50024,
+    "B": 23956,
+    "C": 45428,
+    "E": 3795,
+    "F": 2223,
+    "D": 9273
+  },
+  "sampling_limitations": [
+    "No context-available records: SA tweet corpus has no thread graph",
+    "Near-dup control limited to bounded reservoir, not full 2.25M corpus",
+    "Positive-feedback stratum is naturally sparse in complaint-heavy corpus",
+    "suggestion / warning / churn strata rely on specific phrase matching"
+  ]
+}

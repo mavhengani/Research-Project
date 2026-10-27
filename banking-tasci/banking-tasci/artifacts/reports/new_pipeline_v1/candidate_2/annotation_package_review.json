@@ -1,0 +1,492 @@
+{
+  "annotation_manifest_checksum": "5d3a34dacfe6597757b5926db5fdf952407fa83e8f6a2ab65ef85d6af2c5a4b4",
+  "annotation_manifest_path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/candidate_2/annotation_package_manifest.json",
+  "bank_distribution": {
+    "Axis Bank": 27,
+    "Canara Bank": 7,
+    "Citibank": 3,
+    "HDFC Bank": 60,
+    "IDBI": 3,
+    "IndusInd Bank": 4,
+    "Kotak": 19,
+    "None": 321,
+    "Punjab National Bank": 5,
+    "SBI": 51,
+    "absa": 100,
+    "capitec": 100,
+    "fnb": 100,
+    "nedbank": 100,
+    "standard_bank": 100
+  },
+  "batch_distribution": {
+    "calibration_001": {
+      "batch_type": "calibration",
+      "context_availability": {
+        "False": 50
+      },
+      "expected_record_count": 50,
+      "manifest_checksum_matches": true,
+      "record_count": 50,
+      "region_distribution": {
+        "international": 25,
+        "south_africa": 25
+      },
+      "sha256": "7665366000c4b95b6c57fac91a2bd786098f16848001bf59a5c2c5a0b8700e66",
+      "source_distribution": {
+        "international_review": 12,
+        "international_tweet": 13,
+        "south_africa_tweet": 25
+      }
+    },
+    "final_001": {
+      "batch_type": "final",
+      "context_availability": {
+        "False": 50
+      },
+      "expected_record_count": 50,
+      "manifest_checksum_matches": true,
+      "record_count": 50,
+      "region_distribution": {
+        "international": 25,
+        "south_africa": 25
+      },
+      "sha256": "b17fd13474412f7df2ce9cfea8f8de1a2c2e871e8c1713e1cfd0adf5ca13f0e8",
+      "source_distribution": {
+        "international_review": 13,
+        "international_tweet": 12,
+        "south_africa_tweet": 25
+      }
+    },
+    "main_001": {
+      "batch_type": "main",
+      "context_availability": {
+        "False": 100
+      },
+      "expected_record_count": 100,
+      "manifest_checksum_matches": true,
+      "record_count": 100,
+      "region_distribution": {
+        "international": 50,
+        "south_africa": 50
+      },
+      "sha256": "4d3b25046645ae43fbd88639018131380fbb2da98d1615c0218b7a27c46eb744",
+      "source_distribution": {
+        "international_review": 25,
+        "international_tweet": 25,
+        "south_africa_tweet": 50
+      }
+    },
+    "main_002": {
+      "batch_type": "main",
+      "context_availability": {
+        "False": 100
+      },
+      "expected_record_count": 100,
+      "manifest_checksum_matches": true,
+      "record_count": 100,
+      "region_distribution": {
+        "international": 50,
+        "south_africa": 50
+      },
+      "sha256": "b827ae7dd8eeb270939114f2f643b2e25386578ec2071d1b16110062e0426c2f",
+      "source_distribution": {
+        "international_review": 25,
+        "international_tweet": 25,
+        "south_africa_tweet": 50
+      }
+    },
+    "main_003": {
+      "batch_type": "main",
+      "context_availability": {
+        "False": 100
+      },
+      "expected_record_count": 100,
+      "manifest_checksum_matches": true,
+      "record_count": 100,
+      "region_distribution": {
+        "international": 50,
+        "south_africa": 50
+      },
+      "sha256": "09ad9f77aafc210af19a720b0e5756e4f3fe542fd68d4a57a259f59fd3b6e041",
+      "source_distribution": {
+        "international_review": 25,
+        "international_tweet": 25,
+        "south_africa_tweet": 50
+      }
+    },
+    "main_004": {
+      "batch_type": "main",
+      "context_availability": {
+        "False": 100
+      },
+      "expected_record_count": 100,
+      "manifest_checksum_matches": true,
+      "record_count": 100,
+      "region_distribution": {
+        "international": 50,
+        "south_africa": 50
+      },
+      "sha256": "01330ec54403327340e730a5dbef1ea5cbd52f2c71749824060ad99796de7e7c",
+      "source_distribution": {
+        "international_review": 25,
+        "international_tweet": 25,
+        "south_africa_tweet": 50
+      }
+    },
+    "main_005": {
+      "batch_type": "main",
+      "context_availability": {
+        "False": 100
+      },
+      "expected_record_count": 100,
+      "manifest_checksum_matches": true,
+      "record_count": 100,
+      "region_distribution": {
+        "international": 50,
+        "south_africa": 50
+      },
+      "sha256": "987a8787b2907cd34cbbe9604bc4b3afd112c1bc8c4198ec2362fc542840e5e2",
+      "source_distribution": {
+        "international_review": 25,
+        "international_tweet": 25,
+        "south_africa_tweet": 50
+      }
+    },
+    "main_006": {
+      "batch_type": "main",
+      "context_availability": {
+        "False": 100
+      },
+      "expected_record_count": 100,
+      "manifest_checksum_matches": true,
+      "record_count": 100,
+      "region_distribution": {
+        "international": 50,
+        "south_africa": 50
+      },
+      "sha256": "1ac534d3b7c8fb7113ef3603f799fcb1f68abd3e01158637ed917634bd4004f7",
+      "source_distribution": {
+        "international_review": 25,
+        "international_tweet": 25,
+        "south_africa_tweet": 50
+      }
+    },
+    "main_007": {
+      "batch_type": "main",
+      "context_availability": {
+        "False": 100
+      },
+      "expected_record_count": 100,
+      "manifest_checksum_matches": true,
+      "record_count": 100,
+      "region_distribution": {
+        "international": 50,
+        "south_africa": 50
+      },
+      "sha256": "663174b3f7465dd3e55cc497b6e666b840e8a8c701c22a4ce16944fa290afaf7",
+      "source_distribution": {
+        "international_review": 25,
+        "international_tweet": 25,
+        "south_africa_tweet": 50
+      }
+    },
+    "main_008": {
+      "batch_type": "main",
+      "context_availability": {
+        "False": 100
+      },
+      "expected_record_count": 100,
+      "manifest_checksum_matches": true,
+      "record_count": 100,
+      "region_distribution": {
+        "international": 50,
+        "south_africa": 50
+      },
+      "sha256": "3d5f4b09b27b64bb7e6c0da09fede54bb512eb708c230086addda6c987fa46c6",
+      "source_distribution": {
+        "international_review": 25,
+        "international_tweet": 25,
+        "south_africa_tweet": 50
+      }
+    },
+    "main_009": {
+      "batch_type": "main",
+      "context_availability": {
+        "False": 100
+      },
+      "expected_record_count": 100,
+      "manifest_checksum_matches": true,
+      "record_count": 100,
+      "region_distribution": {
+        "international": 50,
+        "south_africa": 50
+      },
+      "sha256": "6d07ee113b551d7e96e20e823ef66d7ff39f97246a85befc0f56b4605e88a9e4",
+      "source_distribution": {
+        "international_review": 25,
+        "international_tweet": 25,
+        "south_africa_tweet": 50
+      }
+    }
+  },
+  "batch_manifest_checksum": "2a557eee8c702306e54a6ff196035e58fb79cab568d50cfae9c093eafea65ef5",
+  "batch_manifest_path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/candidate_2/annotation_batch_manifest.json",
+  "calibration_diversity": {
+    "bank_distribution": {
+      "Axis Bank": 1,
+      "Canara Bank": 1,
+      "Citibank": 1,
+      "HDFC Bank": 2,
+      "IDBI": 1,
+      "IndusInd Bank": 1,
+      "Kotak": 1,
+      "None": 15,
+      "Punjab National Bank": 1,
+      "SBI": 1,
+      "absa": 5,
+      "capitec": 5,
+      "fnb": 4,
+      "nedbank": 5,
+      "standard_bank": 6
+    },
+    "context_availability": {
+      "False": 50
+    },
+    "length_band_distribution": {
+      "long": 24,
+      "medium": 11,
+      "short": 15
+    },
+    "record_count": 50,
+    "region_distribution": {
+      "international": 25,
+      "south_africa": 25
+    },
+    "source_distribution": {
+      "international_review": 12,
+      "international_tweet": 13,
+      "south_africa_tweet": 25
+    },
+    "v2_rule_distribution": {
+      "A": 11,
+      "B": 4,
+      "C": 10,
+      "not_recorded": 25
+    }
+  },
+  "candidate1_artifact_integrity": {
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/annotation_batch_manifest.json": {
+      "exists": true,
+      "expected_checksum": "e0925db9a0620da8198ce22bf38d4662a52854d303ee7bcf1e6d9f0e025015a3",
+      "matches": true,
+      "observed_checksum": "e0925db9a0620da8198ce22bf38d4662a52854d303ee7bcf1e6d9f0e025015a3"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/annotation_package_manifest.json": {
+      "exists": true,
+      "expected_checksum": "854a82717a6d3bb4fb2b36155842233ab32f6004ca0f557ddb27a44bbea17de9",
+      "matches": true,
+      "observed_checksum": "854a82717a6d3bb4fb2b36155842233ab32f6004ca0f557ddb27a44bbea17de9"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/gold_sample_plan_manifest.json": {
+      "exists": true,
+      "expected_checksum": "530587aafdb4a49f085aa489f18d41945e9d6c1e88f0cf97c19072e477934452",
+      "matches": true,
+      "observed_checksum": "530587aafdb4a49f085aa489f18d41945e9d6c1e88f0cf97c19072e477934452"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/reports/new_pipeline_v1/annotation_package_review.md": {
+      "exists": true,
+      "expected_checksum": "afd74485297dfa9b700dc2aee24e10159ddfe9f1cee4970f83dcc4f47da6031b",
+      "matches": true,
+      "observed_checksum": "afd74485297dfa9b700dc2aee24e10159ddfe9f1cee4970f83dcc4f47da6031b"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/annotation_records.jsonl": {
+      "exists": true,
+      "expected_checksum": "600772affabf512734ac2c8b076b72e0b7f049b684fd7bb9c4e535ba78b4231e",
+      "matches": true,
+      "observed_checksum": "600772affabf512734ac2c8b076b72e0b7f049b684fd7bb9c4e535ba78b4231e"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/calibration_001.jsonl": {
+      "exists": true,
+      "expected_checksum": "fff325c3cd6b46ee5f7eb8beb3af8644ad6207f0ea5e4715800a83957ca02b0d",
+      "matches": true,
+      "observed_checksum": "fff325c3cd6b46ee5f7eb8beb3af8644ad6207f0ea5e4715800a83957ca02b0d"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/final_001.jsonl": {
+      "exists": true,
+      "expected_checksum": "008ab41c2477cae6ba84fe91a9995dca0cb0745ca3962ec4a47813fcb68d00e8",
+      "matches": true,
+      "observed_checksum": "008ab41c2477cae6ba84fe91a9995dca0cb0745ca3962ec4a47813fcb68d00e8"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_001.jsonl": {
+      "exists": true,
+      "expected_checksum": "61b7843bb921da181caa80f3207edd6103bfd2afa0a881f4e61892c59436954a",
+      "matches": true,
+      "observed_checksum": "61b7843bb921da181caa80f3207edd6103bfd2afa0a881f4e61892c59436954a"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_002.jsonl": {
+      "exists": true,
+      "expected_checksum": "2f669016d2a0d62c5c6818ced515e9d63408130100bbdc6229a58ac7e49b00c1",
+      "matches": true,
+      "observed_checksum": "2f669016d2a0d62c5c6818ced515e9d63408130100bbdc6229a58ac7e49b00c1"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_003.jsonl": {
+      "exists": true,
+      "expected_checksum": "a0aafee5c27b552cdb03720e88117060eccae84ba96f4737b9f7e33796db72a8",
+      "matches": true,
+      "observed_checksum": "a0aafee5c27b552cdb03720e88117060eccae84ba96f4737b9f7e33796db72a8"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_004.jsonl": {
+      "exists": true,
+      "expected_checksum": "59c239178ede422a425f4ba6c4eed0ff99b479d9bb4c41fb19442527892f4b67",
+      "matches": true,
+      "observed_checksum": "59c239178ede422a425f4ba6c4eed0ff99b479d9bb4c41fb19442527892f4b67"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_005.jsonl": {
+      "exists": true,
+      "expected_checksum": "7ce87b4ea05353f317fd2499b2fc9a3a01084519cf98a837af546c00718f07e7",
+      "matches": true,
+      "observed_checksum": "7ce87b4ea05353f317fd2499b2fc9a3a01084519cf98a837af546c00718f07e7"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_006.jsonl": {
+      "exists": true,
+      "expected_checksum": "8f72fee86253e7085b11f08d67602fa96b3778a8f5af8e4bf62d66a5f7adf614",
+      "matches": true,
+      "observed_checksum": "8f72fee86253e7085b11f08d67602fa96b3778a8f5af8e4bf62d66a5f7adf614"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_007.jsonl": {
+      "exists": true,
+      "expected_checksum": "b92915718d44b612bd50a2ba89b45a1b0930043547488c754df5dd61750caeab",
+      "matches": true,
+      "observed_checksum": "b92915718d44b612bd50a2ba89b45a1b0930043547488c754df5dd61750caeab"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_008.jsonl": {
+      "exists": true,
+      "expected_checksum": "add496b800359e3fd05235298fb6538a3a6633b418644635d37430a9c96b137b",
+      "matches": true,
+      "observed_checksum": "add496b800359e3fd05235298fb6538a3a6633b418644635d37430a9c96b137b"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/batches/main_009.jsonl": {
+      "exists": true,
+      "expected_checksum": "023d9514f55942b2b2cfaa6a9b9c0b770f5899a88d21dbf7027814e452f1aff6",
+      "matches": true,
+      "observed_checksum": "023d9514f55942b2b2cfaa6a9b9c0b770f5899a88d21dbf7027814e452f1aff6"
+    },
+    "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1/gold_sample_plan.jsonl": {
+      "exists": true,
+      "expected_checksum": "6d16d48d8997753c6c02b632e6e6e8dcb8dd6facccbf6eae403803b7ebdbb9f3",
+      "matches": true,
+      "observed_checksum": "6d16d48d8997753c6c02b632e6e6e8dcb8dd6facccbf6eae403803b7ebdbb9f3"
+    }
+  },
+  "candidate1_checksum": "6d16d48d8997753c6c02b632e6e6e8dcb8dd6facccbf6eae403803b7ebdbb9f3",
+  "candidate1_preserved": true,
+  "candidate_number": 2,
+  "context_availability": {
+    "False": 1000
+  },
+  "context_experiment_status": "BLOCKED_NO_VERIFIED_CONTEXT_DATA; package remains eligible for no-context annotation",
+  "conversation_group_integrity": {
+    "coverage": "unavailable",
+    "cross_batch_violations": 0,
+    "distinct_groups": 0,
+    "field": "conversation_id",
+    "multi_record_groups": 0,
+    "records_with_value": 0,
+    "verified": false
+  },
+  "duplicate_group_integrity": {
+    "coverage": "verified_none",
+    "cross_batch_violations": 0,
+    "distinct_groups": 0,
+    "evidence": "candidate-2 source join verified no selected duplicate groups",
+    "field": "duplicate_group",
+    "multi_record_groups": 0,
+    "records_with_value": 0,
+    "verified": true
+  },
+  "duplicate_record_ids": [],
+  "git_commit": "UNKNOWN_NO_COMMIT",
+  "invalid_privacy_status_count": 0,
+  "leakage_group_integrity": {
+    "coverage": "present",
+    "cross_batch_violations": 0,
+    "distinct_groups": 1000,
+    "field": "leakage_group",
+    "multi_record_groups": 0,
+    "records_with_value": 1000,
+    "verified": true
+  },
+  "length_band_distribution": {
+    "long": 336,
+    "medium": 331,
+    "short": 333
+  },
+  "missing_text_count": 0,
+  "non_empty_opinions_count": 0,
+  "non_not_started_status_count": 0,
+  "pipeline_version": "new_pipeline_v1",
+  "prefilled_primary_intent_count": 0,
+  "prefilled_public_warning_count": 0,
+  "recommendation": "READY_FOR_RESEARCHER_APPROVAL",
+  "region_distribution": {
+    "international": 500,
+    "south_africa": 500
+  },
+  "review_group_integrity": {
+    "coverage": "present",
+    "cross_batch_violations": 0,
+    "distinct_groups": 250,
+    "field": "review_id",
+    "multi_record_groups": 0,
+    "records_with_value": 250,
+    "verified": true
+  },
+  "review_id_integrity": {
+    "coverage": "present",
+    "cross_batch_violations": 0,
+    "distinct_groups": 250,
+    "field": "review_id",
+    "multi_record_groups": 0,
+    "records_with_value": 250,
+    "review_records": 250,
+    "review_records_with_id": 250,
+    "verified": true
+  },
+  "review_issues": [],
+  "reviewed_at": "2026-10-14T20:08:02Z",
+  "reviewer": "Rotondwa Mavhengani",
+  "sample_plan_checksum": "ff8f88e0fe2741a6b9c4da0cb6ef3ade94deb87bee8f4a7d706daf21d82b8c2d",
+  "sample_plan_path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/annotations/new_pipeline_v1_candidate_2/gold_sample_plan.jsonl",
+  "source_distribution": {
+    "international_review": 250,
+    "international_tweet": 250,
+    "south_africa_tweet": 500
+  },
+  "thread_group_integrity": {
+    "coverage": "unavailable",
+    "cross_batch_violations": 0,
+    "distinct_groups": 0,
+    "field": "thread_id",
+    "multi_record_groups": 0,
+    "records_with_value": 0,
+    "verified": false
+  },
+  "total_records": 1000,
+  "unique_record_ids": 1000,
+  "v2_rule_distribution": {
+    "A": 153,
+    "B": 100,
+    "C": 193,
+    "D": 32,
+    "E": 14,
+    "F": 8
+  },
+  "year_distribution": {
+    "2018": 82,
+    "2019": 164,
+    "2020": 300,
+    "2021": 106,
+    "2022": 98,
+    "None": 250
+  }
+}

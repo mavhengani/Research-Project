@@ -1,0 +1,2 @@
+2026-08-26 12:50:35,886 | INFO | banking_tasci.train_baselines | Preparing bert/aspect baseline from configs/baselines/bert_aspect.yaml
+2026-08-26 12:50:35,887 | ERROR | banking_tasci.train_baselines | Readiness gate failed: Supervised training is blocked: adjudicated gold annotations and leakage-safe split manifests are missing.

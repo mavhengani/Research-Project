@@ -1,0 +1,2 @@
+2026-09-25 13:27:18,363 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=0.728224 | val_macro_f1=0.333333
+2026-09-25 13:27:18,364 | INFO | banking_tasci.training.loop | New best validation macro-F1=0.333333 at epoch 1 (checkpointed)

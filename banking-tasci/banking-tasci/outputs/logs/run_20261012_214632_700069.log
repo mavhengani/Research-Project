@@ -1,0 +1,101 @@
+2026-10-12 21:46:32,700 | INFO | calculate_agreement | Computed agreement over 3 jointly-annotated records (intent_kappa=0.5714285714285714, category_kappa=None, sentiment_kappa=None); report -> /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_main_writes_report_and_di0/agreement.json, 2 disagreement records -> /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_main_writes_report_and_di0/disagreements.jsonl
+2026-10-12 21:46:32,716 | INFO | validate_annotations | Validated 1 records from /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_completed_only_skips_not_0/input.jsonl: 1 valid, 0 invalid; report written to /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_completed_only_skips_not_0/report.json
+2026-10-12 21:46:32,717 | INFO | validate_annotations | Validated 2 records from /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_require_complete_passes_w0/input.jsonl: 2 valid, 0 invalid; report written to /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_require_complete_passes_w0/report.json
+2026-10-12 21:46:32,718 | INFO | validate_annotations | Validated 2 records from /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_no_flags_validates_all_re0/input.jsonl: 2 valid, 0 invalid; report written to /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_no_flags_validates_all_re0/report.json
+2026-10-12 21:46:32,719 | INFO | calculate_agreement | Computed agreement over 0 jointly-annotated records (intent_kappa=None, category_kappa=None, sentiment_kappa=None); report -> /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_completed_only_restricts_0/agreement.json, 0 disagreement records -> /Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/outputs/annotation_disagreements.jsonl
+2026-10-12 21:46:32,721 | INFO | calculate_agreement | Computed agreement over 1 jointly-annotated records (intent_kappa=None, category_kappa=None, sentiment_kappa=None); report -> /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_disagreements_alias0/agreement.json, 0 disagreement records -> /private/var/folders/ms/vv7cyp7n6q58rqbmc0pp_lqc0000gn/T/pytest-of-rotondwa_janti/pytest-7/test_disagreements_alias0/disagreements.jsonl
+2026-10-12 21:46:33,849 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=0.662227 | val_macro_f1=1.000000
+2026-10-12 21:46:33,849 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 1 (checkpointed)
+2026-10-12 21:46:33,851 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=0.282241 | val_macro_f1=1.000000
+2026-10-12 21:46:33,852 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.038412 | val_macro_f1=1.000000
+2026-10-12 21:46:33,854 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=0.002973 | val_macro_f1=1.000000
+2026-10-12 21:46:33,856 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.000529 | val_macro_f1=1.000000
+2026-10-12 21:46:33,857 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.000116 | val_macro_f1=1.000000
+2026-10-12 21:46:33,859 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=0.000009 | val_macro_f1=1.000000
+2026-10-12 21:46:33,861 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=0.000003 | val_macro_f1=1.000000
+2026-10-12 21:46:33,862 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=0.000001 | val_macro_f1=1.000000
+2026-10-12 21:46:33,864 | INFO | banking_tasci.training.loop | epoch 10 | train_loss=0.000001 | val_macro_f1=1.000000
+2026-10-12 21:46:33,865 | INFO | banking_tasci.training.loop | epoch 11 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,867 | INFO | banking_tasci.training.loop | epoch 12 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,868 | INFO | banking_tasci.training.loop | epoch 13 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,870 | INFO | banking_tasci.training.loop | epoch 14 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,871 | INFO | banking_tasci.training.loop | epoch 15 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,873 | INFO | banking_tasci.training.loop | epoch 16 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,874 | INFO | banking_tasci.training.loop | epoch 17 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,876 | INFO | banking_tasci.training.loop | epoch 18 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,877 | INFO | banking_tasci.training.loop | epoch 19 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,879 | INFO | banking_tasci.training.loop | epoch 20 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,880 | INFO | banking_tasci.training.loop | epoch 21 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,882 | INFO | banking_tasci.training.loop | epoch 22 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,883 | INFO | banking_tasci.training.loop | epoch 23 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,885 | INFO | banking_tasci.training.loop | epoch 24 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,886 | INFO | banking_tasci.training.loop | epoch 25 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,887 | INFO | banking_tasci.training.loop | epoch 26 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,889 | INFO | banking_tasci.training.loop | epoch 27 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,890 | INFO | banking_tasci.training.loop | epoch 28 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,891 | INFO | banking_tasci.training.loop | epoch 29 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,893 | INFO | banking_tasci.training.loop | epoch 30 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,894 | INFO | banking_tasci.training.loop | epoch 31 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,896 | INFO | banking_tasci.training.loop | epoch 32 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,897 | INFO | banking_tasci.training.loop | epoch 33 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,899 | INFO | banking_tasci.training.loop | epoch 34 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,900 | INFO | banking_tasci.training.loop | epoch 35 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,901 | INFO | banking_tasci.training.loop | epoch 36 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,903 | INFO | banking_tasci.training.loop | epoch 37 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,904 | INFO | banking_tasci.training.loop | epoch 38 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,905 | INFO | banking_tasci.training.loop | epoch 39 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,907 | INFO | banking_tasci.training.loop | epoch 40 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,908 | INFO | banking_tasci.training.loop | epoch 41 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,910 | INFO | banking_tasci.training.loop | epoch 42 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,911 | INFO | banking_tasci.training.loop | epoch 43 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,912 | INFO | banking_tasci.training.loop | epoch 44 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,914 | INFO | banking_tasci.training.loop | epoch 45 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,915 | INFO | banking_tasci.training.loop | epoch 46 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,916 | INFO | banking_tasci.training.loop | epoch 47 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,918 | INFO | banking_tasci.training.loop | epoch 48 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,919 | INFO | banking_tasci.training.loop | epoch 49 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,921 | INFO | banking_tasci.training.loop | epoch 50 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,922 | INFO | banking_tasci.training.loop | epoch 51 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,923 | INFO | banking_tasci.training.loop | epoch 52 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,925 | INFO | banking_tasci.training.loop | epoch 53 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,926 | INFO | banking_tasci.training.loop | epoch 54 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,927 | INFO | banking_tasci.training.loop | epoch 55 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,929 | INFO | banking_tasci.training.loop | epoch 56 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,930 | INFO | banking_tasci.training.loop | epoch 57 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,931 | INFO | banking_tasci.training.loop | epoch 58 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,933 | INFO | banking_tasci.training.loop | epoch 59 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,934 | INFO | banking_tasci.training.loop | epoch 60 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,940 | INFO | banking_tasci.training.loop | epoch 1 | train_loss=0.662227 | val_macro_f1=1.000000
+2026-10-12 21:46:33,940 | INFO | banking_tasci.training.loop | New best validation macro-F1=1.000000 at epoch 1 (checkpointed)
+2026-10-12 21:46:33,942 | INFO | banking_tasci.training.loop | epoch 2 | train_loss=0.282241 | val_macro_f1=1.000000
+2026-10-12 21:46:33,943 | INFO | banking_tasci.training.loop | epoch 3 | train_loss=0.038412 | val_macro_f1=1.000000
+2026-10-12 21:46:33,945 | INFO | banking_tasci.training.loop | epoch 4 | train_loss=0.002973 | val_macro_f1=1.000000
+2026-10-12 21:46:33,946 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.000529 | val_macro_f1=1.000000
+2026-10-12 21:46:33,947 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.000116 | val_macro_f1=1.000000
+2026-10-12 21:46:33,949 | INFO | banking_tasci.training.loop | epoch 7 | train_loss=0.000009 | val_macro_f1=1.000000
+2026-10-12 21:46:33,950 | INFO | banking_tasci.training.loop | epoch 8 | train_loss=0.000003 | val_macro_f1=1.000000
+2026-10-12 21:46:33,951 | INFO | banking_tasci.training.loop | epoch 9 | train_loss=0.000001 | val_macro_f1=1.000000
+2026-10-12 21:46:33,953 | INFO | banking_tasci.training.loop | epoch 10 | train_loss=0.000001 | val_macro_f1=1.000000
+2026-10-12 21:46:33,954 | INFO | banking_tasci.training.loop | epoch 11 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,955 | INFO | banking_tasci.training.loop | epoch 12 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,957 | INFO | banking_tasci.training.loop | epoch 13 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,958 | INFO | banking_tasci.training.loop | epoch 14 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,959 | INFO | banking_tasci.training.loop | epoch 15 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,961 | INFO | banking_tasci.training.loop | epoch 16 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,962 | INFO | banking_tasci.training.loop | epoch 17 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,963 | INFO | banking_tasci.training.loop | epoch 18 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,965 | INFO | banking_tasci.training.loop | epoch 19 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,966 | INFO | banking_tasci.training.loop | epoch 20 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,967 | INFO | banking_tasci.training.loop | epoch 21 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,969 | INFO | banking_tasci.training.loop | epoch 22 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,970 | INFO | banking_tasci.training.loop | epoch 23 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,971 | INFO | banking_tasci.training.loop | epoch 24 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,972 | INFO | banking_tasci.training.loop | epoch 25 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,974 | INFO | banking_tasci.training.loop | epoch 26 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,975 | INFO | banking_tasci.training.loop | epoch 27 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,976 | INFO | banking_tasci.training.loop | epoch 28 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,978 | INFO | banking_tasci.training.loop | epoch 29 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,979 | INFO | banking_tasci.training.loop | epoch 30 | train_loss=0.000000 | val_macro_f1=1.000000
+2026-10-12 21:46:33,986 | INFO | banking_tasci.training.loop | Full resume: continuing from epoch 5 (best_val_macro_f1=0.500000, epochs_without_improvement=0)
+2026-10-12 21:46:33,988 | INFO | banking_tasci.training.loop | epoch 5 | train_loss=0.679291 | val_macro_f1=0.333333
+2026-10-12 21:46:33,989 | INFO | banking_tasci.training.loop | epoch 6 | train_loss=0.663701 | val_macro_f1=0.333333

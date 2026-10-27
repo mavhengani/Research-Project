@@ -1,0 +1,200 @@
+2026-08-21 21:40:13,397 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,400 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,407 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,410 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,417 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,420 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,427 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,430 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,437 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,440 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,447 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,449 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,455 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,458 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,465 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,467 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,474 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,478 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,487 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,494 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,500 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,502 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,509 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,512 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,519 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,522 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,529 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,532 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,538 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,540 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,547 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,549 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,556 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,558 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,568 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,571 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,580 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,582 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,589 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,592 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,598 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,601 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,608 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,611 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,618 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,621 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,627 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,630 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,637 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,640 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,648 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,650 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,657 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,661 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,669 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,671 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,680 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,682 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,689 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,692 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,706 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,713 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,736 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,751 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,763 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,766 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,776 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,778 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,785 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,788 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,797 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,799 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,807 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,809 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,816 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,819 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,826 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,829 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,836 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,838 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,846 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,848 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,855 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,858 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,865 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,868 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,875 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,878 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,885 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,888 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,895 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,897 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,904 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,908 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,915 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,917 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,924 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,927 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,933 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,935 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,950 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,954 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,962 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,965 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,973 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,976 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,982 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,984 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:13,992 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:13,995 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,002 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,004 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,011 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,014 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,021 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,024 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,031 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,033 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,039 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,042 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,048 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,050 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,057 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,059 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,066 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,068 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,082 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,085 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,092 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,095 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,101 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,103 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,112 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,116 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,123 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,125 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,132 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,135 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,142 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,145 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,151 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,154 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,160 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,163 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,169 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,171 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,179 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,181 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,187 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,190 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,196 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,199 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,206 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,209 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,216 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,218 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,225 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,227 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,234 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,236 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,243 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,245 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,251 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,253 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,261 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,263 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,269 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,271 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,278 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,281 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,287 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,289 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,296 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,298 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,304 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,306 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,314 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,316 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,325 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,329 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,336 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,339 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,346 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,349 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,356 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,360 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,366 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,368 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,376 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,380 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,388 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,391 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,401 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,404 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,415 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,417 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,425 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,427 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-21 21:40:14,435 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-21 21:40:14,437 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0

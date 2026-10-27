@@ -1,0 +1,12 @@
+{
+  "identity_projection_preserved": true,
+  "original_gold_id_checksum": "fdee989ff1a5935b5404488b215ebda60da86cf0da2f9d81bb1f684d055cea4f",
+  "reason": "Governance-complete revision: approval ID, approved batch membership, and verified source-manifest references.",
+  "revision_number": 2,
+  "supersedes": {
+    "freeze_id": "efd9f8e132bf50f4d97a777c",
+    "frozen_at": "2026-10-14T21:02:32Z",
+    "gold_id_checksum": "fdee989ff1a5935b5404488b215ebda60da86cf0da2f9d81bb1f684d055cea4f",
+    "path": "artifacts/frozen/new_pipeline_v1/candidate_2"
+  }
+}

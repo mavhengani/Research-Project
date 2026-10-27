@@ -1,0 +1,87 @@
+{
+  "schema_validity": "PASS",
+  "total_records": 600,
+  "total_aspects": 1253,
+  "annotator_independence": "VIOLATED - files identical",
+  "iaa_classification": "Technical pipeline verification only, not independent IAA",
+  "corrected_general_feedback": {
+    "count": 150,
+    "method": "bulk assignment - boilerplate note only",
+    "individually_reviewed": false
+  },
+  "zero_support_intent_classes": ["suggestion", "warning", "churn_signal"],
+  "zero_support_aspect_categories": ["fees", "fraud_security"],
+  "south_african_records": 0,
+  "regional_comparison_possible": false,
+  "context_available_count": 152,
+  "context_available_pct": 25.3,
+  "task_readiness": {
+    "bio_aspect_extraction": "READY_WITH_LIMITATIONS",
+    "intent_classification_4_class": "READY_WITH_LIMITATIONS",
+    "intent_classification_7_class": "NOT_READY",
+    "aspect_sentiment_classification": "READY_WITH_LIMITATIONS",
+    "context_aware_gru_intent": "READY_WITH_LIMITATIONS",
+    "sa_vs_international_comparison": "NOT_READY",
+    "svm_intent": "READY_WITH_LIMITATIONS",
+    "svm_sentiment": "READY_WITH_LIMITATIONS",
+    "bilstm_intent": "READY_WITH_LIMITATIONS",
+    "bilstm_sentiment": "READY_WITH_LIMITATIONS",
+    "bert_bio": "READY_WITH_LIMITATIONS",
+    "bert_intent": "READY_WITH_LIMITATIONS",
+    "bert_sentiment": "READY_WITH_LIMITATIONS"
+  },
+  "recommended_action": "PROCEED ONLY AFTER TARGETED HUMAN REVIEW",
+  "readiness_gate_technical": "PASS",
+  "readiness_gate_research": "FAIL - three intent classes absent, two categories absent, IAA not independent",
+  "audit_details": {
+    "intent_distribution_full": {
+      "complaint": 174,
+      "compliment": 36,
+      "request_for_assistance": 117,
+      "suggestion": 0,
+      "warning": 0,
+      "churn_signal": 0,
+      "general_feedback": 273
+    },
+    "category_distribution_full": {
+      "customer_support": 292,
+      "digital_banking": 75,
+      "transactions": 319,
+      "cards": 123,
+      "accounts": 217,
+      "fees": 0,
+      "fraud_security": 0,
+      "branch_service": 55,
+      "general_service": 172
+    },
+    "sentiment_distribution_full": {
+      "negative": 506,
+      "neutral": 581,
+      "positive": 166
+    },
+    "region_distribution": {
+      "international": 600
+    },
+    "source_distribution": {
+      "international_bank_tweets": 407,
+      "bank_reviews": 193
+    },
+    "splits": {
+      "train": 420,
+      "validation": 91,
+      "test": 89
+    },
+    "keyword_scan": {
+      "suggestion_keyword_matches": 1,
+      "warning_keyword_matches": 0,
+      "churn_keyword_matches": 4,
+      "fee_keyword_matches": 56,
+      "fraud_keyword_matches": 15
+    },
+    "all_neutral_multi_aspect_records": 138,
+    "uniform_sentiment_multi_aspect_records": 167,
+    "context_inconsistency_count": 0,
+    "no_context_inconsistency_count": 0,
+    "supervised_gate_check_11_behavior": "Only checks that val/test classes exist in train - does NOT check all 7 INTENT_LABELS are represented, does NOT check fees/fraud_security category coverage, does NOT check sentiment coverage, does NOT apply minimum per-class count thresholds"
+  }
+}

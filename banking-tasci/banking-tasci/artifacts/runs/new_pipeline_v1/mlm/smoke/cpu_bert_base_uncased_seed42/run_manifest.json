@@ -1,0 +1,21 @@
+{
+  "run_id": "cpu_bert_base_uncased_seed42",
+  "mode": "smoke",
+  "pipeline_version": "new_pipeline_v1",
+  "model_identifier": "bert-base-uncased",
+  "model_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "corpus_checksum": "5ea719ec528510ddd8566410a1b533ff294093c2ce87538f472dae789cf9e3ea",
+  "frozen_gold_manifest": "artifacts/frozen/new_pipeline_v1/candidate_2/revision_2/gold_sample_manifest.json",
+  "sample_count": 3000,
+  "partition_manifest": "artifacts/manifests/new_pipeline_v1/mlm/partition_manifest.json",
+  "seed": 42,
+  "device": "cpu",
+  "batch_size": 8,
+  "learning_rate": 5e-05,
+  "max_steps": 50,
+  "max_length": 128,
+  "masking_probability": 0.15,
+  "git_marker": "UNKNOWN_NO_COMMIT",
+  "started_at": "2026-10-20T12:36:10.306576Z",
+  "completion_status": "PASS"
+}

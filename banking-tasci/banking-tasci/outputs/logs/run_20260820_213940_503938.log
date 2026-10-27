@@ -1,0 +1,400 @@
+2026-08-20 21:39:40,504 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:40,507 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,510 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:40,513 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,520 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:40,522 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:40,525 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:40,528 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,554 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:40,558 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,560 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:40,563 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:40,575 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:40,577 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,578 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:40,581 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:40,588 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:40,591 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,592 | INFO | banking_tasci.data.schema | bank_reviews: 3 rows validated
+2026-08-20 21:39:40,595 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:40,608 | INFO | banking_tasci.data.schema | international_bank_tweets: 2 rows validated
+2026-08-20 21:39:40,610 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:40,612 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:40,624 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,636 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:40,638 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,640 | INFO | banking_tasci.data.schema | bank_reviews: 2 rows validated
+2026-08-20 21:39:40,642 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:40,649 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:40,651 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,653 | INFO | banking_tasci.data.schema | bank_reviews: 3 rows validated
+2026-08-20 21:39:40,656 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:40,667 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:40,669 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,671 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:40,676 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,687 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:40,690 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,691 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:40,694 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,705 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:40,708 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:40,710 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:40,713 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,725 | INFO | banking_tasci.data.schema | international_bank_tweets: 2 rows validated
+2026-08-20 21:39:40,727 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:40,729 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:40,731 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:40,749 | INFO | banking_tasci.data.schema | international_bank_tweets: 2 rows validated
+2026-08-20 21:39:40,753 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:40,755 | INFO | banking_tasci.data.schema | bank_reviews: 2 rows validated
+2026-08-20 21:39:40,759 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:40,775 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:40,779 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=0
+2026-08-20 21:39:40,781 | INFO | banking_tasci.data.schema | bank_reviews: 2 rows validated
+2026-08-20 21:39:40,785 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:40,801 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:40,804 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=0
+2026-08-20 21:39:40,806 | INFO | banking_tasci.data.schema | bank_reviews: 2 rows validated
+2026-08-20 21:39:40,811 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:40,827 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:40,829 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=0
+2026-08-20 21:39:40,832 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:40,835 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:40,853 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:40,857 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=0
+2026-08-20 21:39:40,859 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:40,863 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=5 exact_duplicate_removed=0
+2026-08-20 21:39:40,881 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:40,883 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=0
+2026-08-20 21:39:40,885 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:40,887 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:40,901 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:40,904 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:40,905 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:40,908 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:40,927 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:40,930 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:40,931 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:40,933 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:40,944 | INFO | banking_tasci.data.schema | international_bank_tweets: 3 rows validated
+2026-08-20 21:39:40,946 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:40,948 | INFO | banking_tasci.data.schema | bank_reviews: 2 rows validated
+2026-08-20 21:39:40,951 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:40,960 | INFO | banking_tasci.data.schema | international_bank_tweets: 3 rows validated
+2026-08-20 21:39:40,962 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:40,964 | INFO | banking_tasci.data.schema | bank_reviews: 2 rows validated
+2026-08-20 21:39:40,968 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:40,978 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:40,980 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:40,982 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:40,984 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:40,992 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:40,994 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:40,995 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:40,998 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:41,010 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:41,013 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:41,014 | INFO | banking_tasci.data.schema | bank_reviews: 5 rows validated
+2026-08-20 21:39:41,016 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,031 | INFO | banking_tasci.data.schema | international_bank_tweets: 5 rows validated
+2026-08-20 21:39:41,033 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,034 | INFO | banking_tasci.data.schema | bank_reviews: 5 rows validated
+2026-08-20 21:39:41,037 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,049 | INFO | banking_tasci.data.schema | international_bank_tweets: 5 rows validated
+2026-08-20 21:39:41,051 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,052 | INFO | banking_tasci.data.schema | bank_reviews: 5 rows validated
+2026-08-20 21:39:41,054 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,068 | INFO | banking_tasci.data.schema | international_bank_tweets: 5 rows validated
+2026-08-20 21:39:41,070 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,071 | INFO | banking_tasci.data.schema | bank_reviews: 5 rows validated
+2026-08-20 21:39:41,075 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:41,086 | INFO | banking_tasci.data.schema | international_bank_tweets: 5 rows validated
+2026-08-20 21:39:41,089 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:41,091 | INFO | banking_tasci.data.schema | bank_reviews: 5 rows validated
+2026-08-20 21:39:41,093 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:41,104 | INFO | banking_tasci.data.schema | international_bank_tweets: 5 rows validated
+2026-08-20 21:39:41,107 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:41,108 | INFO | banking_tasci.data.schema | bank_reviews: 5 rows validated
+2026-08-20 21:39:41,110 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:41,123 | INFO | banking_tasci.data.schema | international_bank_tweets: 5 rows validated
+2026-08-20 21:39:41,126 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:41,127 | INFO | banking_tasci.data.schema | bank_reviews: 5 rows validated
+2026-08-20 21:39:41,129 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:41,142 | INFO | banking_tasci.data.schema | international_bank_tweets: 6 rows validated
+2026-08-20 21:39:41,144 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,145 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:41,148 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:41,160 | INFO | banking_tasci.data.schema | international_bank_tweets: 6 rows validated
+2026-08-20 21:39:41,162 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=1
+2026-08-20 21:39:41,163 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:41,165 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:41,176 | INFO | banking_tasci.data.schema | international_bank_tweets: 6 rows validated
+2026-08-20 21:39:41,178 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=4 exact_duplicate_removed=0
+2026-08-20 21:39:41,180 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:41,184 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:41,211 | INFO | banking_tasci.data.schema | international_bank_tweets: 2 rows validated
+2026-08-20 21:39:41,218 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:41,220 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:41,224 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:41,237 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,241 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,242 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,244 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,263 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,268 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,270 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,274 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,289 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,292 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,293 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,296 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:41,307 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:41,313 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:41,315 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:41,318 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:41,338 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,345 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:41,347 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:41,350 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:41,361 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,363 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:41,365 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:41,369 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:41,384 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,386 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:41,387 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,389 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:41,404 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,406 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:41,408 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,412 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=1
+2026-08-20 21:39:41,429 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,432 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:41,433 | INFO | banking_tasci.data.schema | bank_reviews: 5 rows validated
+2026-08-20 21:39:41,435 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=4 exact_duplicate_removed=0
+2026-08-20 21:39:41,450 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,452 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:41,453 | INFO | banking_tasci.data.schema | bank_reviews: 5 rows validated
+2026-08-20 21:39:41,455 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=4 exact_duplicate_removed=0
+2026-08-20 21:39:41,474 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,481 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:41,482 | INFO | banking_tasci.data.schema | bank_reviews: 5 rows validated
+2026-08-20 21:39:41,487 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=4 exact_duplicate_removed=0
+2026-08-20 21:39:41,505 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:41,511 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:41,513 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:41,515 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:41,538 | INFO | banking_tasci.data.schema | international_bank_tweets: 2 rows validated
+2026-08-20 21:39:41,541 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:41,543 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,549 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,572 | INFO | banking_tasci.data.schema | international_bank_tweets: 6 rows validated
+2026-08-20 21:39:41,579 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,580 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,586 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,603 | INFO | banking_tasci.data.schema | international_bank_tweets: 6 rows validated
+2026-08-20 21:39:41,608 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:41,614 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,624 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,641 | INFO | banking_tasci.data.schema | international_bank_tweets: 6 rows validated
+2026-08-20 21:39:41,643 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,645 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,647 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=1
+2026-08-20 21:39:41,660 | INFO | banking_tasci.data.schema | international_bank_tweets: 6 rows validated
+2026-08-20 21:39:41,662 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,663 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,665 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=1
+2026-08-20 21:39:41,678 | INFO | banking_tasci.data.schema | international_bank_tweets: 6 rows validated
+2026-08-20 21:39:41,681 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,683 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,686 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,701 | INFO | banking_tasci.data.schema | international_bank_tweets: 6 rows validated
+2026-08-20 21:39:41,703 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,705 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,707 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=1
+2026-08-20 21:39:41,723 | INFO | banking_tasci.data.schema | international_bank_tweets: 7 rows validated
+2026-08-20 21:39:41,726 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=0
+2026-08-20 21:39:41,728 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,730 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,745 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,747 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,748 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,750 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,770 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,772 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,775 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,777 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:41,793 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,797 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,799 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,802 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:41,816 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,818 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,821 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,824 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:41,846 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,847 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:41,849 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,850 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:41,864 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,867 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:41,868 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:41,873 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=5 exact_duplicate_removed=2
+2026-08-20 21:39:41,886 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,889 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,890 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,892 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:41,904 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,907 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,909 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,910 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:41,922 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,925 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,927 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,929 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,941 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,943 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:41,945 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,947 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,958 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,960 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=1
+2026-08-20 21:39:41,962 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:41,964 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:41,974 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,976 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:41,977 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:41,979 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:41,988 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:41,991 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:41,992 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:41,994 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,003 | INFO | banking_tasci.data.schema | international_bank_tweets: 4 rows validated
+2026-08-20 21:39:42,005 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,007 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:42,009 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:42,019 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,022 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=4 exact_duplicate_removed=0
+2026-08-20 21:39:42,024 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:42,026 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,036 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,038 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=1
+2026-08-20 21:39:42,040 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:42,042 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,051 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:42,053 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,054 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:42,056 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,065 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:42,067 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,069 | INFO | banking_tasci.data.schema | bank_reviews: 2 rows validated
+2026-08-20 21:39:42,071 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,082 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:42,083 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:42,085 | INFO | banking_tasci.data.schema | bank_reviews: 3 rows validated
+2026-08-20 21:39:42,087 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,099 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:42,100 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=1 exact_duplicate_removed=0
+2026-08-20 21:39:42,102 | INFO | banking_tasci.data.schema | bank_reviews: 3 rows validated
+2026-08-20 21:39:42,104 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,114 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,115 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=0
+2026-08-20 21:39:42,116 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,118 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,130 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,132 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=5 exact_duplicate_removed=1
+2026-08-20 21:39:42,133 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,134 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,148 | INFO | banking_tasci.data.schema | international_bank_tweets: 4 rows validated
+2026-08-20 21:39:42,161 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,162 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,165 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,175 | INFO | banking_tasci.data.schema | international_bank_tweets: 4 rows validated
+2026-08-20 21:39:42,177 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,178 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,180 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:42,188 | INFO | banking_tasci.data.schema | international_bank_tweets: 4 rows validated
+2026-08-20 21:39:42,191 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:42,193 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,196 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:42,210 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,212 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=4 exact_duplicate_removed=0
+2026-08-20 21:39:42,213 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,215 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:42,226 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,228 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=4 exact_duplicate_removed=0
+2026-08-20 21:39:42,229 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,231 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:42,244 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,247 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=4 exact_duplicate_removed=1
+2026-08-20 21:39:42,248 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,252 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:42,265 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,268 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=2
+2026-08-20 21:39:42,269 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,273 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:42,285 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,287 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=3
+2026-08-20 21:39:42,288 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,292 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:42,302 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,304 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=3
+2026-08-20 21:39:42,305 | INFO | banking_tasci.data.schema | bank_reviews: 4 rows validated
+2026-08-20 21:39:42,308 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=1
+2026-08-20 21:39:42,317 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,319 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=3
+2026-08-20 21:39:42,320 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:42,321 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,330 | INFO | banking_tasci.data.schema | international_bank_tweets: 0 rows validated
+2026-08-20 21:39:42,331 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,333 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:42,334 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,352 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,354 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,355 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:42,357 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=2 exact_duplicate_removed=0
+2026-08-20 21:39:42,369 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:42,371 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,373 | INFO | banking_tasci.data.schema | bank_reviews: 6 rows validated
+2026-08-20 21:39:42,377 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=5 exact_duplicate_removed=0
+2026-08-20 21:39:42,387 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:42,390 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,392 | INFO | banking_tasci.data.schema | bank_reviews: 1 rows validated
+2026-08-20 21:39:42,393 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,404 | INFO | banking_tasci.data.schema | international_bank_tweets: 1 rows validated
+2026-08-20 21:39:42,407 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,410 | INFO | banking_tasci.data.schema | bank_reviews: 0 rows validated
+2026-08-20 21:39:42,412 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=0 exact_duplicate_removed=0
+2026-08-20 21:39:42,424 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,427 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:42,429 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:42,432 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:42,448 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,451 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:42,452 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:42,454 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:42,467 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,469 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:42,470 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:42,472 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=0
+2026-08-20 21:39:42,488 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,491 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:42,492 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:42,494 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=1
+2026-08-20 21:39:42,507 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,509 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=7 exact_duplicate_removed=0
+2026-08-20 21:39:42,510 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:42,512 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=1
+2026-08-20 21:39:42,526 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,529 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=1
+2026-08-20 21:39:42,530 | INFO | banking_tasci.data.schema | bank_reviews: 8 rows validated
+2026-08-20 21:39:42,533 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=6 exact_duplicate_removed=1
+2026-08-20 21:39:42,547 | INFO | banking_tasci.data.schema | international_bank_tweets: 8 rows validated
+2026-08-20 21:39:42,549 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=6 exact_duplicate_removed=1
+2026-08-20 21:39:42,550 | INFO | banking_tasci.data.schema | bank_reviews: 3 rows validated
+2026-08-20 21:39:42,552 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:42,562 | INFO | banking_tasci.data.schema | international_bank_tweets: 5 rows validated
+2026-08-20 21:39:42,565 | INFO | banking_tasci.data.ingest | international_bank_tweets: empty_removed=3 exact_duplicate_removed=0
+2026-08-20 21:39:42,566 | INFO | banking_tasci.data.schema | bank_reviews: 2 rows validated
+2026-08-20 21:39:42,568 | INFO | banking_tasci.data.ingest | bank_reviews: empty_removed=1 exact_duplicate_removed=0

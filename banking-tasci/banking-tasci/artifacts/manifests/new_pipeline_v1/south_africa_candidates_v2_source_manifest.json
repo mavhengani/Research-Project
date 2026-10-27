@@ -1,0 +1,91 @@
+{
+  "bank_distribution": {
+    "absa": 12878,
+    "capitec": 23808,
+    "fnb": 32872,
+    "nedbank": 13416,
+    "standard_bank": 17794
+  },
+  "bytes": 12268161,
+  "candidate_status": null,
+  "context_availability": {
+    "column": "context_available",
+    "context_available_false": 100768,
+    "context_available_true": 0
+  },
+  "count_status": "VERIFIED",
+  "derived_selection": null,
+  "duplicate_group_coverage": {
+    "column": "near_dup_group_id",
+    "coverage_fraction": 0.000238,
+    "distinct_groups": 11,
+    "records_with_group": 24,
+    "records_without_group": 100744
+  },
+  "duplicate_record_count": 0,
+  "environment": {
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python_version": "3.10.12"
+  },
+  "exists": true,
+  "expected_row_count": 100768,
+  "generated_at": "2026-10-12T18:55:22Z",
+  "generation_command": "python scripts/generate_source_manifest.py --source south_africa_candidates_v2",
+  "git_commit": "unknown (no commit or not a git repository)",
+  "notes": [
+    "No 'customer_feedback_candidate' column; candidate status unavailable."
+  ],
+  "null_counts": {
+    "bank": 0,
+    "context_available": 0,
+    "created_at": 0,
+    "near_dup_group_id": 100744,
+    "record_id": 0,
+    "region": 0,
+    "source": 0
+  },
+  "pipeline_version": "new_pipeline_v1",
+  "privacy_status": {
+    "note": "Structural check only. Anonymisation evidence is recorded by the ingestion pipeline (see outputs/*_data_report.json 'anonymisation_counts').",
+    "privacy_status_column_present": false,
+    "raw_text_column_present": true,
+    "username_column_present": false
+  },
+  "region": "south_africa",
+  "region_distribution": {
+    "south_africa": 100768
+  },
+  "review_group_coverage": null,
+  "row_count": 100768,
+  "row_count_difference": 0,
+  "schema": {
+    "bank": "string",
+    "context_available": "bool",
+    "created_at": "string",
+    "near_dup_flag": "bool",
+    "near_dup_group_id": "string",
+    "previous_text": "string",
+    "rating": "null",
+    "record_id": "string",
+    "region": "string",
+    "source": "string",
+    "text": "string",
+    "thread_id": "null",
+    "title": "string"
+  },
+  "sha256": "15fca4f1ccb950b6cbbfa3390549ccb5cca8b7dc7e078a017e170a4104a6231a",
+  "source": "south_african_bank_tweets",
+  "source_distribution": {
+    "south_african_bank_tweets": 100768
+  },
+  "source_file": "/home/fxvdev/Documents/reseach/Research Project/Research Project/banking-tasci/banking-tasci/data/processed/new_pipeline_v1/south_africa_candidates_v2.parquet",
+  "status": "VERIFIED",
+  "unique_record_count": 100768,
+  "year_distribution": {
+    "2018": 16372,
+    "2019": 18707,
+    "2020": 21565,
+    "2021": 21632,
+    "2022": 22492
+  }
+}

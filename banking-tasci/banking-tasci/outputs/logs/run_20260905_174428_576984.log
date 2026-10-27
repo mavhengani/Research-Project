@@ -1,0 +1,26 @@
+2026-09-05 17:44:28,577 | INFO | prepare_south_africa_data | === South African data preparation starting ===
+2026-09-05 17:44:28,577 | INFO | prepare_south_africa_data | Input dir: data/raw/archive
+2026-09-05 17:44:28,577 | INFO | prepare_south_africa_data | Output: data/interim/south_africa_prepared.parquet
+2026-09-05 17:44:28,577 | INFO | prepare_south_africa_data | Date range: 2018-01-01 to 2022-12-31
+2026-09-05 17:44:28,577 | INFO | prepare_south_africa_data | Sample size: 200, seed: 42
+2026-09-05 17:44:28,581 | INFO | prepare_south_africa_data | Config loaded from /home/fxvdev/Documents/reseach/banking-tasci/banking-tasci/configs/base.yaml
+2026-09-05 17:44:28,581 | INFO | prepare_south_africa_data | replace_amounts: False
+2026-09-05 17:44:28,582 | INFO | prepare_south_africa_data | Parquet files selected for date range: 12
+2026-09-05 17:44:28,582 | INFO | prepare_south_africa_data | Total selected parquet size: 359 MB
+2026-09-05 17:44:28,582 | INFO | prepare_south_africa_data | Processing incrementally (one file at a time) — peak memory ~1.1 GB
+2026-09-05 17:44:28,582 | INFO | prepare_south_africa_data | Processing: tweets_from_2017-01-01_to_2018-01-01.parquet
+2026-09-05 17:44:29,630 | INFO | prepare_south_africa_data | Processing: tweets_from_2018-01-01_to_2019-01-01.parquet
+2026-09-05 17:45:12,234 | INFO | prepare_south_africa_data | Processing: tweets_from_2019-01-01_to_2020-01-01.parquet
+2026-09-05 17:45:52,216 | INFO | prepare_south_africa_data | Processing: tweets_from_2020-01-01_to_2021-01-01.parquet
+2026-09-05 17:46:50,711 | INFO | prepare_south_africa_data | Processing: tweets_from_2021-01-01_to_2022-01-01.parquet
+2026-09-05 17:48:03,132 | INFO | prepare_south_africa_data | Processing: tweets_from_2022-01-01_to_2023-01-01.parquet
+2026-09-05 17:49:31,627 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2017-01-01_to_2018-01-01.parquet
+2026-09-05 17:49:31,781 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2018-01-01_to_2019-01-01.parquet
+2026-09-05 17:49:44,770 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2019-01-01_to_2020-01-01.parquet
+2026-09-05 17:50:00,494 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2020-01-01_to_2021-01-01.parquet
+2026-09-05 17:50:21,354 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2021-01-01_to_2022-01-01.parquet
+2026-09-05 17:50:48,359 | INFO | prepare_south_africa_data | Processing: updated_search_terms_tweets_from_2022-01-01_to_2023-01-01.parquet
+2026-09-05 17:51:17,388 | INFO | prepare_south_africa_data | Concatenating 10 file chunks...
+2026-09-05 17:51:18,992 | INFO | prepare_south_africa_data | Combined dataset: 2440441 rows
+2026-09-05 17:51:30,782 | INFO | prepare_south_africa_data | Cross-file exact text deduplication removed 189665 rows; 2250776 remaining
+2026-09-05 17:51:30,782 | INFO | prepare_south_africa_data | Running near-duplicate detection on customer-feedback candidates...
