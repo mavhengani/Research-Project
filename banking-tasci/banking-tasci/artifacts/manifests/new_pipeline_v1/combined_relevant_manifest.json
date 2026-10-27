@@ -1,0 +1,84 @@
+{
+  "construction": "by_reference",
+  "construction_note": "This manifest references the two immutable source manifests rather than concatenating their data. Concatenation would duplicate the underlying corpora and create a second artifact to keep in sync.",
+  "counts": {
+    "combined_relevant": 111615,
+    "counts_reconcile": true,
+    "expected_combined_relevant": 111615,
+    "international_prepared": 10847,
+    "south_africa_candidates": 100768
+  },
+  "downstream_note": "The strict unlabelled corpus (110,615) is derived from this combined corpus minus the 1,000 gold records. Those gold identifiers do not exist yet, so the strict corpus cannot be built - see scripts/build_strict_unlabelled_corpus.py PREPARATION mode.",
+  "generated_at": "2026-10-12T18:57:26Z",
+  "generation_command": "python scripts/build_combined_relevant_manifest.py --check-id-collisions",
+  "git_commit": "UNKNOWN_NO_COMMIT",
+  "identifier_collision_check": {
+    "checked": true,
+    "collision_free_after_namespacing": true,
+    "international_unique_ids": 10847,
+    "note": "Namespacing makes collisions structurally impossible regardless of raw overlap, because each identifier is prefixed with its source namespace. The raw overlap count is reported so the risk is measured rather than assumed.",
+    "raw_overlap_count": 0,
+    "raw_overlap_sample": [],
+    "south_africa_unique_ids": 100768
+  },
+  "identifier_policy": {
+    "examples": [
+      "south_africa::<record_id>",
+      "international_tweet::<record_id>",
+      "international_review::<record_id>"
+    ],
+    "namespaces": [
+      "south_africa",
+      "international_tweet",
+      "international_review"
+    ],
+    "note": "Original identifiers are never overwritten. The namespaced form is additive and deterministic, so the same record always yields the same combined identifier.",
+    "original_identifier_field": "source_record_id",
+    "original_identifier_preserved": true,
+    "separator": "::"
+  },
+  "manifest_type": "combined_relevant_corpus",
+  "pipeline_version": "new_pipeline_v1",
+  "provenance_warning": "The repository has no Git commit, so this manifest cannot be tied to a source revision (Requirements Section 25).",
+  "sources": {
+    "international": {
+      "duplicate_record_count": 0,
+      "identifier_namespaces": [
+        "international_tweet",
+        "international_review"
+      ],
+      "manifest_path": "/home/fxvdev/Documents/reseach/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/international_source_manifest.json",
+      "region": "international",
+      "row_count": 10847,
+      "source": "international_bank_tweets+bank_reviews",
+      "source_distribution": {
+        "bank_reviews": 999,
+        "international_bank_tweets": 9848
+      },
+      "source_file": "/home/fxvdev/Documents/reseach/Research Project/Research Project/banking-tasci/banking-tasci/data/interim/prepared.csv",
+      "source_sha256": "2a3435adcb5e5e8ffba44246dc529ecab4b9b24855f46849cf8d0fb3fe4252fd",
+      "status": "VERIFIED",
+      "unique_record_count": 10847
+    },
+    "south_africa": {
+      "duplicate_record_count": 0,
+      "identifier_namespace": "south_africa",
+      "manifest_path": "/home/fxvdev/Documents/reseach/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/south_africa_candidates_v2_source_manifest.json",
+      "region": "south_africa",
+      "row_count": 100768,
+      "source": "south_african_bank_tweets",
+      "source_file": "/home/fxvdev/Documents/reseach/Research Project/Research Project/banking-tasci/banking-tasci/data/processed/new_pipeline_v1/south_africa_candidates_v2.parquet",
+      "source_sha256": "15fca4f1ccb950b6cbbfa3390549ccb5cca8b7dc7e078a017e170a4104a6231a",
+      "status": "VERIFIED",
+      "unique_record_count": 100768
+    }
+  },
+  "status": "VERIFIED",
+  "validation": {
+    "both_sources_verified": true,
+    "counts_sum_correct": true,
+    "pipeline_versions_match": true,
+    "privacy_acceptable": true,
+    "regions_valid": true
+  }
+}

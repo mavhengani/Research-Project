@@ -1,0 +1,39 @@
+{
+  "columns_retained": [
+    "record_id",
+    "text"
+  ],
+  "corpus_built": true,
+  "corpus_checksum": "5ea719ec528510ddd8566410a1b533ff294093c2ce87538f472dae789cf9e3ea",
+  "corpus_path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/processed/new_pipeline_v1/strict_unlabelled.jsonl",
+  "excluded_fields_verified_absent": true,
+  "expected_count": 110615,
+  "frozen_gold_checksum": "9f1ea416430979040a613daae132859b7021157fb3a4ca5f26cb943e1cfd005e",
+  "frozen_gold_manifest": "artifacts/frozen/new_pipeline_v1/candidate_2/revision_2/gold_sample_manifest.json",
+  "generated_at": "2026-10-14T21:10:18Z",
+  "git_commit": "UNKNOWN_NO_COMMIT",
+  "gold_overlap_with_strict": 0,
+  "gold_records_excluded": 1000,
+  "gold_total": 1000,
+  "include_context": false,
+  "logical_checksum": "061c57b81c9cc610a092a9da8a6c5635f710081b963ed2b6652109a7fe86fae7",
+  "mode": "FINAL",
+  "pipeline_version": "new_pipeline_v1",
+  "record_count": 110615,
+  "source_references": {
+    "combined": {
+      "manifest_path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/combined_relevant_manifest.json",
+      "record_count": 111615
+    },
+    "international": {
+      "data_path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/interim/prepared.csv",
+      "manifest_path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/international_source_manifest.json",
+      "record_count": 10847
+    },
+    "south_africa": {
+      "data_path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/data/processed/new_pipeline_v1/south_africa_candidates_v2.parquet",
+      "manifest_path": "/Users/rotondwa_janti/Documents/Research Project/Research Project/banking-tasci/banking-tasci/artifacts/manifests/new_pipeline_v1/south_africa_candidates_v2_source_manifest.json",
+      "record_count": 100768
+    }
+  }
+}

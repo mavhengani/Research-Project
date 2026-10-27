@@ -1,0 +1,431 @@
+\documentclass[11pt,a4paper]{article}
+
+% ============================================================
+% EMBEDDED BIBLIOGRAPHY: SINGLE-FILE PROPOSAL
+% ============================================================
+\begin{filecontents*}{embedded_references.bib}
+@inproceedings{hu2004,
+  author={Hu, Minqing and Liu, Bing},
+  title={Mining and Summarizing Customer Reviews},
+  booktitle={Proceedings of the Tenth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages={168--177}, publisher={ACM}, year={2004}, doi={10.1145/1014052.1014073}}
+@inproceedings{pontiki2014,
+  author={Pontiki, Maria and Galanis, Dimitris and Pavlopoulos, John and Papageorgiou, Harris and Androutsopoulos, Ion and Manandhar, Suresh},
+  title={{SemEval}-2014 Task 4: Aspect Based Sentiment Analysis},
+  booktitle={Proceedings of the 8th International Workshop on Semantic Evaluation}, pages={27--35},
+  publisher={Association for Computational Linguistics}, year={2014}, doi={10.3115/v1/S14-2004}}
+@article{chaudhry2025,
+  author={Chaudhry, Hassan Nazeer and Kulsoom, Farzana and Ullah Khan, Zahid and Aman, Muhammad and Khan, Sajid Ullah and Albanyan, Abdullah},
+  title={{TASCI}: Transformers for Aspect-Based Sentiment Analysis with Contextual Intent Integration},
+  journal={PeerJ Computer Science}, volume={11}, pages={e2760}, year={2025}, doi={10.7717/peerj-cs.2760}}
+@article{hua2024,
+  author={Hua, Yan Cathy and Denny, Paul and Wicker, J{\"o}rg and Taskova, Katerina},
+  title={A Systematic Review of Aspect-Based Sentiment Analysis: Domains, Methods, and Trends},
+  journal={Artificial Intelligence Review}, volume={57}, number={11}, pages={296}, year={2024}, doi={10.1007/s10462-024-10906-z}}
+@article{chebolu2023,
+  author={Chebolu, Siva and Raman, Ram and Srinivasan, K.},
+  title={{OATS}: Opinion Aspect Target Sentiment Quadruple Extraction Dataset for Aspect-Based Sentiment Analysis},
+  journal={arXiv preprint arXiv:2308.14266}, year={2023}, doi={10.48550/arXiv.2308.14266}}
+@inproceedings{vaswani2017,
+  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
+  title={Attention Is All You Need}, booktitle={Advances in Neural Information Processing Systems}, volume={30}, year={2017}}
+@inproceedings{pennington2014,
+  author={Pennington, Jeffrey and Socher, Richard and Manning, Christopher D.},
+  title={{GloVe}: Global Vectors for Word Representation},
+  booktitle={Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing},
+  pages={1532--1543}, publisher={Association for Computational Linguistics}, year={2014}, doi={10.3115/v1/D14-1162}}
+@inproceedings{bahdanau2015,
+  author={Bahdanau, Dzmitry and Cho, Kyunghyun and Bengio, Yoshua},
+  title={Neural Machine Translation by Jointly Learning to Align and Translate},
+  booktitle={Proceedings of the 3rd International Conference on Learning Representations}, year={2015}}
+@inproceedings{cho2014,
+  author={Cho, Kyunghyun and van Merri{\"e}nboer, Bart and G{\"u}l\c{c}ehre, \c{C}a\u{g}lar and Bahdanau, Dzmitry and Bougares, Fethi and Schwenk, Holger and Bengio, Yoshua},
+  title={Learning Phrase Representations Using {RNN} Encoder--Decoder for Statistical Machine Translation},
+  booktitle={Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing},
+  pages={1724--1734}, publisher={Association for Computational Linguistics}, year={2014}, doi={10.3115/v1/D14-1179}}
+@inproceedings{devlin2019,
+  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  title={{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding},
+  booktitle={Proceedings of NAACL-HLT 2019}, pages={4171--4186}, publisher={Association for Computational Linguistics},
+  year={2019}, doi={10.18653/v1/N19-1423}}
+@inproceedings{visser2022,
+  author={Visser, Ruan and Dunaiski, Marcel},
+  title={Sentiment and Intent Classification of In-Text Citations Using {BERT}},
+  booktitle={Proceedings of the 43rd Conference of the South African Institute of Computer Scientists and Information Technologists},
+  series={EPiC Series in Computing}, volume={85}, pages={129--145}, year={2022}}
+@inproceedings{beltagy2019,
+  author={Beltagy, Iz and Lo, Kyle and Cohan, Arman},
+  title={{SciBERT}: A Pretrained Language Model for Scientific Text},
+  booktitle={Proceedings of EMNLP-IJCNLP 2019}, pages={3615--3620}, year={2019}}
+@inproceedings{cohan2019,
+  author={Cohan, Arman and Ammar, Waleed and van Zuylen, Madeleine and Cady, Field},
+  title={Structural Scaffolds for Citation Intent Classification in Scientific Publications},
+  booktitle={Proceedings of NAACL-HLT 2019}, pages={3586--3596}, year={2019}}
+@article{cortes1995,
+  author={Cortes, Corinna and Vapnik, Vladimir}, title={Support-Vector Networks},
+  journal={Machine Learning}, volume={20}, number={3}, pages={273--297}, year={1995}, doi={10.1007/BF00994018}}
+@article{hochreiter1997,
+  author={Hochreiter, Sepp and Schmidhuber, J{\"u}rgen}, title={Long Short-Term Memory},
+  journal={Neural Computation}, volume={9}, number={8}, pages={1735--1780}, year={1997}, doi={10.1162/neco.1997.9.8.1735}}
+@article{schuster1997,
+  author={Schuster, Mike and Paliwal, Kuldip K.}, title={Bidirectional Recurrent Neural Networks},
+  journal={IEEE Transactions on Signal Processing}, volume={45}, number={11}, pages={2673--2681}, year={1997}, doi={10.1109/78.650093}}
+@article{kazmaier2020,
+  author={Kazmaier, J. and van Vuuren, J. H.}, title={Sentiment Analysis of Unstructured Customer Feedback for a Retail Bank},
+  journal={ORiON}, volume={36}, number={1}, pages={35--71}, year={2020}, doi={10.5784/36-1-668}}
+@mastersthesis{semenya2024,
+  author={Semenya, Refilwe Herold}, title={Sentiment and Thematic Analysis of Customer Experience and Satisfaction with South African Retail Banks},
+  school={University of Johannesburg}, address={Johannesburg, South Africa}, year={2024}}
+@misc{batoogdataset,
+  author={{Batoog}}, title={Bank Customer Tweets (10000)}, howpublished={Kaggle dataset}, year={2021},
+  url={https://www.kaggle.com/datasets/batoog/bank-customer-tweets-10000}, note={Accessed September 2026}}
+@misc{blomerusdataset,
+  author={Blomerus, Nicholas}, title={Tweets of Popular South African Banks}, howpublished={Kaggle dataset}, year={2023},
+  url={https://www.kaggle.com/datasets/nicholasblomerus/twitter-analysis-of-popular-south-african-banks}, note={Accessed September 2026}}
+@article{pedregosa2011,
+  author={Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and others},
+  title={Scikit-learn: Machine Learning in Python}, journal={Journal of Machine Learning Research}, volume={12}, pages={2825--2830}, year={2011}}
+@inproceedings{paszke2019,
+  author={Paszke, Adam and Gross, Sam and Massa, Francisco and others},
+  title={{PyTorch}: An Imperative Style, High-Performance Deep Learning Library}, booktitle={Advances in Neural Information Processing Systems}, volume={32}, year={2019}}
+@article{sokolova2009,
+  author={Sokolova, Marina and Lapalme, Guy}, title={A Systematic Analysis of Performance Measures for Classification Tasks},
+  journal={Information Processing \& Management}, volume={45}, number={4}, pages={427--437}, year={2009}, doi={10.1016/j.ipm.2009.03.002}}
+\end{filecontents*}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry,setspace,titlesec,graphicx,array,booktabs,longtable}
+\usepackage{tabularx,ragged2e,enumitem,amsmath,amssymb,float}
+\usepackage[authoryear,round]{natbib}
+\usepackage{hyperref}
+\geometry{margin=1in}
+\setstretch{1.5}
+\setcitestyle{aysep={,},yysep={;},notesep={; }}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=black}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}{\normalsize\itshape}{\thesubsubsection}{0.5em}{}
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+\newcommand{\AIyes}{\textbf{X}}
+\newcommand{\AIno}{\phantom{X}}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\vspace*{0.4cm}
+\IfFileExists{Wits_log.png}{\includegraphics[width=0.35\textwidth]{Wits_log.png}\\[0.8cm]}{}
+{\Large\textbf{UNIVERSITY OF THE WITWATERSRAND, JOHANNESBURG}}\\[0.8cm]
+{\large Faculty of Science}\\[0.2cm]
+{\large School of Computer Science and Applied Mathematics}\\[1.2cm]
+{\Huge\textbf{Research Proposal}}\\[1cm]
+{\Large\textbf{Semi-Supervised Intent-Aware Aspect-Based Sentiment Analysis of International and South African Banking Feedback}}\\[1.5cm]
+\textbf{Student Name:} Rotondwa Mavhengani\\[0.2cm]
+\textbf{Student Number:} 2114834\\[0.2cm]
+\textbf{Degree:} Honours in Computer Science\\[0.2cm]
+\textbf{Supervisor:} Dr Seun Olukanmi\\
+\vfill
+\textbf{Date of Submission:} \today
+\end{center}
+\end{titlepage}
+
+\clearpage
+\section*{Abstract}
+Banks receive large volumes of user-generated feedback but only a small portion can feasibly be labelled by a human annotator. A single message may discuss multiple banking services, express different sentiments towards them, and communicate an intention such as requesting assistance, warning other customers, making a suggestion, or leaving a bank. Document-level sentiment analysis cannot represent this structure. Aspect-Based Sentiment Analysis (ABSA) identifies explicit targets and predicts sentiment separately for each target.
+
+This study proposes a hybrid self-supervised and supervised banking pipeline. Large unlabelled international and South African corpora will first be used for banking-domain language adaptation through masked-language modelling. A smaller, stratified, human-audited corpus will then be used for supervised aspect extraction, intent classification, and aspect-level sentiment classification. The downstream architecture adapts TASCI by combining a multi-head self-attention BIO aspect extractor, a GRU contextual intent classifier, and an intent-aware GloVe--Transformer sentiment classifier.
+
+The design is aligned with a transfer-learning approach in which task-specific language models are trained on larger source datasets and then evaluated for target-domain generalisation using a smaller manually annotated dataset. In the present study, 10,847 prepared international records and 100,768 South African banking-feedback candidates form the available learning pools. The primary human-audited gold sample will contain 300 international and 196 South African records. The remaining 10,547 international and 100,572 South African records will remain unlabelled and may be used for self-supervised domain adaptation. The labelled records will be divided into 348 training, 75 validation, and 73 held-out test records while retaining explicit source and regional provenance.
+
+The research will answer two distinct questions: whether genuine preceding context improves intent classification, and whether predicted intent improves aspect-level sentiment classification. SVM, BiLSTM, and BERT will provide classical, sequential, and pretrained Transformer baselines. Cross-domain experiments will test international-to-South-African transfer, while mixed-domain experiments will evaluate a combined model. The main hypothesis is that intent integration will improve held-out aspect-sentiment macro-F1 relative to an otherwise identical no-intent classifier.
+
+\clearpage
+\section*{Declaration}
+I, Rotondwa Mavhengani, declare that this research proposal titled \textit{``Semi-Supervised Intent-Aware Aspect-Based Sentiment Analysis of International and South African Banking Feedback''} is my own work. It has not been submitted, in whole or in part, for any other degree or examination. All sources and forms of assistance have been acknowledged.
+
+\vspace{1.5cm}
+\noindent\textbf{Student name:} Rotondwa Mavhengani\\[0.5cm]
+\textbf{Student number:} 2114834\\[0.5cm]
+\textbf{Signature:} \rule{6cm}{0.4pt}\\[0.5cm]
+\textbf{Date:} \today
+
+\clearpage
+\section*{Wits University Faculty of Science Student AI Declaration}
+\addcontentsline{toc}{section}{AI Declaration}
+\small
+I understand that using generative AI tools without declaring such use may constitute academic misconduct. I declare that generative AI tools were used as indicated below. All outputs were reviewed by the researcher and were not treated as human annotation or research evidence without verification.
+
+\vspace{0.35cm}
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{0.8cm}|Y|>{\centering\arraybackslash}p{1.3cm}|}
+\hline
+\textbf{No.} & \textbf{Use of generative AI} & \textbf{Mark X}\\ \hline
+1 & Idea generation and research structuring & \AIyes\\ \hline
+2 & Sourcing and organising related work & \AIyes\\ \hline
+3 & Methods and experimental design & \AIyes\\ \hline
+4 & Data analysis, coding, and interpretation support & \AIyes\\ \hline
+5 & Theoretical development & \AIno\\ \hline
+6 & Code development and review & \AIyes\\ \hline
+7 & Presentation and LaTeX formatting & \AIyes\\ \hline
+8 & Editing for grammar and readability & \AIyes\\ \hline
+9 & Writing and document structuring & \AIyes\\ \hline
+10 & Citation and bibliography formatting & \AIyes\\ \hline
+\end{tabularx}
+
+\vspace{0.4cm}
+\begin{tabularx}{\textwidth}{|p{3.4cm}|Y|}
+\hline
+\textbf{Tool} & \textbf{Used for}\\ \hline
+Microsoft Copilot & Proposal structuring, language editing, methodology review, and LaTeX formatting.\\ \hline
+GitHub Copilot & Code development, repository review, and cluster execution support.\\ \hline
+Kiro & Pipeline implementation, annotation workflow, and technical documentation.\\ \hline
+\end{tabularx}
+
+\vfill
+\noindent\textbf{Student number:} 2114834\\[0.45cm]
+\textbf{Candidate signature:} \rule{6cm}{0.4pt}\hfill \textbf{Date:} \today
+\normalsize
+
+\clearpage
+\section*{Acknowledgements}
+I thank Dr Seun Olukanmi for guidance and constructive feedback, the School of Computer Science and Applied Mathematics for research resources, the independent annotator and adjudication process for supporting data quality, and my family, friends, and colleagues for their encouragement.
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{Table of Contents}
+\tableofcontents
+\clearpage
+
+\section{Chapter One: Introduction and Background}
+\subsection{Background}
+Banking customers increasingly use online reviews and social media to discuss transactions, accounts, cards, charges, digital platforms, fraud handling, branches, and support. Automated analysis is needed because the volume of feedback exceeds realistic manual review. South African banking research shows that domain-specific sentiment models can extract actionable information from unstructured feedback \citep{kazmaier2020,semenya2024}.
+
+Traditional sentiment analysis assigns one polarity to a whole record. This is inadequate when a customer praises a consultant but criticises a delayed transfer. ABSA identifies explicit targets and sentiment separately \citep{hu2004,pontiki2014}. However, ABSA remains domain-sensitive, and systematic evidence shows persistent domain mismatch and restricted dataset diversity \citep{hua2024}.
+
+Sentiment also does not reveal what the customer is trying to achieve. The same negative polarity may express a complaint, assistance request, public warning, suggestion, or churn signal. TASCI integrates aspect extraction, contextual intent, and aspect-level sentiment \citep{chaudhry2025}. This study evaluates whether its intent-aware design transfers to banking and whether self-supervised domain adaptation can reduce dependence on extensive manual labelling.
+
+\subsection{Problem Statement}
+Manual labelling of the full international and South African corpora is infeasible for one researcher. The South African candidate pool alone contains 100,768 relevant records after evidence-based filtering. Yet reliable aspect, sentiment, and intent evaluation requires human-labelled reference data. The project therefore needs a design that learns banking language from abundant unlabelled text while reserving scarce human annotation for downstream fine-tuning, validation, and held-out testing.
+
+A second problem is that document sentiment does not identify the banking service responsible for an opinion. A third is that intent-aware ABSA has not been rigorously evaluated on international and South African banking feedback. A fourth is context availability: reviews may contain valid preceding sentences, while most South African tweets are isolated. Longer context can add useful evidence or irrelevant noise. \citet{visser2022} found that shorter dynamically selected context improved citation classification, motivating explicit current-only and context-aware banking experiments.
+
+\subsection{Research Goal}
+The goal is to determine whether self-supervised banking-domain adaptation and contextual intent improve fine-grained ABSA of banking feedback. Large unlabelled corpora will support domain representation learning, while a smaller human-audited corpus will support supervised downstream evaluation. The central claim is not assumed: predicted intent must improve held-out aspect-sentiment macro-F1 relative to a matched no-intent model.
+
+\subsection{Research Aim}
+The aim is to develop and evaluate a semi-supervised, intent-aware ABSA pipeline for international and South African banking feedback, and to determine whether predicted customer intent improves sentiment classification for explicit banking aspects.
+
+\subsection{Research Objectives}
+\begin{enumerate}[label=\arabic*.]
+\item Construct clean international and South African banking corpora with explicit source and region provenance.
+\item Adapt a pretrained language model to unlabelled banking text using self-supervised masked-language modelling.
+\item Create a smaller stratified human-audited gold corpus for aspect, sentiment, and intent tasks.
+\item Develop the three-stage banking TASCI pipeline: self-attention aspect extraction, GRU intent classification, and intent-aware GloVe--Transformer sentiment classification.
+\item Compare SVM, BiLSTM, BERT, and the adapted TASCI pipeline using common human-labelled partitions.
+\item Evaluate cross-domain transfer from international to South African banking feedback and mixed-domain performance.
+\item Measure the contribution of context and intent through current-only, context-aware, no-intent, gold-intent, and gold-aspect ablations.
+\end{enumerate}
+
+\subsection{Research Questions}
+\begin{enumerate}[label=\arabic*.]
+\item Does self-supervised adaptation on unlabelled banking feedback improve downstream aspect, intent, and sentiment performance?
+\item How effectively can the proposed pipeline extract explicit banking aspects, classify intent, and predict sentiment per aspect?
+\item Does genuine preceding context improve intent classification compared with current-text-only input?
+\item Does predicted intent improve aspect-level sentiment macro-F1 compared with a matched no-intent classifier?
+\item How do SVM, BiLSTM, BERT, and TASCI compare on common held-out data?
+\item How well do internationally trained models generalise to independently labelled South African feedback?
+\item Does mixed international and South African training improve South African performance?
+\end{enumerate}
+
+\subsection{Hypotheses}
+\textbf{$H_{1a}$:} self-supervised banking-domain adaptation will improve downstream macro-F1 compared with using the same pretrained model without banking adaptation.
+
+\textbf{$H_{1b}$:} predicted customer intent will improve aspect-sentiment macro-F1 relative to an otherwise identical no-intent model.
+
+\textbf{$H_{1c}$:} genuine preceding context will improve intent classification on the context-available subset, although improvement is not assumed for the full dataset.
+
+\subsection{Scope}
+The study uses English-dominant public banking tweets and reviews. Source and region are retained for audit and subgroup evaluation and are excluded from predictive features. Images, audio, private cases, internal bank data, and direct identifiers are outside scope. Unlabelled predictions will not be described as gold labels or used to claim supervised accuracy.
+
+\clearpage
+\section{Chapter Two: Literature Review}
+\subsection{ABSA and Target-Specific Sentiment}
+Feature-level opinion mining showed that useful summaries require target-level information \citep{hu2004}. SemEval formalised aspect-term and polarity tasks \citep{pontiki2014}. More structured formulations connect opinion, aspect, target, and sentiment elements \citep{chebolu2023}. These approaches are relevant because a banking message may contain conflicting sentiments about several products and services.
+
+\subsection{Contextual and Pretrained Models}
+SVM remains a strong sparse-text baseline \citep{cortes1995}. LSTM and BiLSTM model sequential dependencies \citep{hochreiter1997,schuster1997}. Attention identifies relevant input positions \citep{bahdanau2015}, while Transformers model global relations through multi-head self-attention \citep{vaswani2017}. BERT learns bidirectional representations through self-supervised pretraining and can be fine-tuned for token and sequence tasks \citep{devlin2019}.
+
+\subsection{Self-Supervised and Transfer Learning}
+Self-supervised masked-language modelling creates targets from raw text by hiding tokens and predicting them from context. This allows a model to learn domain vocabulary without human task labels \citep{devlin2019}. Domain-specific pretraining can improve performance when target language differs from the general pretraining corpus, as illustrated by SciBERT for scientific text \citep{beltagy2019}. The banking study uses the same principle: general BERT is adapted to banking text before task-specific fine-tuning.
+
+\subsection{Intent, Sentiment, and Context}
+\citet{visser2022} fine-tuned BERT variants on larger labelled source datasets for citation intent and sentiment, then assessed target-domain generalisation on a small independently annotated ACM set. The paper also found that shorter, dynamically selected context improved classification and used macro-F1 for model selection because of class imbalance. This study adopts the same separation between source learning, human-labelled evaluation, and target-domain generalisation, while applying it to banking.
+
+TASCI further motivates the integration of intent and aspect sentiment \citep{chaudhry2025}. Its no-intent ablation suggests that intent can help, but the result must be retested in banking. The present proposal therefore separates the context hypothesis from the intent-integration hypothesis.
+
+\subsection{Banking Domain}
+South African retail-bank research demonstrates that custom models can outperform generic tools and provide actionable insight \citep{kazmaier2020}. Public review analysis also confirms the value of sentiment and themes for local customer experience \citep{semenya2024}. Neither study implements the full self-supervised, intent-aware aspect pipeline proposed here.
+
+\subsection{Research Gap}
+There is limited evidence on self-supervised banking-domain adaptation combined with exact aspect extraction, contextual intent, and intent-aware sentiment. There is also limited evidence on international-to-South-African transfer. The research addresses this gap through explicit regional provenance, a small independently evaluated gold set, cross-domain and mixed-domain experiments, and matched ablations.
+
+\clearpage
+\section{Chapter Three: Research Methodology}
+\subsection{Research Design}
+The study uses a hybrid self-supervised and supervised design. The large unlabelled pools support banking-language adaptation. Human-labelled records support downstream fine-tuning, validation, and testing. Validation and test records require human labels; unlabelled data cannot provide trustworthy aspect, intent, or sentiment accuracy by itself.
+
+\subsection{Data Sources and Regional Provenance}
+Every record contains \texttt{source} and \texttt{region}. International records originate from the prepared banking tweet and review sources, including \textit{Bank Customer Tweets (10000)} \citep{batoogdataset}. South African records originate from \textit{Tweets of Popular South African Banks}, covering FNB, Absa, Nedbank, Standard Bank, and Capitec \citep{blomerusdataset}. Region is assigned from dataset provenance, not inferred from bank names.
+
+\begin{table}[H]
+\centering
+\caption{Data sources and proposed learning roles}
+\small
+\begin{tabular}{p{3.4cm}p{3.8cm}p{2.4cm}p{4.2cm}}
+\toprule
+\textbf{Component} & \textbf{Source} & \textbf{Region} & \textbf{Role}\\
+\midrule
+International tweets & Bank Customer Tweets and prepared tweet sources & international & Unlabelled adaptation and stratified gold sampling.\\
+International reviews & Prepared public bank-review source & international & Longer-context learning and gold sampling.\\
+South African tweets & Tweets of Popular South African Banks & south\_africa & Unlabelled adaptation, independent gold evaluation, and mixed training.\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Cleaning and Candidate Selection}
+Cleaning removes exact duplicates, overlapping collection records, official-bank marketing, unrelated discussions, and short low-information records. It normalises Unicode and whitespace and replaces handles, URLs, emails, phone numbers, and account/reference-like identifiers with privacy placeholders. Negation, intensifiers, banking terms, punctuation, and meaningful emojis are preserved. Duplicate and near-duplicate groups are kept within one experimental partition to reduce leakage.
+
+The international prepared pool contains 10,847 records. The South African process read 3,745,847 rows from 2018--2022 and produced 2,250,776 canonical records after deduplication, official-account filtering, cleaning, and privacy processing. An evidence-based feedback filter identified 100,768 candidates. This candidate pool, rather than the entire 2.25-million-record corpus, is used for self-supervised banking-feedback adaptation.
+
+\subsection{Labelled and Unlabelled Allocation}
+The primary human-audited gold sample is intentionally smaller than the available corpora. A fixed ten-percent annotation rule is not used because ten percent of 100,768 South African candidates would require more than 10,000 detailed annotations, which is infeasible for an Honours project.
+
+The proposed international gold sample contains 300 stratified records. The existing legacy set of 600 annotations is preserved for audit and exploratory analysis, but the primary reliability-sensitive evaluation will use a smaller human-audited stratified subset. The South African gold set contains 196 independently annotated and adjudicated records. The remaining records stay unlabelled.
+
+\begin{table}[H]
+\centering
+\caption{Proposed labelled and unlabelled allocation}
+\small
+\begin{tabular}{p{4.3cm}r r r}
+\toprule
+\textbf{Component} & \textbf{Available records} & \textbf{Human-audited gold} & \textbf{Unlabelled pool}\\
+\midrule
+International feedback & 10,847 & 300 & 10,547\\
+South African candidates & 100,768 & 196 & 100,572\\
+\midrule
+Combined & 111,615 & 496 & 111,119\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Human Annotation}
+The researcher annotates exact aspect spans, categories, aspect sentiment, and one dominant intent using a documented scheme. To reduce single-annotator bias, the South African gold set was independently labelled by a second human annotator using label-hidden inputs, and 48 disagreement records were manually adjudicated. Pre-adjudication kappa was 0.8736 for intent, 0.9904 for category, and 0.8750 for sentiment; token-level aspect F1 was 0.8966.
+
+For the international component, a 300-record stratified subset will be re-audited to establish a defensible primary gold sample. The subset will preserve source, length, context availability, aspect categories, sentiments, and intents. Existing legacy labels outside the audited subset will not enter the held-out primary test set.
+
+\subsection{Gold Partitions}
+Each region is partitioned separately before combination so that every split contains explicit international and South African support. The proposed allocations are:
+
+\begin{table}[H]
+\centering
+\caption{Proposed human-labelled partitions}
+\small
+\begin{tabular}{p{4cm}r r r r}
+\toprule
+\textbf{Component} & \textbf{Training} & \textbf{Validation} & \textbf{Test} & \textbf{Total}\\
+\midrule
+International & 210 & 45 & 45 & 300\\
+South African & 138 & 30 & 28 & 196\\
+\midrule
+Combined & 348 & 75 & 73 & 496\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Training estimates parameters. Validation controls early stopping, hyperparameter comparison, and checkpoint selection. The held-out test set remains unseen until the final configuration is fixed. Unlabelled deployment data is not used to calculate supervised performance.
+
+\subsection{Stage Zero: Self-Supervised Banking Adaptation}
+A pretrained BERT encoder is adapted using masked-language modelling on the unlabelled international and South African pools. Approximately 15\% of tokens will be selected using the model's standard masking procedure. The adapted encoder is then used to initialise downstream BERT aspect, intent, and sentiment models. A matched baseline uses the original pretrained BERT without banking adaptation. Their held-out macro-F1 difference tests $H_{1a}$.
+
+\subsection{Stage One: Aspect Extraction}
+A custom self-attention model predicts BIO labels for exact banking aspects. BERT token classification provides a pretrained baseline. For token sequence $X=[x_1,\ldots,x_n]$:
+\begin{align}
+Q_i&=W^Qx_i, & K_i&=W^Kx_i, & V_i&=W^Vx_i,\\
+\alpha_{ij}&=\mathrm{softmax}\left(\frac{Q_iK_j^T}{\sqrt{d_k}}\right), & z_i&=\sum_j\alpha_{ij}V_j.
+\end{align}
+Multi-head outputs are classified as B-ASP, I-ASP, or O \citep{vaswani2017,chaudhry2025}.
+
+\subsection{Stage Two: Contextual Intent Classification}
+A GRU model encodes current text and genuine preceding context \citep{cho2014}. Attention produces:
+\begin{equation}
+c_t=\sum_i\alpha_i h_{t-1}^{(i)},
+\end{equation}
+which is fused with the current representation to predict one of seven intents. Records without valid context use \texttt{[NO\_CONTEXT]}. Current-only and context-aware conditions are compared because additional context may help or add noise \citep{visser2022}.
+
+\subsection{Stage Three: Intent-Aware Aspect Sentiment}
+GloVe vectors represent each target aspect \citep{pennington2014}. A Transformer encoder produces contextual aspect representation $H_A$. Predicted intent $I_t$ is projected and concatenated:
+\begin{equation}
+s_A=\mathrm{softmax}\left(W^S[H_A;P(I_t)]+b^S\right).
+\end{equation}
+A matched no-intent classifier removes $P(I_t)$ but preserves all other architecture and training settings. This comparison tests $H_{1b}$.
+
+\subsection{Experimental Protocols}
+\subsubsection{Experiment A: Cross-Domain Transfer}
+Self-supervised adaptation uses both unlabelled regions. Supervised model fitting and selection use only international labelled training and validation data. The frozen model is evaluated on the international held-out test and then on the independently labelled South African set as an external target-domain test. No South African label is used to select the cross-domain model.
+
+\subsubsection{Experiment B: Mixed-Domain Model}
+The model is fine-tuned using the combined 348-record training set, selected using the 75-record combined validation set, and evaluated once on the 73-record combined test set. Metrics are reported separately for international and South African records.
+
+\subsubsection{Experiment C: Domain-Adaptation Ablation}
+Original BERT and banking-adapted BERT use identical downstream partitions and hyperparameters. The test compares whether self-supervised adaptation improves aspect, intent, and sentiment macro-F1.
+
+\subsubsection{Experiment D: Intent and Context Ablations}
+The study compares current-only versus previous-plus-current intent, and full sentiment versus no-intent sentiment. Gold-intent and predicted-intent conditions separate intent-classification error from sentiment-classification error. Gold-aspect and predicted-aspect conditions separate extraction error from downstream error.
+
+\subsection{Baselines and Evaluation}
+SVM provides a classical sparse-text baseline \citep{cortes1995}. BiLSTM provides a sequential neural baseline \citep{schuster1997}. BERT provides a contextual pretrained baseline \citep{devlin2019}. Model selection uses validation macro-F1. The test set is evaluated once after selection.
+
+Aspect extraction uses token and exact-span precision, recall, and F1. Intent and sentiment use accuracy, macro precision, macro recall, macro-F1, weighted-F1, per-class results, and confusion matrices. Macro-F1 is primary because it gives equal weight to rare classes \citep{sokolova2009}. Results are reported by region, source, and context where support permits.
+
+\subsection{Ethics, Reproducibility, and Limitations}
+The study removes direct identifiers, does not redistribute the complete raw archive, and documents Kaggle and Twitter/X reuse conditions. AI-generated output is not used as human annotation. Pseudo-labels, if explored, are weak training labels and are excluded from validation and testing.
+
+Limitations include a modest gold sample, rare intents, no verified context for South African tweets, source differences, and the reliability history of the legacy 600-record international annotations. These are addressed through an audited international subset, independent South African annotation, macro metrics, explicit provenance, fixed manifests, saved environments, checkpoints, predictions, and error analysis.
+
+\clearpage
+\section{Chapter Four: Project Plan and Expected Contributions}
+\subsection{Work Plan}
+\begin{table}[H]
+\centering
+\caption{Twelve-week work plan}
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{4.5cm}cccccccccccc}
+\toprule
+\textbf{Activity}&W1&W2&W3&W4&W5&W6&W7&W8&W9&W10&W11&W12\\
+\midrule
+Gold-subset audit and manifests&X&X&&&&&&&&&&\\
+Unlabelled-corpus preparation&X&X&&&&&&&&&&\\
+Masked-language domain adaptation&&X&X&X&&&&&&&&\\
+SVM and BiLSTM baselines&&&X&X&X&&&&&&&\\
+BERT downstream baselines&&&&X&X&X&&&&&&\\
+Self-attention and GRU components&&&&&X&X&X&&&&\\
+Intent-aware sentiment integration&&&&&&X&X&X&&&\\
+Ablations and transfer evaluation&&&&&&&&X&X&X&&\\
+Analysis and writing&X&X&X&X&X&X&X&X&X&X&X&X\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\subsection{Expected Contributions}
+The study will contribute: (1) a feasible low-label banking ABSA design; (2) explicit international and South African provenance; (3) evidence on banking-domain self-supervised adaptation; (4) a test of whether predicted intent improves aspect sentiment; (5) an international-to-South-African transfer evaluation; and (6) transparent findings about context length, rare classes, and error propagation.
+
+\subsection{Conclusion}
+The revised proposal separates unlabelled representation learning from human-labelled downstream evaluation. Large banking corpora teach domain language through masked-language modelling, while a smaller audited gold set supports fine-tuning, validation, and held-out testing. The three-stage TASCI adaptation then identifies banking aspects, predicts customer intent, and classifies sentiment per aspect. This design reduces annotation burden while preserving trustworthy evaluation and directly tests whether context and intent improve banking ABSA.
+
+\clearpage
+\section*{References}
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plainnat}
+\bibliography{embedded_references}
+\end{document}

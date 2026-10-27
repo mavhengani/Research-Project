@@ -1,0 +1,143 @@
+{
+  "bank_distribution": {
+    "absa": 478687,
+    "capitec": 397827,
+    "fnb": 646760,
+    "nedbank": 326689,
+    "standard_bank": 400813
+  },
+  "bytes": 202119548,
+  "candidate_status": {
+    "column": "customer_feedback_candidate",
+    "false_or_null_count": 163925,
+    "true_count": 2086851
+  },
+  "context_availability": {
+    "column": "context_available",
+    "context_available_false": 2250776,
+    "context_available_true": 0
+  },
+  "count_status": "REQUIRES_DATA_CONFIRMATION",
+  "derived_selection": {
+    "additional_constraints": [
+      "excludes unrelated-bank matches",
+      "excludes text shorter than MIN_TEXT_LENGTH",
+      "excludes promotional unless first-person/problem/specific",
+      "restricted to created_at years 2018-2022 inclusive",
+      "excludes possible_official_account records"
+    ],
+    "documented_rule_breakdown": {
+      "A": 33360,
+      "B": 18428,
+      "C": 38185,
+      "D": 6380,
+      "E": 2880,
+      "F": 1535
+    },
+    "expected_selected_count": 100768,
+    "filter_module": "src/banking_tasci/data/sa_candidate_filter.py",
+    "generator": "scripts/resample_south_africa_v2.py",
+    "generator_function": "build_reservoir",
+    "method": "v2_evidence_based_candidate_filter",
+    "provenance_docs": [
+      "docs/south_africa_filter_history.md",
+      "docs/south_africa_resampling_report.md"
+    ],
+    "provenance_log": "outputs/logs/run_20260905_191954_887494.log",
+    "selection_rules": [
+      "A: banking aspect + problem expression",
+      "B: banking aspect + request expression",
+      "C: first-person + banking aspect",
+      "D: positive sentiment + positive service context",
+      "E: suggestion/warning/churn + banking reference",
+      "F: specific banking issue phrase"
+    ],
+    "status_note": "Count reproduced exactly (100768, 0 duplicate identifiers) by read-only re-execution of the filter against this source. The selection is not yet materialised as its own checksummed artifact, which is the remaining Phase 2 step."
+  },
+  "duplicate_group_coverage": {
+    "column": "near_dup_group_id",
+    "coverage_fraction": 0.000238,
+    "distinct_groups": 165,
+    "records_with_group": 535,
+    "records_without_group": 2250241
+  },
+  "duplicate_record_count": 0,
+  "environment": {
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python_version": "3.10.12"
+  },
+  "exists": true,
+  "expected_row_count": 100768,
+  "generated_at": "2026-10-12T18:13:06Z",
+  "generation_command": "python scripts/generate_source_manifest.py",
+  "git_commit": "unknown (no commit or not a git repository)",
+  "notes": [
+    "'customer_feedback_candidate' is True for 2086851 records, which does not equal the expected 100768. This flag alone does not define the required corpus.",
+    "Observed 2250776 rows but expected 100768 (difference +2150008). Reported, not corrected: no sampling or row-dropping is performed to reach an expected count.",
+    "A derived-selection record is attached: the expected count is reproducible from this source via the documented selection process rather than being the raw row count."
+  ],
+  "null_counts": {
+    "bank": 0,
+    "context_available": 0,
+    "created_at": 0,
+    "customer_feedback_candidate": 0,
+    "near_dup_group_id": 2250241,
+    "record_id": 0,
+    "region": 0,
+    "source": 0
+  },
+  "pipeline_version": "new_pipeline_v1",
+  "privacy_status": {
+    "note": "Structural check only. Anonymisation evidence is recorded by the ingestion pipeline (see outputs/*_data_report.json 'anonymisation_counts').",
+    "privacy_status_column_present": false,
+    "raw_text_column_present": true,
+    "username_column_present": false
+  },
+  "region": "south_africa",
+  "region_distribution": {
+    "south_africa": 2250776
+  },
+  "review_group_coverage": null,
+  "row_count": 2250776,
+  "row_count_difference": 2150008,
+  "schema": {
+    "bank": "string",
+    "candidate_strata": "string",
+    "context_available": "bool",
+    "created_at": "string",
+    "created_at_raw": "null",
+    "customer_feedback_candidate": "bool",
+    "engagement_like_count": "int64",
+    "engagement_reply_count": "int64",
+    "engagement_retweet_count": "int64",
+    "filter_reason": "string",
+    "likely_promotional": "bool",
+    "near_dup_flag": "bool",
+    "near_dup_group_id": "string",
+    "possible_official_account": "bool",
+    "previous_text": "string",
+    "rating": "null",
+    "record_id": "string",
+    "region": "string",
+    "source": "string",
+    "split": "null",
+    "text": "string",
+    "thread_id": "null",
+    "title": "string"
+  },
+  "sha256": "f780da1241fef4b2b7f21aba295dc4236131071248e3bcd302fc22f31a6f06f7",
+  "source": "south_african_bank_tweets",
+  "source_distribution": {
+    "south_african_bank_tweets": 2250776
+  },
+  "source_file": "/home/fxvdev/Documents/reseach/Research Project/Research Project/banking-tasci/banking-tasci/data/interim/south_africa_prepared.parquet",
+  "status": "REQUIRES_DATA_CONFIRMATION",
+  "unique_record_count": 2250776,
+  "year_distribution": {
+    "2018": 322979,
+    "2019": 362138,
+    "2020": 423824,
+    "2021": 520871,
+    "2022": 620964
+  }
+}

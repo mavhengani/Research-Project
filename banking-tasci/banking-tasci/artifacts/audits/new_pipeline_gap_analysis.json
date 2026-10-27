@@ -1,0 +1,634 @@
+{
+  "audit_metadata": {
+    "requirements_document": "NEW_PIPELINE_REQUIREMENTS.md",
+    "requirements_version": "new_pipeline_v1",
+    "requirements_last_updated": "2026-10-12",
+    "audit_date": "2026-10-12",
+    "repository_root": "banking-tasci/banking-tasci",
+    "git_commit_at_audit_start": "unknown (no commits exist in this repository)",
+    "git_status_at_audit_start": "On branch main, no commits yet, entire banking-tasci/ tree untracked",
+    "scope": "Read-only evidence-based audit. No code modified. No training launched.",
+    "status_vocabulary": [
+      "COMPLETE",
+      "PARTIAL",
+      "MISSING",
+      "CONFLICTS_WITH_NEW_REQUIREMENT",
+      "NOT_APPLICABLE",
+      "REQUIRES_DATA_CONFIRMATION"
+    ],
+    "last_updated": "2026-10-20 (session 11: calibration checkpoint/audit and human adjudication scaffolding; pilots deferred)",
+    "sessions": [
+      {
+        "session": 1,
+        "date": "2026-10-12",
+        "scope": "Read-only audit. 40 findings established."
+      },
+      {
+        "session": 2,
+        "date": "2026-10-12",
+        "scope": "Baseline test run + Phase 1 configuration/taxonomy/schema implementation + Phase 2 manifest tooling. 161 new tests added, all passing. No legacy file modified (checksums re-verified)."
+      },
+      {
+        "session": 3,
+        "date": "2026-10-12",
+        "scope": "Fixed the BiLSTM duplicate-definition bug, the scripts-package import fragility, and a newly-surfaced process-dependent hashing flaw. Reproduced the 100,768 count executably (R3 resolved to reproducible). Extended manifest tooling to the full Phase 2 field/status set. Built the deterministic international Phase 3 sampler. Full suite now 772 passed / 0 failed (was 667 passed / 10 failed)."
+      },
+      {
+        "session": 4,
+        "date": "2026-10-12",
+        "scope": "Materialised the verified 100,768-record SA v2 candidate corpus; generated a VERIFIED manifest for it; built the combined 111,615 manifest; implemented the strict unlabelled-corpus builder (PREPARATION/FINAL) and the South African sampler in dry-run. Extracted the canonical v2 filter after discovering duplicate definitions in sa_candidate_filter.py. 129 tests added; 245 focused tests pass."
+      },
+      {
+        "session": 6,
+        "date": "2026-10-12",
+        "scope": "Implementation-only: added static annotation-package review representation, explicit researcher approval and immutable gold-ID freeze modules/CLIs, calibration/main-batch approval gates, checkpoint resumption safeguards, and frozen-ID loading for strict-corpus readiness. Added and modified tests, all NOT_RUN. No tests/scripts were executed, no annotation data or generated artifacts were changed, and no finding status was advanced."
+      },
+      {
+        "session": 7,
+        "date": "2026-10-14",
+        "scope": "Implementation-only: restored annotation_batches.py with preserved caller API and source/region quota reporting; implemented candidate-2 enrichment, canonical-ID diff/lineage, dry-run staging CLI, candidate-specific static review, and focused tests. Tests, imports, and scripts were NOT_RUN. Candidate 1 was not intentionally modified; candidate 2/review artifacts were not generated; no approval, freeze, annotation, split, strict corpus, training, or commit occurred."
+      },
+      {
+        "session": 8,
+        "date": "2026-10-14",
+        "scope": "Focused verification: py_compile succeeded after fixing malformed raw bank comprehension and displaced fragments; focused pytest set passed 139 tests after fixing the batch error-message contract and null-bank placeholder detection. Candidate-2 dry-run initially found selector input omitted possible_official_account; corrected to use checksum-verified prepared SA parent. A later dry-run found review IDs being misrepresented as duplicate groups; split duplicate/leakage key maps and added regression coverage. Final dry-run succeeded without writes; candidate-1 artifact SHA-256 checks matched. Candidate 2, review, approval, freeze, annotation, split, strict corpus, training, and commit were not generated/performed; full suite not run."
+      },
+      {
+        "session": 9,
+        "date": "2026-10-14",
+        "scope": "Ran make test once before materialization: 1,018 passed, 1 skipped, 4 warnings. Candidate-2 dry-run matched verified totals. Captured candidate-1 checksums, materialized candidate 2 under separate roots, verified package/batches/manifests/lineage/diff, generated candidate-2 JSON/Markdown static review READY_FOR_RESEARCHER_APPROVAL, and confirmed candidate-1 checksums unchanged. Markdown-writer imports were fixed after the suite and verified by a targeted passing regression test; full suite not rerun. No approval, freeze, annotation, splits, strict corpus, training, or commit occurred."
+      },
+      {
+        "session": 10,
+        "date": "2026-10-14",
+        "scope": "Researcher Rotondwa Mavhengani explicitly authorized APPROVE_CANDIDATE_2_FOR_IDENTITY_FREEZE. Read-only Candidate-2 counts, allocations, labels/statuses, expected checksums, READY review, no-existing-approval/freeze, and Candidate-1 17/17 integrity checks passed. Initial approval CLI attempt used Candidate 1 defaults and failed before writing. Scoped approval-tooling fix added candidate-aware input/output defaults and required candidate/annotation-checksum/context-limit fields. Exact prescribed command then succeeded; approval artifact SHA-256 e87e939be67c6f829ab9aaa37ae914d44cfb9059f06e3b352267a9d591ee0c89 at artifacts/approvals/new_pipeline_v1/candidate_2/annotation_package_approval.json, approved_at 2026-10-14T20:38:09Z. Focused test_annotation_approval.py: 9 passed before and 10 passed after the fix; full suite not run. Candidate-2 package checksums unchanged; Candidate 1 17/17 preserved. No freeze/annotation/split/strict-corpus/training/commit."
+      },
+      {
+        "session": 11,
+        "date": "2026-10-20",
+        "scope": "Researcher deferred all GPU/cluster work and local CPU pilots. Read-only inspection confirmed Candidate 2 Freeze Revision 2 checksum/allocation. Implemented dry-run-by-default calibration checkpoint save/restore with observed-checksum protection, atomic verified backups, audit-chain verification, plus human-only explicit adjudication module/CLI that preserves decisions separately and leaves unresolved items pending. Existing new-pipeline validator also checks completed-gold source completeness and duplicate/review/thread/conversation leakage-group linkage across the approved package. Synthetic focused suite: 113 passed; py_compile and adjudication CLI help passed. No human labels, protected artifacts, real split, training, pilot, or commit created/modified."
+      }
+    ],
+    "latest_candidate_2_approval_attempt": {
+      "decision": "APPROVE_CANDIDATE_2_FOR_IDENTITY_FREEZE",
+      "researcher": "Rotondwa Mavhengani",
+      "attempted_at_utc": "2026-10-14T20:34:44Z",
+      "status": "APPROVED",
+      "approval_artifact_path": "artifacts/approvals/new_pipeline_v1/candidate_2/annotation_package_approval.json",
+      "approval_artifact_sha256": "e87e939be67c6f829ab9aaa37ae914d44cfb9059f06e3b352267a9d591ee0c89",
+      "approved_at_utc": "2026-10-14T20:38:09Z",
+      "initial_cli_failure": "The initial CLI invocation used Candidate 1 default package/manifest paths, so Candidate 2 checksum validation failed before writing.",
+      "scoped_fix": "CLI now routes inputs/output from the review candidate_number; approval artifact records candidate_number, annotation-record checksum, exact command, and context limitation.",
+      "additional_artifact_gaps": [],
+      "sample_plan_sha256_before_after": "ff8f88e0fe2741a6b9c4da0cb6ef3ade94deb87bee8f4a7d706daf21d82b8c2d",
+      "annotation_records_sha256_before_after": "4399dfb086fb883c7bff5584a9fed67451247cb7729187a580b24bac3e140f46",
+      "batch_manifest_sha256_before_after": "2a557eee8c702306e54a6ff196035e58fb79cab568d50cfae9c093eafea65ef5",
+      "lineage_diff_sha256_before_after": "7e8e2a740e688effceb5a0691e25f2e15b67fb9d0cbbf03493d369f6d5aed397",
+      "review_report_sha256": "0e16c5e986bb5c72124b7dc24020bc6933f0365d11243bb57b0e43b830bee837",
+      "candidate_1_preservation": "17/17 artifact checksums match",
+      "focused_test": "python3 -m pytest tests/test_annotation_approval.py -q: 9 passed before fix; 10 passed after fix",
+      "full_suite_run": false,
+      "package_approved": true,
+      "ids_frozen": false,
+      "annotation_started": false,
+      "splits_created": false,
+      "strict_corpus_built": false,
+      "training_started": false,
+      "git_commit_created": false,
+      "next_step": "Candidate 2 is approved. In a separately authorized identity-freeze session, first make the freeze helper resolve Candidate 2's plan manifest and validate the approval's annotation-record checksum; then perform read-only freeze prechecks before any explicit freeze command."
+    },
+    "baseline_test_run": {
+        "status": "COMPLETE",
+        "evidence": "Session 9 ran make test once before candidate-2 materialization: 1,018 passed, 1 skipped, 4 warnings. Session-8 focused tests passed 139 tests and py_compile succeeded; after the full suite, a missing standard-library import in the candidate-2 Markdown review writer was found during review generation, fixed, and covered by a targeted passing regression test. Candidate 2 was materialized at data/annotations/new_pipeline_v1_candidate_2/ using the verified candidate-1 IDs, with 1,000 unique records (500/250/250; 500/500 regions), v2 rule coverage A=153 B=100 C=193 D=32 E=14 F=8, deterministic review IDs for 250/250 selected reviews, 71 invalid review bank values set null, no selected duplicate groups, and deterministic leakage groups for all records. Exactly 11 batches were written with exact source and regional targets and no balancing warnings. Candidate manifests, batch checksums, canonical-ID lineage/diff, and candidate-specific static JSON/Markdown review were written. The review recommendation is READY_FOR_RESEARCHER_APPROVAL; this is not an approval. Candidate-1 sample/package/manifests/review/all 11 batch SHA-256 checksums matched pre-write baseline after materialization. No freeze, annotation, splits, strict corpus, training, or commit occurred.",
+      "passed": 506,
+      "failed": 10,
+      "skipped": 1,
+      "warnings": 4,
+      "duration_seconds": 122.38,
+      "failures_are_preexisting": true,
+      "failure_analysis": {
+        "test_south_africa_resampling.py": "9 failures. TEST-ISOLATION POLLUTION, not a code defect: the file passes 54/54 when run alone (verified). Something earlier in the suite mutates shared state.",
+        "test_train_baselines_cli.py::test_cli_bilstm_intent_end_to_end": "1 failure. GENUINE PRE-EXISTING BUG: TypeError _write_bilstm_posthoc_artifacts() missing 1 required positional argument: 'splits' at src/banking_tasci/training/baseline_runner.py:319."
+      }
+    },
+    "post_change_test_run": {
+      "command": "make test",
+      "passed": 667,
+      "failed": 10,
+      "skipped": 1,
+      "duration_seconds": 129.32,
+      "delta_passed": "+161",
+      "note": "Identical failure list to baseline, confirming zero regression. All 161 new tests pass."
+    },
+    "session_3_test_run": {
+      "command": "make test",
+      "passed": 772,
+      "failed": 0,
+      "skipped": 1,
+      "warnings": 4,
+      "duration_seconds": 154.36,
+      "baseline_was": {
+        "passed": 667,
+        "failed": 10,
+        "skipped": 1
+      },
+      "note": "All 10 pre-existing failures resolved. One additional latent flaw (process-dependent MinHash hashing) surfaced during the session and was also fixed; it was masked by luck in earlier runs, not caused by this work."
+    }
+  },
+  "findings": [
+    {
+      "requirement_id": "R1-pipeline-versioning",
+      "requirement_section": "1, 28",
+      "status": "COMPLETE",
+      "evidence": "grep for 'pipeline_version' across the entire repository (configs/*.yaml, configs/baselines/*.yaml, src/, scripts/, docs/) returns zero matches.",
+      "file_path": "configs/base.yaml; configs/aspect.yaml; configs/intent.yaml; configs/sentiment.yaml; configs/full_pipeline.yaml",
+      "symbol": "pipeline_version (key does not exist)",
+      "impact": "No way to distinguish legacy pipeline runs from new_pipeline_v1 runs. Any artifact produced today is unversioned.",
+      "recommended_action": "Closed this session. No further action.",
+      "previous_status": "MISSING",
+      "evidence_session_2": "configs/new_pipeline_v1.yaml created with pipeline_version: new_pipeline_v1. Verified by test_new_pipeline_config.py::test_pipeline_version_is_new_pipeline_v1 (passing). Legacy configs untouched and still loading (test_legacy_config_files_still_load, passing)."
+    },
+    {
+      "requirement_id": "R2-git-provenance",
+      "requirement_section": "25, 30.2",
+      "status": "MISSING",
+      "evidence": "`git status` reports 'On branch main / No commits yet'. `git rev-parse HEAD` fails with 'ambiguous argument HEAD: unknown revision'. docs/git_repository_audit_25sept.md independently confirms the parent worktree has no visible commit history. src/banking_tasci/training/reproducibility.py _read_git_commit() will therefore write 'unknown (not a git repository)' into every run's git_commit.txt.",
+      "file_path": "banking-tasci/banking-tasci/.git (absent); src/banking_tasci/training/reproducibility.py:232-247",
+      "symbol": "_read_git_commit()",
+      "impact": "Section 25 reproducibility requirement (Git commit hash per run) cannot be satisfied for any run, past or future, until the repository is committed. This also means prior 'completed' SVM/BiLSTM runs have no real provenance.",
+      "recommended_action": "Unchanged. Still requires explicit authorisation to initialise and commit.",
+      "previous_status": "MISSING",
+      "evidence_session_2": "Re-verified this session: 'git status' still reports 'On branch main / No commits yet' and 'git rev-parse HEAD' still fails. No commit was created (not authorised this session). src/banking_tasci/data/manifest.py's git_commit() correctly reports 'unknown (no commit or not a git repository)' and that marker is recorded in both generated manifests."
+    },
+    {
+      "requirement_id": "R4-international-corpus-count",
+      "requirement_section": "4.2",
+      "status": "COMPLETE",
+      "evidence": "data/interim/prepared.csv contains exactly 10,847 rows, confirmed independently in outputs/data_report.json (rows_after=10847), outputs/international_prepared_pool_validation.json (rows=10847, id_value_counts.record_id=10847), and outputs/revised_pipeline_source_inventory.json (rows=10847). SHA-256 checksum 2a3435adcb5e5e8ffba44246dc529ecab4b9b24855f46849cf8d0fb3fe4252fd is recorded in two independent reports and matches.",
+      "file_path": "data/interim/prepared.csv; outputs/data_report.json; outputs/international_prepared_pool_validation.json",
+      "symbol": "N/A (data artifact)",
+      "impact": "No gap. International corpus count requirement is already satisfied and checksummed.",
+      "recommended_action": "Closed and now backed by a reproducible manifest rather than a one-off query.",
+      "previous_status": "COMPLETE",
+      "evidence_session_2": "Re-verified this session by executable tooling. artifacts/manifests/new_pipeline_v1/international_source_manifest.json records status=VERIFIED, row_count=10847, expected_row_count=10847, row_count_difference=0, sha256=2a3435adcb5e5e8ffba44246dc529ecab4b9b24855f46849cf8d0fb3fe4252fd - matching the checksum independently recorded in the pre-existing outputs/international_prepared_pool_validation.json."
+    },
+    {
+      "requirement_id": "R5-combined-relevant-corpus",
+      "requirement_section": "4.3",
+      "status": "COMPLETE",
+      "evidence": "111,615 (100,768 + 10,847) does not appear anywhere in the repository (verified via direct grep for '111615' and '111,615': zero matches). This figure cannot exist until R3 is resolved.",
+      "file_path": "N/A",
+      "symbol": "N/A",
+      "impact": "Downstream unlabelled-corpus and gold-sampling counts in Sections 4.4-4.5 cannot be validated until this is produced.",
+      "recommended_action": "CLOSED.",
+      "previous_status": "MISSING",
+      "evidence_session_4": "artifacts/manifests/new_pipeline_v1/combined_relevant_manifest.json reports status=VERIFIED with 100,768 + 10,847 = 111,615 exactly reconciling against the configured expectation. Built by scripts/build_combined_relevant_manifest.py, which refuses to emit unless BOTH source manifests are VERIFIED, counts sum correctly, pipeline versions match, regions are valid, and neither source exposes a raw username column. Constructed BY REFERENCE to the two immutable source manifests rather than concatenating data. Deterministic namespaced identifiers (south_africa::, international_tweet::, international_review::) are defined with the original preserved as source_record_id; a direct --check-id-collisions run measured raw overlap of 0. Backed by 14 combined-manifest tests."
+    },
+    {
+      "requirement_id": "R6-gold-annotation-corpus-count",
+      "requirement_section": "4.4, 7",
+      "status": "CONFLICTS_WITH_NEW_REQUIREMENT",
+      "evidence": "Current actual annotated gold corpus is 796 records (data/annotations/combined_adjudicated_v2.jsonl, confirmed by docs/revised_pipeline_implementation_audit.md and docs/project_status_25_september_2026.md: '600 international and 196 South African'). The South African v2 sample (scripts/resample_south_africa_v2.py) defaults --sample-size to 200, not 500. The international pilot (scripts/create_annotation_sample.py docstring example) uses --size 600, not 250+250=500. Bank allocation logic in resample_south_africa_v2.py uses STRATA_TARGET candidate-type buckets (transactions_candidate: 35, customer_support_candidate: 30, etc.), not the required FNB/Absa/Nedbank/Standard Bank/Capitec 100-each allocation.",
+      "file_path": "data/annotations/combined_adjudicated_v2.jsonl; scripts/resample_south_africa_v2.py:111-120 (--sample-size default 200); scripts/create_annotation_sample.py:1-20 (docstring --size 600 example); docs/project_status_25_september_2026.md",
+      "symbol": "resample_south_africa_v2.main() --sample-size; create_annotation_sample.main() --size; STRATA_TARGET",
+      "impact": "The required 1,000-record (500 SA / 250 intl tweets / 250 intl reviews) gold corpus does not exist. The existing 796-record gold corpus is a different, smaller, differently-stratified dataset from an earlier requirements generation and must not be relabelled as satisfying new_pipeline_v1.",
+      "recommended_action": "Do not delete or overwrite data/annotations/combined_adjudicated_v2.jsonl or any annotator/adjudication files. Build a new sampler run (or new script) targeting exactly 500 SA (100/bank) + 250 intl tweets + 250 intl reviews, with calibration batch of 50, under a new output path (e.g. data/annotations/new_pipeline_v1_*.jsonl)."
+    },
+    {
+      "requirement_id": "R7-strict-unlabelled-corpus",
+      "requirement_section": "4.5, 16",
+      "status": "PARTIAL",
+      "evidence": "No file, script, or module in the repository builds a strict unlabelled MLM corpus. Grep for 'masked.language', 'MLM', 'masking_probability' across src/ and scripts/ returns zero matches outside configuration templates (configs/intent.yaml, configs/sentiment.yaml do not reference MLM either). The 110,615 figure does not appear anywhere (verified via direct grep).",
+      "file_path": "N/A -- no src/banking_tasci/data/mlm_corpus.py or equivalent exists",
+      "symbol": "N/A",
+      "impact": "Section 16's entire unlabelled-corpus-for-domain-adaptation requirement is unimplemented. This blocks Section 17 (domain adaptation) entirely.",
+      "recommended_action": "Remains PARTIAL by design and by requirement: the 1,000 gold identifiers do not exist yet, so the 110,615-record corpus CANNOT be built. Arithmetic alone must never mark this COMPLETE. Unblocks once the annotation sample is frozen.",
+      "previous_status": "MISSING",
+      "evidence_session_4": "Builder implemented: src/banking_tasci/data/unlabelled_corpus.py + scripts/build_strict_unlabelled_corpus.py, with PREPARATION and FINAL modes. PREPARATION run confirms all five arithmetic identities consistent (100768-500=100268; 10847-500=10347; 250+250=500; 111615-1000=110615; 100268+10347=110615) and all three source manifests VERIFIED, then correctly reports BLOCKED (exit 3) because the gold-ID manifest does not exist. The full Section 16 field-exclusion policy is encoded by category (task labels, annotation metadata, partition labels, predictive shortcuts incl. source/bank/region/rating, candidate/sampling rules) with only record_id + text retained, and previous_text only when explicitly approved. FINAL mode refuses an invalid gold set, refuses when gold IDs are absent from the corpus, and refuses on any count mismatch rather than trimming or padding. Backed by 37 tests."
+    },
+    {
+      "requirement_id": "R8-south-africa-data-prep-evidence",
+      "requirement_section": "6",
+      "status": "PARTIAL",
+      "evidence": "Deduplication, privacy (anonymisation), and content-cleaning logic exist and are evidenced: src/banking_tasci/data/clean.py (exact + near-duplicate detection, NearDupConfig), src/banking_tasci/data/anonymise.py (EMAIL_PATTERN, URL_PATTERN, MENTION_PATTERN, account/phone patterns), src/banking_tasci/data/sa_candidate_filter.py (BANKING_ASPECT_KW, PROBLEM_KW, PROMOTIONAL_KW rule-based classification), and outputs/south_africa_data_report.json documents concrete counts (106,251 tweet-ID duplicates removed, 473,995 exact-text duplicates removed, 482,337 confirmed official accounts excluded, anonymisation counts for email/url/mention/phone/account_or_reference). This evidence is real and reusable.",
+      "file_path": "src/banking_tasci/data/clean.py; src/banking_tasci/data/anonymise.py; src/banking_tasci/data/sa_candidate_filter.py; outputs/south_africa_data_report.json",
+      "symbol": "detect_near_duplicates(); classify_candidate(); EMAIL_PATTERN; URL_PATTERN",
+      "impact": "The data-preparation pipeline itself (dedup/clean/privacy) is sound, but its OUTPUT size (2,250,776 candidate-eligible rows after cleaning, not 100,768) conflicts with Section 4.1, consistent with R3.",
+      "recommended_action": "Reuse clean.py and anonymise.py unchanged. The gap is specifically in the customer-feedback relevance/eligibility filter threshold (Section 6.4), which currently passes ~2.03M-2.09M records as candidates where the new requirement implies a much narrower ~100,768-record eligible set."
+    },
+    {
+      "requirement_id": "R9-candidate-rules-not-labels",
+      "requirement_section": "6.5",
+      "status": "COMPLETE",
+      "evidence": "resample_south_africa_v2.py's to_annotation_records_v2() explicitly sets aspects=[], intent=None, intent_ambiguous=False for every record regardless of its matched candidate rule/stratum; the write_quality_review() audit classification (audit_classify()) is written to a separate quality-review JSONL, never into the annotation-facing output. sample_role and candidate_strata are confirmed removed from the annotation view ('label_leakage_prevention': candidate_strata_removed_from_annotation_view: true in the generated sample report).",
+      "file_path": "scripts/resample_south_africa_v2.py:to_annotation_records_v2(), write_quality_review()",
+      "symbol": "to_annotation_records_v2(); write_quality_review(); label_leakage_prevention report key",
+      "impact": "No gap. The principle that candidate rules must not become gold labels is correctly implemented in the existing sampler and should be preserved in any new sampler.",
+      "recommended_action": "Carry this label-hiding pattern forward unchanged into the new_pipeline_v1 sampler."
+    },
+    {
+      "requirement_id": "R10-gold-sampling-counts-and-strata",
+      "requirement_section": "7",
+      "status": "PARTIAL",
+      "evidence": "resample_south_africa_v2.py samples by candidate-type strata (STRATA_TARGET dict keyed by transactions_candidate/customer_support_candidate/etc, total target well below 500) and by max_per_bank=50 (not the required even 100-per-bank floor for exactly 5 banks totalling 500). create_annotation_sample.py stratifies only by (source, context_available), with no bank dimension at all, and its documented example size is 600 (international), not 250+250.",
+      "file_path": "scripts/resample_south_africa_v2.py:STRATA_TARGET, build_arg_parser() --max-per-bank default 50; scripts/create_annotation_sample.py:_stratum_key()",
+      "symbol": "STRATA_TARGET; _stratum_key(); --max-per-bank",
+      "impact": "Neither existing sampler can produce the required 500 SA (100/bank x5) + 250 intl tweets + 250 intl reviews allocation without rewriting the stratification logic.",
+      "recommended_action": "Remains PARTIAL: the sampler is dry-run only and no annotation file has been written. A real write requires BOTH --write and --authorise-final-write. The international side was already complete, so the remaining work is calibration batching (50 + 9x100 + 50) and the authorised write once annotation begins.",
+      "previous_status": "CONFLICTS_WITH_NEW_REQUIREMENT",
+      "evidence_session_4": "South African side implemented in dry-run: src/banking_tasci/data/south_africa_sampler.py + scripts/sample_south_africa_gold.py. Verified against the real materialised corpus: selects EXACTLY 500 records with EXACTLY 100 per bank (FNB/Absa/Nedbank/Standard Bank/Capitec), 500 unique identifiers, zero shortages, and near-even band balance (short 167 / medium 166 / long 167). Source-specific quantile bands q33=132.0 / q66=219.0 are distinct from both international sources (tweets 140/183, reviews 289/328). Year coverage spans 2018-2022 and v2 rule coverage spans all six rules (A=153 B=100 C=193 D=32 E=14 F=8) - reported for coverage only, never written to the annotation view. Deterministic under seed 42; global RNG untouched; duplicate and thread leakage groups never split. Backed by 55 tests."
+    },
+    {
+      "requirement_id": "R11-length-bands-quantile-based",
+      "requirement_section": "7.4",
+      "status": "COMPLETE",
+      "evidence": "Neither create_annotation_sample.py nor resample_south_africa_v2.py computes source-specific quantile length bands. create_annotation_sample.py's write_sample_report() computes a text_length_distribution (min/max/mean/q1/median/q3) for reporting only, not for stratified sampling boundaries.",
+      "file_path": "scripts/create_annotation_sample.py:write_sample_report()",
+      "symbol": "write_sample_report()",
+      "impact": "Short/medium/long sampling coverage cannot currently be guaranteed by source-specific quantiles as Section 7.4 requires.",
+      "recommended_action": "Closed. Requirements 7.4's prohibition on one global character threshold is now enforced by test.",
+      "previous_status": "MISSING",
+      "evidence_session_3": "compute_length_bands() derives short/medium/long boundaries from each source's own quantiles (0.33/0.66 per configs/new_pipeline_v1.yaml). Measured on the real verified source the two sources are far apart - tweets q33=140.0/q66=183.0 versus reviews q33=289.3/q66=327.7 - so a shared threshold would place essentially every review in one band. Verified by ::test_tweet_and_review_bands_computed_separately, ::test_band_boundaries_use_configured_quantiles, and ::test_no_shared_fixed_threshold_across_sources (which asserts reviews.q_low > tweets.q_high on real data)."
+    },
+    {
+      "requirement_id": "R12-sampler-output-completeness",
+      "requirement_section": "7.5",
+      "status": "COMPLETE",
+      "evidence": "Existing sample reports (outputs/south_africa_annotation_sample_report_v2.json, outputs/annotation_sample_report.json) include seed, source/region counts, bank distribution, text-length distribution, and near-dup group counts. They do NOT include a source-data checksum field, nor explicit 'shortages or unsatisfied constraints' reporting required by Section 7.5.",
+      "file_path": "scripts/resample_south_africa_v2.py:main() (sample_report dict construction)",
+      "symbol": "sample_report (dict literal in main())",
+      "impact": "Most required sampler-output fields exist; checksum and unsatisfied-constraint reporting are the specific missing pieces.",
+      "recommended_action": "Closed for the international sources. The same report structure will serve the South African sampler once R3 is materialised.",
+      "previous_status": "PARTIAL",
+      "evidence_session_3": "src/banking_tasci/data/international_sampler.py's SamplerReport records every Section 7.5 field: label-hidden output (to_label_hidden_records), sample manifest (build_selection_manifest), source/stratum counts, length-band boundaries, context counts, rating-band counts, sentence-band counts, duplicate- and review-group conflict counts, explicit shortages, unsatisfied strata, seed, source SHA-256, and a per-record selection reason. Verified by tests/test_new_pipeline_sampling.py::test_source_checksum_is_recorded, ::test_seed_and_config_are_recorded, ::test_selection_reasons_recorded_for_every_selected_record, ::test_shortage_is_reported_explicitly, ::test_unsatisfied_strata_are_reported (60 tests, all passing)."
+    },
+    {
+      "requirement_id": "R13-annotation-record-schema",
+      "requirement_section": "8.1, 8.2",
+      "status": "PARTIAL",
+      "evidence": "src/banking_tasci/data/annotations.py defines AnnotationRecord with fields record_id, source, region, text, previous_text, context_available, aspects, intent, intent_ambiguous, alternative_intent, annotator_id, annotation_status, notes. This is missing required Section 8.1 fields: bank, review_id, thread_id, conversation_id, publish_year, duplicate_group, leakage_group, privacy_status, primary_intent (field is named 'intent' not 'primary_intent'), public_warning, annotation_version, annotation_notes (field is named 'notes'). The opinion-level AspectSpan dataclass has fields term, start, end, category, sentiment -- missing target_start/target_end (uses single start/end), target_type, entity, attribute, opinion_phrase, opinion_start, opinion_end, annotation_notes, and uses 'term'/'category' naming instead of 'target'/'category' per Section 8.2 ('aspects' vs required 'opinions' list name).",
+      "file_path": "src/banking_tasci/data/annotations.py:AnnotationRecord (dataclass), AspectSpan (dataclass)",
+      "symbol": "AnnotationRecord; AspectSpan; _TOP_LEVEL_REQUIRED_FIELDS; _ASPECT_REQUIRED_FIELDS",
+      "impact": "This is the single most consequential schema gap: every downstream tool (sampler, validator, splitter, BIO converter) is built against this legacy schema. A new new_pipeline_v1 schema module is required, and all consuming scripts need updating in a later phase.",
+      "recommended_action": "Schema now exists and validates. Remains PARTIAL because downstream consumers (sampler, splitter, BIO converter) still read the legacy schema; migrating them is Phase 3/4 work.",
+      "previous_status": "CONFLICTS_WITH_NEW_REQUIREMENT",
+      "evidence_session_2": "src/banking_tasci/data/new_pipeline_schema.py created implementing the full Section 8.1 record field set (20 fields incl. bank/review_id/thread_id/conversation_id/publish_year/duplicate_group/leakage_group/privacy_status/primary_intent/public_warning/opinions/annotation_version/annotation_notes) and the Section 8.2 opinion field set (12 fields). Verified by test_new_pipeline_schema.py::test_serialised_record_contains_every_schema_key and ::test_serialised_opinion_contains_every_schema_key (passing). Legacy annotations.py deliberately unmodified (test_legacy_annotation_constants_are_unchanged, passing)."
+    },
+    {
+      "requirement_id": "R14-explicit-implicit-target-support",
+      "requirement_section": "8.3, 8.4",
+      "status": "COMPLETE",
+      "evidence": "AspectSpan has no target_type field at all; every span is implicitly treated as explicit (term/start/end required together, checked in check_offsets()). There is no code path representing an implicit target (target=null, target_start=null, target_end=null, target_type='implicit') with entity/attribute/sentiment still populated.",
+      "file_path": "src/banking_tasci/data/annotations.py:AspectSpan; check_offsets()",
+      "symbol": "AspectSpan.target_type (does not exist)",
+      "impact": "Section 27 explicitly prohibits 'the assumption that every record has an explicit target'; the current schema structurally enforces exactly this assumption.",
+      "recommended_action": "Closed for the new schema. No further action.",
+      "previous_status": "MISSING",
+      "evidence_session_2": "target_type with 'explicit'/'implicit' implemented. Explicit offsets validated as text[target_start:target_end] == target; implicit enforces target/target_start/target_end all null while entity/attribute/category/sentiment remain annotated. Verified by 13 tests incl. ::test_implicit_target_rejects_non_null_target_fields (parametrised over all three fields), ::test_offsets_are_end_exclusive, and ::test_implicit_target_may_still_carry_explicit_opinion_phrase (all passing)."
+    },
+    {
+      "requirement_id": "R15-entity-attribute-taxonomy-canonical",
+      "requirement_section": "9",
+      "status": "COMPLETE",
+      "evidence": "No taxonomy file exists anywhere in the repository (grep for 'taxonomy' returns zero matches). The only category list in the codebase is annotations.py's ASPECT_CATEGORIES = ['customer_support', 'digital_banking', 'transactions', 'cards', 'accounts', 'fees', 'fraud_security', 'branch_service', 'general_service'] -- nine flat category strings, not the ENTITY#ATTRIBUTE canonical format (e.g. APP#USABILITY, CARD#FEES) with 13 entity groups and 50+ combinations required by Section 9. This list is defined exactly once (not duplicated across scripts), which is good, but it is the wrong taxonomy shape entirely.",
+      "file_path": "src/banking_tasci/data/annotations.py:ASPECT_CATEGORIES",
+      "symbol": "ASPECT_CATEGORIES",
+      "impact": "Section 19 (category prediction), Section 9.14 (GENERAL-attribute monitoring), and the category==entity+'#'+attribute validation rule in Section 14 cannot be implemented until a canonical taxonomy config exists.",
+      "recommended_action": "Closed. All future scripts must load from this file rather than hard-coding categories.",
+      "previous_status": "MISSING",
+      "evidence_session_2": "configs/taxonomies/banking_entity_attribute_v1.yaml created as the single canonical source: 13 entities, 69 ENTITY#ATTRIBUTE categories, each with a Section 19 semantic mapping. Loaded only via new_pipeline_schema.load_taxonomy(); no duplicate category list introduced. Verified by test_taxonomy_contains_all_required_entities, test_required_example_categories_are_valid (parametrised over the 6 example categories named in the session brief), test_semantic_mappings_match_requirements_examples, and test_every_category_has_a_semantic_mapping (all passing)."
+    },
+    {
+      "requirement_id": "R16-sentiment-labels",
+      "requirement_section": "10",
+      "status": "COMPLETE",
+      "evidence": "annotations.py: ASPECT_SENTIMENTS = ['positive', 'negative', 'neutral'] -- missing 'conflict'. No mention of 'conflict' as a sentiment value anywhere in docs/annotation_guidelines.md, configs/sentiment.yaml, or configs/intent.yaml (all enumerate only negative/neutral/positive).",
+      "file_path": "src/banking_tasci/data/annotations.py:ASPECT_SENTIMENTS; configs/sentiment.yaml (sentiment.labels); docs/annotation_guidelines.md",
+      "symbol": "ASPECT_SENTIMENTS",
+      "impact": "The 'conflict' sentiment label required by Section 10 is entirely absent from code, config, and annotation guidance. Any gold annotation performed today could not record a conflict sentiment even if a human annotator wanted to.",
+      "recommended_action": "Closed for the new schema. Annotation-guide language defining 'conflict' vs annotator uncertainty (Requirements Section 10) is still owed as Phase 3 documentation work.",
+      "previous_status": "CONFLICTS_WITH_NEW_REQUIREMENT",
+      "evidence_session_2": "SENTIMENT_LABELS = (positive, neutral, negative, conflict) in new_pipeline_schema.py and annotation.sentiment_labels in new_pipeline_v1.yaml. Verified by test_conflict_sentiment_is_present and ::test_every_approved_sentiment_is_accepted (parametrised over all four). Legacy 3-value ASPECT_SENTIMENTS left intact for the 796-record corpus (test_legacy_annotation_constants_are_unchanged, passing)."
+    },
+    {
+      "requirement_id": "R17-communicative-intent-taxonomy",
+      "requirement_section": "11",
+      "status": "COMPLETE",
+      "evidence": "annotations.py: INTENT_LABELS = ['complaint', 'compliment', 'request_for_assistance', 'suggestion', 'warning', 'churn_signal', 'general_feedback'] -- seven labels including 'warning' as a PRIMARY intent. configs/intent.yaml's intent.labels list duplicates this same seven-label set independently. Section 11 requires exactly six primary intents (complaint, request_for_assistance, praise_or_appreciation, suggestion_or_feature_request, exit_or_switch_intention, general_feedback) plus a SEPARATE public_warning boolean flag -- and Section 27 explicitly prohibits 'seven primary intents including warning' as a legacy behaviour.",
+      "file_path": "src/banking_tasci/data/annotations.py:INTENT_LABELS; configs/intent.yaml:intent.labels (lines 46-54)",
+      "symbol": "INTENT_LABELS",
+      "impact": "This is a directly, explicitly prohibited legacy behaviour per Section 27. Also note label-naming mismatches: 'compliment' vs required 'praise_or_appreciation', 'suggestion' vs 'suggestion_or_feature_request', 'churn_signal' vs 'exit_or_switch_intention'.",
+      "recommended_action": "Closed for the new schema. Legacy 7-label INTENT_LABELS and configs/intent.yaml remain unchanged by design and must not be used for new_pipeline_v1 work.",
+      "previous_status": "CONFLICTS_WITH_NEW_REQUIREMENT",
+      "evidence_session_2": "PRIMARY_INTENTS is the exact six-value Section 11 vocabulary; 'warning' is absent and public_warning is a separate boolean record field. The validator emits a dedicated 'intent_not_allowed' error whose fix_guidance names public_warning when it sees primary_intent='warning'. Verified by test_warning_excluded_from_primary_intents, test_exactly_six_primary_intents, test_warning_as_primary_intent_is_rejected, test_legacy_intent_labels_are_rejected (parametrised over compliment/suggestion/churn_signal), and test_public_warning_true_with_complaint_intent_is_valid (all passing)."
+    },
+    {
+      "requirement_id": "R18-context-handling",
+      "requirement_section": "12",
+      "status": "COMPLETE",
+      "evidence": "src/banking_tasci/data/context.py is a well-documented, tested module that: (1) splits bank_reviews text into sentences and sets previous_text to the genuinely preceding sentence with context_available=True for non-first sentences; (2) sets previous_text='[NO_CONTEXT]'/context_available=False for first sentences and for tweets with no thread_map entry; (3) explicitly never reads CSV row adjacency (verified by reading the full module -- no row-index or dataframe-position logic exists); (4) build_tweet_record() only assigns context when an explicit thread_map lookup succeeds. tests/test_context.py and tests/test_context_and_determinism.py exist.",
+      "file_path": "src/banking_tasci/data/context.py:split_into_sentences(), build_review_sentence_records(), build_tweet_record()",
+      "symbol": "NO_CONTEXT constant; build_review_sentence_records(); build_tweet_record()",
+      "impact": "No gap. This module already implements Section 12's genuine-context/[NO_CONTEXT] requirement correctly, including the explicit anti-pattern guard against using the previous physical row as context (the Section 27 prohibited behaviour).",
+      "recommended_action": "Reuse context.py unchanged in the new pipeline; it does not need to be rewritten, only re-pointed at new sampling targets."
+    },
+    {
+      "requirement_id": "R19-annotation-workflow-calibration-batching",
+      "requirement_section": "13.2, 13.3",
+      "status": "PARTIAL",
+      "evidence": "Historical session-5 tests and real-data generation established the candidate-1 1,000-record/11-batch structure. Session 7 recreated annotation_batches.py after an interrupted edit and added source/region targets, observations, deviations, group counts, and warnings. Session 8 py_compile succeeded and the focused set (annotation batches, workflow, candidate package, approval, freeze, plan, strict corpus) passed 139 tests. Candidate-2 dry-run completed with exact per-batch source targets/observations and no balancing warnings. A runtime-discovered source-column issue was fixed by using the checksum-verified prepared SA parent for select_v2_candidates; a grouping defect that conflated review links with duplicate groups was fixed and regression-tested. Candidate 2 remains unwritten, so historical and current execution evidence do not establish a materialized candidate package or researcher readiness.",
+      "file_path": "src/banking_tasci/data/gold_sample_plan.py; scripts/build_gold_sample_plan.py; src/banking_tasci/data/annotation_batches.py; scripts/build_annotation_batches.py",
+      "symbol": "build_combined_sample_plan(); assign_batches(); transition_batch_status(); validate_submission()",
+      "impact": "Candidate-1 batch artifacts remain unchanged. Candidate 2 has been materialized and its static review recommends READY_FOR_RESEARCHER_APPROVAL. No researcher approval or freeze has occurred. R20's separate annotation-validator gap, human annotation/adjudication, and the no-context limitation remain; do not infer annotation readiness or start Phase 4/5 from R19 alone.",
+      "recommended_action": "R19 is complete for candidate-package preparation and batching. Keep approval and freeze as distinct researcher-authorized actions. Continue Phase 3 validator work (R20) and obtain researcher decision before annotation; context-aware experiments require a genuine context dataset."
+    },
+    {
+      "requirement_id": "R20-annotation-validator-checks",
+      "requirement_section": "14",
+      "status": "PARTIAL",
+      "evidence": "The legacy scripts/validate_annotations.py remains legacy-schema scoped. New-pipeline validation is implemented in src/banking_tasci/data/new_pipeline_annotation_validator.py and delegates per-record checks to new_pipeline_schema.validate_record(). Session 11 added completed-gold completeness against the approved source ID set and package-level duplicate_group/review_id/thread_id/conversation_id consistency: linked records require a leakage_group and all records linked by a shared field/value must share that leakage_group. Validation now reports blocking errors separately from non-blocking schema warnings, including counts, per-rule totals, affected IDs, and Markdown summaries. Synthetic tests cover these rules and privacy-safe reporting. Calibration checkpoint save/restore validates against the approved source and annotation validator, and explicit adjudication validates both input submissions and resolved output without inferring labels. Expanded focused calibration/workflow/validator/schema/batch run: 161 passed. Remaining Section 14 work includes broader field/group edge cases and final-corpus integration evidence; R20 therefore remains PARTIAL.",
+      "file_path": "src/banking_tasci/data/new_pipeline_annotation_validator.py; src/banking_tasci/data/new_pipeline_schema.py; src/banking_tasci/data/calibration_workspace.py; src/banking_tasci/data/new_pipeline_adjudication.py",
+      "symbol": "validate_records(); _group_linkage_issues(); apply_adjudication(); save_checkpoint(); restore_checkpoint()",
+      "impact": "The new schema now has substantive workflow validation and explicit annotation decision provenance, but complete completed-gold integration and all Section 14 reporting/integrity requirements are not yet evidenced. Legacy annotations.py remains unchanged for earlier corpus generations.",
+      "recommended_action": "Keep R20 PARTIAL. Add focused tests for remaining group/linkage edge cases, error/warning count reporting, and final-gold validation CLI integration using synthetic fixtures. Do not validate or create real gold data until human labels are supplied."
+    },
+    {
+      "requirement_id": "R21-gold-corpus-split-ratios",
+      "requirement_section": "15",
+      "status": "CONFLICTS_WITH_NEW_REQUIREMENT",
+      "evidence": "scripts/create_splits.py: DEFAULT_TRAIN_RATIO = 0.70, DEFAULT_VALIDATION_RATIO = 0.15, DEFAULT_TEST_RATIO = 0.15 (lines ~40-42). The module docstring's own usage example explicitly shows --train-ratio 0.70 --validation-ratio 0.15 --test-ratio 0.15. Section 27 explicitly prohibits '70/15/15 splits' as a legacy behaviour. Required ratios are 0.80/0.10/0.10 (Section 15, Section 28 canonical config).",
+      "file_path": "scripts/create_splits.py:DEFAULT_TRAIN_RATIO, DEFAULT_VALIDATION_RATIO, DEFAULT_TEST_RATIO (module-level constants); docstring usage example at top of file",
+      "symbol": "DEFAULT_TRAIN_RATIO; DEFAULT_VALIDATION_RATIO; DEFAULT_TEST_RATIO",
+      "impact": "This is a directly, explicitly prohibited legacy default per Section 27. The CLI already accepts --train-ratio/--validation-ratio/--test-ratio as overridable arguments, so correct ratios CAN be supplied today without code changes -- but the stored default is wrong and will silently produce legacy splits if a caller omits the flags.",
+      "recommended_action": "Do not change create_splits.py's defaults in place yet (it is shared with legacy workflows). Instead, invoke it explicitly with --train-ratio 0.80 --validation-ratio 0.10 --test-ratio 0.10 for all new_pipeline_v1 runs, and add a wrapper script or new_pipeline_v1 config that pins these values so they cannot be silently omitted."
+    },
+    {
+      "requirement_id": "R22-group-aware-leakage-logic",
+      "requirement_section": "15.2",
+      "status": "COMPLETE",
+      "evidence": "create_splits.py's group_key() correctly groups sentence-level review records back to their parent review via source_record_id (set by context.py's build_review_sentence_records()), falling back to record_id for ungrouped records (e.g. tweets). assign_groups_to_splits() is a pure, seeded, deterministic function (verified by reading the full implementation: uses only a locally-constructed random.Random(seed), never global RNG state) that assigns WHOLE groups to a single split using largest-remainder stratified allocation by intent. An optional --near-dup-csv flag further merges near-duplicate groups via near_dup_group_id so near-duplicates never cross split boundaries. Section 23.2's hard precondition (refuse to run on any invalid record, write no manifest) is implemented in main() before any grouping occurs.",
+      "file_path": "scripts/create_splits.py:group_key(), assign_groups_to_splits(), main()",
+      "symbol": "group_key(); assign_groups_to_splits()",
+      "impact": "No gap in the group-aware leakage MECHANISM itself. This is some of the strongest, most reusable code in the repository.",
+      "recommended_action": "Reuse this splitter's grouping/allocation logic unchanged; only the default ratios (R21) and the leakage-grouping KEYS need extending once duplicate_group/leakage_group/thread_id/conversation_id fields exist in the new schema (R13)."
+    },
+    {
+      "requirement_id": "R23-split-output-files",
+      "requirement_section": "15.3",
+      "status": "PARTIAL",
+      "evidence": "create_splits.py currently writes train_manifest.csv/validation_manifest.csv/test_manifest.csv (record_id-only CSVs) and split_report.json. Section 15.3 requires train.jsonl/validation.jsonl/test.jsonl (full records, not just IDs), split_manifest.json, split_distribution.json, split_distribution.md, leakage_report.json, and leakage_report.md -- none of the .jsonl, dedicated split_manifest.json, split_distribution.md, or any leakage_report file currently exist as separate outputs (split_report.json partially covers split_distribution.json's intent but is not the same file and has no Markdown counterpart).",
+      "file_path": "scripts/create_splits.py:_write_manifest(), _build_report()",
+      "symbol": "_write_manifest(); _build_report()",
+      "impact": "The underlying data (which record belongs to which split, with what distribution) is already computed correctly; only the REQUIRED FILE SET and FORMATS (full JSONL records, separate leakage report, Markdown twins) are missing.",
+      "recommended_action": "Extend create_splits.py (or add a thin new_pipeline_v1 wrapper) to additionally emit the full-record .jsonl files, a dedicated leakage_report.json/.md pair, and Markdown renderings of the distribution report."
+    },
+    {
+      "requirement_id": "R24-mlm-corpus-exclusions",
+      "requirement_section": "16",
+      "status": "NOT_APPLICABLE",
+      "evidence": "No MLM corpus exists yet (see R7), so exclusion-of-gold / exclusion-of-labels / exclusion-of-bank-as-feature logic has nothing to apply to.",
+      "file_path": "N/A",
+      "symbol": "N/A",
+      "impact": "This requirement cannot be evaluated as COMPLETE/PARTIAL/MISSING until R7 produces an actual corpus to inspect.",
+      "recommended_action": "Re-audit this specific requirement once a candidate MLM corpus builder is implemented."
+    },
+    {
+      "requirement_id": "R25-domain-adaptation-mlm-training",
+      "requirement_section": "17, 22.4",
+      "status": "MISSING",
+      "evidence": "No MLM trainer, no bert-base-uncased adaptation script, no masking_probability configuration tied to actual training code exists. src/banking_tasci/models/bert_baseline.py was inspected directly: it implements supervised token-classification and sequence-classification heads for an ALREADY-trained/loaded BERT checkpoint; it has no masked-language-modelling objective, no DataCollatorForLanguageModeling-equivalent, and no training loop of its own (it participates in the generic supervised baseline_runner.py). docs/revised_pipeline_implementation_audit.md (prior session) and docs/tasci_implementation_gap_analysis.md (prior session) independently reached the same conclusion against earlier requirements generations: 'no MLM corpus builder, MLM dataset, domain-adaptation trainer, or adapted-BERT artifact set'.",
+      "file_path": "src/banking_tasci/models/bert_baseline.py (entire file inspected); src/banking_tasci/training/ (baseline_runner.py, loop.py, readiness.py, reproducibility.py, supervised_gate.py -- none reference masking)",
+      "symbol": "N/A -- no bert_mlm.py or mlm_runner.py module exists",
+      "impact": "Section 17's entire domain-adaptation requirement, and by extension the primary research question in Section 3.1 ('does banking-domain MLM adaptation improve macro-F1'), cannot currently be answered. This also blocks the 'original BERT vs banking-adapted BERT' comparison required throughout Sections 22-23.",
+      "recommended_action": "New module work required: src/banking_tasci/data/mlm_dataset.py (tokenization + masking policy) and src/banking_tasci/training/mlm_runner.py (training loop with validation loss, checkpoint/resume per Section 17). This is correctly scoped as Phase 6 in Section 31 and should not be started before Phases 1-5 (schema, manifests, gold freeze, MLM corpus) are complete."
+    },
+    {
+      "requirement_id": "R26-bio-target-extraction",
+      "requirement_section": "18",
+      "status": "COMPLETE",
+      "evidence": "src/banking_tasci/data/bio.py (fully read) implements offsets_to_word_bio() (B-ASP/I-ASP/O labelling), word_bio_to_subword_bio() (subword projection with correct B-ASP-only-on-first-subword semantics), apply_ignore_mask() (-100 ignore index for special/padding tokens), bio_to_offsets() (character-span reconstruction from predicted labels, including defensive handling of a leading I-ASP with no active span), and round_trip() (identity verification offsets->BIO->offsets). The module is deliberately tokenizer-agnostic (verified: no transformers import). Zero-target and multi-target records are supported structurally (an empty aspect list or multiple non-overlapping spans both work with the same functions). tests/test_bio.py exists.",
+      "file_path": "src/banking_tasci/data/bio.py:offsets_to_word_bio(), word_bio_to_subword_bio(), apply_ignore_mask(), bio_to_offsets(), round_trip()",
+      "symbol": "offsets_to_word_bio(); bio_to_offsets(); round_trip()",
+      "impact": "No gap in the BIO conversion logic itself. The self-attention model and BERT token-classification baseline that CONSUME this BIO logic for actual target extraction do not yet exist as trained components, but the data-layer conversion is complete and correct.",
+      "recommended_action": "Reuse bio.py unchanged. The remaining gap for Section 18 is the model layer (self-attention aspect extractor), which is a new-model-development task, not a data-layer gap."
+    },
+    {
+      "requirement_id": "R27-self-attention-aspect-extractor-model",
+      "requirement_section": "18",
+      "status": "MISSING",
+      "evidence": "src/banking_tasci/models/ contains only bert_baseline.py, bilstm_baseline.py, svm_baseline.py -- no self-attention-specific aspect-extraction model class exists. docs/tasci_implementation_gap_analysis.md (prior session) independently confirms: 'BIO utilities and metrics only; no self-attention extractor model'.",
+      "file_path": "src/banking_tasci/models/ (directory listing: bert_baseline.py, bilstm_baseline.py, svm_baseline.py only)",
+      "symbol": "N/A",
+      "impact": "The BERT token-classification baseline required alongside the self-attention model exists in bert_baseline.py, but the self-attention model itself (required as a non-baseline component per Section 18) is entirely absent.",
+      "recommended_action": "New model development, scoped to Phase 7 per Section 31. Depends on R13 (schema) and R15 (taxonomy) being resolved first so training data has the correct target/category representation."
+    },
+    {
+      "requirement_id": "R28-category-prediction-model",
+      "requirement_section": "19",
+      "status": "MISSING",
+      "evidence": "No text-category-pair classification model exists anywhere in src/banking_tasci/models/. No semantic category-string mapping (e.g. 'APP#RELIABILITY -> mobile application, reliability') exists in code or config.",
+      "file_path": "N/A",
+      "symbol": "N/A",
+      "impact": "Section 19's entity-attribute category prediction stage is entirely unimplemented, and cannot be implemented meaningfully until R15 (canonical taxonomy) exists.",
+      "recommended_action": "Scoped to Phase 7 per Section 31, after taxonomy (R15) and schema (R13) are resolved."
+    },
+    {
+      "requirement_id": "R29-intent-classification-conditions",
+      "requirement_section": "20, 22.1, 22.2, 22.3",
+      "status": "PARTIAL",
+      "evidence": "configs/intent.yaml defines a GRU-based contextual architecture template (context_gru, current_gru, context_mode: previous_plus_current, no_context.token: '[NO_CONTEXT]') but is explicitly marked as a TEMPLATE with <PLACEHOLDER_*> values never filled in, and there is no corresponding model class in src/banking_tasci/models/ implementing a GRU (only bert_baseline.py, bilstm_baseline.py, svm_baseline.py exist). src/banking_tasci/models/svm_baseline.py and bilstm_baseline.py DO implement current-only and context-aware conditions generically (confirmed by docs/project_status_25_september_2026.md: 'completed current-only and previous-plus-current SVM intent runs'), and bert_baseline.py implements a BERT intent classifier dispatcher. However intent.yaml's intent.labels list is the legacy 7-label set (R17 conflict) and the GRU model itself does not exist as code.",
+      "file_path": "configs/intent.yaml (template, <PLACEHOLDER_VOCAB_PATH> etc never resolved); src/banking_tasci/models/bilstm_baseline.py; src/banking_tasci/models/svm_baseline.py; src/banking_tasci/models/bert_baseline.py",
+      "symbol": "context_mode (config key); current_gru/context_gru (config sections, no implementing class)",
+      "impact": "SVM/BiLSTM/BERT baseline intent classification conditions are genuinely implemented and runnable. The GRU-based contextual model specifically required by Section 20 does not exist. The public_warning separate-flag requirement (Section 20) is also not represented anywhere since no schema field for it exists (R13/R17).",
+      "recommended_action": "Reuse SVM/BiLSTM/BERT intent baselines once repointed at the new six-label taxonomy (R17). Implement a new GRU model class as new work, informed by the already-correct context_mode/no_context design in configs/intent.yaml once its placeholders and label list are corrected."
+    },
+    {
+      "requirement_id": "R30-sentiment-conditions-and-tasci-fusion",
+      "requirement_section": "21, 22.5",
+      "status": "PARTIAL",
+      "evidence": "configs/sentiment.yaml defines a GloVe+Transformer+intent-fusion template (glove section, transformer section, intent.fusion_method: concatenate) but is explicitly a TEMPLATE with <PLACEHOLDER_GLOVE_PATH> never resolved, and no GloVe loader, no fusion module, and no TASCI-specific sentiment head exist in src/banking_tasci/models/ or elsewhere. SVM/BiLSTM/BERT sentiment baselines DO exist and are runnable (svm_baseline.py, bilstm_baseline.py, bert_baseline.py all support sentiment classification per docs/project_status_25_september_2026.md's reported SVM sentiment results). sentiment.yaml's sentiment.labels is ['negative','neutral','positive'] -- missing 'conflict' (same R16 conflict).",
+      "file_path": "configs/sentiment.yaml (template); src/banking_tasci/models/bilstm_baseline.py; src/banking_tasci/models/svm_baseline.py; src/banking_tasci/models/bert_baseline.py",
+      "symbol": "glove (config section, no loader); intent.fusion_method (config key, no implementing module)",
+      "impact": "SVM/BiLSTM/original-BERT sentiment baselines exist and are reusable once repointed at corrected labels. No-intent/predicted-intent/gold-intent CONDITIONS as a controlled ablation (same partitions/seeds/architecture per Section 21) do not exist as an implemented experiment runner. The GloVe loader and TASCI intent-fusion sentiment head do not exist as code at all.",
+      "recommended_action": "Reuse SVM/BiLSTM/BERT sentiment baselines (correcting labels per R16). New work required for: GloVe embedding loader with OOV policy, intent-projection/fusion module, TASCI sentiment head, and a dedicated ablation-condition runner that holds partitions/seeds/architecture fixed while swapping only the intent input."
+    },
+    {
+      "requirement_id": "R31-baseline-families-overall",
+      "requirement_section": "22",
+      "status": "PARTIAL",
+      "evidence": "SVM (svm_baseline.py: TF-IDF + linear SVM, deterministic config, class weighting support -- confirmed by reading the module and by actual completed run metrics in docs/project_status_25_september_2026.md) and BiLSTM (bilstm_baseline.py + training/loop.py shared training loop with checkpoint support) are implemented. Original BERT (bert_baseline.py) is implemented for token classification and sequence/pair classification but has no completed, artifact-verified training run in this environment (no local transformers checkpoint confirmed; docs/bert_preflight_25sept.md and outputs/bert_preflight_25sept.json document this preflight gap from a prior session). Banking-adapted BERT (22.4) is MISSING entirely pending R25. TASCI-style integrated pipeline (22.5) is MISSING entirely pending R27/R28/R29/R30.",
+      "file_path": "src/banking_tasci/models/svm_baseline.py; src/banking_tasci/models/bilstm_baseline.py; src/banking_tasci/models/bert_baseline.py; src/banking_tasci/training/loop.py; docs/bert_preflight_25sept.md",
+      "symbol": "N/A (summary finding; see R25-R30 for component detail)",
+      "impact": "SVM and BiLSTM baseline code is the most mature and reusable component in the repository. BERT requires dependency/checkpoint preflight before any training. Banking-adapted BERT and TASCI are net-new development.",
+      "recommended_action": "Re-run BERT preflight checks before scheduling any BERT training under new_pipeline_v1 data. Prioritise SVM/BiLSTM re-runs on the new 800/100/100 split (once it exists) as the fastest path to initial new_pipeline_v1 results."
+    },
+    {
+      "requirement_id": "R32-reproducibility-writer",
+      "requirement_section": "25",
+      "status": "PARTIAL",
+      "evidence": "src/banking_tasci/training/reproducibility.py (fully read) implements new_run_dir() (collision-safe, never overwrites), write_run() (config.yaml, environment.txt, git_commit.txt, label_maps.json, three manifest CSVs, metrics.json, best_checkpoint.pt, training_log.txt, predictions.jsonl -- each attempted independently with per-artifact failure logging rather than aborting the whole run). It does NOT capture: pipeline_version (does not exist, see R1), source/split manifest CHECKSUMS (only copies manifest files, does not hash them), taxonomy version, subgroup reports as a first-class artifact, or reload-verification as an automated step within write_run() itself (reload verification is tested separately per docs, not invoked by this writer).",
+      "file_path": "src/banking_tasci/training/reproducibility.py:new_run_dir(), write_run(), RunArtifacts, _build_environment_text(), _read_git_commit()",
+      "symbol": "RunArtifacts; write_run()",
+      "impact": "The artifact-writing INFRASTRUCTURE (immutable run dirs, graceful partial-failure handling, environment capture) is solid and should be extended rather than replaced. Git commit capture will read 'unknown (not a git repository)' until R2 is resolved. Checksums, pipeline_version, and taxonomy_version are the concrete missing fields.",
+      "recommended_action": "Extend RunArtifacts/write_run() to accept and persist pipeline_version, taxonomy_version, and source/split manifest checksums, once R1/R2/R15 exist to supply real values."
+    },
+    {
+      "requirement_id": "R33-required-tests-coverage",
+      "requirement_section": "32",
+      "status": "PARTIAL",
+      "evidence": "38 test files exist in tests/. Mapped against Section 32's required categories: COVERED -- offset validation (test_annotations.py, test_bio.py), zero/multi-opinion handling implicitly via test_annotations.py's aspects=[] cases, duplicate record IDs (test_annotations.py), missing mandatory fields (test_annotations.py), privacy placeholders (test_anonymise.py), sampling determinism (test_sampler.py, test_south_africa_resampling.py), split totals/determinism (test_splits.py), group leakage (test_splits.py), checkpoint reload (test_reproducibility.py, test_training_loop.py), [NO_CONTEXT] handling (test_context.py, test_context_and_determinism.py), rating-not-a-feature (test_rating_not_a_feature.py), evaluation input compatibility (test_evaluation_metrics.py, test_evaluation_phase3a1.py). NOT COVERED (no corresponding test file found): taxonomy validity, valid entity-attribute combinations, category composition (category==entity+'#'+attribute), implicit-target null-field validation, exact source counts (100,768/10,847/111,615), annotation allocation (500/250/250), unlabelled corpus count (110,615), exclusion of all gold IDs from MLM, absence of task labels in MLM text, manifest checksum verification, end-to-end tuple matching (end_to_end.py exists in evaluation/ but no corresponding test_end_to_end.py was found in tests/).",
+      "file_path": "tests/ (38 files enumerated directly)",
+      "symbol": "N/A",
+      "impact": "Roughly half of Section 32's required test categories already have reasonable coverage, carried over from the legacy pipeline's own test discipline. The other half are new-schema/new-count tests that cannot be written until the corresponding features (schema, taxonomy, MLM corpus) exist.",
+      "recommended_action": "Continue per phase.",
+      "previous_status": "PARTIAL",
+      "evidence_session_2": "161 new tests added across tests/test_new_pipeline_config.py (65), tests/test_new_pipeline_schema.py (72), tests/test_new_pipeline_manifest.py (24). Full suite went from 506 to 667 passing with an identical failure list, confirming no regression. Section 32 categories NOW COVERED: taxonomy validity, valid entity-attribute combinations, category composition, explicit target offsets, implicit target null fields, opinion offsets, zero-opinion records, multi-opinion records, duplicate record IDs, missing mandatory fields, annotation allocation, split totals, source-level split totals, [NO_CONTEXT] handling, manifest checksum verification. STILL MISSING (blocked on later phases): exact source counts as data assertions (blocked on R3), unlabelled corpus count, exclusion of all gold IDs from MLM, absence of task labels in MLM text, sampling determinism for the new sampler, split determinism for the new splitter, group leakage on new-schema fields, checkpoint reload/resume for MLM, end-to-end tuple matching.",
+      "evidence_session_3": "Session 3 added 75 tests (6 BiLSTM regression, 9 import/determinism isolation, 20 manifest extension, 60 international sampler - of which 75 are net new files/appends). Full suite: 772 passed, 0 failed, 1 skipped (was 667 passed, 10 failed). Section 32 categories NEWLY covered: sampling determinism (seed 42, cross-process), source checksum recording, manifest checksum verification, invalid-schema detection, privacy-failure detection, duplicate record-ID detection, group leakage integrity (duplicate and review groups), label-hidden export, and absence of auto-inserted target/category/sentiment/intent labels. STILL NOT COVERED (blocked on later phases): exact source counts as data assertions for South Africa (blocked on R3 materialisation), unlabelled corpus count, exclusion of all gold IDs from MLM, absence of task labels in MLM text, split determinism for the new splitter, checkpoint reload/resume for MLM, end-to-end tuple matching.",
+      "evidence_session_4": "Session 4 added 129 tests across tests/test_sa_materialisation.py (37), tests/test_sa_sampling.py (55), tests/test_strict_unlabelled_corpus.py (37) plus 15 appended manifest tests. 245 focused tests pass across the five affected files. Section 32 categories NEWLY covered: exact source counts as DATA assertions (100,768 verified against the real corpus), strict-subset provenance verification, atomic write with temp-file cleanup on failure, overwrite protection, materialisation determinism and logical checksums, per-bank allocation, bank shortage and missing-bank reporting, gold-ID set validation, and gold-exclusion refusal paths. STILL NOT COVERED: actual gold-ID exclusion against real data (blocked on annotation), split determinism for the new splitter, MLM checkpoint reload/resume, end-to-end tuple matching."
+    },
+    {
+      "requirement_id": "R34-ethics-privacy-anonymisation",
+      "requirement_section": "26",
+      "status": "COMPLETE",
+      "evidence": "src/banking_tasci/data/anonymise.py defines EMAIL_PATTERN, URL_PATTERN, MENTION_PATTERN plus cfg-driven account_reference_pattern and phone_pattern, consumed both by the ingestion pipeline and by annotations.py's check_no_raw_identifiers() validator. outputs/south_africa_data_report.json documents concrete anonymisation counts (email: 6,275; url: 682,609; mention: 3,971,875; account_or_reference: 32,180; phone: 17,533) proving the patterns have actually been applied and measured, not just defined. tests/test_anonymise.py exists.",
+      "file_path": "src/banking_tasci/data/anonymise.py; outputs/south_africa_data_report.json:anonymisation_counts",
+      "symbol": "EMAIL_PATTERN; URL_PATTERN; MENTION_PATTERN; check_no_raw_identifiers()",
+      "impact": "No gap. Identifier removal is implemented, tested, and evidenced with real counts on real data.",
+      "recommended_action": "Reuse unchanged. Re-apply the same anonymise.py functions to any new MLM corpus export (R7/R24) once built, per Section 16's privacy-validation requirement."
+    },
+    {
+      "requirement_id": "R35-prohibited-legacy-splits-ratio",
+      "requirement_section": "27",
+      "status": "CONFLICTS_WITH_NEW_REQUIREMENT",
+      "evidence": "Direct duplicate of R21. 0.70/0.15/0.15 are the live default constants in scripts/create_splits.py, not merely historical mentions in prose.",
+      "file_path": "scripts/create_splits.py:DEFAULT_TRAIN_RATIO, DEFAULT_VALIDATION_RATIO, DEFAULT_TEST_RATIO",
+      "symbol": "DEFAULT_TRAIN_RATIO; DEFAULT_VALIDATION_RATIO; DEFAULT_TEST_RATIO",
+      "impact": "See R21.",
+      "recommended_action": "See R21."
+    },
+    {
+      "requirement_id": "R36-prohibited-seven-intents",
+      "requirement_section": "27",
+      "status": "CONFLICTS_WITH_NEW_REQUIREMENT",
+      "evidence": "Direct duplicate of R17. INTENT_LABELS in annotations.py and configs/intent.yaml both actively enumerate seven primary intents including 'warning', not merely a historical mention.",
+      "file_path": "src/banking_tasci/data/annotations.py:INTENT_LABELS; configs/intent.yaml",
+      "symbol": "INTENT_LABELS",
+      "impact": "See R17.",
+      "recommended_action": "See R17."
+    },
+    {
+      "requirement_id": "R37-prohibited-legacy-counts",
+      "requirement_section": "27",
+      "status": "CONFLICTS_WITH_NEW_REQUIREMENT",
+      "evidence": "The 2,250,776-record figure (prohibited as a modelling-starting-corpus count under a slightly different literal value in Section 4.1's prose, and structurally the same category of error) is the ACTUAL row count of data/interim/south_africa_prepared.parquet today, independently confirmed via direct pyarrow read (2250776 rows) and three JSON reports. The 796-record combined gold total and its 600/196 split are also live, real counts in data/annotations/combined_adjudicated_v2.jsonl, not merely historical mentions -- these predate but do not match either the 'legacy 600' or the 'new 1,000' figures in Section 27/4.4, representing a third, intermediate historical generation of the dataset documented in docs/revised_pipeline_implementation_audit.md.",
+      "file_path": "data/interim/south_africa_prepared.parquet; data/annotations/combined_adjudicated_v2.jsonl",
+      "symbol": "N/A",
+      "impact": "There are three distinct historical count/split generations layered in this repository: (1) original ~600/70-15-15 legacy, (2) an intermediate 796-record/496-target generation documented in revised_pipeline_implementation_audit.md and tasci_implementation_gap_analysis.md, and (3) the current 1,000-record/800-100-100 new_pipeline_v1 target. None of the three has been fully executed end-to-end.",
+      "recommended_action": "Preserve all three generations' artifacts under their existing paths (do not delete). Clearly label any new_pipeline_v1 output under a new, distinctly-named path (e.g. data/annotations/new_pipeline_v1_*.jsonl, data/processed/new_pipeline_v1/*) so a future session cannot confuse generations."
+    },
+    {
+      "requirement_id": "R38-cohens-kappa-single-annotator",
+      "requirement_section": "27",
+      "status": "REQUIRES_DATA_CONFIRMATION",
+      "evidence": "docs/project_status_25_september_2026.md reports specific Kappa values (intent Kappa 0.8736, aspect-category Kappa 0.9904, aspect-sentiment Kappa 0.8750) attributed to the South African component, explicitly described as 'genuinely independently annotated and manually adjudicated'. The same document separately states 'the original 600-record component was technically validated but did not have genuine independent annotation' and 'pilot_unannotated.jsonl is... byte-identical to annotator A' with a dedicated provenance audit (outputs/pilot_annotation_input_provenance_audit.json).",
+      "file_path": "docs/project_status_25_september_2026.md; outputs/pilot_annotation_input_provenance_audit.json; outputs/south_african_genuine_agreement.json",
+      "symbol": "N/A",
+      "impact": "The South African 196/796-record component's agreement statistics appear to have genuine dual-annotator provenance per prior-session audit; the international component does not. This distinction must be preserved and clearly communicated when any new_pipeline_v1 gold corpus reuses or references these prior statistics.",
+      "recommended_action": "Ask the researcher to confirm whether genuinely independent dual annotation is planned/available for the NEW 1,000-record gold corpus before any Kappa/agreement statistic is computed or reported for new_pipeline_v1. Do not reuse the old 196-record agreement statistics as if they describe the new 500-record South African sample -- they describe a different, smaller, differently-sampled set of records."
+    },
+    {
+      "requirement_id": "R39-canonical-config-file",
+      "requirement_section": "28",
+      "status": "COMPLETE",
+      "evidence": "configs/new_pipeline_v1.yaml does not exist (confirmed via file_search and directory listing of configs/).",
+      "file_path": "configs/ (directory listing: base.yaml, aspect.yaml, intent.yaml, sentiment.yaml, full_pipeline.yaml, baselines/*.yaml -- no new_pipeline_v1.yaml)",
+      "symbol": "N/A",
+      "impact": "Direct prerequisite for R1 and for every count/label/split value referenced throughout this report.",
+      "recommended_action": "Closed. Note the counts block is annotated in-file as TARGET values pending R3.",
+      "previous_status": "MISSING",
+      "evidence_session_2": "configs/new_pipeline_v1.yaml created with every block required by Section 28 (counts, annotation, split, domain_adaptation, context, evaluation) plus taxonomy reference, artifact paths, and an explicit preserve_unchanged list. Inherits seed/anonymise/near_dup from base.yaml via the existing load_config base: mechanism. Verified by 30 tests in test_new_pipeline_config.py (all passing)."
+    },
+    {
+      "requirement_id": "R40-makefile-entrypoints",
+      "requirement_section": "N/A (supporting evidence)",
+      "status": "NOT_APPLICABLE",
+      "evidence": "Makefile defines only install, test, and prepare-data targets. prepare-data invokes scripts/prepare_data.py against the international sources only (sampledbanktweet.csv, bank_reviews3.csv) -- there is no Makefile target for South African preparation, sampling, splitting, or any new_pipeline_v1 step. pyproject.toml confirms Python >=3.10, src/ package layout, pytest test discovery from tests/.",
+      "file_path": "Makefile; pyproject.toml",
+      "symbol": "install; test; prepare-data (Makefile targets)",
+      "impact": "No immediate requirement gap, but flags that there is currently no single documented command sequence to run the new_pipeline_v1 phases; all current entry points are ad hoc script invocations with documented example CLI args in each script's own docstring.",
+      "recommended_action": "Consider adding new_pipeline_v1-specific Makefile targets once Phase 1-5 scripts exist, to reduce the risk of a future session invoking the wrong default ratios/sizes (as in R21)."
+    },
+    {
+      "requirement_id": "R3-south-africa-candidate-count",
+      "requirement_section": "4.1, 27",
+      "status": "COMPLETE",
+      "evidence": "data/interim/south_africa_prepared.parquet contains 2,250,776 rows (verified directly via pyarrow: pq.read_table(...).num_rows == 2250776). The same figure appears in outputs/south_africa_data_report.json (rows_after_all_filters=2250776, context_available_false=2250776), outputs/revised_pipeline_source_inventory.json (rows=2250776), and outputs/revised_pipeline_source_verification.json (rows=2250776). This is the full post-cleaning corpus, not the 100,768 customer-feedback candidate subset required by Section 4.1. Filtering the parquet's own customer_feedback_candidate==True flag yields 2,086,851 rows (directly verified) and excluding likely_promotional/possible_official_account yields 2,033,936 rows -- neither equals 100,768 under any combination of existing boolean flags tested.",
+      "file_path": "data/interim/south_africa_prepared.parquet; outputs/south_africa_data_report.json:39,77; outputs/revised_pipeline_source_inventory.json:120; outputs/revised_pipeline_source_verification.json:348",
+      "symbol": "customer_feedback_candidate, candidate_strata, likely_promotional, possible_official_account (parquet columns)",
+      "impact": "The 100,768-record South African starting corpus required by Section 4.1 does not exist as a materialized file or derivable column combination anywhere in the repository. outputs/south_africa_candidates_v2_validation.json independently confirms data/interim/south_africa_candidates_v2.parquet does not exist on disk.",
+      "recommended_action": "CLOSED. The corpus is immutable, checksummed, and manifest-verified. Note the materialisation script refuses to overwrite without --overwrite and refuses any count deviation without an explicitly documented --allow-count-change.",
+      "previous_status": "REQUIRES_DATA_CONFIRMATION",
+      "evidence_session_2": "Re-verified this session by executable tooling rather than ad hoc query. 'python scripts/generate_source_manifest.py' produced artifacts/manifests/new_pipeline_v1/south_africa_source_manifest.json with status=REQUIRES_DATA_CONFIRMATION, row_count=2250776, expected_row_count=100768, row_count_difference=+2150008, sha256=f780da1241fef4b2b7f21aba295dc4236131071248e3bcd302fc22f31a6f06f7. The manifest also records that customer_feedback_candidate is True for 2,086,851 records and notes explicitly that this flag alone does not define the required corpus. No sampling or filtering was applied; the source file checksum is unchanged.",
+      "evidence_session_3": "RESOLVED AS REPRODUCIBLE, pending materialisation. The 100,768 figure is the documented output of the v2 evidence-based candidate filter, not an unexplained number. Executable proof this session: a read-only re-execution of the filter logic (src/banking_tasci/data/sa_candidate_filter.py rules A-F, as applied by scripts/resample_south_africa_v2.py:build_reservoir) against data/interim/south_africa_prepared.parquet produced EXACTLY 100,768 candidates with 100,768 unique record_ids and 0 duplicates. The per-rule breakdown reproduced the September 2026 run log digit for digit: C=38185, A=33360, B=18428, D=6380, E=2880, F=1535 (sum 100768). Provenance: outputs/logs/run_20260905_191954_887494.log records 'Candidates: 100768'; docs/south_africa_filter_history.md explicitly distinguishes 100,768 (v2 evidence-based) from 2,086,851 (v1 broad catch-all) and warns they must not be presented as two measurements of the same filter; docs/south_africa_resampling_report.md records the same breakdown; docs/research_proposal_current.tex states the 100,768 candidate pool is the adaptation corpus. Source checksum unchanged (f780da12...6f06f7) after verification. The manifest now carries a derived_selection record documenting the full derivation.",
+      "evidence_session_4": "MATERIALISED AND VERIFIED. data/processed/new_pipeline_v1/south_africa_candidates_v2.parquet contains exactly 100,768 records with 100,768 unique identifiers and 0 duplicates, sha256=15fca4f1ccb950b6cbbfa3390549ccb5cca8b7dc7e078a017e170a4104a6231a. Produced by scripts/materialize_south_africa_candidates_v2.py, which delegates selection entirely to the new canonical banking_tasci.data.sa_candidates_v2.select_v2_candidates. Pre-write verification confirmed: exact count, unique IDs, zero duplicates, every ID present in the parent, STRICT subset of the parent (100,768 < 2,250,776), rule counts matching the documented breakdown (C=38185 A=33360 B=18428 D=6380 E=2880 F=1535, sum 100768), and no forbidden/raw-identifier columns. artifacts/manifests/new_pipeline_v1/south_africa_candidates_v2_source_manifest.json reports status=VERIFIED with row_count=100768 == expected_row_count=100768, unique_record_count=100768, duplicate_record_count=0, and all 20 required fields populated. Parent source byte-identical afterwards (f780da12...6f06f7). Backed by 37 tests in tests/test_sa_materialisation.py including a real-source integration test."
+    },
+    {
+      "requirement_id": "R41-bilstm-posthoc-duplicate-definition",
+      "requirement_section": "N/A (repository defect found during audit)",
+      "status": "COMPLETE",
+      "evidence": "src/banking_tasci/training/baseline_runner.py defined _write_bilstm_posthoc_artifacts TWICE (lines 339 and 376). The later definition shadowed the earlier one and declared an extra leading `model` parameter it never used, so the 8-argument call site at line 319 bound `splits` into `metrics` and left `splits` unfilled -> TypeError. The duplicate also omitted cluster_job_metadata.json (documented in docs/phase_3b_svm_baseline_report.md) and resolved test records with an O(n^2) linear scan instead of an O(n) dict lookup. Removed the duplicate, keeping the definition that matches the call site. tests/test_train_baselines_cli.py now 15 passed.",
+      "file_path": "src/banking_tasci/training/baseline_runner.py:319,339",
+      "symbol": "_write_bilstm_posthoc_artifacts",
+      "impact": "The BiLSTM baseline CLI could not complete; no posthoc artifacts were produced.",
+      "recommended_action": "Closed. Guarded by ::test_bilstm_posthoc_writer_is_defined_exactly_once and ::test_bilstm_posthoc_writer_signature_matches_call_site (which also pins `splits` as required, so it cannot be made optional to mask a recurrence)."
+    },
+    {
+      "requirement_id": "R42-scripts-package-import-fragility",
+      "requirement_section": "N/A (test-infrastructure defect)",
+      "status": "COMPLETE",
+      "evidence": "tests/test_south_africa_resampling.py has exactly 9 `from scripts.resample_south_africa_v2 import ...` statements - matching the exactly 9 reported failures. scripts/__init__.py does not exist, so `scripts` resolves only while the PROJECT ROOT is on sys.path, but the module inserted only `src/`. Reproduced directly: with only src on the path the import raises ModuleNotFoundError: No module named 'scripts'. Fixed by inserting the project root explicitly, exactly as the module already did for src/. The resampling IMPLEMENTATION was not modified.",
+      "file_path": "tests/test_south_africa_resampling.py (header)",
+      "symbol": "sys.path project-root insertion",
+      "impact": "9 order-dependent test failures that masked the true state of the suite and made it unusable as a regression gate.",
+      "recommended_action": "Closed. Guarded by tests/test_scripts_import_isolation.py. Note tests/test_evaluation_phase3a1.py and tests/test_near_duplicates.py also lack self-sufficient sys.path setup and cannot be collected standalone; worth hardening."
+    },
+    {
+      "requirement_id": "R43-process-dependent-minhash-hashing",
+      "requirement_section": "6.1 (deduplication determinism), 25 (reproducibility)",
+      "status": "COMPLETE",
+      "evidence": "src/banking_tasci/data/clean.py:_shingle used Python's builtin hash() on shingle strings. Python randomises string hashing per process via PYTHONHASHSEED, so MinHash signatures - and therefore near-duplicate grouping - differed between runs on identical input. Demonstrated: tests/test_near_duplicates.py::test_detect_near_identical_texts_flagged passed and failed across identical consecutive invocations (pass/fail/fail/pass); with PYTHONHASHSEED pinned it passed 4/4. Replaced with _stable_hash (blake2b, 8-byte digest): 6/6 stable unpinned, and 166 related tests pass across clean/near-duplicate/ingest/resampling modules.",
+      "file_path": "src/banking_tasci/data/clean.py:_shingle, _stable_hash",
+      "symbol": "_shingle(); _stable_hash()",
+      "impact": "Near-duplicate detection was non-reproducible despite its docstring promising determinism for a given cfg.seed. This affects leakage prevention, which depends on stable duplicate grouping - a correctness issue for Requirements 15.2, not merely a flaky test. It was masked by luck in earlier runs rather than introduced by this session.",
+      "recommended_action": "Closed. Guarded by ::test_shingle_hashing_is_process_independent, ::test_near_duplicate_detection_is_deterministic_across_processes (both across four PYTHONHASHSEED values), and ::test_clean_module_does_not_use_builtin_hash_for_shingles. Previously-computed near_dup_group_id values in existing artifacts were produced with the old unstable hash and should be regarded as non-reproducible if ever recomputed."
+    },
+    {
+      "requirement_id": "R44-sa-candidate-filter-duplicate-definitions",
+      "requirement_section": "9 (single canonical source), N/A (repository defect)",
+      "status": "PARTIAL",
+      "evidence": "src/banking_tasci/data/sa_candidate_filter.py (920 lines) contains DUPLICATE definitions: CandidateResult at lines 189 and 748, classify_candidate at 198 and 757, is_potential_zero_aspect at 313 and 892, and _any at 353 and 375. The later definitions shadow the earlier ones, so the LIVE classify_candidate is the regex variant at line 757 (confirmed via inspect.getsourcelines). This is the same defect class as R41. Critically, the live row-wise classify_candidate DISAGREES with the vectorised keyword logic that produced the authoritative 100,768 count: measured on a 40,000-row sample of the real parent source, 1,838 vectorised candidates versus 2,592 row-wise candidates - 756 disagreements (1.89%), with the row-wise path more permissive. The September 2026 run log records 'Applying evidence-based candidate filter (vectorised keyword matching)', confirming the vectorised path is authoritative.",
+      "file_path": "src/banking_tasci/data/sa_candidate_filter.py:189,198,313,353,375,748,757,892",
+      "symbol": "classify_candidate; CandidateResult; is_potential_zero_aspect; _any",
+      "impact": "Had the materialisation naively 'imported one canonical filtering function' as classify_candidate, it would have selected a DIFFERENT record set and failed to reproduce 100,768 - silently producing a wrong corpus had the count assertion not caught it.",
+      "recommended_action": "Mitigated, not yet fully resolved. The authoritative vectorised logic was extracted verbatim into the new src/banking_tasci/data/sa_candidates_v2.py, which is now the single canonical selection used by materialisation, tests, and documentation; it reproduces 100,768 and the full rule breakdown exactly. sa_candidate_filter.py itself was deliberately NOT modified this session because scripts/resample_south_africa_v2.py and the legacy tests depend on its current behaviour and its completed outputs are preserved. Remaining work: de-duplicate that module behind a compatibility plan, and reconcile or deprecate the divergent row-wise classify_candidate."
+    },
+    {
+      "requirement_id": "R45-sa-sampler-nan-identity-group-collision",
+      "requirement_section": "7.1, 7.5 (N/A, repository defect found while re-running the required baseline)",
+      "status": "COMPLETE",
+      "evidence": "src/banking_tasci/data/south_africa_sampler.py's _prepare() built the _group column via DataFrame.apply(_group_key, axis=1). Over the full 100,768-row real corpus this coerced the (almost entirely None) result column so every missing group collapsed onto the same shared float('nan') object. The selection loop's conflict check (group is not None and group in used_groups) treated NaN as 'not None', so after the first ungrouped record was accepted into used_groups, every later ungrouped record in the same length band looked like a duplicate-group conflict by object identity. Measured before the fix: sample_south_africa(REAL_CORPUS, seed=42) selected only 12 of 500 target records, with duplicate_group_conflicts=201512 against only 24 genuine near-duplicate groups in the whole corpus. Did not reproduce on the ~1,500-row synthetic test fixtures used elsewhere in the suite, which is why it was not caught earlier.",
+      "file_path": "src/banking_tasci/data/south_africa_sampler.py:_group_key(), _is_missing_group(), _prepare(), sample_south_africa()",
+      "symbol": "_is_missing_group(); _prepare(); sample_south_africa()",
+      "impact": "This was a silent, severe under-selection bug in the only sampler that supplies the 500-record South African half of the gold corpus. Left unfixed, any real (non-dry-run) gold write would have produced a 12-record, heavily-skewed-by-bank selection instead of 500/100-per-bank, while still reporting it as the result of a seed-42 deterministic run.",
+      "recommended_action": "Closed. Added _is_missing_group() (treats None and float NaN as 'no group') and used it at the column-normalisation step and all three group-conflict comparison sites. Re-verified against the real materialised corpus: exactly 500 selected, 100 per bank, 0 shortages, 0 duplicate_group_conflicts. make test re-run clean at 916 passed / 0 failed / 1 skipped."
+    }
+  ],
+  "summary_counts": {
+    "COMPLETE": 21,
+    "CONFLICTS_WITH_NEW_REQUIREMENT": 5,
+    "MISSING": 4,
+    "NOT_APPLICABLE": 2,
+    "PARTIAL": 12,
+    "REQUIRES_DATA_CONFIRMATION": 1
+  }
+}

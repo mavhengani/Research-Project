@@ -1,0 +1,89 @@
+{
+  "bank_distribution": {
+    "Axis Bank": 131,
+    "Canara Bank": 35,
+    "Citibank": 14,
+    "HDFC Bank": 188,
+    "IDBI": 14,
+    "IndusInd Bank": 20,
+    "Kotak": 80,
+    "Punjab National Bank": 14,
+    "SBI": 218,
+    "review": 285,
+    "unknown": 9848
+  },
+  "bytes": 2940229,
+  "candidate_status": null,
+  "context_availability": {
+    "column": "context_available",
+    "context_available_false": 10847,
+    "context_available_true": 0
+  },
+  "count_status": "VERIFIED",
+  "derived_selection": null,
+  "duplicate_group_coverage": null,
+  "duplicate_record_count": 0,
+  "environment": {
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python_version": "3.10.12"
+  },
+  "exists": true,
+  "expected_row_count": 10847,
+  "generated_at": "2026-10-12T18:57:24Z",
+  "generation_command": "python scripts/generate_source_manifest.py --source international",
+  "git_commit": "UNKNOWN_NO_COMMIT",
+  "notes": [
+    "No 'near_dup_group_id' column; duplicate-group coverage unavailable.",
+    "No 'customer_feedback_candidate' column; candidate status unavailable."
+  ],
+  "null_counts": {
+    "bank": 9848,
+    "context_available": 0,
+    "created_at": 9848,
+    "record_id": 0,
+    "region": 0,
+    "source": 0
+  },
+  "pipeline_version": "new_pipeline_v1",
+  "privacy_status": {
+    "note": "Structural check only. Anonymisation evidence is recorded by the ingestion pipeline (see outputs/*_data_report.json 'anonymisation_counts').",
+    "privacy_status_column_present": false,
+    "raw_text_column_present": true,
+    "username_column_present": false
+  },
+  "region": "international",
+  "region_distribution": {
+    "international": 10847
+  },
+  "review_group_coverage": null,
+  "row_count": 10847,
+  "row_count_difference": 0,
+  "schema": {
+    "bank": "object",
+    "context_available": "bool",
+    "created_at": "object",
+    "previous_text": "object",
+    "rating": "float64",
+    "record_id": "object",
+    "region": "object",
+    "source": "object",
+    "split": "float64",
+    "text": "object",
+    "thread_id": "float64",
+    "title": "object"
+  },
+  "sha256": "2a3435adcb5e5e8ffba44246dc529ecab4b9b24855f46849cf8d0fb3fe4252fd",
+  "source": "international_bank_tweets+bank_reviews",
+  "source_distribution": {
+    "bank_reviews": 999,
+    "international_bank_tweets": 9848
+  },
+  "source_file": "/home/fxvdev/Documents/reseach/Research Project/Research Project/banking-tasci/banking-tasci/data/interim/prepared.csv",
+  "status": "VERIFIED",
+  "unique_record_count": 10847,
+  "year_distribution": {
+    "2019": 313,
+    "2020": 686,
+    "unknown": 9848
+  }
+}

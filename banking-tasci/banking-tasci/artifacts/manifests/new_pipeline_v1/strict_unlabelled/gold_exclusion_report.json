@@ -1,0 +1,8 @@
+{
+  "gold_id_checksum": "fdee989ff1a5935b5404488b215ebda60da86cf0da2f9d81bb1f684d055cea4f",
+  "gold_manifest": "artifacts/frozen/new_pipeline_v1/candidate_2/revision_2/gold_sample_manifest.json",
+  "gold_overlap_with_strict": 0,
+  "gold_records_excluded": 1000,
+  "pipeline_version": "new_pipeline_v1",
+  "strict_record_count": 110615
+}
