@@ -1,0 +1,12 @@
+pandas
+pyyaml
+numpy
+torch
+scikit-learn
+joblib
+pytest
+hypothesis
+streamlit==1.62.0
+# Optional: required only for the BERT baseline (models/bert_baseline.py).
+# Install from a local wheelhouse on the cluster (offline). See docs/cluster_guide.md.
+# transformers

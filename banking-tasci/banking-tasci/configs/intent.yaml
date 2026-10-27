@@ -1,0 +1,82 @@
+# =============================================================================
+# Intent Extractor Configuration Template
+# (Phase 4 — GRU-Based Contextual Intent Extraction)
+#
+# This file is a TEMPLATE.  Replace every <PLACEHOLDER> before training.
+# Reference: KIRO_SPEC.md §13 (Model B: GRU Contextual Intent Extractor)
+# =============================================================================
+
+base: base.yaml   # Inherits seed, log_level, anonymise, near_dup, paths
+
+# ── Vocabulary / embedding ───────────────────────────────────────────────────
+vocabulary:
+  # Path to the pre-built vocabulary file (token → id mapping JSON).
+  path: <PLACEHOLDER_VOCAB_PATH>         # e.g. data/processed/vocab.json
+  size: <PLACEHOLDER_VOCAB_SIZE>         # e.g. 20000
+
+embedding:
+  # Dimension of the learnable token embedding table.
+  dim: 128
+  # Padding token id (must match the vocab file).
+  padding_idx: 0
+
+# ── GRU encoder (previous context) ───────────────────────────────────────────
+context_gru:
+  # Hidden state dimension.
+  hidden_dim: 128
+  # Number of GRU layers.
+  num_layers: 1
+  # Whether the GRU is bidirectional.
+  bidirectional: true
+  dropout: 0.2
+
+# ── GRU encoder (current text) ───────────────────────────────────────────────
+current_gru:
+  hidden_dim: 128
+  num_layers: 1
+  bidirectional: true
+  dropout: 0.2
+
+# ── Context mode ─────────────────────────────────────────────────────────────
+# "current_only"          – ignore previous_text; use only current sentence.
+# "previous_plus_current" – use attention over previous hidden states.
+context_mode: previous_plus_current
+
+# ── No-context representation ────────────────────────────────────────────────
+no_context:
+  # Token used as the previous-text placeholder for isolated records.
+  # Must be present in the vocabulary.
+  token: "[NO_CONTEXT]"
+
+# ── Classification head ──────────────────────────────────────────────────────
+intent:
+  labels:
+    - complaint
+    - compliment
+    - request_for_assistance
+    - suggestion
+    - warning
+    - churn_signal
+    - general_feedback
+  # Projection dimension before the final classification layer.
+  projection_dim: 128
+  dropout: 0.2
+
+# ── Training ─────────────────────────────────────────────────────────────────
+train:
+  learning_rate: 1.0e-3
+  batch_size: 32
+  epochs: 30
+  weight_decay: 0.0
+  grad_clip: 1.0
+  early_stopping_patience: 5
+  # Optional per-class weights for imbalanced intent distribution.
+  # List of floats in label order (see intent.labels above).
+  class_weights: null
+
+# ── Checkpointing ─────────────────────────────────────────────────────────────
+checkpoint:
+  dir: <PLACEHOLDER_CHECKPOINT_DIR>     # e.g. outputs/runs/intent
+
+# ── Hardware ─────────────────────────────────────────────────────────────────
+device: cpu

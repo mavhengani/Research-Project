@@ -1,0 +1,70 @@
+# =============================================================================
+# Full TASCI Pipeline Configuration Template
+# (Phase 5 — Integrated Inference Pipeline)
+#
+# This file is a TEMPLATE.  Replace every <PLACEHOLDER> before running
+# inference.  Checkpoints are produced by Phase 4 training scripts.
+# Reference: KIRO_SPEC.md §15 (Full TASCI-Style Pipeline)
+# =============================================================================
+
+base: base.yaml   # Inherits seed, log_level, anonymise, near_dup, paths
+
+# ── Component checkpoints ────────────────────────────────────────────────────
+# Paths to the best_checkpoint.pt files produced by each training run.
+# These must exist before inference can proceed.
+
+checkpoints:
+  aspect:    <PLACEHOLDER_ASPECT_CHECKPOINT>     # e.g. outputs/runs/aspect/20250101_120000_abcd1234/best_checkpoint.pt
+  intent:    <PLACEHOLDER_INTENT_CHECKPOINT>     # e.g. outputs/runs/intent/20250101_140000_efgh5678/best_checkpoint.pt
+  sentiment: <PLACEHOLDER_SENTIMENT_CHECKPOINT>  # e.g. outputs/runs/sentiment/20250101_160000_ijkl9012/best_checkpoint.pt
+
+# ── Vocabulary and tokeniser ─────────────────────────────────────────────────
+vocabulary:
+  path: <PLACEHOLDER_VOCAB_PATH>                 # e.g. data/processed/vocab.json
+
+# ── Confidence thresholds ────────────────────────────────────────────────────
+# Predictions below these thresholds are flagged in the output with
+# a low_confidence indicator.  Set to 0.0 to disable flagging.
+
+thresholds:
+  aspect_extraction: 0.5   # Minimum softmax probability for a B-ASP or I-ASP token
+  intent: 0.5              # Minimum probability for the predicted intent class
+  sentiment: 0.5           # Minimum probability for the predicted sentiment class
+
+# ── No-context token ─────────────────────────────────────────────────────────
+no_context_token: "[NO_CONTEXT]"
+
+# ── Inference I/O ────────────────────────────────────────────────────────────
+inference:
+  # Path to the input JSONL file (one Canonical_Record per line).
+  input_path: <PLACEHOLDER_INPUT_PATH>    # e.g. data/interim/prepared.jsonl
+  # Path to the output JSONL file (one structured prediction per line).
+  output_path: <PLACEHOLDER_OUTPUT_PATH>  # e.g. outputs/predictions/predictions.jsonl
+  # Number of records processed per forward pass.
+  batch_size: 32
+
+# ── Structured output format ─────────────────────────────────────────────────
+# Documents the output schema produced by the pipeline.
+# This section is informational; the pipeline code enforces the schema.
+#
+# {
+#   "record_id": "<source_record_id>",
+#   "intent": {
+#     "label": "<one of 7 intent labels>",
+#     "confidence": <float in [0, 1]>,
+#     "context_available": <bool>
+#   },
+#   "aspects": [
+#     {
+#       "term": "<extracted term text>",
+#       "start": <inclusive char offset>,
+#       "end":   <exclusive char offset>,
+#       "category": "<one of 9 aspect categories>",
+#       "sentiment": "<negative | neutral | positive>",
+#       "confidence": <float in [0, 1]>
+#     }
+#   ]
+# }
+
+# ── Hardware ─────────────────────────────────────────────────────────────────
+device: cpu

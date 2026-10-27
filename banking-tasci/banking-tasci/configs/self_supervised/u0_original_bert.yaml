@@ -1,0 +1,6 @@
+representation: U0
+name: original_bert
+base_model: bert-base-uncased
+revision: 86b5e0934494bd15c9632b12f734a8a67f723594
+continued_pretraining: false
+downstream_use_policy: direct_finetuning_only

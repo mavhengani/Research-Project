@@ -1,0 +1,181 @@
+# =============================================================================
+# Canonical Banking Entity-Attribute Taxonomy
+#
+# Taxonomy version: banking_entity_attribute_v1
+# Authoritative source: NEW_PIPELINE_REQUIREMENTS.md Section 9 (9.1 - 9.14)
+#
+# THIS IS THE SINGLE CANONICAL SOURCE OF CATEGORY TRUTH for new_pipeline_v1.
+#
+# Per Requirements Section 9: "The taxonomy must be stored in one canonical
+# configuration used by annotation exports, annotation validation,
+# preprocessing, training, evaluation, and reporting. Do not duplicate
+# independent category lists across scripts."
+#
+# Any new script, model, or validator MUST load categories from this file via
+# banking_tasci.data.new_pipeline_schema.load_taxonomy(). Do not hard-code
+# category lists anywhere else.
+#
+# Canonical category format: ENTITY#ATTRIBUTE
+#
+# NOTE ON LEGACY: src/banking_tasci/data/annotations.py defines a separate,
+# legacy nine-value flat ASPECT_CATEGORIES list. That list is NOT this
+# taxonomy and is NOT valid for new_pipeline_v1. It is preserved only so the
+# existing 796-record intermediate-generation gold corpus remains loadable
+# and validatable. Do not merge the two.
+# =============================================================================
+
+taxonomy_version: banking_entity_attribute_v1
+category_format: "ENTITY#ATTRIBUTE"
+category_separator: "#"
+
+# The attribute value permitted only when the text evaluates the entity
+# without enough evidence for a more specific attribute (Requirements 9.14).
+# Validators and annotation reports must monitor excessive use of this value.
+general_attribute: GENERAL
+
+# -----------------------------------------------------------------------------
+# Entities and their approved attributes (Requirements 9.1 - 9.13).
+#
+# `semantic` strings implement Requirements Section 19's instruction to
+# "represent categories semantically, not only as arbitrary numeric IDs",
+# and supply the natural-language side of the BERT text-category pair
+# condition. Examples given in Section 19:
+#   APP#RELIABILITY       -> "mobile application, reliability"
+#   CARD#FEES             -> "card, fees"
+#   SUPPORT#RESPONSIVENESS -> "customer support, responsiveness"
+# -----------------------------------------------------------------------------
+entities:
+
+  # --- 9.1 Application ---
+  APP:
+    semantic: mobile application
+    attributes:
+      USABILITY:    usability
+      RELIABILITY:  reliability
+      ACCESS:       access
+      SECURITY:     security
+      UPDATES:      updates
+      GENERAL:      general
+
+  # --- 9.2 Online banking ---
+  ONLINE_BANKING:
+    semantic: online banking
+    attributes:
+      USABILITY:    usability
+      RELIABILITY:  reliability
+      ACCESS:       access
+      SECURITY:     security
+      GENERAL:      general
+
+  # --- 9.3 Cards ---
+  CARD:
+    semantic: card
+    attributes:
+      DELIVERY:      delivery
+      ACTIVATION:    activation
+      FUNCTIONALITY: functionality
+      PAYMENT:       payment
+      FEES:          fees
+      SECURITY:      security
+      GENERAL:       general
+
+  # --- 9.4 Accounts ---
+  ACCOUNT:
+    semantic: account
+    attributes:
+      OPENING:   opening
+      ACCESS:    access
+      BALANCE:   balance
+      STATEMENT: statement
+      CLOSURE:   closure
+      FEES:      fees
+      GENERAL:   general
+
+  # --- 9.5 Transfers ---
+  TRANSFER:
+    semantic: transfer
+    attributes:
+      SPEED:       speed
+      RELIABILITY: reliability
+      REVERSAL:    reversal
+      FEES:        fees
+      BENEFICIARY: beneficiary
+      GENERAL:     general
+
+  # --- 9.6 Payments ---
+  PAYMENT:
+    semantic: payment
+    attributes:
+      RELIABILITY: reliability
+      REVERSAL:    reversal
+      FEES:        fees
+      GENERAL:     general
+
+  # --- 9.7 ATM and cash services ---
+  ATM:
+    semantic: ATM
+    attributes:
+      AVAILABILITY: availability
+      WITHDRAWAL:   withdrawal
+      DEPOSIT:      deposit
+      RELIABILITY:  reliability
+      FEES:         fees
+      GENERAL:      general
+
+  # --- 9.8 Customer support ---
+  SUPPORT:
+    semantic: customer support
+    attributes:
+      RESPONSIVENESS:     responsiveness
+      COMPETENCE:         competence
+      PROBLEM_RESOLUTION: problem resolution
+      COMMUNICATION:      communication
+      GENERAL:            general
+
+  # --- 9.9 Branch service ---
+  BRANCH:
+    semantic: branch
+    attributes:
+      ACCESSIBILITY:   accessibility
+      WAITING_TIME:    waiting time
+      STAFF:           staff
+      OPERATING_HOURS: operating hours
+      GENERAL:         general
+
+  # --- 9.10 Security ---
+  SECURITY:
+    semantic: security
+    attributes:
+      ACCOUNT:                account
+      CARD:                   card
+      TRANSACTION:            transaction
+      IDENTITY_VERIFICATION:  identity verification
+      GENERAL:                general
+
+  # --- 9.11 Fraud and disputes ---
+  FRAUD:
+    semantic: fraud
+    attributes:
+      UNAUTHORISED_ACTIVITY: unauthorised activity
+      INVESTIGATION:         investigation
+      RESOLUTION:            resolution
+      GENERAL:               general
+
+  # --- 9.12 Loans and credit ---
+  LOAN:
+    semantic: loan
+    attributes:
+      APPLICATION:   application
+      APPROVAL:      approval
+      INTEREST_RATE: interest rate
+      REPAYMENT:     repayment
+      CREDIT_LIMIT:  credit limit
+      GENERAL:       general
+
+  # --- 9.13 Bank-level evaluation ---
+  BANK:
+    semantic: bank
+    attributes:
+      OVERALL_SERVICE: overall service
+      REPUTATION:      reputation
+      GENERAL:         general

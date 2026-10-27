@@ -1,0 +1,15 @@
+defaults: ../base.yaml
+model: svm
+task: intent
+data:
+  annotations: data/annotations/pilot_adjudicated.jsonl
+  split_dir: data/processed
+intent_mode: current_only        # current_only | previous_plus_current
+svm:
+  ngram_range: [1, 2]
+  min_df: 1
+  sublinear_tf: true
+  C: 1.0
+  class_weight: balanced
+  calibrate: false               # decision scores unless explicitly calibrated
+

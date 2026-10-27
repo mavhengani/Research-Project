@@ -1,0 +1,23 @@
+representation: U1
+pipeline_version: new_pipeline_v1
+name: banking_mlm_bert
+base_model: bert-base-uncased
+model_revision: 86b5e0934494bd15c9632b12f734a8a67f723594
+tokenizer_revision: 86b5e0934494bd15c9632b12f734a8a67f723594
+objective: token_mlm
+expected_records: 110615
+text_field: text
+id_field: record_id
+corpus_manifest: artifacts/manifests/new_pipeline_v1/strict_unlabelled/strict_unlabelled_manifest.json
+corpus_checksum: 5ea719ec528510ddd8566410a1b533ff294093c2ce87538f472dae789cf9e3ea
+partition_manifest: artifacts/manifests/new_pipeline_v1/mlm/partition_manifest.json
+max_length: 128
+masking_probability: 0.15
+seed: 42
+output_root: artifacts/runs/new_pipeline_v1/self_supervised/U1
+resume_policy: same_representation_only
+checkpoint_policy: {save_steps: 25, atomic_metadata: true}
+training: {optimiser: adamw, scheduler: linear_with_warmup, learning_rate: 5.0e-5, effective_batch_size: 8, gradient_accumulation: 1, warmup_ratio: 0.0, weight_decay: 0.01}
+smoke: {records: 3000, max_steps: 50, resume_additional_steps: 5, save_steps: 25, evaluation_steps: 25}
+pilot: {epochs: 1, micro_batch_size: 8, gradient_accumulation: 4, effective_batch_size: 32, expected_update_steps: 3423, save_steps: 500, evaluation_steps: 500, save_total_limit: 2, execution_gate: EXPLICIT_SEPARATE_AUTHORIZATION_REQUIRED}
+git_marker: UNKNOWN_NO_COMMIT

@@ -1,0 +1,71 @@
+# =============================================================================
+# Aspect Extractor Configuration Template
+# (Phase 4 — Self-Attention BIO Aspect Extraction)
+#
+# This file is a TEMPLATE.  Replace every <PLACEHOLDER> before training.
+# Reference: KIRO_SPEC.md §12 (Model A: Self-Attention Aspect Extractor)
+# =============================================================================
+
+base: base.yaml   # Inherits seed, log_level, anonymise, near_dup, paths
+
+# ── Vocabulary / tokenisation ─────────────────────────────────────────────────
+vocabulary:
+  # Path to the pre-built vocabulary file (token → id mapping JSON).
+  # Generate with: python scripts/build_vocab.py  (Phase 4 script, not yet built)
+  path: <PLACEHOLDER_VOCAB_PATH>         # e.g. data/processed/vocab.json
+  # Total vocabulary size (including padding id 0 and any special tokens).
+  size: <PLACEHOLDER_VOCAB_SIZE>         # e.g. 20000
+
+# ── Embedding layer ──────────────────────────────────────────────────────────
+embedding:
+  # Dimension of the learnable token embedding table.
+  dim: 128                               # Adjust to match model capacity
+
+# ── Positional encoding ──────────────────────────────────────────────────────
+positional_encoding:
+  # Maximum sequence length supported by the positional encoding.
+  max_len: 256
+  # "sinusoidal" (fixed) or "learned" (trainable).
+  type: sinusoidal
+
+# ── Transformer encoder ──────────────────────────────────────────────────────
+transformer:
+  # Number of attention heads.  Must divide embedding.dim evenly.
+  num_heads: 8
+  # Number of stacked Transformer encoder layers.
+  num_layers: 2
+  # Dimension of the feed-forward sublayer.
+  ffn_dim: 512
+  # Dropout probability applied inside the encoder.
+  dropout: 0.1
+
+# ── BIO output head ──────────────────────────────────────────────────────────
+bio:
+  # BIO label space.  Must match the constants in banking_tasci.data.bio.
+  labels:
+    - O
+    - B-ASP
+    - I-ASP
+  # Loss ignore index for padding / special token positions.
+  ignore_index: -100
+
+# ── Training ─────────────────────────────────────────────────────────────────
+train:
+  learning_rate: 1.0e-4
+  batch_size: 32
+  epochs: 30
+  weight_decay: 0.0
+  grad_clip: 1.0
+  early_stopping_patience: 5
+  # Optional per-class weights [O, B-ASP, I-ASP] to handle class imbalance.
+  # Set to null to use unweighted cross-entropy.
+  class_weights: null
+
+# ── Checkpointing ─────────────────────────────────────────────────────────────
+checkpoint:
+  # Directory where run artifacts will be written.
+  # A new timestamped sub-directory is created for each run.
+  dir: <PLACEHOLDER_CHECKPOINT_DIR>     # e.g. outputs/runs/aspect
+
+# ── Hardware ─────────────────────────────────────────────────────────────────
+device: cpu      # "cpu" or "cuda" (overridden by train script when GPU detected)

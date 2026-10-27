@@ -1,0 +1,21 @@
+defaults: ../base.yaml
+model: bilstm
+task: intent
+data:
+  annotations: data/annotations/pilot_adjudicated.jsonl
+  split_dir: data/processed
+intent_mode: current_only
+bilstm:
+  embedding_dim: 100
+  hidden_dim: 128
+  num_layers: 1
+  dropout: 0.3
+train:
+  epochs: 30
+  learning_rate: 0.001
+  weight_decay: 0.0
+  grad_clip: 1.0
+  early_stopping_patience: 5
+  class_weighted_loss: true
+  device: cpu
+

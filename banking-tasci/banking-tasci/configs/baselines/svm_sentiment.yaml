@@ -1,0 +1,14 @@
+defaults: ../base.yaml
+model: svm
+task: sentiment
+data:
+  annotations: data/annotations/pilot_adjudicated.jsonl
+  split_dir: data/processed
+svm:
+  ngram_range: [1, 2]
+  min_df: 1
+  sublinear_tf: true
+  C: 1.0
+  class_weight: balanced
+  calibrate: false
+

@@ -1,0 +1,248 @@
+# =============================================================================
+# Canonical configuration for new_pipeline_v1
+#
+# Authoritative source: NEW_PIPELINE_REQUIREMENTS.md Section 28
+# Companion taxonomy:   configs/taxonomies/banking_entity_attribute_v1.yaml
+# Companion schema:     src/banking_tasci/data/new_pipeline_schema.py
+#
+# This file introduces new_pipeline_v1 behind explicit versioned
+# configuration (Requirements Section 1 and Migration Principle 3). It does
+# NOT modify or replace any legacy configuration. configs/base.yaml,
+# configs/intent.yaml, configs/sentiment.yaml, configs/aspect.yaml and
+# configs/full_pipeline.yaml remain unchanged and continue to serve the
+# legacy and intermediate-generation pipelines.
+#
+# Inherits seed / anonymise / near_dup / paths from base.yaml via the
+# existing load_config() `base:` inheritance mechanism, so privacy and
+# near-duplicate policy are not duplicated here.
+# =============================================================================
+
+base: base.yaml
+
+pipeline_version: new_pipeline_v1
+
+# -----------------------------------------------------------------------------
+# Authoritative dataset counts (Requirements Section 4).
+#
+# !! IMPORTANT - READ BEFORE RELYING ON THESE VALUES !!
+#
+# These are the REQUIRED TARGET counts from the authoritative requirements
+# document. As of 12 October 2026 they are NOT ALL YET SATISFIED by a
+# reproducible repository artifact:
+#
+#   south_africa_candidates (100768) -> REQUIRES_DATA_CONFIRMATION.
+#       The existing data/interim/south_africa_prepared.parquet contains
+#       2,250,776 rows. No inspected flag combination reproduces 100,768
+#       (customer_feedback_candidate=True yields 2,086,851; additionally
+#       excluding likely_promotional and possible_official_account yields
+#       2,033,936). data/interim/south_africa_candidates_v2.parquet does not
+#       exist on disk. See gap-analysis finding R3.
+#
+#   international_prepared (10847) -> VERIFIED.
+#       data/interim/prepared.csv contains exactly 10,847 rows with
+#       sha256 2a3435adcb5e5e8ffba44246dc529ecab4b9b24855f46849cf8d0fb3fe4252fd
+#       confirmed across three independent reports. See finding R4.
+#
+#   combined_relevant / unlabelled_total -> derived from the above and
+#       therefore also pending South African confirmation.
+#
+# Tooling MUST treat these as expectations to VALIDATE AGAINST, never as
+# facts to assert. The manifest generator
+# (scripts/generate_source_manifest.py) reports observed-vs-expected and
+# marks any mismatch REQUIRES_DATA_CONFIRMATION rather than coercing data to
+# fit. Do not sample or filter arbitrarily to reach these numbers.
+# -----------------------------------------------------------------------------
+counts:
+  south_africa_candidates: 100768
+  international_prepared: 10847
+  combined_relevant: 111615
+  gold_total: 1000
+  unlabelled_total: 110615
+
+# Provenance-only. Requirements Section 4.1: the ~2.25 million record
+# collection is "provenance information only. It is not the starting dataset
+# for modelling, sampling, or domain adaptation in new_pipeline_v1."
+# Recorded here so tooling can recognise and reject it as a modelling source.
+provenance_only_counts:
+  south_africa_prepared_full: 2250776
+
+# -----------------------------------------------------------------------------
+# Annotation (Requirements Sections 4.4, 7, 10, 11, 13)
+# -----------------------------------------------------------------------------
+annotation:
+  south_africa_tweets: 500
+  international_tweets: 250
+  international_reviews: 250
+  batch_1_size: 50
+  # Legacy key retained for old config readers only. It is not a separate
+  # annotation method or a prerequisite for other batch files.
+  calibration_size: 50
+
+  # Requirements Section 13.3: 50 + (9 x 100) + 50 = 1,000.
+  # Eleven files use one human-labeling methodology; calibration_001 remains
+  # the immutable technical filename and is displayed as Annotation Batch 1.
+  batching:
+    batch_1: 50
+    main_batch_size: 100
+    main_batch_count: 9
+    final_batch: 50
+
+  # Requirements Section 11. Exactly six primary intents.
+  # 'warning' is NOT a primary intent (Section 11.7) and Section 27
+  # explicitly prohibits "seven primary intents including warning".
+  primary_intents:
+    - complaint
+    - request_for_assistance
+    - praise_or_appreciation
+    - suggestion_or_feature_request
+    - exit_or_switch_intention
+    - general_feedback
+
+  # Requirements Section 11.7: warning is represented as a separate boolean
+  # flag so the primary intent can remain complaint/assistance/etc.
+  public_warning_field: public_warning
+
+  # Requirements Section 10. Four values, including 'conflict'.
+  sentiment_labels:
+    - positive
+    - neutral
+    - negative
+    - conflict
+
+  # Requirements Sections 8.3, 8.4.
+  target_types:
+    - explicit
+    - implicit
+
+  # Requirements Section 5.1 bank coverage for the South African sample,
+  # with the Section 7.1 initial allocation of 100 records per bank.
+  # Requirements Section 5.1 also states bank identity must NOT be a
+  # predictive model feature - it supports sampling only.
+  south_africa_banks:
+    - FNB
+    - Absa
+    - Nedbank
+    - Standard Bank
+    - Capitec
+  per_bank_allocation: 100
+
+  # Requirements Section 7.4: length bands must use source-specific
+  # quantiles, never one arbitrary global character threshold.
+  length_bands:
+    method: source_specific_quantile
+    quantiles: [0.33, 0.66]
+    band_names: [short, medium, long]
+
+# -----------------------------------------------------------------------------
+# Gold-corpus split (Requirements Section 15)
+#
+# Requirements Section 27 explicitly prohibits 70/15/15 splits. Note that
+# scripts/create_splits.py still DEFAULTS to 0.70/0.15/0.15 for legacy
+# callers; new_pipeline_v1 work must pass these ratios explicitly.
+# -----------------------------------------------------------------------------
+split:
+  train_ratio: 0.80
+  validation_ratio: 0.10
+  test_ratio: 0.10
+  seed: 42
+  group_aware: true
+  strict_leakage_failure: true
+
+  # Requirements Section 15 source-level allocation.
+  expected_source_allocation:
+    south_african_tweets:   {train: 400, validation: 50, test: 50, total: 500}
+    international_tweets:   {train: 200, validation: 25, test: 25, total: 250}
+    international_reviews:  {train: 200, validation: 25, test: 25, total: 250}
+
+  expected_totals:
+    train: 800
+    validation: 100
+    test: 100
+    total: 1000
+
+  # Requirements Section 15.2: records sharing any of these stay in one
+  # partition.
+  grouping_fields:
+    - duplicate_group
+    - leakage_group
+    - review_id
+    - thread_id
+    - conversation_id
+
+# -----------------------------------------------------------------------------
+# Domain adaptation (Requirements Section 17)
+#
+# NOTE: no MLM implementation exists yet (gap-analysis finding R25). This
+# block defines the required configuration surface only. Requirements
+# Migration Principle 7: do not launch expensive training before data
+# manifests and leakage tests pass.
+# -----------------------------------------------------------------------------
+domain_adaptation:
+  base_model: bert-base-uncased
+  max_length: 128
+  masking_probability: 0.15
+  seed: 42
+  exclude_all_gold_records: true
+  expected_records: 110615
+  strict_corpus_manifest: artifacts/manifests/new_pipeline_v1/strict_unlabelled/strict_unlabelled_manifest.json
+  training_enabled: false
+  training_gate: EXPLICIT_SEPARATE_AUTHORIZATION_REQUIRED
+
+representations:
+  U0: {name: original_bert, display_name: Original BERT, base_model: bert-base-uncased, adaptation: none}
+  U1: {name: banking_mlm_bert, display_name: Banking MLM-BERT, base_model: bert-base-uncased, adaptation: token_mlm, corpus_manifest: artifacts/manifests/new_pipeline_v1/strict_unlabelled/strict_unlabelled_manifest.json, masking_probability: 0.15}
+  U2:
+    name: banking_span_bert
+    display_name: Banking Span-BERT
+    base_model: bert-base-uncased
+    adaptation: span_mlm_sbo
+    corpus_manifest: artifacts/manifests/new_pipeline_v1/strict_unlabelled/strict_unlabelled_manifest.json
+    masking_probability: 0.15
+    span_sampling: {distribution: uniform, mean_length: 3, minimum_length: 1, maximum_length: 10}
+    span_boundary_objective: {enabled: true, lambda: 0.5, representation: boundary_concat_relative_position, head_hidden_size: 768}
+
+# -----------------------------------------------------------------------------
+# Context (Requirements Section 12)
+#
+# The existing src/banking_tasci/data/context.py already implements this
+# correctly (gap-analysis finding R18: COMPLETE) and is reused unchanged.
+# -----------------------------------------------------------------------------
+context:
+  no_context_token: "[NO_CONTEXT]"
+  require_verified_linkage: true
+
+# -----------------------------------------------------------------------------
+# Evaluation (Requirements Sections 24, 25)
+# -----------------------------------------------------------------------------
+evaluation:
+  primary_metric: macro_f1
+  random_seeds: 5
+
+# -----------------------------------------------------------------------------
+# Canonical references and artifact layout
+# -----------------------------------------------------------------------------
+taxonomy:
+  path: taxonomies/banking_entity_attribute_v1.yaml
+  version: banking_entity_attribute_v1
+
+# Requirements Section 25 recommended directory pattern:
+#   artifacts/runs/<pipeline_version>/<task>/<model>/<timestamp_or_run_id>/
+# New paths only - no legacy output path is reused or overwritten.
+paths:
+  runs_root: artifacts/runs/new_pipeline_v1
+  audits_dir: artifacts/audits
+  manifests_dir: artifacts/manifests/new_pipeline_v1
+  annotations_dir: data/annotations/new_pipeline_v1
+  processed_dir: data/processed/new_pipeline_v1
+
+# Existing artifacts that must never be overwritten or relabelled as
+# new_pipeline_v1 output (Requirements Migration Principle 5;
+# gap-analysis finding R37).
+preserve_unchanged:
+  - data/annotations/combined_adjudicated_v2.jsonl
+  - data/processed/combined_v2
+  - data/processed/south_african
+  - data/processed/south_african_v2
+  - data/interim/south_africa_prepared.parquet
+  - data/interim/prepared.csv
+  - outputs/runs

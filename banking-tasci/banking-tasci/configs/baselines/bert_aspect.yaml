@@ -1,0 +1,21 @@
+defaults: ../base.yaml
+model: bert
+task: aspect
+data:
+  annotations: data/annotations/pilot_adjudicated.jsonl
+  split_dir: data/processed
+bert:
+  # A LOCAL pretrained model directory (never a hub id). Transfer the model to
+  # the cluster and point this at it; loading is offline (local_files_only).
+  pretrained_path: models/pretrained/bert-base-uncased
+  max_seq_length: 128
+  local_files_only: true
+train:
+  epochs: 4
+  learning_rate: 0.00003
+  weight_decay: 0.01
+  grad_clip: 1.0
+  early_stopping_patience: 2
+  class_weighted_loss: true
+  device: cpu
+

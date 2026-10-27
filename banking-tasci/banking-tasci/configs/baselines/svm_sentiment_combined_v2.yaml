@@ -1,0 +1,13 @@
+defaults: ../base.yaml
+model: svm
+task: sentiment
+data:
+  annotations: data/annotations/combined_adjudicated_v2.jsonl
+  split_dir: data/processed/combined_v2
+svm:
+  ngram_range: [1, 2]
+  min_df: 1
+  sublinear_tf: true
+  C: 1.0
+  class_weight: balanced
+  calibrate: false

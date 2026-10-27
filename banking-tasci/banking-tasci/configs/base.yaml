@@ -1,0 +1,35 @@
+seed: 42
+log_level: INFO
+anonymise:
+  replace_amounts: false
+  account_reference_pattern: '\b\d{9,}\b'
+  phone_pattern: '(?:\(\d{2,4}\)[-.\s]?\d{3,4}[-.\s]?\d{3,4})|(?:\+?\d{1,3}[-.\s]?\d{2,4}[-.\s]?\d{3,4}[-.\s]?\d{3,4})|(?:\b\d{7,10}\b)'
+near_dup:
+  # Minimum Jaccard similarity over character 4-grams to call two records
+  # near-duplicates. Range (0, 1]. Lower values are more aggressive.
+  threshold: 0.7
+  # Character k-gram (shingle) size used for Jaccard estimation.
+  shingle_size: 4
+  # Number of MinHash permutations. Must be divisible by num_bands.
+  num_perm: 128
+  # Number of LSH bands (rows_per_band = num_perm // num_bands = 8).
+  # Targets high recall for pairs with Jaccard >= threshold.
+  num_bands: 16
+  # What to do with near-duplicate groups:
+  #   "flag"        – keep all rows, add near_dup_flag / near_dup_group_id columns.
+  #   "keep_first"  – keep the first row of each group, drop the rest.
+  #   "remove_all"  – drop every row belonging to a near-duplicate group.
+  # Default is "flag" so no records are silently deleted.
+  action: flag
+  # Minimum group size to report / act on (must be >= 2).
+  min_group_size: 2
+  # RNG seed for reproducible MinHash hash functions.
+  seed: 42
+data:
+  tweets_source_name: international_bank_tweets
+  reviews_source_name: bank_reviews
+  default_region: international
+paths:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  output_report: outputs/data_report.json

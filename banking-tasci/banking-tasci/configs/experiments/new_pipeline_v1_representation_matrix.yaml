@@ -1,0 +1,9 @@
+pipeline_version: new_pipeline_v1
+status: BLOCKED_AWAITING_GOLD_DATA
+representations: [U0, U1, U2]
+tasks: [target, category, intent, sentiment, end_to_end]
+training_domains: [international_only, mixed_domain]
+evaluation_groups: [combined, international, south_africa, tweets, reviews]
+seeds: [42, 43, 44, 45, 46]
+primary_metric: macro_f1
+selection_policy: validation_only_never_protected_test

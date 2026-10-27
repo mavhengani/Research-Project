@@ -1,0 +1,80 @@
+# =============================================================================
+# Aspect Sentiment Classifier Configuration Template
+# (Phase 4 — Intent-Aware GloVe + Transformer Sentiment Classification)
+#
+# This file is a TEMPLATE.  Replace every <PLACEHOLDER> before training.
+# Reference: KIRO_SPEC.md §14 (Model C: Intent-Aware Aspect Sentiment)
+# =============================================================================
+
+base: base.yaml   # Inherits seed, log_level, anonymise, near_dup, paths
+
+# ── GloVe embeddings ─────────────────────────────────────────────────────────
+glove:
+  # Absolute or relative path to the pretrained GloVe vectors file.
+  # Download GloVe from https://nlp.stanford.edu/projects/glove/ (lawfully,
+  # in advance) and copy to the cluster before running.
+  path: <PLACEHOLDER_GLOVE_PATH>         # e.g. data/raw/glove.840B.300d.txt
+  # Dimensionality of the GloVe vectors.  Must match the file.
+  dim: 300                               # 50, 100, 200, or 300
+
+  # Whether to freeze GloVe embeddings (no fine-tuning) or allow updates.
+  # "freeze" is recommended when the training set is small to prevent
+  # catastrophic forgetting of the pretrained representations.
+  freeze: true
+
+  # Initialisation strategy for out-of-vocabulary tokens.
+  # "random_normal"  – sample from N(0, 1) scaled by GloVe dimension.
+  # "zero"           – initialise to all zeros (safe but less expressive).
+  oov_init: random_normal
+
+# ── Transformer encoder ──────────────────────────────────────────────────────
+# The Transformer encodes the sentence/aspect representation.
+# Its input dimension must match glove.dim (or a projection of it).
+transformer:
+  # Model (d_model) dimension.  Must match or be projected from glove.dim.
+  model_dim: 300
+  num_heads: 6       # Must divide model_dim evenly (300 / 6 = 50)
+  num_layers: 2
+  ffn_dim: 600
+  dropout: 0.1
+
+# ── Intent representation ────────────────────────────────────────────────────
+intent:
+  # Dimensionality of the predicted intent vector (output of the intent
+  # model's penultimate layer before the classification head).
+  vector_dim: 128
+
+  # Output dimension of the linear projection applied to the intent vector
+  # before fusion with the aspect representation.
+  projection_dim: 128
+
+  # How to fuse the projected intent vector with the aspect representation.
+  # "concatenate"  – concatenate then project.
+  # "add"          – element-wise addition (requires equal dims).
+  fusion_method: concatenate
+
+# ── Sentiment output head ────────────────────────────────────────────────────
+sentiment:
+  labels:
+    - negative
+    - neutral
+    - positive
+  dropout: 0.1
+  # Optional per-class weights [negative, neutral, positive].
+  class_weights: null
+
+# ── Training ─────────────────────────────────────────────────────────────────
+train:
+  learning_rate: 1.0e-4
+  batch_size: 32
+  epochs: 30
+  weight_decay: 1.0e-4
+  grad_clip: 1.0
+  early_stopping_patience: 5
+
+# ── Checkpointing ─────────────────────────────────────────────────────────────
+checkpoint:
+  dir: <PLACEHOLDER_CHECKPOINT_DIR>     # e.g. outputs/runs/sentiment
+
+# ── Hardware ─────────────────────────────────────────────────────────────────
+device: cpu

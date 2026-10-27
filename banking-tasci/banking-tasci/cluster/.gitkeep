@@ -1,0 +1,2 @@
+# Cluster scheduler templates live here.
+# See cluster/slurm_train.sh, cluster/pbs_train.sh, cluster/interactive_setup.sh
